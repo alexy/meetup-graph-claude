@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20190628-an-introduction-to-tensorflow-2-oswald-campesato",
+  "scraped_at": "2026-05-10T08:34:25.359014Z",
+  "source_file": "source/scala-bay/262526936.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190628-an-introduction-to-tensorflow-2-oswald-campesato",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Oswald Campesato, \"An introduction to TensorFlow 2\"\n\nA fast-paced introduction to TensorFlow 2 about some important new features (such as generators and the @tf.function decorator) and TF 1.x functionality that's been removed from TF 2 (yes, tf.Session() has retired).\nSome concise code samples are presented to illustrate how to use new features of TensorFlow 2.\n\nYou'll also get a quick introduction to lazy operators (if you know FRP this will be super easy), along with a code comparison between TF 1.x/iterators with tf.data.Dataset and TF 2/generators with tf.data.Dataset.\n\nFinally, we'll see how to define tf.keras models in TF 2 for CNNs and LSTMs, and briefly discuss BiDirectional LSTMs and VAEs.\n\nAlthough familiarity with TF 1.x is helpful, newcomers with an avid interest in learning about TensorFlow 2 can benefit from this session.\n\nPlease note that TF 2 is currently in early release, and that this presentation does not contain Scala-related code samples.\n\nSchedule\n\n6:30-7:00 - net",
+        "id": "bythebay-20190628-an-introduction-to-tensorflow-2-oswald-campesato",
+        "order": 0,
+        "title": "An introduction to TensorFlow 2"
+      }
+    },
+    {
+      "id": "event:scala-bay-262526936",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2019-06-28",
+        "datetime": "2019-06-28T02:00:00+00:00",
+        "id": "262526936",
+        "title": "Oswald Campesato, An introduction to TensorFlow 2",
+        "url": "https://www.meetup.com/scala-bay/events/262526936/",
+        "venue_address": "502 Emerson St",
+        "venue_name": "Salesforce"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:oswald-campesato",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Oswald Campesato"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20190628-an-introduction-to-tensorflow-2-oswald-campesato",
+      "to": "event:scala-bay-262526936",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-262526936",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190628-an-introduction-to-tensorflow-2-oswald-campesato",
+      "to": "speaker:oswald-campesato",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

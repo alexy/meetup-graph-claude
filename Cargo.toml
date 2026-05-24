@@ -1,0 +1,52 @@
+[package]
+name = "meetup-scraper"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "meetup-scraper"
+path = "src/main.rs"
+
+[[bin]]
+name = "falkor-load"
+path = "src/bin/falkor_load.rs"
+
+[[bin]]
+name = "llm-extract"
+path = "src/bin/llm_extract.rs"
+
+[[bin]]
+name = "helix-gen"
+path = "src/bin/helix_gen.rs"
+
+[[bin]]
+name = "helix-load"
+path = "src/bin/helix_load.rs"
+
+[[bin]]
+name = "load"
+path = "src/bin/load.rs"
+
+[dependencies]
+anyhow     = "1"
+chrono     = { version = "0.4", features = ["serde"] }
+clap       = { version = "4", features = ["derive", "env"] }
+regex      = "1"
+reqwest    = { version = "0.12", features = ["json", "gzip", "cookies"] }
+scraper    = "0.22"
+serde      = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio      = { version = "1", features = ["full"] }
+tracing    = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+redis      = "1"
+
+# HelixDB Enterprise Rust DSL — used by helix-gen to generate queries.json.
+# Uses its own reqwest 0.13 internally; our binaries continue to use 0.12.
+helix-enterprise-ql = "0.1.7"
+
+# HelixDB Rust SDK — used by helix-load (helix-sdk backend) for dynamic queries.
+helix-db = "2"
+
+# SurrealDB Rust SDK — used by the surreal-sdk backend.
+surrealdb = { version = "3.1.0-beta.3", default-features = false, features = ["protocol-ws", "rustls"] }

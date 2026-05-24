@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20150728-scalable-execution-streaming-data-flow-contro-patrick-nicolas",
+  "scraped_at": "2026-05-10T08:34:25.369703Z",
+  "source_file": "source/scala-bay/223478413.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150728-scalable-execution-streaming-data-flow-contro-patrick-nicolas",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Note: Knowledge machine learning is not a pre-requisite to understand the concepts in the presentation\nBio:\nPatrick Nicolas is a lead R&D engineer at Dell (Santa Clara). He has 25+ years experience in software engineering, building large scale applications using C++, Java and Scala. His interests include real-time data analytics, modeling and information geometry.\nHe is the author of \"Scala for Machine Learning\" Packt Publishing ISBN: 978-1-783355-874-2 2014\nSchedule\n• 6:30-7:00 - networking\n• 7:00-7:10 - announcements etc\n• 7:10-~8:40 - talk\n• 8:40-9:00 - networking",
+        "id": "bythebay-20150728-scalable-execution-streaming-data-flow-contro-patrick-nicolas",
+        "order": 0,
+        "title": "Scalable execution (streaming, data flow control)"
+      }
+    },
+    {
+      "id": "event:scala-bay-223478413",
+      "type": "Event",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2015-07-28",
+        "datetime": "2015-07-28T02:00:00+00:00",
+        "id": "223478413",
+        "title": "Patrick R. Nicolas, \"Scala for Machine Learning\"",
+        "url": "https://www.meetup.com/scala-bay/events/223478413/",
+        "venue_address": "100 W. Evelyn Ave",
+        "venue_name": "Clari Inc."
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:patrick-nicolas",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Dell",
+        "name": "Patrick Nicolas"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150728-scalable-execution-streaming-data-flow-contro-patrick-nicolas",
+      "to": "event:scala-bay-223478413",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-223478413",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150728-scalable-execution-streaming-data-flow-contro-patrick-nicolas",
+      "to": "speaker:patrick-nicolas",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+  "scraped_at": "2026-05-10T08:34:24.793364Z",
+  "source_file": "source/unstructured-data-sf/302334174.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - James Le, Head of Developer Experience, TwelveLabs\n6:35 - 7:00 - Bill Zhang, Software Engineer, Zilliz\n7:05 - 7:30 - Sriharsha Yayi (Senior Product Manager) & Derek Wang (Principal Software Engineer), Intuit\n7:45 - 8:30 - Networking\nTech Talk 1: Advanced Video Search - Leveraging Twelve Labs and Milvus for Semantic Retrieval\nAbstract: This talk will explore the power of Twelve Labs' multimodal embeddings and Milvus' efficient vector database to create a robust video search solution. We'll cover key concepts such as generating multimodal embeddings from videos with Twelve Labs' SOTA foundation model, storing them efficiently in Milvus, and performing similarity searches to retrieve relevant content. With this integration, developers can build applications such as content-based video retrieval, recommendation systems, and sophisticated search engines that understand the nuances of video data.\nTech Talk 2: Implement Agentic RAG Using Claude 3.5 Sonnet, LlamaIndex, and Milvus\nAbstract: In this talk, we review the cutting-edge techniques for implementing Agentic Retrieval-Augmented Generation (RAG) systems, leveraging the power of Claude 3.5 Sonnet, LlamaIndex, and Milvus. Retrieval-Augmented Generation has become a cornerstone in building intelligent systems that require both generative and retrieval capabilities, enabling more accurate, context-aware, and dynamic responses. The session will cover practical implementation details, including how to set up the RAG pipeline, integrate the components seamlessly, and optimize the system for performance and scalability. We will also explore use cases and real-world applications of Agentic RAG, demonstrating its potential in enhancing AI-driven solutions.\nTech Talk 3: Inference on streaming data\nAbstract: At Intuit, our ML teams encountered challenges with processing and running inference on event streams, particularly integrating with messaging systems like Kafka, and scaling based on event volume. To address these issues, we developed Numaflow, an open-source, Kubernetes-native platform for scalable event processing. Numaflow simplifies connections to event sources, facilitates processing and inference on streaming data at scale with minimal learning curve. This talk is aimed at ML engineers, Developers, and those interested in inference on streaming data, demonstrating how Numaflow effectively overcomes these obstacles.\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nAugust 13 2024\n5:30PM\nWhere:\nThis is an in-person event. Registration is required to get into the event. Registration in advance will close 2 days before the event.\nThis event is co-sponsored by Zilliz (maintainers of Milvus) and SAP",
+        "id": "bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative AI"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-302334174",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-08-14",
+        "datetime": "2024-08-14T00:30:00+00:00",
+        "id": "302334174",
+        "title": "Unstructured Data Meetup - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334174/",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "venue_name": "SAP Building 1"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:james-le",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "TwelveLabs",
+        "name": "James Le"
+      }
+    },
+    {
+      "id": "speaker:bill-zhang",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Bill Zhang"
+      }
+    },
+    {
+      "id": "speaker:sriharsha-yayi",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Sriharsha Yayi"
+      }
+    },
+    {
+      "id": "speaker:derek-wang",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Intuit",
+        "name": "Derek Wang"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+      "to": "event:unstructured-data-sf-302334174",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334174",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+      "to": "speaker:james-le",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+      "to": "speaker:bill-zhang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+      "to": "speaker:sriharsha-yayi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240814-connecting-your-unstructured-data-with-genera-james-le",
+      "to": "speaker:derek-wang",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

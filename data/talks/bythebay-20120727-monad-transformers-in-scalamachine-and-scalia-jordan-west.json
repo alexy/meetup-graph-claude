@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20120727-monad-transformers-in-scalamachine-and-scalia-jordan-west",
+  "scraped_at": "2026-05-10T08:34:24.501529Z",
+  "source_file": "source/sf-scala/69910422.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20120727-monad-transformers-in-scalamachine-and-scalia-jordan-west",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Closing his Typeclassopedia talk (http://marakana.com/s/scala_typeclassopedia_with_john_kodumal_of_atlassian_video,1198/index.html) at the May meetup, John Kodumal mentioned that monad transformers can be used work with multiple monads at once. The need for monad transformers arises quickly when writing code in monadic style. In web services, for example, it is common to perform I/O, handle exceptions and depend on some state all at once. Monad transformers allow us to build an \"embedded language\" that encapsulates all of the semantics of the monads we choose to use. This talk will introduce monad transformers and look at their usages in real projects like Scalamachine (https://github.com/stackmob/scalamachine), Scaliak (https://github.com/stackmob/scaliak), and StackMob's own codebase. Additionally, we will explore when to use monad transformers, how they improve a codebase, and how you can write your own. Rough agenda for the evening:\n\n6:00-6:25pm: Arrive and Mingle (food and drinks",
+        "id": "bythebay-20120727-monad-transformers-in-scalamachine-and-scalia-jordan-west",
+        "order": 0,
+        "title": "Monad Transformers in Scalamachine and Scaliak"
+      }
+    },
+    {
+      "id": "event:sf-scala-69910422",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2012-07-27",
+        "datetime": "2012-07-27T01:00:00+00:00",
+        "id": "69910422",
+        "title": "Jordan West: Monad Transformers in Scalamachine and Scaliak",
+        "url": "https://www.meetup.com/sf-scala/events/69910422/",
+        "venue_address": "541 8th St",
+        "venue_name": "StackMob HQ"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:jordan-west",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jordan West"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20120727-monad-transformers-in-scalamachine-and-scalia-jordan-west",
+      "to": "event:sf-scala-69910422",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-69910422",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20120727-monad-transformers-in-scalamachine-and-scalia-jordan-west",
+      "to": "speaker:jordan-west",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

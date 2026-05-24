@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20140114-psp-collections-views-and-more-paul-phillips",
+  "scraped_at": "2026-05-10T08:34:25.346286Z",
+  "source_file": "source/scala-bay/154014822.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140114-psp-collections-views-and-more-paul-phillips",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Paul Phillips will talk about collections for Scala.\n\n\"Based on my extensive experience with scala collections, I'm writing my own. The focus is much tighter: immutable, performant, predictable, correct. The talk will alternate between why the scala collections manage none of those things, and how I hope to do better.\"\n\nPaul Phillips is a co-founder of Typesafe and the most prolific committer to Scala.\n\nLocation: LinkedIn\n\nSchedule:\n\n6:30-7:00 - networking\n\n7:00-7:10 - announcements etc\n\n7:10-~8:40 - talk\n\n8:40-9:00 - networking",
+        "id": "bythebay-20140114-psp-collections-views-and-more-paul-phillips",
+        "order": 0,
+        "title": "psp collections: views and more"
+      }
+    },
+    {
+      "id": "event:scala-bay-154014822",
+      "type": "Event",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2014-01-14",
+        "datetime": "2014-01-14T03:00:00+00:00",
+        "id": "154014822",
+        "title": "Paul Phillips, \"psp collections: views and more\"",
+        "url": "https://www.meetup.com/scala-bay/events/154014822/",
+        "venue_address": "2027 Stierlin Ct.",
+        "venue_name": "LinkedIn"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:paul-phillips",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Paul Phillips"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20140114-psp-collections-views-and-more-paul-phillips",
+      "to": "event:scala-bay-154014822",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-154014822",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140114-psp-collections-views-and-more-paul-phillips",
+      "to": "speaker:paul-phillips",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

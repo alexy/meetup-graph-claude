@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20180206-deep-learning-and-scala-oswald-campesato",
+  "scraped_at": "2026-05-10T08:34:25.155563Z",
+  "source_file": "source/scala-bay/246206268.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180206-deep-learning-and-scala-oswald-campesato",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Oswald Campesato, \"Deep Learning and Scala\"\n\nAbstract\n\nA fast-paced introduction to Deep Learning (DL) concepts, such as neural networks, back propagation, activation functions, CNNs, RNNs (if time permits), and the CLT/AUT/fixed-point theorems, along with code samples in Scala and TensorFlow.\n\nSpeaker Bio\n\nOswald is a former PhD Candidate (ABD) in Mathematics, an education junkie (6 degrees), and an author of 18 technical books. He has worked for Oracle, AAA, and Just Systems of Japan, along with various startups. He has lived/worked in 5 countries on three continents, and in a previous career he worked in South America, Italy, and the French Riviera, and has traveled to 70 countries on six continents. He has worked from C/C++/Java developer to CTO, comfortable in 4 languages, and wants to become fluent in Japanese. Currently he is a consultant and provides training in Deep Learning and Android.\n\nSchedule\n\n6:30-7:00 - networking (pizza, beer)\n7:00-7:10 - announcements etc.\n7:10-8:00 -",
+        "id": "bythebay-20180206-deep-learning-and-scala-oswald-campesato",
+        "order": 0,
+        "title": "Deep Learning and Scala"
+      }
+    },
+    {
+      "id": "event:scala-bay-246206268",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2018-02-06",
+        "datetime": "2018-02-06T03:00:00+00:00",
+        "id": "246206268",
+        "title": "Oswald Campesato, \"Deep Learning and Scala\"",
+        "url": "https://www.meetup.com/scala-bay/events/246206268/",
+        "venue_address": "1154 Sonora Court",
+        "venue_name": "Clari Inc"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:oswald-campesato",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Oswald Campesato"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180206-deep-learning-and-scala-oswald-campesato",
+      "to": "event:scala-bay-246206268",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-246206268",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180206-deep-learning-and-scala-oswald-campesato",
+      "to": "speaker:oswald-campesato",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

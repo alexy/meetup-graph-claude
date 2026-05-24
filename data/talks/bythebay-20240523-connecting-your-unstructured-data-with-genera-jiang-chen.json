@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240523-connecting-your-unstructured-data-with-genera-jiang-chen",
+  "scraped_at": "2026-05-10T08:34:24.806358Z",
+  "source_file": "source/unstructured-data-sf/300812829.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240523-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:30 - Welcome/Networking/Registration\n6:35 - 7:00 - Jiang Chen, Head of Ecosystem & AI Platform, Zilliz\n7:05 - 7:30 - Chris Rec, Co-Founder, Whyhow.ai\n7:35 - 8:00 - Lucy Park, Co-founder & CSO, Upstage\n8:00 - 8:30 - Networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nMay 22, 2024\n5:30PM\nTech Talk 1: Advanced RAG Techniques\nAbstract: While achieving a basic Retrieval Augmented Generation (RAG) is relatively straightforward, attaining superior results requires tuning and optimizing various factors, such as a careful selection of embedding models. Additionally, applying advanced techniques, such as multi-stage retrieval with rerankers, is essential. A methodology for quality evaluation is also critical to success in crafting the best strategy for your specific use case. This talk will introduce the landscape of available optimization techniques and provide advice on best practices.\nTech Talk 2: Knowledge Graphs in RAG with WhyHow AI\nAbstract: WhyHow helps developers build more accurate, deterministic RAG applications using the power of knowledge graphs. Our platform simplifies and streamlines graph creation, management, and integration. In this talk we'll discuss our approach to knowledge graph creation, explore common patterns in graph RAG, and share demos of the WhyHow platform, currently in beta.\nTech Talk 3: Full-stack LLM for Enterprise Use Cases\nAbstract: In this talk, we will walk through how to leverage Upstage's full-stack LLM components to create RAG-based applications for enterprise customers\nWhere:\nThis is an in-person event at SAP Palo Alto. Registration is required to get into the event. Registration in advance will close 2 days before the event.\nThis event is co-sponsored by Zilliz (maintainers of Milvus) and SAP.",
+        "id": "bythebay-20240523-connecting-your-unstructured-data-with-genera-jiang-chen",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative AI"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-300812829",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-05-23",
+        "datetime": "2024-05-23T00:30:00+00:00",
+        "id": "300812829",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300812829/",
+        "venue_address": "3412 Hillview Ave",
+        "venue_name": "3412 Hillview Ave"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:jiang-chen",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Jiang Chen"
+      }
+    },
+    {
+      "id": "speaker:chris-rec",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Chris Rec"
+      }
+    },
+    {
+      "id": "speaker:lucy-park",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Upstage",
+        "name": "Lucy Park"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240523-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "event:unstructured-data-sf-300812829",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300812829",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240523-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "speaker:jiang-chen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240523-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "speaker:chris-rec",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240523-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "speaker:lucy-park",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

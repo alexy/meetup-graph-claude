@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+  "scraped_at": "2026-05-10T08:34:25.333182Z",
+  "source_file": "source/scala-bay/272939887.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Is tagless-final something else than programming with type classes? Is there any substantial difference between the tagless-final and MTL styles? In any case, what do we gain with these techniques? Are we losing something? For instance, can you guarantee that my code, full of purely functional abstractions, will be as efficient as if I stick to the bare “metal”? that it will be equally maintainable? In sum, can I achieve abstraction without guilt? To answer these questions, we will solve a little problem of language-integrated query in different ways: using plain SQL, List comprehensions, the repository pattern, MTL-based repositories, Quoted DSLs, and, finally, using tagless-final DSLs. For each variation, we will emphasise its virtues and, specially, its limitations, so as to make clear when it is safe to climb the ladder of abstractions without compromising what we can achieve with our beloved SQL.\n\nSpeaker: Juan Manuel Serrano,\nDirector, Habla Computing\n\nShort Bio\n\nJuan M. Serr",
+        "id": "bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+        "order": 0,
+        "title": "Tagless-final: Abstraction Without Guilt"
+      }
+    },
+    {
+      "id": "event:scala-bay-272939887",
+      "type": "Event",
+      "properties": {
+        "city": "",
+        "date": "2020-09-05",
+        "datetime": "2020-09-05T17:00:00+00:00",
+        "id": "272939887",
+        "title": "Juan Manuel Serrano, Tagless-final: Abstraction Without Guilt",
+        "url": "https://www.meetup.com/scala-bay/events/272939887/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:juan-manuel-serrano",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Juan Manuel Serrano"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+      "to": "event:scala-bay-272939887",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-272939887",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+      "to": "speaker:juan-manuel-serrano",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

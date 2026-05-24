@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20151209-continuous-data-management-for-hadoop-and-spa-brett-rudenstein",
+  "scraped_at": "2026-05-10T08:34:26.647307Z",
+  "source_file": "source/big-data-developers-in-nyc/226995075.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151209-continuous-data-management-for-hadoop-and-spa-brett-rudenstein",
+      "type": "Talk",
+      "properties": {
+        "abstract": null,
+        "id": "bythebay-20151209-continuous-data-management-for-hadoop-and-spa-brett-rudenstein",
+        "order": 0,
+        "title": "Continuous Data Management for Hadoop and Spark – On-Premise or in the Cloud"
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-226995075",
+      "type": "Event",
+      "properties": {
+        "city": "Jersey City",
+        "date": "2015-12-09",
+        "datetime": "2015-12-09T22:30:00+00:00",
+        "id": "226995075",
+        "title": "Continuous Data Management for Hadoop and Spark – On-Premise or in the Cloud",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/226995075/",
+        "venue_address": "286 Washington Street",
+        "venue_name": "HopScotch"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:brett-rudenstein",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Wandisco",
+        "name": "Brett Rudenstein"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20151209-continuous-data-management-for-hadoop-and-spa-brett-rudenstein",
+      "to": "event:big-data-developers-in-nyc-226995075",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-226995075",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151209-continuous-data-management-for-hadoop-and-spa-brett-rudenstein",
+      "to": "speaker:brett-rudenstein",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

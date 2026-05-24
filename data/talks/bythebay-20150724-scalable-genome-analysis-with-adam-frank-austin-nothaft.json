@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20150724-scalable-genome-analysis-with-adam-frank-austin-nothaft",
+  "scraped_at": "2026-05-10T08:34:25.575982Z",
+  "source_file": "source/sf-data-and-ai-engineering/223116130.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150724-scalable-genome-analysis-with-adam-frank-austin-nothaft",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Thanks to substantial improvements in the cost and throughput of DNA sequencing machines, genomic data may soon make personalized medicine a reality. However, significant processing is needed to turn raw DNA strings captured by sequencers into clinically useful data, and modern DNA processing software can take up to a week to run. In this talk, we'll look at how we reconstruct genomes from the raw sequence data, and we introduce ADAM, an Apache Spark-based API for accelerating genome processing pipelines.\nFrank Austin Nothaft is a MS/PhD student in Computer Science at UC Berkeley. Frank's research focuses on optimizing commodity distributed systems for scientific applications, and then using these systems to explore biological phenomena. Frank works with Professor David Patterson in the AMPLab and the ASPIRE lab, and is supported by the NSF Graduate Research Fellowship. Frank has also been an IC Design engineer at Broadcom Corporation since 2011, focusing on mixed-signal design automation. Frank completed his Bachelors of Science with Honors in Electrical Engineering at Stanford University, and was advised by Professor William J. Dally.",
+        "id": "bythebay-20150724-scalable-genome-analysis-with-adam-frank-austin-nothaft",
+        "order": 0,
+        "title": "Scalable Genome Analysis With ADAM"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-223116130",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-07-24",
+        "datetime": "2015-07-24T01:30:00+00:00",
+        "id": "223116130",
+        "title": "Scala and Spark for Good: Open-Source Genomics & Fighting Cancer Together",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/223116130/",
+        "venue_address": "420 Taylor Street",
+        "venue_name": "Chartboost"
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:frank-austin-nothaft",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "UC Berkeley",
+        "name": "Frank Austin Nothaft"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150724-scalable-genome-analysis-with-adam-frank-austin-nothaft",
+      "to": "event:sf-data-and-ai-engineering-223116130",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-223116130",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150724-scalable-genome-analysis-with-adam-frank-austin-nothaft",
+      "to": "speaker:frank-austin-nothaft",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

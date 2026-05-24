@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20250221-ai-worker-ai-agent-you-can-hire-nikita-ivanov",
+  "scraped_at": "2026-05-10T08:34:24.235294Z",
+  "source_file": "source/bay-area-ai/306246245.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250221-ai-worker-ai-agent-you-can-hire-nikita-ivanov",
+      "type": "Talk",
+      "properties": {
+        "abstract": "AI is changing how we work, introducing the concept of \"AI workers\" - autonomous agents that can be hired to perform tasks, solve problems, and support human teams. This presentation explores what AI workers are, how they are different from AI agents, and what powers them under the hood.\nWe’ll discuss real-world uses and will look at Humatron AI platform, the first dedicated API platform that allows to transform any GenAI or agentic implementation into hirable AI workers.\"",
+        "id": "bythebay-20250221-ai-worker-ai-agent-you-can-hire-nikita-ivanov",
+        "order": 1,
+        "title": "AI worker = AI Agent you can Hire"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-306246245",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-02-21",
+        "datetime": "2025-02-21T01:30:00+00:00",
+        "id": "306246245",
+        "title": "[lu.ma/_ai registration required] Hirable Agents, Bees, and Structured Ollamas!",
+        "url": "https://www.meetup.com/bay-area-ai/events/306246245/",
+        "venue_address": "10 Clarence Place",
+        "venue_name": "CloudFlare"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:nikita-ivanov",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Humatron.ai",
+        "name": "Nikita Ivanov"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20250221-ai-worker-ai-agent-you-can-hire-nikita-ivanov",
+      "to": "event:bay-area-ai-306246245",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-306246245",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250221-ai-worker-ai-agent-you-can-hire-nikita-ivanov",
+      "to": "speaker:nikita-ivanov",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

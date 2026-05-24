@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20160921-domain-driven-design-in-scala-a-primer-on-cra-dusko-vesin",
+  "scraped_at": "2026-05-10T08:34:24.594046Z",
+  "source_file": "source/sf-scala/233094029.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160921-domain-driven-design-in-scala-a-primer-on-cra-dusko-vesin",
+      "type": "Talk",
+      "properties": {
+        "abstract": "- How to build your high-level DSL:\n how to design, implement and validate your DSL\n problems that arise while working with high-level abstractions\n- How to define, process and validate your domain models\n- How to implement code generation templates using Scala's superb string interpolation\nDusko Vesin is a Scala Developer and co-founder of dryTools with more than 8 years of experience. Before he found Scala he was mostly building enterprise applications in Java using Spring, Hibernate, GWT and Angular.js. He is currently focused on DSL design, parsers and code generators.",
+        "id": "bythebay-20160921-domain-driven-design-in-scala-a-primer-on-cra-dusko-vesin",
+        "order": 2,
+        "title": "Domain driven design in Scala: A primer on crafting DSLs, domain models and code generators"
+      }
+    },
+    {
+      "id": "event:sf-scala-233094029",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-09-21",
+        "datetime": "2016-09-21T01:30:00+00:00",
+        "id": "233094029",
+        "title": "Beat Aliens with an Akka Cluster and dryTools",
+        "url": "https://www.meetup.com/sf-scala/events/233094029/",
+        "venue_address": "27 South Park St",
+        "venue_name": "Shasta Ventures"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:dusko-vesin",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Dusko Vesin"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160921-domain-driven-design-in-scala-a-primer-on-cra-dusko-vesin",
+      "to": "event:sf-scala-233094029",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-233094029",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160921-domain-driven-design-in-scala-a-primer-on-cra-dusko-vesin",
+      "to": "speaker:dusko-vesin",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

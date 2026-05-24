@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20130621-scala-with-style-martin-odersky",
+  "scraped_at": "2026-05-10T08:34:24.473105Z",
+  "source_file": "source/sf-scala/120367992.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130621-scala-with-style-martin-odersky",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Martin, the creator of Scala, will show what it means to have a good style in Scala. Need we say more? In case we do, read on!\n\nScala with Style - Scala gives you awesome expressive power, but how to make best use of it? In my talk I will discuss the question what makes good Scala style. We will start with syntax and continue with how to name things, how to mix objects and functions, where (and where not) to use mutable state, and when to use which design pattern. As most questions of style, the discussion will be quite subjective, and some of it might be controversial. I am looking forward to discuss these topics with the conference attendees.\n\nBio - Martin Odersky created the Scala programming language and is a professor in the programming research group at EPFL, the leading technical university in Switzerland. Throughout his career, Martin's singular objective has been to make the basic job of writing programs faster, easier and more enjoyable. In the process, he has personally writ",
+        "id": "bythebay-20130621-scala-with-style-martin-odersky",
+        "order": 0,
+        "title": "Scala with Style"
+      }
+    },
+    {
+      "id": "event:sf-scala-120367992",
+      "type": "Event",
+      "properties": {
+        "city": "Santa Clara",
+        "date": "2013-06-21",
+        "datetime": "2013-06-21T01:30:00+00:00",
+        "id": "120367992",
+        "title": "Martin Odersky: Scala with Style",
+        "url": "https://www.meetup.com/sf-scala/events/120367992/",
+        "venue_address": "3600 Juliette Lane",
+        "venue_name": "Intel SC 12 Building"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:martin-odersky",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Martin Odersky"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20130621-scala-with-style-martin-odersky",
+      "to": "event:sf-scala-120367992",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-120367992",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130621-scala-with-style-martin-odersky",
+      "to": "speaker:martin-odersky",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20160614-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+  "scraped_at": "2026-05-10T08:34:25.124273Z",
+  "source_file": "source/scala-bay/228957167.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160614-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Title\n\nAsynchronous Orchestration DSL on “squbs”\n\nAbstract\n\nsqubs (rhymes with cubes) is an open source project by PayPal and eBay. It is a collection of software components for standardizing and operationalizing Akka/Streams and Spray-based services in large scale. It includes components such as bootstrapping, actor monitor, actor registry, admin console, data center-aware clustering, and much more. Many of these components can also be used stand-alone with any Akka/Streams/Spray application. Orchestration is a common pattern for aggregating and composing results from multiple back-end services. Today, we’re going to introduce the Orchestration DSL provided as part of the squbs project. We’ll show how you can utilize the extremely concise declaration and composition of the orchestration logic, dependencies, timeout handling, and error handling logic for your mid-tier services. Please join us.\n\nBio\n\nAkara Sucharitakul leads the squbs project as part of the PayPal infrastructure",
+        "id": "bythebay-20160614-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+        "order": 0,
+        "title": "Asynchronous Orchestration DSL on “squbs"
+      }
+    },
+    {
+      "id": "event:scala-bay-228957167",
+      "type": "Event",
+      "properties": {
+        "city": "San Jose",
+        "date": "2016-06-14",
+        "datetime": "2016-06-14T01:30:00+00:00",
+        "id": "228957167",
+        "title": "Akara Sucharitakul, Asynchronous Orchestration DSL on “squbs”",
+        "url": "https://www.meetup.com/scala-bay/events/228957167/",
+        "venue_address": "2161 N. First St.",
+        "venue_name": "North Paypal Campus"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:akara-sucharitakul",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Akara Sucharitakul"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160614-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "to": "event:scala-bay-228957167",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-228957167",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160614-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "to": "speaker:akara-sucharitakul",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20241114-connecting-your-unstructured-data-with-genera-dinesh-chandrasekhar",
+  "scraped_at": "2026-05-10T08:34:24.823990Z",
+  "source_file": "source/unstructured-data-sf/304207224.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241114-connecting-your-unstructured-data-with-genera-dinesh-chandrasekhar",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\nWhat we’ll do:\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - Dinesh Chandrasekhar, Challenges in Structured Document Data Extraction at Scale with LLMs\n6:35 - 7:00 - James Luan, Why Dense Embedding Search Isn’t Enough: The Case for Hybrid Search. - a sneak peek of Milvus 2.5\n7:05 - 7:30 - Rob Quiros, Beyond RAG Partitions: Per-User, Per-Chunk Access Policy\n7:30 - 8:00 - Networking\nTech Talk 1: Challenges in Structured Document Data Extraction at Scale with LLMs\nAbstract: All businesses have to deal with unstructured documents at some level. Some have to deal with them at scale. While an LLM-powered approach to this problem is most certainly head and shoulders above traditional machine learning-based approaches, it is not without its challenges. Top concerns being accuracy and cost, which can really begin to hurt at scale.\nIn this talk, we will look at how Unstract, an open source platform purpose-built for structured document data extraction, solves these challenges. Dealing with 5M+ pages of structured content extraction per month, Unstract uses various techniques to attain accuracy and cost efficiency.\nTopics Covered\n- Introduction to Unstructured Data Processing\n- Processing Document Data\n- Extraction Difficulties\n- Unstract to the rescue\n- Demo\nTech Talk 3: Beyond RAG Partitions: Per-User, Per-Chunk Access Policy\nAbstract: Partitioning vector databases has proven to be a useful tool for privacy and per-tenant isolation. Recent releases of vector db software, including Milvus, have continued to improve partitioning capabilities such as pushing the number of partitions into the millions and providing improved selection of partitions per tenant.\nDespite these advances, management overhead increases with the number of partitions. Relative to the capabilities enterprises require and have come to expect from their existing storage systems and databases, there is still a shortfall. New capabilities specific to how vector databases store data and how they are used in RAG applications are needed.\nTopics Covered:\n Origins of enterprise requirements for granular access control and policy in storage systems.\n Sensitive data identification: data classification versus access control.\n The problem data-duplication in enterprise datasets presents when copying permissions from documents to chunks.\n How enterprise access requirements can be met with per-user, per-chunk access control\n Case study and example implementation.\nWhen:\nNov 13, 2024\n5:30PM\nWhere:**\nThis is an in-person event. Registration is required to get into the event. Registration in advance will close 2 days before the event.\nThis event is sponsored by Zilliz (maintainers of Milvus)",
+        "id": "bythebay-20241114-connecting-your-unstructured-data-with-genera-dinesh-chandrasekhar",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative LLMs"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-304207224",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2024-11-14",
+        "datetime": "2024-11-14T01:30:00+00:00",
+        "id": "304207224",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/304207224/",
+        "venue_address": "1177 Kern Ave, Sunnyvale, CA 94085, USA",
+        "venue_name": "Sports Basement Sunnyvale"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:dinesh-chandrasekhar",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Unstract",
+        "name": "Dinesh Chandrasekhar"
+      }
+    },
+    {
+      "id": "speaker:rob-quiros",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Inc",
+        "name": "Rob Quiros"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20241114-connecting-your-unstructured-data-with-genera-dinesh-chandrasekhar",
+      "to": "event:unstructured-data-sf-304207224",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-304207224",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241114-connecting-your-unstructured-data-with-genera-dinesh-chandrasekhar",
+      "to": "speaker:dinesh-chandrasekhar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241114-connecting-your-unstructured-data-with-genera-dinesh-chandrasekhar",
+      "to": "speaker:rob-quiros",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

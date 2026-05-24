@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20160120-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+  "scraped_at": "2026-05-10T08:34:24.121338Z",
+  "source_file": "source/bay-area-ai/227951172.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160120-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Speaker: Nikita Ivanov, Founder/CEO/CTO at GridGain/DataLingvo\nIn this talk I will talk about the technology behind DataLingvo - a Siri-like interface for the business data. Unlike many NLP-based startups DataLingvo is not based on ML but rather on a unique combination of semantic grammar modelling and human curation. Presentation will provide a deep dive into the reasons behind that technology choice as well as cover many tactical technical decisions. Presentation will include a live demo of DataLingvo system.\nNikita Ivanov is the guy behind DataLingvo, a cognitive analytics stealth startup that developed a Siri-like interface for the business data based on Human Curated Linguistics (HCL) technology. Nikita is also a founder and served as CEO/CTO for GridGain Systems, a company behind Apache Ignite, an industry leading in-memory data fabric.\nNikita is a serial entrepreneur with over 20 years of experience of starting companies and developing software including NLP, HPC and middleware platforms, contributing to the efforts of other startups and notable companies including Adaptec, Visa and BEA Systems. Nikita was one of the first pioneers using nascent Java technology for server side middleware development back in 1996.\nHe is an active member of NLP and Java middleware community, contributor to the Java specification, and holds a Master’s degree in Electro Mechanics from Baltic State Technical University, Saint Petersburg, Russia.",
+        "id": "bythebay-20160120-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+        "order": 0,
+        "title": "Human Curated Linguistics - How We Built DataLingvo"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-227951172",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-01-20",
+        "datetime": "2016-01-20T02:30:00+00:00",
+        "id": "227951172",
+        "title": "SF Text 2016 Begins! DataLingvo and Luka",
+        "url": "https://www.meetup.com/bay-area-ai/events/227951172/",
+        "venue_address": "225 Bush Street Suite 700",
+        "venue_name": "Nitro"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:nikita-ivanov",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "GridGain/DataLingvo",
+        "name": "Nikita Ivanov"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160120-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "to": "event:bay-area-ai-227951172",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-227951172",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160120-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "to": "speaker:nikita-ivanov",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

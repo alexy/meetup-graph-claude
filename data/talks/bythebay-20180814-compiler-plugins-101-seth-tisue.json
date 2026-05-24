@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20180814-compiler-plugins-101-seth-tisue",
+  "scraped_at": "2026-05-10T08:34:25.141839Z",
+  "source_file": "source/scala-bay/248516974.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180814-compiler-plugins-101-seth-tisue",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Seth Tisue, Compiler Plugins 101\n\nAbstract\n\nCompiler plugins — mysterious, difficult? Yet intriguing? Dark magic you're frightened, yet tempted, to wield? I'll cover what compiler plugins can do, what existing plugins are popular, and how to write your own.\n\nSpeaker Bio\n\nSeth has been a member of the Scala team at Lightbend since 2015. His main interests are compilers and interpreters, functional programming, and open-source software. Set has been active in the Scala community since 2008, in venues such as the Scalawags podcast, the Northeast Scala Symposium, and everywhere people talk about Scala online. Before joining Lightbend, Seth used Scala to build the compiler and other tools for NetLogo, an open-source programming language for kids, teachers, and scientists.\n\nSchedule\n\n6:30-7:00 - networking (pizza, beer)\n7:00-7:10 - announcements etc.\n7:10-8:00 - talk\n8:00-8:30 - more networking",
+        "id": "bythebay-20180814-compiler-plugins-101-seth-tisue",
+        "order": 0,
+        "title": "Compiler Plugins 101"
+      }
+    },
+    {
+      "id": "event:scala-bay-248516974",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2018-08-14",
+        "datetime": "2018-08-14T02:00:00+00:00",
+        "id": "248516974",
+        "title": "Seth Tisue, Compiler Plugins 101",
+        "url": "https://www.meetup.com/scala-bay/events/248516974/",
+        "venue_address": "1154 Sonora Court",
+        "venue_name": "Clari Inc"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:seth-tisue",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Seth Tisue"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180814-compiler-plugins-101-seth-tisue",
+      "to": "event:scala-bay-248516974",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-248516974",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180814-compiler-plugins-101-seth-tisue",
+      "to": "speaker:seth-tisue",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

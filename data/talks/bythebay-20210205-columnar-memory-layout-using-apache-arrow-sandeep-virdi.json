@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20210205-columnar-memory-layout-using-apache-arrow-sandeep-virdi",
+  "scraped_at": "2026-05-10T08:34:24.706472Z",
+  "source_file": "source/sf-scala/275839287.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20210205-columnar-memory-layout-using-apache-arrow-sandeep-virdi",
+      "type": "Talk",
+      "properties": {
+        "abstract": "(4) Built using ZIO functional programming library.\nReference Paper:\nFast Serializable Multi-Version Concurrency Control\nfor Main-Memory Database Systems: https://db.in.tum.de/~muehlbau/papers/mvcc.pdf\nAbout our Speaker Sandeep Virdi\nSandeep Virdi is an engineer who likes to build things. He is interested in functional programming and all paradigms associated with it. In his free time he likes to hike and spend time with his kids.\nAgenda\n5.30pm Welcome to SFScala by Salar Rahmanian\n5.45pm Kiar - Key/Value store with MVCC based Transaction System By Sandeep Virdi\n7.00pm Wrap up and continue conversations on Discord",
+        "id": "bythebay-20210205-columnar-memory-layout-using-apache-arrow-sandeep-virdi",
+        "order": 0,
+        "title": "Columnar Memory Layout using Apache Arrow"
+      }
+    },
+    {
+      "id": "event:sf-scala-275839287",
+      "type": "Event",
+      "properties": {
+        "city": "",
+        "date": "2021-02-05",
+        "datetime": "2021-02-05T01:30:00+00:00",
+        "id": "275839287",
+        "title": "Kiar - Key/Value store with MVCC based Transaction System By Sandeep Virdi",
+        "url": "https://www.meetup.com/sf-scala/events/275839287/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:sandeep-virdi",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Sandeep Virdi"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20210205-columnar-memory-layout-using-apache-arrow-sandeep-virdi",
+      "to": "event:sf-scala-275839287",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-275839287",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20210205-columnar-memory-layout-using-apache-arrow-sandeep-virdi",
+      "to": "speaker:sandeep-virdi",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

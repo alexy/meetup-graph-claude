@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20241120-connecting-your-unstructured-data-with-genera-hakan-tekgul",
+  "scraped_at": "2026-05-10T08:34:24.816786Z",
+  "source_file": "source/unstructured-data-sf/303008570.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241120-connecting-your-unstructured-data-with-genera-hakan-tekgul",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - Hakan Tekgul, Evaluating RAG pipelines built on unstructured data\n6:35 - 7:00 - James Luan, Milvus\n7:05 - 7:30 - Max Mathys, Gandalf: Insights from the World's Largest Red Team\n7:35 - 7:45 - Community demo\n7:45 - 8:30 - Networking\nTech Talk 1: Evaluating RAG pipelines built on unstructured data\nAbstract: This talk will cover different techniques for evaluating a RAG pipeline built on unstructured data. Standing up a basic RAG pipeline is becoming easier every day, however identifying weak points in your application or dataset remains a challenge. We'll review how you can use traditional assertion-based evaluation techniques, LLM-as-a-Judge approaches, and embedding visualization tools to improve your pipeline using Arize Phoenix.\nTech Talk 3: Gandalf: Insights from the World's Largest Red Team\nAbstract: Gandalf is a challenge where people can attack LLMs with prompt attack techniques. It has been played by 7M+ players and recorded 10M+ successful attacks against LLMs. This talk analyses different types of attacks that actual players came up with and how you should defend against these attacks.\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nNov 19, 2024\n5:30PM\nWhere:\nThis is an in-person event. Registration using this form is required to get into the event. Registration in advance will close 2 days before the event. Sponsored by Zilliz (maintainers of Milvus) and Arize.",
+        "id": "bythebay-20241120-connecting-your-unstructured-data-with-genera-hakan-tekgul",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative AI"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-303008570",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-11-20",
+        "datetime": "2024-11-20T01:30:00+00:00",
+        "id": "303008570",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/303008570/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:hakan-tekgul",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Arize",
+        "name": "Hakan Tekgul"
+      }
+    },
+    {
+      "id": "speaker:max-mathys",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Lakera AI",
+        "name": "Max Mathys"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20241120-connecting-your-unstructured-data-with-genera-hakan-tekgul",
+      "to": "event:unstructured-data-sf-303008570",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-303008570",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241120-connecting-your-unstructured-data-with-genera-hakan-tekgul",
+      "to": "speaker:hakan-tekgul",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241120-connecting-your-unstructured-data-with-genera-hakan-tekgul",
+      "to": "speaker:max-mathys",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

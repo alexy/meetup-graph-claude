@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20191106-model-versioning-why-when-and-how-manasi-vartak",
+  "scraped_at": "2026-05-10T08:34:25.600489Z",
+  "source_file": "source/sf-data-and-ai-engineering/266058948.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20191106-model-versioning-why-when-and-how-manasi-vartak",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Models are the new code. While machine learning models are increasingly being used to make critical product and business decisions, the process of developing and deploying ML models remain ad-hoc. In the “wild-west” of data science and ML tools, versioning, management, and deployment of models are massive hurdles in making ML efforts successful. As creators of ModelDB, an open-source model management solution developed at MIT CSAIL, we have helped manage and deploy a host of models ranging from cutting-edge deep learning models to traditional ML models in finance. In each of these applications, we have found that the key to enabling production ML is an often-overlooked but critical step: model versioning. Without a means to uniquely identify, reproduce, or rollback a model, production ML pipelines remain brittle and unreliable. In this talk, we draw upon our experience with ModelDB and Verta to present best practices and tools for model versioning and how having a robust versioning solution (akin to Git for code) can streamlining DS/ML, enable rapid deployment, and ensure high quality of deployed ML models.\nSpeakers: Manasi Vartak, CEO, Verta.ai, Conrado Miranda, CTO, Verta.ai\nManasi Vartak is the founder and CEO of Verta.ai (www.verta.ai), an MIT-spinoff building software to enable high-velocity machine learning. Manasi previously worked on deep learning for content recommendation as part of the feed-ranking team at Twitter and dynamic ad-targeting at Google.\nConrado Miranda is the CTO at Verta.AI. Conrado has a PhD in Machine Learning and a focus on building platforms for AI. He was the tech lead for the Deep Learning platform at Twitter’s Cortex, where he designed and led the implementation of TensorFlow for model development and PySpark for data analysis and engineering. He also led efforts on NVIDIA’s self-driving car initiative, including the Machine Learning platform, large scale inference for the Drive stack, and build and CI for Deep Learning models.",
+        "id": "bythebay-20191106-model-versioning-why-when-and-how-manasi-vartak",
+        "order": 0,
+        "title": "MODEL VERSIONING: WHY, WHEN, AND HOW"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-266058948",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2019-11-06",
+        "datetime": "2019-11-06T02:00:00+00:00",
+        "id": "266058948",
+        "title": "[RSVP at bay.area.ai] MODEL VERSIONING AND MONITORING: WHY, WHEN, AND HOW",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/266058948/",
+        "venue_address": "225 Bush St #700",
+        "venue_name": "D2iQ, Inc."
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:manasi-vartak",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Twitter",
+        "name": "Manasi Vartak"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20191106-model-versioning-why-when-and-how-manasi-vartak",
+      "to": "event:sf-data-and-ai-engineering-266058948",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-266058948",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20191106-model-versioning-why-when-and-how-manasi-vartak",
+      "to": "speaker:manasi-vartak",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

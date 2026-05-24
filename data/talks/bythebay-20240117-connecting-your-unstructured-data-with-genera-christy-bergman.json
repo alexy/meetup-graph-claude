@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240117-connecting-your-unstructured-data-with-genera-christy-bergman",
+  "scraped_at": "2026-05-10T08:34:24.788193Z",
+  "source_file": "source/unstructured-data-sf/296932324.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240117-connecting-your-unstructured-data-with-genera-christy-bergman",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about LLMs and unstructured data.\n5:30 - 6:30 - Welcome/Networking/Registration\n6:35 - 7:00 Christy Bergman, Developer Advocate, Zilliz\n7:05 - 7:30 - Alexy Khrabrov, OSS Community Director, IBM and Chair, Generative AI Commons at the Linux Foundation\n7:35 - 8:00 - George Williams, Organizer, Big-ANN NeurIPS 2023\n8:00 - 8:30 - Networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and LLM Apps.\nWhen:\nJanuary 16th, 2024\n5:30PM\nTech Talk 1: Vector Search in the Age of OpenAI Assistants using Milvus\nAbstract: The OpenAI Assistants API allows you to build AI assistants within your own applications. An Assistant has instructions and can leverage models, tools, and knowledge to respond to user queries. The Assistants API currently supports three types of tools: Code Interpreter, Retrieval, and Function calling. I will talk about and show a few examples what you can and cannot do just invoking the OpenAI assistant directly to get final answers, versus using custom execution loops for Retrieval.\nTech Talk 2: theAlliance.ai: Defining AI Adoption as a Community\nAbstract: With more than 60 members, including Zilliz, the mission is to ensure and evaluate high-quality and safe AI through benchmarks, tools, and methodologies. The Alliance encompasses leading AI organizations, including HuggingFace, LangChain, LlamaIndex, top research universities, hardware giants such as Dell, Intel and AMD, foundations such as NumFOCUS and Linux Foundation, and more.\nWork streams cover AI Safety, cross-platform AI acceleration, models and frameworks, and applications for enterprise adoption.\nTech Talk 3: Are CPUs Enough? A Review Of Vector Search Running On Novel Hardware\nAbstract: The Cambrian explosion of artificial intelligence has ushered in a new Golden Age for computer hardware. While Nvidia steals the lion share of headlines due to their dominance running deep learning workloads, several other hardware alternatives are starting to appear in the market. AI-adjacent technologies like vector search will also reap the benefit from this hardware renaissance. In this talk, I’ll talk about the intersection of vector search and advanced hardware, hardware that goes far beyond traditional CPU design which has dominated the computing landscape for over 60 years. I’ll review the results from the first NeurIPS BigANN hardware competition, we’ll discuss the benchmarks that are key to differentiate hardware alternatives, and we will look at new chip architectures that will fuse vector search and transformer inference in one device. No prior knowledge about hardware is necessary for this talk. I will describe at a high level the fundamental differences among CPU alternatives such as GPUs, Vector Processors, Compute-In-Memory microprocessors, AI Accelerators, Neuromorphic Chips, and Field Programmable Arrays.\nWhere:\nThis is an in-person event! Registration is required to get in.\nRegistration will close 2 days before the event.\nSponsored by Zilliz maintainers of Milvus.",
+        "id": "bythebay-20240117-connecting-your-unstructured-data-with-genera-christy-bergman",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative LLMs"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-296932324",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-01-17",
+        "datetime": "2024-01-17T01:30:00+00:00",
+        "id": "296932324",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/296932324/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:christy-bergman",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Christy Bergman"
+      }
+    },
+    {
+      "id": "speaker:alexy-khrabrov",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Alexy Khrabrov"
+      }
+    },
+    {
+      "id": "speaker:george-wiliams",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "George Wiliams"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240117-connecting-your-unstructured-data-with-genera-christy-bergman",
+      "to": "event:unstructured-data-sf-296932324",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-296932324",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240117-connecting-your-unstructured-data-with-genera-christy-bergman",
+      "to": "speaker:christy-bergman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240117-connecting-your-unstructured-data-with-genera-christy-bergman",
+      "to": "speaker:alexy-khrabrov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240117-connecting-your-unstructured-data-with-genera-christy-bergman",
+      "to": "speaker:george-wiliams",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

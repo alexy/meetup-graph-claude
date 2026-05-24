@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20180509-functional-programming-the-enterprise-edition-narek-asadorian",
+  "scraped_at": "2026-05-10T08:34:25.178419Z",
+  "source_file": "source/scala-bay/248517175.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180509-functional-programming-the-enterprise-edition-narek-asadorian",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Narek Asadorian, \"Functional Programming: The Enterprise Edition\"\n\nAbstract\n\nDespite its increasing popularity, functional programming is still stuck in the back seat when it comes to the enterprise. This talk aims to address common pitfalls in enterprise software engineering which can be avoided through the application of functional programming principles, as well as to introduce the clarity and maintainability inherent to functional code. In this talk, we will cover computational effects including failure handling, IO and partiality using various functors and monads. We will also explore the \"softer\" side of teaching and advocating for FP at work, including strategies for coaching teammates off of imperative and side-effect ridden coding practices.\n\nThe material in the talk will focus on Scala specifically, but the principles should apply to any programming language supporting types. While enterprise software is implied in the title, the learnings and examples in the talk can be impl",
+        "id": "bythebay-20180509-functional-programming-the-enterprise-edition-narek-asadorian",
+        "order": 0,
+        "title": "Functional Programming: The Enterprise Edition"
+      }
+    },
+    {
+      "id": "event:scala-bay-248517175",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2018-05-09",
+        "datetime": "2018-05-09T02:00:00+00:00",
+        "id": "248517175",
+        "title": "Narek Asadorian, \"Functional Programming: The Enterprise Edition\"",
+        "url": "https://www.meetup.com/scala-bay/events/248517175/",
+        "venue_address": "1050 Enterprise Way",
+        "venue_name": "Comcast"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:narek-asadorian",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Narek Asadorian"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180509-functional-programming-the-enterprise-edition-narek-asadorian",
+      "to": "event:scala-bay-248517175",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-248517175",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180509-functional-programming-the-enterprise-edition-narek-asadorian",
+      "to": "speaker:narek-asadorian",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

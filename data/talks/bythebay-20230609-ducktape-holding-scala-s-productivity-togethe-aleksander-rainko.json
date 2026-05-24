@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20230609-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+  "scraped_at": "2026-05-10T08:34:25.545633Z",
+  "source_file": "source/sf-data-and-ai-engineering/293987578.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230609-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Bio: I'm a professional Scala programmer for 3 years now, during this time I've developed big interest in the metaprogramming and the type level programming side of things of this very language. Amateurishly into compilers, programming languages overall, running, cycling and swimming.\nAvid music listener.\nHe/him.\nAbstract: Throughout my career as a developer I noticed that the majority of my everyday tasks come down to moving JSON from point A to point B and for all this time I’ve been trying to minimize the amount of (human-written) code that doesn’t bring joy (also known as boilerplate) but also solves the problem at hand.\nAfter some time I managed to land on a subjectively close-to-perfect setup that involves:\n generating server route definitions with guardrail or smithy4s,\n a newtype and a refinement type library of your choice for that sweet, sweet typesafety and validation,\n* a mystery ingredient that abstracts away data transformations from generated code to my squeaky clean business domain model.\nNow, what might that mystery ingredient that does all of that glue code magic for you be? Well, it’s ducktape(figuratively and literally).\nJoin me as I unveil the intricacies of this cool, little, macro-based library and show off how all of the above pieces fit together to create an extremely productive workflow for the most common of use cases - all of that in Scala 3.",
+        "id": "bythebay-20230609-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+        "order": 0,
+        "title": "ducktape - holding Scala's productivity together"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-293987578",
+      "type": "Event",
+      "properties": {
+        "city": "Oakland",
+        "date": "2023-06-09",
+        "datetime": "2023-06-09T00:00:00+00:00",
+        "id": "293987578",
+        "title": "ducktape -- Scala productivity + Holden Karau + Scala Center!",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/293987578/",
+        "venue_address": "1999 Harrison St Suite 1100",
+        "venue_name": "LaunchDarkly"
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:aleksander-rainko",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Scalac",
+        "name": "Aleksander Rainko"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20230609-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "to": "event:sf-data-and-ai-engineering-293987578",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-293987578",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230609-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "to": "speaker:aleksander-rainko",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

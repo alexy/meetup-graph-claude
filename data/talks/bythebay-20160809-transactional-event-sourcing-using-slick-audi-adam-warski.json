@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20160809-transactional-event-sourcing-using-slick-audi-adam-warski",
+  "scraped_at": "2026-05-10T08:34:25.139542Z",
+  "source_file": "source/scala-bay/232762394.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160809-transactional-event-sourcing-using-slick-audi-adam-warski",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Description: Event sourcing is a great alternative to traditional “CRUD”-type architectures. The central concept is a persistent stream of events, which drives all changes to the read model and running any kind of business logic. There’s a lot of technical and business benefits to such an approach, such as being able to re-create the state of the system at any point in time, or keeping a detailed audit log of all actions.\n\nTypically, implementations of event sourcing are presented using a NoSQL data storage, which is great for many use cases (e.g. using Akka Persistence + Cassandra). However, nothing stops us from using a relational database and SQL! In many applications (especially “enterprise”), this brings many benefits, such as powerful and familiar query capabilities and higher guarantees around data consistency.\n\nIn this mainly live-coding talk we’ll see one way of implementing transactional event sourcing using the `slick-eventsourcing` micro-framework, introducing t",
+        "id": "bythebay-20160809-transactional-event-sourcing-using-slick-audi-adam-warski",
+        "order": 0,
+        "title": "Transactional event sourcing using Slick (audit log for free!)"
+      }
+    },
+    {
+      "id": "event:scala-bay-232762394",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2016-08-09",
+        "datetime": "2016-08-09T01:30:00+00:00",
+        "id": "232762394",
+        "title": "Adam Warski, \"Transactional event sourcing using Slick (audit log for free!)\"",
+        "url": "https://www.meetup.com/scala-bay/events/232762394/",
+        "venue_address": "LinkedIn 605 W. Maude",
+        "venue_name": "LinkedIn"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:adam-warski",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Adam Warski"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160809-transactional-event-sourcing-using-slick-audi-adam-warski",
+      "to": "event:scala-bay-232762394",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-232762394",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160809-transactional-event-sourcing-using-slick-audi-adam-warski",
+      "to": "speaker:adam-warski",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

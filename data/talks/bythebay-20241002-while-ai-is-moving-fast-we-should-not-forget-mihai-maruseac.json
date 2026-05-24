@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20241002-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+  "scraped_at": "2026-05-10T08:34:24.355900Z",
+  "source_file": "source/bay-area-ai/303492376.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241002-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+      "type": "Talk",
+      "properties": {
+        "abstract": "AI is moving at breakneck speed but we are also seeing security incidents, both in research papers and in real production systems. Most of these look similar to traditional software incidents of the past, but they are repeating at an accelerated pace. In this talk, we'll give an overview of why security is important for AI and how we can quickly resolve several of the most pressing issues.",
+        "id": "bythebay-20241002-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+        "order": 1,
+        "title": "While AI is Moving Fast, we should Not Forget Security"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-303492376",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-10-02",
+        "datetime": "2024-10-02T01:00:00+00:00",
+        "id": "303492376",
+        "title": "[lu.ma/_ai registration required] Secure AI Models and Knowledge Graphs",
+        "url": "https://www.meetup.com/bay-area-ai/events/303492376/",
+        "venue_address": "525 Market St",
+        "venue_name": "525 Market St"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:mihai-maruseac",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Google",
+        "name": "Mihai Maruseac"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20241002-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+      "to": "event:bay-area-ai-303492376",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-303492376",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241002-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+      "to": "speaker:mihai-maruseac",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

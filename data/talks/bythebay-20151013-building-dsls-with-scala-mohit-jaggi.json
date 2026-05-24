@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20151013-building-dsls-with-scala-mohit-jaggi",
+  "scraped_at": "2026-05-10T08:34:25.232728Z",
+  "source_file": "source/scala-bay/224245246.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151013-building-dsls-with-scala-mohit-jaggi",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Title:\n\nBuilding DSLs with Scala\n\nAbstract:\n\nDSL is a way to expose APIs in a way that make sense in the problem domain and hide implementation specific details. Scala allows us to take this concept to an extreme where even the programming language can be hidden. This talk introduces some best practices of API design with a focus on \"internal\" DSLs and walks through some constructs in Scala that make writing DSLs a breeze. It uses examples from bigdf, the first distributed dataframe DSL in Scala (AFAIK).\n\nBio:\n\nMohit Jaggi has been building market leading products for 15+ years using awesome programming languages like microcode, C, Java and most recently Scala. He believes in using the right tool for the job but these days ends up concluding that Scala is the right tool for most jobs(tell him if you think he is biased). He has built products in diverse domains like networking, security, big data infrastructure, big data analytics and machine learning.\n\nSchedule\n\n6:30-7:00 - networking",
+        "id": "bythebay-20151013-building-dsls-with-scala-mohit-jaggi",
+        "order": 0,
+        "title": "Building DSLs with Scala"
+      }
+    },
+    {
+      "id": "event:scala-bay-224245246",
+      "type": "Event",
+      "properties": {
+        "city": "Menlo Park",
+        "date": "2015-10-13",
+        "datetime": "2015-10-13T02:00:00+00:00",
+        "id": "224245246",
+        "title": "Mohit Jaggi, Building DSLs with Scala",
+        "url": "https://www.meetup.com/scala-bay/events/224245246/",
+        "venue_address": "4400 Bohannon Drive, Suite 200",
+        "venue_name": "Ayasdi, Inc."
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:mohit-jaggi",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Mohit Jaggi"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20151013-building-dsls-with-scala-mohit-jaggi",
+      "to": "event:scala-bay-224245246",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-224245246",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151013-building-dsls-with-scala-mohit-jaggi",
+      "to": "speaker:mohit-jaggi",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

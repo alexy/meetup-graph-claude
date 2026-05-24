@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20150710-semantic-indexing-of-four-million-documents-w-sandy-ryza",
+  "scraped_at": "2026-05-10T08:34:25.540053Z",
+  "source_file": "source/sf-data-and-ai-engineering/222858278.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150710-semantic-indexing-of-four-million-documents-w-sandy-ryza",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Latent Semantic Analysis (LSA) is a technique in natural language processing and information retrieval that seeks to better understand the latent relationships and concepts in large corpuses. In this talk, we’ll walk through what it looks like to apply LSA to the full set of documents in English Wikipedia, using Apache Spark. Harnessing the Stanford CoreNLP library for lemmatization and MLlib’s scalable SVD implementation for uncovering a lower-dimensional representation of the data, we’ll undertake the modest task of enabling queries against the full extent of human knowledge, based on latent semantic relationships.\nSandy Ryza is a senior data scientist at Cloudera focusing on Apache Spark and its ecosystem, and an author of the O’Reilly book Advanced Analytics with Spark (http://shop.oreilly.com/product/0636920035091.do). He is a Spark committer and member of the Apache Hadoop project management committee. He graduated Phi Beta Kappa from Brown University.",
+        "id": "bythebay-20150710-semantic-indexing-of-four-million-documents-w-sandy-ryza",
+        "order": 0,
+        "title": "Semantic Indexing of Four Million Documents with Apache Spark"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-222858278",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-07-10",
+        "datetime": "2015-07-10T01:30:00+00:00",
+        "id": "222858278",
+        "title": "Semantic Indexing of Four Million Documents with Apache Spark, MINTDATA",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/222858278/",
+        "venue_address": "225 Bush Street Suite 700",
+        "venue_name": "Nitro"
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:sandy-ryza",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Sandy Ryza"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150710-semantic-indexing-of-four-million-documents-w-sandy-ryza",
+      "to": "event:sf-data-and-ai-engineering-222858278",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-222858278",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150710-semantic-indexing-of-four-million-documents-w-sandy-ryza",
+      "to": "speaker:sandy-ryza",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170920-topic-modeling-with-lda-alyssa-wisdom",
+  "scraped_at": "2026-05-10T08:34:24.280283Z",
+  "source_file": "source/bay-area-ai/242935944.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170920-topic-modeling-with-lda-alyssa-wisdom",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Alyssa Wisdom, Square\nMany companies use free-text fields for data collection in order to gain insight into user behavior. Though it can be a rich source of information, oftentimes parsing through free-text data can be a manual, time-consuming process. That’s where machine learning comes in. Latent Dirichlet Allocation (LDA) is a statistical topic model that generates topics based on word frequency from a set of documents. This unsupervised learning algorithm is particularly useful for finding reasonably accurate mixtures of topics within a given document set. In this talk you’ll learn about how LDA works, as well as practical applications of LDA to solve business problems related to churn.\nAlyssa Wisdom is an experienced Product Analyst at Square. In her current role, Alyssa is responsible for using data science to drive actionable insights into customer behavior and operational efficiency, support decision-making and strategy, and enable others to self-serve data needs. Previously Alyssa worked in growth analytics at OrderAhead, working at the intersection of growth hacking and data analysis to build scalable and repeatable methods for growth and retention. Alyssa holds a B.A. and M.A. in Psychology from Stanford University.",
+        "id": "bythebay-20170920-topic-modeling-with-lda-alyssa-wisdom",
+        "order": 0,
+        "title": "Topic Modeling with LDA"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-242935944",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-09-20",
+        "datetime": "2017-09-20T01:00:00+00:00",
+        "id": "242935944",
+        "title": "Topic Modeling Using Latent Dirichlet Allocation; and Bot Training & Automation",
+        "url": "https://www.meetup.com/bay-area-ai/events/242935944/",
+        "venue_address": "633 Folsom Street, 6th Floor",
+        "venue_name": "Metis San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:alyssa-wisdom",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Square",
+        "name": "Alyssa Wisdom"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170920-topic-modeling-with-lda-alyssa-wisdom",
+      "to": "event:bay-area-ai-242935944",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-242935944",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170920-topic-modeling-with-lda-alyssa-wisdom",
+      "to": "speaker:alyssa-wisdom",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

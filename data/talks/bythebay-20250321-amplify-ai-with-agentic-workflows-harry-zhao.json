@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20250321-amplify-ai-with-agentic-workflows-harry-zhao",
+  "scraped_at": "2026-05-10T08:34:24.809579Z",
+  "source_file": "source/unstructured-data-sf/306180969.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250321-amplify-ai-with-agentic-workflows-harry-zhao",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do: Listen to talks from Milvus and OpenAI and follow along in our hands-on workshop! Enjoy food and beverages.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:00 - 6:30 - From O1 to O3: How Reasoning Transformed AI and Launched a New Generation of Agents, Harry Zhao, OpenAI\n6:30 - 7:00 - Hands-on Tutorial: Building an Agent to Reason about Private Data with OpenAI & Milvus, Stefan Webb, Zilliz\n7:00 - 8:30 - Milvus + OpenAI Joint Office Hour and Networking\nTalk 1: From O1 to O3: How Reasoning Transformed AI and Launched a New Generation of Agents\nAbstract: The year 2024 marked a pivotal turning point in AI development—what began with O1 and O1-mini models culminated in O3 and O3-mini, pushing the boundaries of both performance and affordability. In this talk, we’ll explore how the breakthrough in reasoning capabilities emerged as the missing puzzle piece for building robust, adaptable AI agents. We will recap key milestones of 2024, detailing how rapid improvements in reasoning unlocked new possibilities, reduced costs, and set the stage for more powerful agent-based applications. Finally, we will highlight two of our latest agent solutions—Operator and Deep-Research—shipped in 2025, demonstrating how these models harness next-level reasoning to tackle complex, real-world tasks.\nTalk 2: Hands-on Tutorial: Building an Agent to Reason about Private Data with Milvus, Stefan Webb, Zilliz\nAbstract: In this tutorial, we build an agent from scratch to reason over the Milvus documentation and Discord server history. We demonstrate fundamental agentic concepts such as long-term memory, tool use, reflection, conditional execution flow, and reasoning models. Our agent’s design is informed by recent open-source attempts to reproduce Deep Research.\nSpeaker 1 Bio: Harry Zhao\nHarry Zhao is a Member of Technical Staff at OpenAI, where he works on ChatGPT Deep Research that recently launched on Feb 3. He completed his BS and MS in EECS at UC Berkeley, focusing on NLP and machine learning. Before OpenAI, Harry was a founding engineer at Arcwise, building AI-driven data analysis tools.\nSpeaker 2 Bio: Stefan Webb\nStefan Webb is a Developer Advocate at Zilliz, where he advocates for the open-source vector database, Milvus. Prior to this, he spent three years in the industry as an Applied ML Researcher at Twitter and Meta, collaborating with product teams to tackle their most complex challenges.\nStefan holds a PhD from the University of Oxford and has published papers at leading machine learning conferences such as NeurIPS, ICLR, and ICML. He is passionate about generative AI and is eager to leverage his deep technical expertise to contribute to the open-source community.\nWhen:\nMarch 20, 2025\n5:30 PM\nWhere:\nThis is an in-person event. Registration is required to get into the event. Registration in advance will close 2 days before the event.\nWho:\nMilvus and OpenAI users, AI Infra Engineering teams, AI app startup founders.\nThis event is sponsored by Zilliz ((maintainers of Milvus). Special thanks to SAP for the venue and support.",
+        "id": "bythebay-20250321-amplify-ai-with-agentic-workflows-harry-zhao",
+        "order": 0,
+        "title": "Amplify AI with Agentic Workflows"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-306180969",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2025-03-21",
+        "datetime": "2025-03-21T00:30:00+00:00",
+        "id": "306180969",
+        "title": "Unstructured Data Workshop with Milvus and OpenAI",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/306180969/",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "venue_name": "SAP Building 1"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:harry-zhao",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Harry Zhao"
+      }
+    },
+    {
+      "id": "speaker:stefan-webb",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Stefan Webb"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20250321-amplify-ai-with-agentic-workflows-harry-zhao",
+      "to": "event:unstructured-data-sf-306180969",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-306180969",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250321-amplify-ai-with-agentic-workflows-harry-zhao",
+      "to": "speaker:harry-zhao",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20250321-amplify-ai-with-agentic-workflows-harry-zhao",
+      "to": "speaker:stefan-webb",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

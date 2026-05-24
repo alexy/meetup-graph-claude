@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170601-supercharging-your-microservices-with-grpc-an-zack-angelo",
+  "scraped_at": "2026-05-10T08:34:24.587361Z",
+  "source_file": "source/sf-scala/239942879.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170601-supercharging-your-microservices-with-grpc-an-zack-angelo",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Zack Angelo\nIn this talk we explore how to build Scala services with gRPC, a polyglot service communication framework from Google. Moving from a monolithic application to one composed of services is process fraught with tradeoffs. gRPC helps you to navigate many of those tradeoffs by baking in many of the best practices learned over the years of running a production RPC system at Google.\nZack Angelo is a software architect at BigCommerce. He is a three-time startup founder. His most recent startup Zing, a cloud based point of sale, was acquired by BigCommerce in April 2015. He's previously worked in the energy and telecom industries developing real-time streaming data analytics systems and VoIP application platforms, respectively.",
+        "id": "bythebay-20170601-supercharging-your-microservices-with-grpc-an-zack-angelo",
+        "order": 0,
+        "title": "Supercharging your Microservices with gRPC and Scala"
+      }
+    },
+    {
+      "id": "event:sf-scala-239942879",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-06-01",
+        "datetime": "2017-06-01T01:00:00+00:00",
+        "id": "239942879",
+        "title": "gRPC and Databases with Scala",
+        "url": "https://www.meetup.com/sf-scala/events/239942879/",
+        "venue_address": "685 Market Street",
+        "venue_name": "BigCommerce"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:zack-angelo",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "BigCommerce",
+        "name": "Zack Angelo"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170601-supercharging-your-microservices-with-grpc-an-zack-angelo",
+      "to": "event:sf-scala-239942879",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-239942879",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170601-supercharging-your-microservices-with-grpc-an-zack-angelo",
+      "to": "speaker:zack-angelo",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20160219-unveiling-scalatest-3-0-bill-venners",
+  "scraped_at": "2026-05-10T08:34:24.701388Z",
+  "source_file": "source/sf-scala/228620135.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160219-unveiling-scalatest-3-0-bill-venners",
+      "type": "Talk",
+      "properties": {
+        "abstract": "ScalaTest 3.0 is a major upgrade to ScalaTest. It's major new features are Scala.js support and new async testing styles. In this talk, Bill Venners will recount the journey to 3.0 and focus in particular on how to take advantage of ScalaTests new async testing styles.",
+        "id": "bythebay-20160219-unveiling-scalatest-3-0-bill-venners",
+        "order": 0,
+        "title": "Unveiling ScalaTest 3.0!"
+      }
+    },
+    {
+      "id": "event:sf-scala-228620135",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-02-19",
+        "datetime": "2016-02-19T02:30:00+00:00",
+        "id": "228620135",
+        "title": "ScalaTest 3.0 and Agile Data Science with Scala",
+        "url": "https://www.meetup.com/sf-scala/events/228620135/",
+        "venue_address": "225 Bush Street Suite 700",
+        "venue_name": "Nitro"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:bill-venners",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Bill Venners"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160219-unveiling-scalatest-3-0-bill-venners",
+      "to": "event:sf-scala-228620135",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-228620135",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160219-unveiling-scalatest-3-0-bill-venners",
+      "to": "speaker:bill-venners",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

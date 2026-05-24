@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240918-connecting-your-unstructured-data-with-genera-yi-ding",
+  "scraped_at": "2026-05-10T08:34:24.814442Z",
+  "source_file": "source/unstructured-data-sf/302334199.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240918-connecting-your-unstructured-data-with-genera-yi-ding",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - Yi Ding \n6:35 - 7:00 - Kunal Sonalkar, Data Scientist, Nordstrom\n7:05 - 7:30 - Hakan Tekgul, Solutions Architect, Arize\n7:45 - 8:30 - Networking\nTech Talk 1: Small to Slide: RAG using MultiModal LLMs.\nAbstract: With the advent of LLMs understanding multimodal inputs, document understanding has a new tool in the arsenal. Elliot Kang and I built an example using Milvus and a real slide deck to show how you can use retrieval in combination with multimodal input to get better results from your existing powerpoint slides.\nTech talk 2: Transformers4rec: Harnessing NLP Advancements for Cutting-Edge Recommender Systems\nAbstract: Transformers4rec is a powerful open-source library by NVIDIA that bridges the gap between natural language processing (NLP) and recommender systems. We will review how it leverages state-of-the-art Transformer architectures from NLP to enhance sequential and session-based recommendation tasks.\nTech Talk 3: Evaluating RAG pipelines built on unstructured data\nAbstract: This talk will cover different techniques for evaluating a RAG pipeline built on unstructured data. Standing up a basic RAG pipeline is becoming easier every day, however identifying weak points in your application or dataset remains a challenge. We'll review how you can use traditional assertion-based evaluation techniques, LLM-as-a-Judge approaches, and embedding visualization tools to improve your pipeline using Arize Phoenix.\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nSeptember 17, 2024\n5:30PM\nWhere:\nThis is an in-person event. Registration is required to get into the event. Registration in advance will close 2 days before the event.\nThis event is co-sponsored by Zilliz (maintainers of Milvus), SAP, and Arize",
+        "id": "bythebay-20240918-connecting-your-unstructured-data-with-genera-yi-ding",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative AI"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-302334199",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-09-18",
+        "datetime": "2024-09-18T00:30:00+00:00",
+        "id": "302334199",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334199/",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "venue_name": "SAP Building 1"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:yi-ding",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Yi Ding"
+      }
+    },
+    {
+      "id": "speaker:kunal-sonalkar",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Nordstrom",
+        "name": "Kunal Sonalkar"
+      }
+    },
+    {
+      "id": "speaker:hakan-tekgul",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Arize",
+        "name": "Hakan Tekgul"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240918-connecting-your-unstructured-data-with-genera-yi-ding",
+      "to": "event:unstructured-data-sf-302334199",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334199",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240918-connecting-your-unstructured-data-with-genera-yi-ding",
+      "to": "speaker:yi-ding",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240918-connecting-your-unstructured-data-with-genera-yi-ding",
+      "to": "speaker:kunal-sonalkar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240918-connecting-your-unstructured-data-with-genera-yi-ding",
+      "to": "speaker:hakan-tekgul",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

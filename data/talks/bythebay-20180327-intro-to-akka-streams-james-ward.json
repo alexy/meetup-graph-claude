@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20180327-intro-to-akka-streams-james-ward",
+  "scraped_at": "2026-05-10T08:34:25.165581Z",
+  "source_file": "source/scala-bay/248179725.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180327-intro-to-akka-streams-james-ward",
+      "type": "Talk",
+      "properties": {
+        "abstract": "James Ward, \"Intro to Akka Streams\"\n\nAkka Streams is an actor-based stream processing library which supports reactive back-pressure. This session will walk through the basics of what Akka Streams is and how to use it. You’ll learn from a few slides, live coding, and some real-world examples the basics of Akka Streams.\n\nSpeaker Bio\n\nJames Ward is the Engineering and Open Source Ambassador at Salesforce.com. He tweets as @_JamesWard and blogs on jamesward.com.\n\nMore: http://www.jamesward.com/about-james-ward/\n\nSchedule\n\n6:30-7:00 - networking (pizza, beer)\n7:00-7:10 - announcements etc.\n7:10-8:00 - talk\n8:00-8:30 - more networking",
+        "id": "bythebay-20180327-intro-to-akka-streams-james-ward",
+        "order": 0,
+        "title": "Intro to Akka Streams"
+      }
+    },
+    {
+      "id": "event:scala-bay-248179725",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2018-03-27",
+        "datetime": "2018-03-27T02:00:00+00:00",
+        "id": "248179725",
+        "title": "James Ward, Intro to Akka Streams",
+        "url": "https://www.meetup.com/scala-bay/events/248179725/",
+        "venue_address": "502 Emerson St",
+        "venue_name": "Salesforce"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:james-ward",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "James Ward"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180327-intro-to-akka-streams-james-ward",
+      "to": "event:scala-bay-248179725",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-248179725",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180327-intro-to-akka-streams-james-ward",
+      "to": "speaker:james-ward",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

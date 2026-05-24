@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20141014-putting-functional-programming-to-work-vlad-patryshev",
+  "scraped_at": "2026-05-10T08:34:25.207179Z",
+  "source_file": "source/scala-bay/208276632.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20141014-putting-functional-programming-to-work-vlad-patryshev",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Short description.\nFrequently among the benefits claimed of functional programming are promises of safety, composability, and reusability, but it is often difficult to connect these ideas with production code solving real-world problems. In this session, we dig into one particular tool: the state monad, to see how it lives up to these promises and helps power the Versal platform.\nSpeaker's short bio.\nA functional programmer with advanced experience developing production software in Scala and Java, James is passionate about continuous learning and keeping just outside of his comfort zone.\nJames helps build the Scala backend of the Versal platform. When not knee-deep in type theory, he can be found running, cycling, and stargazing around the San Francisco Bay Area.\n2.",
+        "id": "bythebay-20141014-putting-functional-programming-to-work-vlad-patryshev",
+        "order": 0,
+        "title": "Putting functional programming to work"
+      }
+    },
+    {
+      "id": "event:scala-bay-208276632",
+      "type": "Event",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2014-10-14",
+        "datetime": "2014-10-14T02:00:00+00:00",
+        "id": "208276632",
+        "title": "James Earl Douglas; Vlad Patryshev",
+        "url": "https://www.meetup.com/scala-bay/events/208276632/",
+        "venue_address": "100 W. Evelyn Ave",
+        "venue_name": "Clari Inc."
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:vlad-patryshev",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Vlad Patryshev"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20141014-putting-functional-programming-to-work-vlad-patryshev",
+      "to": "event:scala-bay-208276632",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-208276632",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20141014-putting-functional-programming-to-work-vlad-patryshev",
+      "to": "speaker:vlad-patryshev",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

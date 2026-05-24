@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20221215-presenters-sonia-singh-and-alfredo-ballon-sonia-singh",
+  "scraped_at": "2026-05-10T08:34:26.612037Z",
+  "source_file": "source/big-data-developers-in-nyc/289676865.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20221215-presenters-sonia-singh-and-alfredo-ballon-sonia-singh",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Sonia is a Community Manager for the IBM Data Science and Natural Language AI communities. She also created and manages the \"IBM Technical Meetup Group hosted by IBM\" which hosts various technical topics on a weekly basis, and also manages the \"Data Science & Data Engineering Community and Guild\" internal within IBM.\n\nWith a degree in Computer Science and certifications in Project Management and Data Science, her experience includes software development, user interface design, customer research, people management, project management, operations management, data science. Her IBM tenure of 15+ years includes a Corporate Service Corps assignment in Malaysia, which provides high-performing IBMers with quality leadership development, and a more recent IBM Service Corps assignment with the Canadian Council for Aboriginal Business.",
+        "id": "bythebay-20221215-presenters-sonia-singh-and-alfredo-ballon-sonia-singh",
+        "order": 0,
+        "title": "Presenters: Sonia Singh and Alfredo Ballon"
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-289676865",
+      "type": "Event",
+      "properties": {
+        "city": "",
+        "date": "2022-12-15",
+        "datetime": "2022-12-15T20:30:00+00:00",
+        "id": "289676865",
+        "title": "Technical Meetup Group hosted by IBM - 2022 Accomplishments and 2023 Plan",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/289676865/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:sonia-singh",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Sonia Singh"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20221215-presenters-sonia-singh-and-alfredo-ballon-sonia-singh",
+      "to": "event:big-data-developers-in-nyc-289676865",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-289676865",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20221215-presenters-sonia-singh-and-alfredo-ballon-sonia-singh",
+      "to": "speaker:sonia-singh",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

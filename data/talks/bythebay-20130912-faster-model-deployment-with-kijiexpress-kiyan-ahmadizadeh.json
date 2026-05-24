@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20130912-faster-model-deployment-with-kijiexpress-kiyan-ahmadizadeh",
+  "scraped_at": "2026-05-10T08:34:24.876168Z",
+  "source_file": "source/hadoopsf/136499862.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130912-faster-model-deployment-with-kijiexpress-kiyan-ahmadizadeh",
+      "type": "Talk",
+      "properties": {
+        "abstract": "KijiExpress is an open source tool for building ad-hoc data processing pipelines and developing & deploying machine learning models. Express is built around Scalding (Scala + Cascading) and includes advanced features for defining ML model configuration. In this talk, Kiyan will introduce the concepts in KijiExpress and describe how it enables faster iteration on ML model development.\n\n\"Developing Applications with Hadoop 2.0 and YARN\"\n\nHortonworks Inc, Vinod Kumar Vavilapalli\n\nHadoop 2.0 is approaching. A defining characteristic of Hadoop 2.0 is its next generation resource management framework called YARN (http://hortonworks.com/hadoop/yarn/). YARN enables Hadoop to grow beyond its MapReduce origins to embrace multiple workloads spanning interactive queries, batch processing, streaming & more.\n\nIn this session we will examine YARN architecture and how to get started developing for the next generation of Hadoop.",
+        "id": "bythebay-20130912-faster-model-deployment-with-kijiexpress-kiyan-ahmadizadeh",
+        "order": 0,
+        "title": "Faster Model Deployment with KijiExpress"
+      }
+    },
+    {
+      "id": "event:hadoopsf-136499862",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2013-09-12",
+        "datetime": "2013-09-12T01:00:00+00:00",
+        "id": "136499862",
+        "title": "September SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/136499862/",
+        "venue_address": "375 Alabama St #350",
+        "venue_name": "WibiData"
+      }
+    },
+    {
+      "id": "group:hadoopsf",
+      "type": "Group",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      }
+    },
+    {
+      "id": "speaker:kiyan-ahmadizadeh",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "WibiData",
+        "name": "Kiyan Ahmadizadeh"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20130912-faster-model-deployment-with-kijiexpress-kiyan-ahmadizadeh",
+      "to": "event:hadoopsf-136499862",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-136499862",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130912-faster-model-deployment-with-kijiexpress-kiyan-ahmadizadeh",
+      "to": "speaker:kiyan-ahmadizadeh",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

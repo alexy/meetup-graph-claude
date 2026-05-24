@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20140320-sbt-in-action-joint-event-with-play-framework-josh-suereth",
+  "scraped_at": "2026-05-10T08:34:25.222207Z",
+  "source_file": "source/scala-bay/170549992.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140320-sbt-in-action-joint-event-with-play-framework-josh-suereth",
+      "type": "Talk",
+      "properties": {
+        "abstract": "This is a joint event with Play Framework: http://www.meetup.com/PlayFramework/events/170541392/\n\nWe'll have Josh Suereth (https://twitter.com/jsuereth), active contributor to sbt (http://www.scala-sbt.org/) and author of Scala In Depth (http://www.manning.com/suereth/) / sbt in Action (http://manning.com/suereth2/), to give an introduction to sbt and show how it can make your development flow better.\n\nOur Topic\n\nOne of our most requested topics has been an introduction to sbt. The learning curve can feel quite steep, which gets worse when coming from a Java background.\n\nThe talk will be accessible to people who have no used Scala or sbt extensively, but will also include useful examples and tips for seasoned sbt users. Full talk description is incoming.\n\nJosh will speak for the full hour, and will include a Q&A after. Food and drinks will be provided.\n\nSchedule\n\nWe'll be starting at 7:00pm, so please come a little early if you're coming from SF.\n\nMeet and greet with food / drinks\n\n\"sb",
+        "id": "bythebay-20140320-sbt-in-action-joint-event-with-play-framework-josh-suereth",
+        "order": 0,
+        "title": "SBT in Action\" - joint event with Play Framework"
+      }
+    },
+    {
+      "id": "event:scala-bay-170549992",
+      "type": "Event",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2014-03-20",
+        "datetime": "2014-03-20T01:30:00+00:00",
+        "id": "170549992",
+        "title": "Josh Suereth, \"SBT in Action\" - joint event with Play Framework",
+        "url": "https://www.meetup.com/scala-bay/events/170549992/",
+        "venue_address": "2027 Stierlin Ct.",
+        "venue_name": "LinkedIn"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:josh-suereth",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Josh Suereth"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20140320-sbt-in-action-joint-event-with-play-framework-josh-suereth",
+      "to": "event:scala-bay-170549992",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-170549992",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140320-sbt-in-action-joint-event-with-play-framework-josh-suereth",
+      "to": "speaker:josh-suereth",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

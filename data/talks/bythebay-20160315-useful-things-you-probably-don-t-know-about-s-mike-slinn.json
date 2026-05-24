@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20160315-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+  "scraped_at": "2026-05-10T08:34:25.171565Z",
+  "source_file": "source/scala-bay/224243967.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160315-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Title\n\nMike Slinn, Useful Things You Probably Don't Know About SBT, Scala and Play\n\nAbstract\n\nMike Slinn will cover selected topics from the following ScalaCourses.com courses:\n\n Introduction to Scala (https://www.scalacourses.com/showCourse/40)\n Intermediate Scala (https://www.scalacourses.com/showCourse/45)\n Introduction to Play Framework for Scala (https://www.scalacourses.com/showCourse/39)\n Wildcard SSL Certificates for Federated Services (https://www.scalacourses.com/showCourse/56)\n\nThis fast-paced tour through the highlights of four courses will cover topics ranging from simple to advanced facts and techniques. Architecture, devops, tools and programming will be addressed. The topics will be useful and powerful but not well-known, or at least not widely practiced or written about. At least one fundamental Spark-related example will be discussed. Dots you may not know about or fully understand will be connected.\n\nBio\n\nMike Slinn is Managing Editor of http://ScalaCourses.com , whi",
+        "id": "bythebay-20160315-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+        "order": 0,
+        "title": "Useful Things You Probably Don't Know About SBT, Scala and Play"
+      }
+    },
+    {
+      "id": "event:scala-bay-224243967",
+      "type": "Event",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2016-03-15",
+        "datetime": "2016-03-15T01:30:00+00:00",
+        "id": "224243967",
+        "title": "Mike Slinn, Useful Things You Probably Don't Know About SBT, Scala and Play",
+        "url": "https://www.meetup.com/scala-bay/events/224243967/",
+        "venue_address": "2027 Stierlin Ct.",
+        "venue_name": "LinkedIn"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:mike-slinn",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Mike Slinn"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160315-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "to": "event:scala-bay-224243967",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-224243967",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160315-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "to": "speaker:mike-slinn",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

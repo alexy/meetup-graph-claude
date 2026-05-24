@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170203-migrating-monolith-to-microservices-anand-patel",
+  "scraped_at": "2026-05-10T08:34:25.549637Z",
+  "source_file": "source/sf-data-and-ai-engineering/237248780.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170203-migrating-monolith-to-microservices-anand-patel",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Anand Patel, Runnable\nWhile there are many who claim adopting a microservices architecture will yield several benefits, it usually takes more work for those benefits to be fully experienced. This is especially true with monolith-to-microservices migrations, where developers still think in an synchronous REST mindset. In this talk, we'll discuss what is required to move to async services and how adopting an event-driven architecture can promote self-healing, rapid prototyping, and graceful degradation. We will also go over some guidelines on how to implement this kind of architecture with examples using RabbitMQ.",
+        "id": "bythebay-20170203-migrating-monolith-to-microservices-anand-patel",
+        "order": 0,
+        "title": "Migrating Monolith to Microservices"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-237248780",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-02-03",
+        "datetime": "2017-02-03T02:30:00+00:00",
+        "id": "237248780",
+        "title": "[joint: register=>reactive.community] Spark < MPI and Monolith => Microservices",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/237248780/",
+        "venue_address": "1481 Folsom St.",
+        "venue_name": "Runnable"
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:anand-patel",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Runnable",
+        "name": "Anand Patel"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170203-migrating-monolith-to-microservices-anand-patel",
+      "to": "event:sf-data-and-ai-engineering-237248780",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-237248780",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170203-migrating-monolith-to-microservices-anand-patel",
+      "to": "speaker:anand-patel",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

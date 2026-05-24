@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20150527-near-realtime-webpage-recommendations-one-at-ashok-venkatesan",
+  "scraped_at": "2026-05-10T08:34:24.318479Z",
+  "source_file": "source/bay-area-ai/222541049.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150527-near-realtime-webpage-recommendations-one-at-ashok-venkatesan",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Today, information overload is a problem pertinent to most information systems being used on a daily basis, with the World Wide Web chief among them. One of the key goals of Stumbleupon, a web content recommendation platform, is to ease this overload, while empowering discovery of relevant information. Our subscription to the “one recommendation at a time” concept focuses in producing an experience of serendipity as users continue to surf the web, while giving us the flexibility to reactively make recommendations near-realtime. In this presentation we will present the challenges that need to be addressed to extract content features from a web page and making near-realtime recommendations using them. We will describe the main algorithmic approach as well as the general architecture motivating our choices of tools, languages and platforms.\nAshok Venkatesan is Senior Research Engineer at StumbleUpon Inc. He has extensively worked in the areas of Recommendation Systems, Topic Modeling, Text Mining and Machine Learning. Prior to his experience in the Industry, he completed a MS in Computer Science at Arizona State University.",
+        "id": "bythebay-20150527-near-realtime-webpage-recommendations-one-at-ashok-venkatesan",
+        "order": 0,
+        "title": "Near-Realtime Webpage Recommendations “One at a time” Using Content Features"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-222541049",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-05-27",
+        "datetime": "2015-05-27T22:00:00+00:00",
+        "id": "222541049",
+        "title": "TEC Summit Tech Track",
+        "url": "https://www.meetup.com/bay-area-ai/events/222541049/",
+        "venue_address": "301 Battery St",
+        "venue_name": "Bently Reserve"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:ashok-venkatesan",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "StumbleUpon Inc",
+        "name": "Ashok Venkatesan"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150527-near-realtime-webpage-recommendations-one-at-ashok-venkatesan",
+      "to": "event:bay-area-ai-222541049",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-222541049",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150527-near-realtime-webpage-recommendations-one-at-ashok-venkatesan",
+      "to": "speaker:ashok-venkatesan",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

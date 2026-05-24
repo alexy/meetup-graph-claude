@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20220624-deploying-on-desktop-with-onnx-alexander-zhang",
+  "scraped_at": "2026-05-10T08:34:24.165958Z",
+  "source_file": "source/bay-area-ai/286632590.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20220624-deploying-on-desktop-with-onnx-alexander-zhang",
+      "type": "Talk",
+      "properties": {
+        "abstract": null,
+        "id": "bythebay-20220624-deploying-on-desktop-with-onnx-alexander-zhang",
+        "order": 2,
+        "title": "Deploying on desktop with ONNX"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-286632590",
+      "type": "Event",
+      "properties": {
+        "city": null,
+        "date": "2022-06-24",
+        "datetime": "2022-06-24T16:00:00+00:00",
+        "id": "286632590",
+        "title": "[Event Promotion]  ONNX Community Meetup @ Microsoft (LF AI & DATA DAY)",
+        "url": "https://www.meetup.com/bay-area-ai/events/286632590/",
+        "venue_address": null,
+        "venue_name": null
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:alexander-zhang",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Topaz Labs",
+        "name": "Alexander Zhang"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20220624-deploying-on-desktop-with-onnx-alexander-zhang",
+      "to": "event:bay-area-ai-286632590",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-286632590",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20220624-deploying-on-desktop-with-onnx-alexander-zhang",
+      "to": "speaker:alexander-zhang",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

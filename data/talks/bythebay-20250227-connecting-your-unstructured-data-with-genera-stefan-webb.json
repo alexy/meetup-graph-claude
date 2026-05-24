@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+  "scraped_at": "2026-05-10T08:34:24.765014Z",
+  "source_file": "source/unstructured-data-sf/305235082.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:00 - 6:20 - Stefan Webb, Combining Lexical and Semantic Search with Milvus 2.5\n6:20 - 6:40 - Arnab Sinha & Jean Malha, Come learn about Bedrock’s Latest feature: Bedrock Data Automation (Preview) to simplify processing unstructured data\n6.40 - 7:00 - Anushrut Gupta, Pushing AI's accuracy on unstructured data to 100% with PromptQL\n7:00 - 8:30 - Office hours and networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nTech Talk 1: Combining Lexical and Semantic Search with Milvus 2.5\nTech Talk 2: Come learn about Bedrock’s Latest feature: Bedrock Data Automation (Preview) to simplify processing unstructured data\nAbstract: Bedrock Data Automation (BDA) is a cloud-based service that simplifies the process of extracting valuable insights from unstructured content—such as documents, images, video, and audio. Come learn how BDA leverages generative AI to automate the transformation of multi-modal data into structured formats, enabling developers to build applications and automate complex workflows with greater speed and accuracy.\nTech Talk 3: Pushing AI's accuracy on unstructured data to 100% with PromptQL\nAbstract: Explore a next-gen approach with dynamic query planning, programmatic runtime and structured memory that dramatically outperforms traditional RAG techniques. Learn how this approach transforms the integration of unstructured data—from vector databases and text corpora to large-scale document repositories—delivering 100% accuracy in benchmarks and ensuring robust, repeatable, and scalable results.\nWhen:\nFeb 26, 2025\n5:30PM\nWhere:\nThis is an in-person event! Registration is required to get in. Registration will close 2 days before the event. Sponsored by Zilliz (maintainers of Milvus). Special thanks to AWS for the venue and support.",
+        "id": "bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative LLMs"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-305235082",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-02-27",
+        "datetime": "2025-02-27T01:30:00+00:00",
+        "id": "305235082",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/305235082/",
+        "venue_address": "First Market Tower, 525 Market St, 2nd Flr, San Francisco, CA 94105",
+        "venue_name": "AWS Gen AI Loft"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:stefan-webb",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Stefan Webb"
+      }
+    },
+    {
+      "id": "speaker:arnab-sinha",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Senior Solutions",
+        "name": "Arnab Sinha"
+      }
+    },
+    {
+      "id": "speaker:jean-malha",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "AWS Bedrock",
+        "name": "Jean Malha"
+      }
+    },
+    {
+      "id": "speaker:anushrut-gupta",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Hasura",
+        "name": "Anushrut Gupta"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+      "to": "event:unstructured-data-sf-305235082",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-305235082",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+      "to": "speaker:stefan-webb",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+      "to": "speaker:arnab-sinha",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+      "to": "speaker:jean-malha",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20250227-connecting-your-unstructured-data-with-genera-stefan-webb",
+      "to": "speaker:anushrut-gupta",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

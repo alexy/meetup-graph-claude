@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20160517-everyone-s-guide-to-event-sourcing-and-async-jason-swartz",
+  "scraped_at": "2026-05-10T08:34:25.314530Z",
+  "source_file": "source/scala-bay/229055974.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160517-everyone-s-guide-to-event-sourcing-and-async-jason-swartz",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Title\n\nJason Swartz, Everyone's guide to event-sourcing and async messaging for microservices\n\nAbstract\n\nWe're hitting all the buzzwords! In this talk we'll look at why & how to use event-sourcing to introduce immutability to your regular db's tables. We'll also discuss asynchronous, non-blocking microservices and examine some of the more straightforward solutions for building them. If you're looking for a complex architecture guide, this ain't it. It's microservice event-sourcing and async message for the 99%.\n\nBio\n\nJason Swartz is the author of \"Learning Scala\" from O'Reilly Media and a Software Engineer in the San Francisco Bay Area. He has developed Scala applications at Netflix and Mesosphere and is currently learning to live sweaty at ClassPass.\n\nSchedule\n\n6:30-7:00 - networking\n7:00-7:10 - announcements etc\n7:10-~8:40 - talk\n8:40-9:00 - networking",
+        "id": "bythebay-20160517-everyone-s-guide-to-event-sourcing-and-async-jason-swartz",
+        "order": 0,
+        "title": "Everyone's guide to event-sourcing and async messaging for micros"
+      }
+    },
+    {
+      "id": "event:scala-bay-229055974",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2016-05-17",
+        "datetime": "2016-05-17T01:30:00+00:00",
+        "id": "229055974",
+        "title": "Jason Swartz, Everyone's guide to event-sourcing and async messaging for micros",
+        "url": "https://www.meetup.com/scala-bay/events/229055974/",
+        "venue_address": "1154 Sonora Court",
+        "venue_name": "Clari Inc"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:jason-swartz",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jason Swartz"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160517-everyone-s-guide-to-event-sourcing-and-async-jason-swartz",
+      "to": "event:scala-bay-229055974",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-229055974",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160517-everyone-s-guide-to-event-sourcing-and-async-jason-swartz",
+      "to": "speaker:jason-swartz",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

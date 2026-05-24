@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20141209-the-state-of-scala-code-style-christopher-ols-jaime-jorge",
+  "scraped_at": "2026-05-10T08:34:25.106639Z",
+  "source_file": "source/scala-bay/215725532.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20141209-the-state-of-scala-code-style-christopher-ols-jaime-jorge",
+      "type": "Talk",
+      "properties": {
+        "abstract": "We will have two talks.\n\nTitle: Jaime Jorge, The state of Scala code style and quality\n\nDescription:\n\nHow is Scala code style evolving? What are the current code styles we can follow? Are they being respected? What code styling rules do these code standards have in common? These are interesting questions I'm posing due to studying Scala code style. My team and I collected data from Scala open source projects and discovered interesting data on their code quality: common issues, common discrepancies with the scala coding standards etc. This talk will be a great follow-up on the concepts Martin Odersky addressed in a previous Scala meetup.\n\nSpeaker's short bio.\n\nJaime is a Scala devotee for over 3 years having studied software metrics and code duplication using Scala in his master thesis and now building a company using Scala to serve Scala developers (www.codacy.com (http://www.codacy.com/)).Title: Jaime Jorge, The state of Scala code style and quality\n\nTitle: Christopher Olson, TreodeDB",
+        "id": "bythebay-20141209-the-state-of-scala-code-style-christopher-ols-jaime-jorge",
+        "order": 0,
+        "title": "The State of Scala Code Style\", Christopher Olson, \"TreodeDB"
+      }
+    },
+    {
+      "id": "event:scala-bay-215725532",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2014-12-09",
+        "datetime": "2014-12-09T03:00:00+00:00",
+        "id": "215725532",
+        "title": "Jaime Jorge, \"The State of Scala Code Style\", Christopher Olson, \"TreodeDB\"",
+        "url": "https://www.meetup.com/scala-bay/events/215725532/",
+        "venue_address": "4440 El Camino Real, Los Altos, CA, Palo Alto, CA",
+        "venue_name": "Box"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:jaime-jorge",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jaime Jorge"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20141209-the-state-of-scala-code-style-christopher-ols-jaime-jorge",
+      "to": "event:scala-bay-215725532",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-215725532",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20141209-the-state-of-scala-code-style-christopher-ols-jaime-jorge",
+      "to": "speaker:jaime-jorge",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

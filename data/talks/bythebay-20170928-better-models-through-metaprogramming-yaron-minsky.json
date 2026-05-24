@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170928-better-models-through-metaprogramming-yaron-minsky",
+  "scraped_at": "2026-05-10T08:34:24.540531Z",
+  "source_file": "source/sf-scala/243125720.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170928-better-models-through-metaprogramming-yaron-minsky",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Note: Functional Programming for Machine Learning is one of the key directions explored by this year's Scale By the Bay (http://scale.bythebay.io) conference held at Twitter, November 16-18.\n\nAs a trading firm, Jane Street (https://www.janestreet.com/) needs the ability to work collaboratively on quantitative models, with many users defining, modifying, debugging, and viewing the results in real-time. These models need to be scalable, both in terms of performance and in terms of the understandability of the resulting system.\n\nWe will discuss some traditional approaches to this problem in the financial industry, as well the system we built for this case, called Webs. Webs uses a graph-based computational model specified using OCaml as a metalanguage to allow for concise description of programs, while still making the models easy to inspect, customize and debug. This is coupled with a parallel, incremental, evaluation engine for real-time results efficiently.\n\nYaron Minsky joined Jane St",
+        "id": "bythebay-20170928-better-models-through-metaprogramming-yaron-minsky",
+        "order": 0,
+        "title": "Better Models through Metaprogramming"
+      }
+    },
+    {
+      "id": "event:sf-scala-243125720",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-09-28",
+        "datetime": "2017-09-28T01:00:00+00:00",
+        "id": "243125720",
+        "title": "Yaron Minsky: Better Models through Metaprogramming",
+        "url": "https://www.meetup.com/sf-scala/events/243125720/",
+        "venue_address": "760 Market St.",
+        "venue_name": "Credit Karma"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:yaron-minsky",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Yaron Minsky"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170928-better-models-through-metaprogramming-yaron-minsky",
+      "to": "event:sf-scala-243125720",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-243125720",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170928-better-models-through-metaprogramming-yaron-minsky",
+      "to": "speaker:yaron-minsky",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+  "scraped_at": "2026-05-10T08:34:24.785458Z",
+  "source_file": "source/unstructured-data-sf/301140497.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - Alexandre Bonnet, Lead ML Solutions Engineer, Encord\n6:35 - 7:00 - Joe Maionchi, VP R&D, and Hendrik Krack, Developer Advocate, Aparavi\n7:05 - 7:30 - Frank Liu, Head of AI/M, Zilliz\n7:35 - 7:45 - Community demo\n7:45 - 8:30 - Networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nTech Talk 1: Garbage In, Garbage Out: Why poor data curation is killing your AI models (and how to fix it)\nAbstract: Enterprises have traditionally prioritized data quantity, assuming more is better for AI performance. However, a new reality is setting in: high-quality data, not just volume, is the key. This shift exposes a critical gap – many organizations struggle to understand their existing data and lack effective curation strategies and tools. This talk dives into these data challenges and explores the methods of automating data curation.\nTech Talk 2: It's your unstructured data: How to get your GenAI app to production (and speed up your delivery)\nAbstract: So you've successfully built a GenAI app POC for your company -- now comes the hard part: bringing it to production. Aparavi addresses the challenges of AI projects while addressing data privacy and PII. Our Service for RAG helps AI developers and data scientists to scale their app to 1000s to millions of users using corporate unstructured data. Aparavi’s AI Data Loader cleans, prepares and then loads only the relevant unstructured data for each AI project/app, enabling you to operationalize the creation of GenAI apps easily and accurately while giving you the time to focus on what you really want to do - building a great AI application with useful and relevant context. All within your environment and never having to share private corporate data with anyone - not even Aparavi.\nTalk 3: Multimodal Embeddings\nAbstract: Frank Liu will walk through the history of embeddings and how we got to the cool embedding models used today. He'll end with a demo on how multimodal RAG is used.\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nJuly 16, 2024\n5:30PM\nWhere:\nThis is an in-person event! Registration is required to get in. Registration will close 2 days before the event. Co-sponsored by Aparavi, Encord, and Zilliz (maintainers of Milvus).\nCan’t make it in person? Join us virtually on Twitch:\nhttps://www.twitch.tv/vectordatabase",
+        "id": "bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative LLMs"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-301140497",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-07-17",
+        "datetime": "2024-07-17T00:30:00+00:00",
+        "id": "301140497",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301140497/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:alexandre-bonnet",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Alexandre Bonnet"
+      }
+    },
+    {
+      "id": "speaker:joe-maionchi",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Joe Maionchi"
+      }
+    },
+    {
+      "id": "speaker:hendrik-krack",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Hendrik Krack"
+      }
+    },
+    {
+      "id": "speaker:frank-liu",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Frank Liu"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+      "to": "event:unstructured-data-sf-301140497",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301140497",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+      "to": "speaker:alexandre-bonnet",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+      "to": "speaker:joe-maionchi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+      "to": "speaker:hendrik-krack",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240717-connecting-your-unstructured-data-with-genera-alexandre-bonnet",
+      "to": "speaker:frank-liu",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

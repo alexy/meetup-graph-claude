@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20230811-retrieval-augmented-generation-pipelines-with-tuana-celik",
+  "scraped_at": "2026-05-10T08:34:24.799198Z",
+  "source_file": "source/unstructured-data-sf/295102315.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230811-retrieval-augmented-generation-pipelines-with-tuana-celik",
+      "type": "Talk",
+      "properties": {
+        "abstract": null,
+        "id": "bythebay-20230811-retrieval-augmented-generation-pipelines-with-tuana-celik",
+        "order": 1,
+        "title": "Retrieval Augmented Generation Pipelines with Haystack"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-295102315",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-08-11",
+        "datetime": "2023-08-11T00:30:00+00:00",
+        "id": "295102315",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/295102315/",
+        "venue_address": "1974 Union St",
+        "venue_name": "1974 Union St"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:tuana-celik",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "deepset",
+        "name": "Tuana Celik"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20230811-retrieval-augmented-generation-pipelines-with-tuana-celik",
+      "to": "event:unstructured-data-sf-295102315",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-295102315",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230811-retrieval-augmented-generation-pipelines-with-tuana-celik",
+      "to": "speaker:tuana-celik",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

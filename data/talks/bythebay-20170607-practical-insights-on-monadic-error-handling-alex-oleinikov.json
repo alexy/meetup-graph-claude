@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170607-practical-insights-on-monadic-error-handling-alex-oleinikov",
+  "scraped_at": "2026-05-10T08:34:25.493076Z",
+  "source_file": "source/sf-data-and-ai-engineering/239736345.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170607-practical-insights-on-monadic-error-handling-alex-oleinikov",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Alex Oleinikov, Criteo\nError handling in distributed systems is tough, but once done right it can make data pipeline's beavior predictable and incident investigations will no longer be a puzzle. The talk covers a monadic approach to error handling, tradeoffs of it's implementation in Spark, advantages, related technical difficulties and ways to deal with them.\nAlex works on data collection and knowledge extraction for the last 6 years. He developed media information knowledge base which powers the Media vertical at Yandex. There he also worked on consumer facing web services, their performance and scalability aspects. Lately he’s busy bringing the miracle of machine learning to search ads camapaign management at Criteo.\nhttps://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif",
+        "id": "bythebay-20170607-practical-insights-on-monadic-error-handling-alex-oleinikov",
+        "order": 0,
+        "title": "Practical insights on monadic error handling in Spark"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-239736345",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-06-07",
+        "datetime": "2017-06-07T01:00:00+00:00",
+        "id": "239736345",
+        "title": "Spark in Adtech",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/239736345/",
+        "venue_address": "85 Second Street",
+        "venue_name": "Chartboost"
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:alex-oleinikov",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Criteo",
+        "name": "Alex Oleinikov"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170607-practical-insights-on-monadic-error-handling-alex-oleinikov",
+      "to": "event:sf-data-and-ai-engineering-239736345",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-239736345",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170607-practical-insights-on-monadic-error-handling-alex-oleinikov",
+      "to": "speaker:alex-oleinikov",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

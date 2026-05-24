@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20151215-building-a-reasonable-expression-dsl-with-kle-ryan-delucchi",
+  "scraped_at": "2026-05-10T08:34:25.389400Z",
+  "source_file": "source/scala-bay/226794200.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151215-building-a-reasonable-expression-dsl-with-kle-ryan-delucchi",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Title: Ryan Delucchi, Building a Reasonable Expression DSL with Kleisli\n\nDescription:\n\nIt wasn't long ago that creating a highly specialized mini-language was a herculean undertaking. After dusting off the ol' \"Dragon Book\" we would implement a tokenizer and write our own BNF grammar. Then, we run these grammar rules through some arcane compiler-compiler tool (e.g. yacc) and iterate ad infinitum. But, now we have a truly scalable language at our fingertips. With the aid of predefined constructs and open source libraries, we can build our very own DSL, using this sophisticated language, requiring nothing more than the scalac compiler.\n\nYet, even for building a rather simple expression style DSL, which is at the very heart of many modern rule-based languages, it doesn't take long for the intrinsic complexity of language design to surface.  In this talk, we will dig deep in the functional programmer's tool chest, and uncover a little known gem known as the Kleisli.  We will explore ho",
+        "id": "bythebay-20151215-building-a-reasonable-expression-dsl-with-kle-ryan-delucchi",
+        "order": 0,
+        "title": "Building a Reasonable Expression DSL with Kleisli"
+      }
+    },
+    {
+      "id": "event:scala-bay-226794200",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2015-12-15",
+        "datetime": "2015-12-15T03:00:00+00:00",
+        "id": "226794200",
+        "title": "Ryan Delucchi, Building a Reasonable Expression DSL with Kleisli",
+        "url": "https://www.meetup.com/scala-bay/events/226794200/",
+        "venue_address": "1154 Sonora Court",
+        "venue_name": "Clari Inc"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:ryan-delucchi",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Ryan Delucchi"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20151215-building-a-reasonable-expression-dsl-with-kle-ryan-delucchi",
+      "to": "event:scala-bay-226794200",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-226794200",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151215-building-a-reasonable-expression-dsl-with-kle-ryan-delucchi",
+      "to": "speaker:ryan-delucchi",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

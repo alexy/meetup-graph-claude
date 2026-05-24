@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20131010-stripe-streams-data-into-hbase-colin-marc",
+  "scraped_at": "2026-05-10T08:34:24.945804Z",
+  "source_file": "source/hadoopsf/141368262.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20131010-stripe-streams-data-into-hbase-colin-marc",
+      "type": "Talk",
+      "properties": {
+        "abstract": "As a payments provider, Stripe has a veritable goldmine of data to use — and lots of uses for it, from checkout conversion analysis to fraud prevention. But until recently, that data was stored only in disparate production systems, and what aggregates we did have were very ad-hoc.\n\nWe chose to approach this problem iteratively, in order to better understand the requirements and constraints and to explore the different technologies available. With some work (and lots of mistakes), we were able to build a system that streams data into HBase from our production services in real-time, making it available for analytics using MapReduce, Impala and other technologies in the ecosystem.\n\nIn my presentation, I’ll discuss the various architectures and technologies we tried, what worked well and the lessons we learned.",
+        "id": "bythebay-20131010-stripe-streams-data-into-hbase-colin-marc",
+        "order": 0,
+        "title": "Stripe Streams data into HBase"
+      }
+    },
+    {
+      "id": "event:hadoopsf-141368262",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2013-10-10",
+        "datetime": "2013-10-10T01:00:00+00:00",
+        "id": "141368262",
+        "title": "October SF Hadoop Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/141368262/",
+        "venue_address": "3180 18th St",
+        "venue_name": "Stripe"
+      }
+    },
+    {
+      "id": "group:hadoopsf",
+      "type": "Group",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      }
+    },
+    {
+      "id": "speaker:colin-marc",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Stripe",
+        "name": "Colin Marc"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20131010-stripe-streams-data-into-hbase-colin-marc",
+      "to": "event:hadoopsf-141368262",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-141368262",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20131010-stripe-streams-data-into-hbase-colin-marc",
+      "to": "speaker:colin-marc",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

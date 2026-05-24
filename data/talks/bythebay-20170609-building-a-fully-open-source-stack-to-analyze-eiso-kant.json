@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+  "scraped_at": "2026-05-10T08:34:24.991538Z",
+  "source_file": "source/hadoopsf/240660462.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Eiso Kant, Source{d}\nIn this talk we show the fully open source stack that has been built to discover and fetch all of the world's public git repositories, turn the code into a universal AST, the kinds of a neural network architectures that perform well on source code, the tools that have been built to deal with such a large and unique data set and the future work that needs to be done. We also talk about the impact of AI on code on the future of programming and building software.",
+        "id": "bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+        "order": 1,
+        "title": "Building a fully Open-Source stack to analyze the code of +60mm software projects using Deep Learning"
+      }
+    },
+    {
+      "id": "event:hadoopsf-240660462",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-06-09",
+        "datetime": "2017-06-09T20:00:00+00:00",
+        "id": "240660462",
+        "title": "Data for Society, Product-Managing AI and AI for Code",
+        "url": "https://www.meetup.com/hadoopsf/events/240660462/",
+        "venue_address": "44 Tehama Street (between 2nd/howard)",
+        "venue_name": "Galvanize"
+      }
+    },
+    {
+      "id": "group:hadoopsf",
+      "type": "Group",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      }
+    },
+    {
+      "id": "speaker:eiso-kant",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Source{d}",
+        "name": "Eiso Kant"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+      "to": "event:hadoopsf-240660462",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-240660462",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+      "to": "speaker:eiso-kant",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

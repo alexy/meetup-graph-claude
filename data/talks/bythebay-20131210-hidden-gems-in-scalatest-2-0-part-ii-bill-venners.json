@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20131210-hidden-gems-in-scalatest-2-0-part-ii-bill-venners",
+  "scraped_at": "2026-05-10T08:34:25.352794Z",
+  "source_file": "source/scala-bay/147976552.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20131210-hidden-gems-in-scalatest-2-0-part-ii-bill-venners",
+      "type": "Talk",
+      "properties": {
+        "abstract": "ScalaTest 2.0 is a vast enough forest that it is hard to see all the useful trees. In this talk, Bill Venners will guide you through ScalaTest 2.0 by pointing out lesser-known features of the testing toolkit that can help you get stuff done. You'll gain insight into what ScalaTest offers, why ScalaTest is designed the way it is, and how you can get more out of it.\n\nThis talk is a continuation (Part II) of the\n\n\"Hidden Gems in ScalaTest 2.0\" keynote (http://skillsmatter.com/podcast/scala/bill-venners)\n\nBill gave at the ScalaExchange conference in London last week. He will show different \"gems\" in Los Altos than he showed in London.\n\nBill Venners is president of Artima, Inc. (http://www.artima.com/), publisher of Scala books, and co-founder of Escalate Software, LLC, provider of Scala training and consulting. He is the lead developer and designer of ScalaTest, an open source testing tool for Scala and Java developers, and coauthor with Martin Odersky and Lex Spoon of the book, Programmin",
+        "id": "bythebay-20131210-hidden-gems-in-scalatest-2-0-part-ii-bill-venners",
+        "order": 0,
+        "title": "Hidden Gems in ScalaTest 2.0, part II"
+      }
+    },
+    {
+      "id": "event:scala-bay-147976552",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2013-12-10",
+        "datetime": "2013-12-10T03:00:00+00:00",
+        "id": "147976552",
+        "title": "Bill Venners, \"Hidden Gems in ScalaTest 2.0, part II\"",
+        "url": "https://www.meetup.com/scala-bay/events/147976552/",
+        "venue_address": "4440 El Camino Real, Los Altos, CA, Palo Alto, CA",
+        "venue_name": "Box"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:bill-venners",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Bill Venners"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20131210-hidden-gems-in-scalatest-2-0-part-ii-bill-venners",
+      "to": "event:scala-bay-147976552",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-147976552",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20131210-hidden-gems-in-scalatest-2-0-part-ii-bill-venners",
+      "to": "speaker:bill-venners",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

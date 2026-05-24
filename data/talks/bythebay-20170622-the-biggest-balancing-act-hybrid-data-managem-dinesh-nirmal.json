@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170622-the-biggest-balancing-act-hybrid-data-managem-dinesh-nirmal",
+  "scraped_at": "2026-05-10T08:34:25.970638Z",
+  "source_file": "source/big-data-developers-in-nyc/240360004.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170622-the-biggest-balancing-act-hybrid-data-managem-dinesh-nirmal",
+      "type": "Talk",
+      "properties": {
+        "abstract": "15:15 - 17:00 - Breakout Sessions",
+        "id": "bythebay-20170622-the-biggest-balancing-act-hybrid-data-managem-dinesh-nirmal",
+        "order": 0,
+        "title": "The biggest balancing act: Hybrid data management"
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-240360004",
+      "type": "Event",
+      "properties": {
+        "city": "85716 Unterschleibheim",
+        "date": "2017-06-22",
+        "datetime": "2017-06-22T15:30:00+00:00",
+        "id": "240360004",
+        "title": "Fast Track Your Data - Live from Munich, Germany",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/240360004/",
+        "venue_address": "Andreas-Danzer-Weg1",
+        "venue_name": "Infinity Hotel & Conference Center"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:dinesh-nirmal",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "IBM Analytics",
+        "name": "Dinesh Nirmal"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170622-the-biggest-balancing-act-hybrid-data-managem-dinesh-nirmal",
+      "to": "event:big-data-developers-in-nyc-240360004",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-240360004",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170622-the-biggest-balancing-act-hybrid-data-managem-dinesh-nirmal",
+      "to": "speaker:dinesh-nirmal",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

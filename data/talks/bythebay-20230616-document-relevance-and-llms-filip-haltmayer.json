@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20230616-document-relevance-and-llms-filip-haltmayer",
+  "scraped_at": "2026-05-10T08:34:24.841426Z",
+  "source_file": "source/unstructured-data-sf/293939805.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230616-document-relevance-and-llms-filip-haltmayer",
+      "type": "Talk",
+      "properties": {
+        "abstract": null,
+        "id": "bythebay-20230616-document-relevance-and-llms-filip-haltmayer",
+        "order": 0,
+        "title": "Document Relevance and LLMs"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-293939805",
+      "type": "Event",
+      "properties": {
+        "city": "Redwood City",
+        "date": "2023-06-16",
+        "datetime": "2023-06-16T01:00:00+00:00",
+        "id": "293939805",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/293939805/",
+        "venue_address": "555 Twin Dolphin Dr",
+        "venue_name": "555 Twin Dolphin Dr"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:filip-haltmayer",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Filip Haltmayer"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20230616-document-relevance-and-llms-filip-haltmayer",
+      "to": "event:unstructured-data-sf-293939805",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-293939805",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230616-document-relevance-and-llms-filip-haltmayer",
+      "to": "speaker:filip-haltmayer",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

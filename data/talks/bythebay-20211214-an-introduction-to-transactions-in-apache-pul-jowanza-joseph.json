@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20211214-an-introduction-to-transactions-in-apache-pul-jowanza-joseph",
+  "scraped_at": "2026-05-10T08:34:25.158361Z",
+  "source_file": "source/scala-bay/282531416.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20211214-an-introduction-to-transactions-in-apache-pul-jowanza-joseph",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Transactions are an API in Apache Pulsar that enables atomic operations among pulsar consumers and producers. This talk covers the motivating factors for Transactions in a system like Apache Pulsar, deep dives into the transactions API, and walks through some examples of using Transactions with the pulsar4s client. Attendees can expect to learn about Pulsar Transaction in-depth and take away ways they can use Pulsar Transactions in their applications.\nJowanza Joseph is VP of Engineering at Finicity, A Mastercard Company. Jowanza's career has focused on large-scale distributed systems and distributed pub/sub. Jowanza is the author of Master Apache Pulsar.",
+        "id": "bythebay-20211214-an-introduction-to-transactions-in-apache-pul-jowanza-joseph",
+        "order": 0,
+        "title": "An Introduction to Transactions in Apache Pulsar by Jowanza Joseph"
+      }
+    },
+    {
+      "id": "event:scala-bay-282531416",
+      "type": "Event",
+      "properties": {
+        "city": null,
+        "date": "2021-12-14",
+        "datetime": "2021-12-14T20:00:00+00:00",
+        "id": "282531416",
+        "title": "fs2.Chunk and Infrastructure as Scala",
+        "url": "https://www.meetup.com/scala-bay/events/282531416/",
+        "venue_address": null,
+        "venue_name": null
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:jowanza-joseph",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Finicity",
+        "name": "Jowanza Joseph"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20211214-an-introduction-to-transactions-in-apache-pul-jowanza-joseph",
+      "to": "event:scala-bay-282531416",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-282531416",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20211214-an-introduction-to-transactions-in-apache-pul-jowanza-joseph",
+      "to": "speaker:jowanza-joseph",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

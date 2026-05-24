@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170608-getting-started-with-apache-mxnet-and-modelin-sunil-mallya",
+  "scraped_at": "2026-05-10T08:34:24.856231Z",
+  "source_file": "source/hadoopsf/240490374.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170608-getting-started-with-apache-mxnet-and-modelin-sunil-mallya",
+      "type": "Talk",
+      "properties": {
+        "abstract": "The session will provide a short background on Deep Learning focusing on relevant application domains and an introduction to the powerful and scalable Deep Learning framework, Apache MXNet. We’ll then dive into internals of MXNet, its programing model and operators. Finally we’ll take a practical use case of churn prediction and build a simple neural network to solve it.\nSpeaker: Sunil Mallya, AWS\nSunil is a solutions architect focused on Deep Learning at AWS working with customers in various industry verticals. Prior to that, he co-founded the neuroscience and machine learning based image analysis and video thumbnail recommendation company Neon labs. He’s also worked on building large scale low latency systems at Zynga and has an acute passion for serverless computing. He hold a master’s degree in computer science from Brown University.",
+        "id": "bythebay-20170608-getting-started-with-apache-mxnet-and-modelin-sunil-mallya",
+        "order": 1,
+        "title": "Getting started with Apache MXNet and modeling churn prediction"
+      }
+    },
+    {
+      "id": "event:hadoopsf-240490374",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-06-08",
+        "datetime": "2017-06-08T17:00:00+00:00",
+        "id": "240490374",
+        "title": "[register at bay.area.ai] Deep Learning Breakfast with MXNet and Sparklyr",
+        "url": "https://www.meetup.com/hadoopsf/events/240490374/",
+        "venue_address": "44 Tehama Street (between 2nd/howard)",
+        "venue_name": "Galvanize"
+      }
+    },
+    {
+      "id": "group:hadoopsf",
+      "type": "Group",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      }
+    },
+    {
+      "id": "speaker:sunil-mallya",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "AWS",
+        "name": "Sunil Mallya"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170608-getting-started-with-apache-mxnet-and-modelin-sunil-mallya",
+      "to": "event:hadoopsf-240490374",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-240490374",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170608-getting-started-with-apache-mxnet-and-modelin-sunil-mallya",
+      "to": "speaker:sunil-mallya",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

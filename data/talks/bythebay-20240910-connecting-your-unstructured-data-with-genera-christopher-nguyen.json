@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+  "scraped_at": "2026-05-10T08:34:24.826546Z",
+  "source_file": "source/unstructured-data-sf/300478757.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - Christopher Nguyen (CEO) & Shruti Raghavan (AI Engineer), Aitomatic\n6:35 - 7:00 - Zhuo Li, CEO, Hyrdox.ai\n7:05 - 7:30 - Amit Sangani, Senior Director, Meta\n7:35 - 7:45 - (Lightning Talk) Jed Pitera, Strategy Co-lead, Sustainable Materials, IBM\n7:45 - 8:30 - Networking\nTech Talk 1: Industrial Problem-Solving through Domain-Specific Models and Agentic AI: A Semiconductor Manufacturing Case Study\nAbstract: We present how SemiKong, the first open-source semiconductor-industry-specific Large Language Model (LLM), and OpenSSA, a neurosymbolic engine that enables problem-solving to address critical challenges in industrial AI, can be combined to create a powerful AI advisor to accelerate key processes in semiconductor manufacturing. Multiple AI Alliance member organizations have joined hands in this work, including Tokyo Electron (contributing semiconductor domain expertise), Aitomatic (contributing AI engineering frameworks and tools), and others.\nTech Talk 2: Evaluating Safety & Alignment of LLM in Specific Domains\nAbstract: Recent advancements in AI have given rise to sophisticated Large Language Models (LLMs) with potentially transformative impacts across high-stakes domains such as healthcare, financial services, and legal. While these models offer substantial benefits, their application in areas requiring critical decision-making demands rigorous evaluation to ensure safety, precision, and ethical integrity.\nWe are presenting on our project, in collaboration with IBM and the AI Alliance. Our aim is to establish a first-of-its-kind robust evaluation framework (incl. benchmarks and metrics) and conduct a Proof of Concept (PoC) pilot to demonstrate the safety and practical utility of LLMs within the selected high-stakes domain(s). The initiative will focus on assessing the quality, safety, alignment, and performance of LLMs, providing comprehensive performance reports, and developing integration guidelines tailored to the specific needs of these critical sectors.\nTech Talk 3: Introduction to Llama 3.1!\nAbstract: In this talk, you will learn about the latest Llama 3.1 models and Llama system, its evolution, the benefits of the open approach, and ecosystem drivers. We will also discuss simplicity and scale, SOTA performance, trust & safety tools for responsible AI development and show how customers are achieving great success with Llama success stories. Additionally, we will give a quick glimpse of the Llama Stack initiative with Agentic reference architecture. We will end the presentation with what's next for Llama's ecosystem!\nLightning talk: AI Alliance Working group for Materials and Chemistry (WG4M).\nAbstract: This brief talk will describe the AI Alliance Working group for Materials and Chemistry (WG4M). WG4M is driving community development of open-source code, data sets and models as well as target materials domains and use cases (PFAS, polymer, etc.) and corresponding benchmarks. We have a roadmap for the release of a rich model family of modalities and architectures. The benefits of participating include sharing of model architecture and contact points for members, plus a workstream-based engagement approach. There are already 20+ materials companies and worldwide researchers involved -- join us and help shape the future of AI for materials and chemistry!\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nSeptember 9, 2024\n5:30PM\nWhere:\nThis is an in-person event. Registration using this form is required to get in. Registration will close 2 days before the event. Co-sponsored by Zilliz maintainers of Milvus and the AI Alliance.\nThe AI Alliance builds, enables, and advocates for open innovation across the AI technology landscape, including software, data and models, safety, security and trust, tooling, evaluation, hardware, education, open science, and advocacy.",
+        "id": "bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative AI"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-300478757",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-09-10",
+        "datetime": "2024-09-10T00:30:00+00:00",
+        "id": "300478757",
+        "title": "The 4th AI Alliance Meetup @ The Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300478757/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:christopher-nguyen",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Christopher Nguyen"
+      }
+    },
+    {
+      "id": "speaker:shruti-raghavan",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Aitomatic",
+        "name": "Shruti Raghavan"
+      }
+    },
+    {
+      "id": "speaker:zhuo-li",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Hydrox AI",
+        "name": "Zhuo Li"
+      }
+    },
+    {
+      "id": "speaker:amit-sangani",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Meta",
+        "name": "Amit Sangani"
+      }
+    },
+    {
+      "id": "speaker:jed-pitera",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Jed Pitera"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+      "to": "event:unstructured-data-sf-300478757",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300478757",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+      "to": "speaker:christopher-nguyen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+      "to": "speaker:shruti-raghavan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+      "to": "speaker:zhuo-li",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+      "to": "speaker:amit-sangani",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240910-connecting-your-unstructured-data-with-genera-christopher-nguyen",
+      "to": "speaker:jed-pitera",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

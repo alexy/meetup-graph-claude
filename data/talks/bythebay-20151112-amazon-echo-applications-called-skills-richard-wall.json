@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20151112-amazon-echo-applications-called-skills-richard-wall",
+  "scraped_at": "2026-05-10T08:34:25.350520Z",
+  "source_file": "source/scala-bay/225169599.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151112-amazon-echo-applications-called-skills-richard-wall",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Title: Richard Wall, Amazon Echo applications\n\nDescription:\n\nThe Amazon Echo is a new kind of human-interface device that communicates primarily by speech and not screens or text. When Dick got his, he set about learning how to program it using Scala, and Amazon's Lambda service, which runs events on demand using Amazon infrastructure. It turns out that Lambda suits Scala nicely for this kind of development, and is useful for many things including Amazon Echo skills (for example, serving websites). SBT plugins and all your favorite libraries make it even easier. Come along and get bitten by the AWS Lambda in Scala bug. As a bonus, all coding will be done in Ensime for Sublime (yes, Ensime lives, and we are hard at work on it).\n\nSpeaker.\n\nRichard Wall is a founder of Scala Bay.\n\nSchedule\n\n6:30-7:00 - networking\n\n7:00-7:10 - announcements etc\n\n7:10-~8:50 - talks\n\n8:50-9:00 - networking\n\nImportant:\n\nPlease arrive before 7 pm or earlier. After 7 pm, you will need to call to be let in and y",
+        "id": "bythebay-20151112-amazon-echo-applications-called-skills-richard-wall",
+        "order": 0,
+        "title": "Amazon Echo applications (called skills)"
+      }
+    },
+    {
+      "id": "event:scala-bay-225169599",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2015-11-12",
+        "datetime": "2015-11-12T03:00:00+00:00",
+        "id": "225169599",
+        "title": "Richard Wall, Amazon Echo applications (called skills)",
+        "url": "https://www.meetup.com/scala-bay/events/225169599/",
+        "venue_address": "1050 Enterprise Way",
+        "venue_name": "Comcast"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:richard-wall",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Richard Wall"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20151112-amazon-echo-applications-called-skills-richard-wall",
+      "to": "event:scala-bay-225169599",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-225169599",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151112-amazon-echo-applications-called-skills-richard-wall",
+      "to": "speaker:richard-wall",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

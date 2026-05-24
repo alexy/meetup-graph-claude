@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+  "scraped_at": "2026-05-10T08:34:24.780777Z",
+  "source_file": "source/unstructured-data-sf/304656743.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:00 - 6:20 - Akriti Kewani, Bridging Data Pipelines and AI: Powering Insights with Airbyte and Milvus\n6:20 - 6:40 - Preetam Joshi and Puneet A, Building an Accuracy Flywheel for your LLM RAG Apps\n6.40 - 7:00 - Rachel Bakke, Efficient Inference and Information Retrieval for Agents: SambaNova + Milvus\n7:00 - 7:15 - Stefan Webb, A Table is Worth 1000 Words\n7:15 - 8:30 - Office hours and networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nTech Talk 1: Bridging Data Pipelines and AI: Powering Insights with Airbyte and Milvus\nAbstract: In this session, we’ll explore how Airbyte’s ETL tooling enables seamless data movement from diverse sources, including unstructured data, into Milvus, a cutting-edge vector database by Zilliz. Discover how connecting tools like the Airbyte Asana connector to Milvus empowers businesses to enhance retrieval-augmented generation (RAG) workflows and fuel AI applications. We’ll dive into real-world use cases and demonstrate how to streamline data transformation and orchestration to create scalable, intelligent systems for unlocking actionable insights\nTech Talk 2: Building an Accuracy Flywheel for your LLM RAG Apps\nAbstract: Hallucinations are one of the biggest problems for developers trying to build consistently high accuracy LLM-RAG Apps. This talk dives into the details of why LLMs hallucinate and how to build incrementally improving RAG systems to achieve consistent overall accuracy.\nTech Talk 3: Efficient Inference and Information Retrieval for Agents: SambaNova + Milvus\nAbstract: Agents are the next step in AI. These powerful reasoning and decision engines require a multitude of high quality tools to realize their potential, including fast inference and efficient databases. SambaNova and Zilliz are well aligned in this ecosystem and have recently made integrations to get started building simple RAG apps together.\nTech Talk 4: A Table is Worth 1000 Words\nAbstract: Tables form the backbone of modern data storage, powering everything from relational databases to enterprise systems. Yet despite their ubiquity, we've barely scratched the surface of their potential. While Deep Learning has revolutionized our ability to process text and images, its impact on tabular data has been surprisingly limited. This gap is now being bridged through groundbreaking research in multimodal modeling, particularly with innovations like the TableGPT2 model. In this talk, we'll explore how these new multimodal foundation models are trained to understand tabular data, and demonstrate practical ways to unlock hidden value in your organization's data assets.\nWhen:\nDec 3, 2024\n5:30PM\nWhere:\nThis is an in-person event! Registration is required to get in. Registration will close 2 days before the event. Sponsored by Zilliz (maintainers of Milvus)",
+        "id": "bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative LLMs"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-304656743",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-12-04",
+        "datetime": "2024-12-04T01:30:00+00:00",
+        "id": "304656743",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/304656743/",
+        "venue_address": "100 California St #1100 San Francisco, CA 94111",
+        "venue_name": "Airbyte"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:akriti-keswani",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Airbyte",
+        "name": "Akriti Keswani"
+      }
+    },
+    {
+      "id": "speaker:preetam-joshi",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Preetam Joshi"
+      }
+    },
+    {
+      "id": "speaker:puneet-a",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "AIMon Labs",
+        "name": "Puneet A"
+      }
+    },
+    {
+      "id": "speaker:rachel-bakke",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "SambaNova Systems",
+        "name": "Rachel Bakke"
+      }
+    },
+    {
+      "id": "speaker:stefan-webb",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Stefan Webb"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+      "to": "event:unstructured-data-sf-304656743",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-304656743",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+      "to": "speaker:akriti-keswani",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+      "to": "speaker:preetam-joshi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+      "to": "speaker:puneet-a",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+      "to": "speaker:rachel-bakke",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241204-connecting-your-unstructured-data-with-genera-akriti-keswani",
+      "to": "speaker:stefan-webb",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

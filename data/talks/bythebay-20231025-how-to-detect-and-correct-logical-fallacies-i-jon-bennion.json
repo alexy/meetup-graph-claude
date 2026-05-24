@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20231025-how-to-detect-and-correct-logical-fallacies-i-jon-bennion",
+  "scraped_at": "2026-05-10T08:34:24.835285Z",
+  "source_file": "source/unstructured-data-sf/296232232.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231025-how-to-detect-and-correct-logical-fallacies-i-jon-bennion",
+      "type": "Talk",
+      "properties": {
+        "abstract": null,
+        "id": "bythebay-20231025-how-to-detect-and-correct-logical-fallacies-i-jon-bennion",
+        "order": 0,
+        "title": "How to Detect and Correct Logical Fallacies in LLM model output"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-296232232",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-10-25",
+        "datetime": "2023-10-25T00:30:00+00:00",
+        "id": "296232232",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/296232232/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:jon-bennion",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Fox",
+        "name": "Jon Bennion"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20231025-how-to-detect-and-correct-logical-fallacies-i-jon-bennion",
+      "to": "event:unstructured-data-sf-296232232",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-296232232",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231025-how-to-detect-and-correct-logical-fallacies-i-jon-bennion",
+      "to": "speaker:jon-bennion",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

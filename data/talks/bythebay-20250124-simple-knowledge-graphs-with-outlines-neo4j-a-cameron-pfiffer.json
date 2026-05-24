@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20250124-simple-knowledge-graphs-with-outlines-neo4j-a-cameron-pfiffer",
+  "scraped_at": "2026-05-10T08:34:24.296582Z",
+  "source_file": "source/bay-area-ai/305744908.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250124-simple-knowledge-graphs-with-outlines-neo4j-a-cameron-pfiffer",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Learn how to convert unstructured data into a structured knowledge graph. In this talk, we'll use Outlines to structure language model output, neo4j to store a knowledge graph, and Modal to run our language model.",
+        "id": "bythebay-20250124-simple-knowledge-graphs-with-outlines-neo4j-a-cameron-pfiffer",
+        "order": 2,
+        "title": "Simple Knowledge Graphs with Outlines, neo4j, and Modal"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-305744908",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-01-24",
+        "datetime": "2025-01-24T01:00:00+00:00",
+        "id": "305744908",
+        "title": "[registration required on lu.ma/_ai] Full Stack OSS AI: Chips to Apps!",
+        "url": "https://www.meetup.com/bay-area-ai/events/305744908/",
+        "venue_address": "525 Market St",
+        "venue_name": "525 Market St"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:cameron-pfiffer",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "dottxt",
+        "name": "Cameron Pfiffer"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20250124-simple-knowledge-graphs-with-outlines-neo4j-a-cameron-pfiffer",
+      "to": "event:bay-area-ai-305744908",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-305744908",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250124-simple-knowledge-graphs-with-outlines-neo4j-a-cameron-pfiffer",
+      "to": "speaker:cameron-pfiffer",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

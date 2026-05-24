@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20150527-organizing-real-estate-photo-collections-with-shourabh-rawat",
+  "scraped_at": "2026-05-10T08:34:24.318756Z",
+  "source_file": "source/bay-area-ai/222541049.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150527-organizing-real-estate-photo-collections-with-shourabh-rawat",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Real Estate Websites like Trulia and Zillow host millions of property listings, with each listing consisting of rich textual description and images of the property. While rich in information, the discoverability of this data is limited by its unstructured nature. For Example, How do we learn if \"granite countertops\" is an interesting real estate term. And if it is, how can we assign it to one of the many photos associated with the property.\nIn this talk we detail our approach to organize Trulia's unstructured content into rich photo collections similar to http://Houzz.com or Zillow Digs, without the need of any explicit user tagging.\nBy leveraging the recent advances in deep learning for computer vision and nap, we first automatically construct a knowledge base of relevant real estate terms and then annotate our photo collections by fusing knowledge from a deep convolutional network for image recognition and a word embedding model.The novelty in our approach lies in our ability to scale to a large vocabulary of real estate terms without explicitly training a vision model for each one of them.\nShourabh Rawat is a senior data scientist at Trulia Inc based in San Francisco. He is an applied researcher at the intersection of machine learning, deep learning, NLP and computer vision. He received his Masters in Language Technologies from Carnegie Mellon University, Pittsburgh in 2013 where he researched on building multimodal (audio and visual) systems for detecting interesting events in Youtube videos.",
+        "id": "bythebay-20150527-organizing-real-estate-photo-collections-with-shourabh-rawat",
+        "order": 2,
+        "title": "Organizing Real Estate Photo Collections with Deep Learning"
+      }
+    },
+    {
+      "id": "event:bay-area-ai-222541049",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-05-27",
+        "datetime": "2015-05-27T22:00:00+00:00",
+        "id": "222541049",
+        "title": "TEC Summit Tech Track",
+        "url": "https://www.meetup.com/bay-area-ai/events/222541049/",
+        "venue_address": "301 Battery St",
+        "venue_name": "Bently Reserve"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:shourabh-rawat",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Trulia Inc",
+        "name": "Shourabh Rawat"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150527-organizing-real-estate-photo-collections-with-shourabh-rawat",
+      "to": "event:bay-area-ai-222541049",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-222541049",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150527-organizing-real-estate-photo-collections-with-shourabh-rawat",
+      "to": "speaker:shourabh-rawat",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

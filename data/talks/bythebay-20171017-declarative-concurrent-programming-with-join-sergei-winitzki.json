@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20171017-declarative-concurrent-programming-with-join-sergei-winitzki",
+  "scraped_at": "2026-05-10T08:34:25.126732Z",
+  "source_file": "source/scala-bay/243931229.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20171017-declarative-concurrent-programming-with-join-sergei-winitzki",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Sergei Winitzki, Declarative concurrent programming with Join Calculus\n\nAbstract\n\nAbstract: I give an introduction to Join calculus, a declarative formalism for concurrent programming. Join Calculus is a development of Pi-calculus that is higher-level and easier to use in practice. Join Calculus radically improves upon well-known concurrency paradigms such as Actors or CSP. I explain how Join Calculus emerges if we want to improve the Actor model by making actors type-safe, stateless, and automatically managed. I am developing `Chymyst`, a new open-source implementation of Join Calculus as an embedded DSL in Scala. I show concise and fully declarative Chymyst solutions for classic concurrency problems such as the \"dining philosophers\" or recursive \"fork/join\".\n\nShort Bio\n\nSergei Winitzki is a theoretical physicist turned software engineer, passionate for functional programming, functional type theory, and declarative domain-specific languages.\n\nSchedule\n\n6:30-7:00 - networking (pizza,",
+        "id": "bythebay-20171017-declarative-concurrent-programming-with-join-sergei-winitzki",
+        "order": 0,
+        "title": "Declarative concurrent programming with Join Calculus"
+      }
+    },
+    {
+      "id": "event:scala-bay-243931229",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2017-10-17",
+        "datetime": "2017-10-17T01:30:00+00:00",
+        "id": "243931229",
+        "title": "Sergei Winitzki, Declarative concurrent programming with Join Calculus",
+        "url": "https://www.meetup.com/scala-bay/events/243931229/",
+        "venue_address": "502 Emerson St",
+        "venue_name": "Salesforce"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:sergei-winitzki",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Sergei Winitzki"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20171017-declarative-concurrent-programming-with-join-sergei-winitzki",
+      "to": "event:scala-bay-243931229",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-243931229",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20171017-declarative-concurrent-programming-with-join-sergei-winitzki",
+      "to": "speaker:sergei-winitzki",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

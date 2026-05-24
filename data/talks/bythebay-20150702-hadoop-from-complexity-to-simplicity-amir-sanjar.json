@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20150702-hadoop-from-complexity-to-simplicity-amir-sanjar",
+  "scraped_at": "2026-05-10T08:34:24.930870Z",
+  "source_file": "source/hadoopsf/222870784.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150702-hadoop-from-complexity-to-simplicity-amir-sanjar",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Abstract: Big data architectures should not mean long and complex setup and operations. In this talk we'll look at tools such as Juju that make it easy to collect, index, and query massive volumes of data across Apache Hadoop, Spark and other enterprise Big Data solution stacks.\n1) Intro to Juju\n2) Apache Hadoop pluggable model - Port to CDH 5.4 stack\n3) Pluggable services: Apache Spark or CDH Spark\n4) Pluggable Data Ingestion: Flume, sqoop or Kafka\n5) Pluggable Data Visualization: Hue, IPyNotebook, or Apache Zeppelin\n6) Cloudera Manager 5.4.x deployment on AWS/MASS/Local/Azure\nBio: Amir is a Senior Big Data development lead with many years of experience in leading global HPC development teams from IBM POWER to SystemX. He is a specialist in the distributed solution deployment resulting in seven registered patents in United States.\nAdditional Information\nPlease RSVP to this meetup so we'll have headcount for food. Take the elevator to the 11th floor to the Cloudera office. There are a couple of paid parking lots on California St. The closest BART station is Montgomery St. about four blocks away.\nSee you soon!",
+        "id": "bythebay-20150702-hadoop-from-complexity-to-simplicity-amir-sanjar",
+        "order": 0,
+        "title": "Hadoop: From complexity to simplicity"
+      }
+    },
+    {
+      "id": "event:hadoopsf-222870784",
+      "type": "Event",
+      "properties": {
+        "city": "94104",
+        "date": "2015-07-02",
+        "datetime": "2015-07-02T01:00:00+00:00",
+        "id": "222870784",
+        "title": "July 2015 Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/222870784/",
+        "venue_address": "433 California St, 11th floor",
+        "venue_name": "Cloudera"
+      }
+    },
+    {
+      "id": "group:hadoopsf",
+      "type": "Group",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      }
+    },
+    {
+      "id": "speaker:amir-sanjar",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Canonical",
+        "name": "Amir Sanjar"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150702-hadoop-from-complexity-to-simplicity-amir-sanjar",
+      "to": "event:hadoopsf-222870784",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-222870784",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150702-hadoop-from-complexity-to-simplicity-amir-sanjar",
+      "to": "speaker:amir-sanjar",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

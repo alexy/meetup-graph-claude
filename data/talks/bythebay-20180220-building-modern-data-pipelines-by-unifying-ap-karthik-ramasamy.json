@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20180220-building-modern-data-pipelines-by-unifying-ap-karthik-ramasamy",
+  "scraped_at": "2026-05-10T08:34:25.514961Z",
+  "source_file": "source/sf-data-and-ai-engineering/247364297.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180220-building-modern-data-pipelines-by-unifying-ap-karthik-ramasamy",
+      "type": "Talk",
+      "properties": {
+        "abstract": "For today’s enterprises, ensuring that data pipelines are available to every corner of the organization is key to building next generation data-driven applications. In this talk Karthik Ramasamy of Streamlio will present on how to combine three best of breed open-source projects to have a solid data infrastructure that are is easy to develop against and simple to operate at scale in production.\nHe will provide an overview of the merits of the three open source systems and then benefits they bring when integrated:\nApache Pulsar: unified queuing and streaming\nApache Heron: stream processing\nApache BookKeeper: distributed stream storage\nKarthik Ramasamy is the co-founder of Streamlio that focuses on building next generation real time processing engines. Before Streamlio, he was the engineering manager and technical lead for real-time analytics at Twitter where he co-created Twitter Heron. He has two decades of experience working in parallel databases, big data infrastructure, and networking. Karthik is the author of several publications, patents, and \"Network Routing: Algorithms, Protocols and Architectures\". He has a Ph.D. in computer science from the University of Wisconsin, Madison with a focus on big data and databases.",
+        "id": "bythebay-20180220-building-modern-data-pipelines-by-unifying-ap-karthik-ramasamy",
+        "order": 0,
+        "title": "Building modern data pipelines by unifying Apache Pulsar, Apache Heron, Apache BookKeeper"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-247364297",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2018-02-20",
+        "datetime": "2018-02-20T23:00:00+00:00",
+        "id": "247364297",
+        "title": "Streamlio, GridGain, Cassandra+Spark: FREE Workshop at IBM Index",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/247364297/",
+        "venue_address": "Moscone Center West 800 Howard St.",
+        "venue_name": "Moscone Center West"
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:karthik-ramasamy",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Twitter",
+        "name": "Karthik Ramasamy"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180220-building-modern-data-pipelines-by-unifying-ap-karthik-ramasamy",
+      "to": "event:sf-data-and-ai-engineering-247364297",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-247364297",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180220-building-modern-data-pipelines-by-unifying-ap-karthik-ramasamy",
+      "to": "speaker:karthik-ramasamy",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

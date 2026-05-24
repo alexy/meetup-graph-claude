@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+  "scraped_at": "2026-05-10T08:34:24.837899Z",
+  "source_file": "source/unstructured-data-sf/300622146.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - Jiang Chen, Head of Ecosystem & AI Platform, Zilliz\n6:35 - 7:00 - Mike Del Balso, CEO and Co-Founder, Tecton\n7:05 - 7:30 - Chaoyu Yang, CEO & Founder, BentoML\n7:35 - 7:45 - Yi Zhang, CEO & Co-founder, Relari.ai\n7:45 - 8:30 - Networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nTech Talk 1: Building RAG with self-deployed Milvus vector database and Snowpark Container Services\nAbstract: This talk will give hands-on advice on building RAG applications with an open-source Milvus database deployed as a docker container. We will also introduce the integration of Milvus with Snowpark Container Services.\nTech Talk 2: Full RAG: A Modern Architecture for Hyperpersonalization\nAbstract: Mike Del Balso, CEO & Co-Founder at Tecton, presents \"Full RAG,\" a novel approach to AI recommendation systems, aiming to push beyond the limitations of traditional models through a deep integration of contextual insights and real-time data, leveraging the Retrieval-Augmented Generation architecture. This talk will outline Full RAG's potential to significantly enhance personalization, address engineering challenges such as data management and model training, and introduce data enrichment with reranking as a key solution. Attendees will gain crucial insights into the importance of hyperpersonalization in AI, the capabilities of Full RAG for advanced personalization, and strategies for managing complex data integrations for deploying cutting-edge AI solutions.\nTech Talk 3: RAG as a service with BentoML\nAbstract: Building Retrieval-Augmented Generation (RAG) systems with open-source and custom AI models is a complex task. This talk explores the challenges in productionizing RAG systems, including retrieval performance, response synthesis, and evaluation. We’ll discuss how to leverage open-source models like text embeddings, language models, and custom fine-tuned models to enhance RAG performance. Additionally, we’ll cover how BentoML can help orchestrate and scale these AI components efficiently, ensuring seamless deployment and management of RAG systems in the cloud.\nLightning demo: Using Synthetic Data to Test and Fine-Tune LLM applications\nAbstract: In this talk, Yi will walk through a data-driven approach to test and improve LLM / RAG applications. In particular, he will cover how to use Relari's synthetic data platform and open-source evaluation framework \"continuous-eval\" to systematically harden and fine-tune LLM systems. Relari is backed by top investors including Y Combinator, Soma Capital and General Catalyst.\nWhen:\nJune 3, 2024\n5:30PM\nWhere:\nThis is an in-person event! Registration is required to get in. Registration will close 2 days before the event. Co-sponsored by Zilliz (maintainers of Milvus) and Tecton.\nCan't make it in person? We will also be streaming live: https://www.twitch.tv/vectordatabase",
+        "id": "bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative LLMs"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-300622146",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-06-04",
+        "datetime": "2024-06-04T00:30:00+00:00",
+        "id": "300622146",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300622146/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:jiang-chen",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jiang Chen"
+      }
+    },
+    {
+      "id": "speaker:mike-del-balso",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Mike Del Balso"
+      }
+    },
+    {
+      "id": "speaker:chaoyu-yang",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "BentoML",
+        "name": "Chaoyu Yang"
+      }
+    },
+    {
+      "id": "speaker:yi-zhang",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Relari ai",
+        "name": "Yi Zhang"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "event:unstructured-data-sf-300622146",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300622146",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "speaker:jiang-chen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "speaker:mike-del-balso",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "speaker:chaoyu-yang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240604-connecting-your-unstructured-data-with-genera-jiang-chen",
+      "to": "speaker:yi-zhang",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

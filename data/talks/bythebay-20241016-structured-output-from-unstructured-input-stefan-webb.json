@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20241016-structured-output-from-unstructured-input-stefan-webb",
+  "scraped_at": "2026-05-10T08:34:24.812018Z",
+  "source_file": "source/unstructured-data-sf/303687526.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241016-structured-output-from-unstructured-input-stefan-webb",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:35 - Constrained Sampling from Large Language Models: Producing Structured Output, Stefan Webb, Zilliz\n6:35 - 7:05 - Infinite world generation with Outlines, Cameron Pfiffer, Developer Relations Engineer, .txt\n7:05 - 7:35 - BAML: Cheaper, faster, and more accurate function calling - without any fine-tuning, Vaibhav Gupta, BoundaryML\n7:40 - 8:30 - Networking\nTech talk 1: Constrained Sampling from Large Language Models: Producing Structured Output\nAbstract: Large Language Models (LLMs) are typically used to generate free-form text. However, many applications require output with specific structures or formats. This presentation introduces the concept of constrained sampling from LLMs, a method to produce output that adheres to predefined formats or structures. The key points we will cover:\n Traditional LLM usage vs. constrained sampling\n Examples of interesting applications like classification/regression and producing JSON\n Overview of how it works\nWe set the stage for the following two speakers who will discuss specific tools for implementing this technique: Outlines and BAML Tech\nTalk 2: Infinite world generation with Outlines\nAbstract: Cameron presents \"LoreMaster 6000,\" an internally consistent world generator that infinitely builds a fictional world's history. We use Outlines to make the system programmable, and Milvus to handle lore storage and semantic search.\nTech Talk 3: BAML: Cheaper, faster, and more accurate function calling - without any fine-tuning\nAbstract: We'll share techniques for building agents that require function calling and how BAML, our new programming language, helps with that while providing a great developer experience.\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nOctober 15, 2024\n5:30PM\nWhere:**\nThis is an in-person event. Registration is required to get into the event. Registration in advance will close 2 days before the event.\nThis event is co-sponsored by Zilliz (maintainers of Milvus)",
+        "id": "bythebay-20241016-structured-output-from-unstructured-input-stefan-webb",
+        "order": 0,
+        "title": "Structured Output from Unstructured Input"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-303687526",
+      "type": "Event",
+      "properties": {
+        "city": "Redwood City",
+        "date": "2024-10-16",
+        "datetime": "2024-10-16T00:00:00+00:00",
+        "id": "303687526",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/303687526/",
+        "venue_address": "202 Walnut St",
+        "venue_name": "Sports Basement Redwood City"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:stefan-webb",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Stefan Webb"
+      }
+    },
+    {
+      "id": "speaker:cameron-pfiffer",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": ".txt",
+        "name": "Cameron Pfiffer"
+      }
+    },
+    {
+      "id": "speaker:vaibhav-gupta",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "BoundaryML",
+        "name": "Vaibhav Gupta"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20241016-structured-output-from-unstructured-input-stefan-webb",
+      "to": "event:unstructured-data-sf-303687526",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-303687526",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241016-structured-output-from-unstructured-input-stefan-webb",
+      "to": "speaker:stefan-webb",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241016-structured-output-from-unstructured-input-stefan-webb",
+      "to": "speaker:cameron-pfiffer",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20241016-structured-output-from-unstructured-input-stefan-webb",
+      "to": "speaker:vaibhav-gupta",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

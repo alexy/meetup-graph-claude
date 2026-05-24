@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170429-designing-open-source-libraries-haoyi-li",
+  "scraped_at": "2026-05-10T08:34:25.116571Z",
+  "source_file": "source/scala-bay/238966218.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170429-designing-open-source-libraries-haoyi-li",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Abstract\n\nCreating a popular open-source library such as Ammonite, FastParse, or Scalatags is a lot more than just writing Scala code. This talk will explore both the code and non-code aspects of building such a library: designing the public API, the role of tests/documentation, and how to think about the three tensions of consistency, transparency, and intuitiveness that often pull your API design in different directions. From this talk you will hopefully learn everything about designing a library apart from writing code.\n\nBio\n\nHaoyi is a software engineer, previously at Dropbox, currently working at Bright Technology Services, a data-science and software engineering consultancy. He is the author of many open source libraries, and an early contributor to the Scala.js ecosystem.\n\nSchedule\n\n6:30-7:00 - networking\n7:00-7:10 - announcements etc.\n7:10-8:00 - talk\n8:00-8:30 - networking",
+        "id": "bythebay-20170429-designing-open-source-libraries-haoyi-li",
+        "order": 0,
+        "title": "Designing Open Source Libraries"
+      }
+    },
+    {
+      "id": "event:scala-bay-238966218",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2017-04-29",
+        "datetime": "2017-04-29T01:30:00+00:00",
+        "id": "238966218",
+        "title": "Haoyi Li, Designing Open Source Libraries",
+        "url": "https://www.meetup.com/scala-bay/events/238966218/",
+        "venue_address": "LinkedIn 605 W. Maude",
+        "venue_name": "LinkedIn"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:haoyi-li",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Haoyi Li"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170429-designing-open-source-libraries-haoyi-li",
+      "to": "event:scala-bay-238966218",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-238966218",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170429-designing-open-source-libraries-haoyi-li",
+      "to": "speaker:haoyi-li",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

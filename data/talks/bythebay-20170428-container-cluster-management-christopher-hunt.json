@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170428-container-cluster-management-christopher-hunt",
+  "scraped_at": "2026-05-10T08:34:24.367354Z",
+  "source_file": "source/sf-scala/239434097.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170428-container-cluster-management-christopher-hunt",
+      "type": "Talk",
+      "properties": {
+        "abstract": "In this talk Christopher will discuss several years of experience in dealing with cluster container management, culminating in the ConductR project. Of particular interest will be a presentation on the state of the nation regarding the Open Container Initiative, Docker swarm, Kubernetes and others, and how these are positioned to manage reactive applications and services.\nChristopher has been at Lightbend for the past 4 years, initially as part of the Play team having invented sbt-web. In more recent years, Christopher became the technical lead for Lightbend’s container cluster manager known as ConductR. Prior to Lightbend, Christopher was part of the SpringSource division at VMware. Christopher resides in Sydney, Australia.\nPlease manage your RSVP vigilantly, we'll use our famous Small Data Discipline Enforcement Appliance (SD-DEA) -- if you're on past midnight of the day, and not a pumpkin, we expect you to be there!",
+        "id": "bythebay-20170428-container-cluster-management-christopher-hunt",
+        "order": 1,
+        "title": "Container Cluster Management"
+      }
+    },
+    {
+      "id": "event:sf-scala-239434097",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-04-28",
+        "datetime": "2017-04-28T01:00:00+00:00",
+        "id": "239434097",
+        "title": "Open Source Library Design and Reactive Cluster Management",
+        "url": "https://www.meetup.com/sf-scala/events/239434097/",
+        "venue_address": "988 Market Street",
+        "venue_name": "Spotify"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:christopher-hunt",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Christopher Hunt"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170428-container-cluster-management-christopher-hunt",
+      "to": "event:sf-scala-239434097",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-239434097",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170428-container-cluster-management-christopher-hunt",
+      "to": "speaker:christopher-hunt",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

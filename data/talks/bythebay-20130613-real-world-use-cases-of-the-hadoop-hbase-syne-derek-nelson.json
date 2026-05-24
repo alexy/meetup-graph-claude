@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20130613-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+  "scraped_at": "2026-05-10T08:34:25.030700Z",
+  "source_file": "source/hadoopsf/120561212.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130613-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Combining the batch, heavy lifting Hadoop powerhouse with the low-latency, random access capabilities of HBase can substantially empower your data infrastructure. In this talk, we discuss how several specific AdRoll services thrive on the Hadoop/HBase synergy. Namely, pairing Hadoop with HBase allows us to dynamically aggregate uniques in near real time, efficiently track conversions, and drive our recommendations platform--all in ways that scale horizontally with explosive growth in data volume.\n\n\"Under the Hood: How KijiSchema extends HBase\"\nChristophe Taton, WibiData\n\nHBase provides powerful and generic interfaces, but with great power comes great responsibility. The genericity and extent of HBase interfaces can be tricky. In particular, early designs require great care to avoid various pitfalls that may later affect the scalability and evolvability of the application. While designing such applications, we learned do's and don'ts were captured in an open-source framework named KijiSchema. KijiSchema combines several sensible and cautious design choices, with a safe, efficient, flexible and evolvable core for encoding cells and table layouts. In this talk, we will cover several design tradeoffs and internal details that we made in KijiSchema. Attendees will learn how KijiSchema can help them build powerful HBase-backed applications.",
+        "id": "bythebay-20130613-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+        "order": 0,
+        "title": "Real-World Use Cases of the Hadoop/HBase Synergy"
+      }
+    },
+    {
+      "id": "event:hadoopsf-120561212",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2013-06-13",
+        "datetime": "2013-06-13T01:00:00+00:00",
+        "id": "120561212",
+        "title": "June 2013 San Francisco Hadoop Meetup ",
+        "url": "https://www.meetup.com/hadoopsf/events/120561212/",
+        "venue_address": "972 Mission St, 1st Floor",
+        "venue_name": "AdRoll HQ"
+      }
+    },
+    {
+      "id": "group:hadoopsf",
+      "type": "Group",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      }
+    },
+    {
+      "id": "speaker:derek-nelson",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "AdRoll",
+        "name": "Derek Nelson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20130613-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "to": "event:hadoopsf-120561212",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-120561212",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130613-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "to": "speaker:derek-nelson",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

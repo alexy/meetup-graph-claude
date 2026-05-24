@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170428-open-source-library-design-haoyi-li",
+  "scraped_at": "2026-05-10T08:34:24.367209Z",
+  "source_file": "source/sf-scala/239434097.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170428-open-source-library-design-haoyi-li",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Creating a popular open-source library such as Ammonite, FastParse, or Scalatags is a lot more than just writing Scala code. This talk will explore both the code and non-code aspects of building such a library: designing the public API, the role of tests/documentation, and how to think about the three tensions of consistency, transparency, and intuitiveness that often pull your API design in different directions. From this talk you will hopefully learn everything about designing a library apart from writing code.\nHaoyi is a software engineer, previously at Dropbox, currently working at Bright Technology Services, a data-science and software engineering consultancy. He is the author of many open source libraries, and an early contributor to the Scala.js ecosystem.\nIn addition to the talk, in SF we'll do the first ever AHA: Ask Haoyi Anything! If there's one Scala enthusiast globally advancing functional programming for full stack, and solving all problems along the way so they become fun and not even problems, that's Haoyi. Now that he's based in Singapore, we're lucky to have him in town.",
+        "id": "bythebay-20170428-open-source-library-design-haoyi-li",
+        "order": 0,
+        "title": "Open-Source Library Design"
+      }
+    },
+    {
+      "id": "event:sf-scala-239434097",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-04-28",
+        "datetime": "2017-04-28T01:00:00+00:00",
+        "id": "239434097",
+        "title": "Open Source Library Design and Reactive Cluster Management",
+        "url": "https://www.meetup.com/sf-scala/events/239434097/",
+        "venue_address": "988 Market Street",
+        "venue_name": "Spotify"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:haoyi-li",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Haoyi Li"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170428-open-source-library-design-haoyi-li",
+      "to": "event:sf-scala-239434097",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-239434097",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170428-open-source-library-design-haoyi-li",
+      "to": "speaker:haoyi-li",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

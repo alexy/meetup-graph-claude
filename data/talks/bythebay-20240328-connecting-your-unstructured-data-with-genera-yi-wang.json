@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240328-connecting-your-unstructured-data-with-genera-yi-wang",
+  "scraped_at": "2026-05-10T08:34:24.767257Z",
+  "source_file": "source/unstructured-data-sf/299449651.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240328-connecting-your-unstructured-data-with-genera-yi-wang",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:30 - Welcome/Networking/Registration\n6:35 - 7:00 - Sparse Vectors with Milvus - Yi Wang, Zilliz Cloud Software Engineer\n7:05 - 7:30 - Chat with your data, privately and locally - Jay Rodge, Developer Advocate at NVIDIA\n7:35 - 8:00 - Voyage AI Embedding for your RAG apps - Tengyu Ma, Voyage AI CEO\n8:00 - 8:30 - Networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nWhen:\nMarch 27, 2024\n5:30PM\nTech Talk 1: Sparse Vectors with Milvus\nAbstract: The latest version of Milvus introduces sparse vectors to use in your semantic searches. Learn from Yi, Software Engineer at Zilliz, how you can use sparse and dense embeddings to power your RAG apps.\nTech Talk 2: Chat with your data, privately and locally\nAbstract: Sometimes people worry that if they ask ChatGPT a question, their queries may be used to train the AI model. However, if you use a local application or RAG to search for proprietary documents stored locally on your machine, like patents or personal diaries, the data will be safe. Although this is a good solution, it may slow down the process of running LLMs locally if models with original weights are used. In this talk, Jay proposes a local and optimized RAG pipeline for systems using consumer desktop/laptop NVIDIA GPUs. We will use Milvus as our vector database for faster vector search, and TensorRT-LLM optimized open-source LLM leveraging local GPU compute.\nTech Talk 3: Voyage AI Embedding for your RAG apps\nAbstract: Voyage AI is a team of leading AI researchers, dedicated to enabling teams to build better RAG applications via quality retrieval. This talk will present the Voyage AI state-of-the-art embedding models and APIs, which outperforms alternatives such as OpenAI v3 text embeddings. These models are a part of the Zilliz Cloud Pipelines.\nWhere:\nThis is an in-person event. Registration is required to get into the event. Registration in advance will close 2 days before the event. Sponsored by Zilliz maintainers of Milvus",
+        "id": "bythebay-20240328-connecting-your-unstructured-data-with-genera-yi-wang",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative AI"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-299449651",
+      "type": "Event",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2024-03-28",
+        "datetime": "2024-03-28T00:30:00+00:00",
+        "id": "299449651",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/299449651/",
+        "venue_address": "",
+        "venue_name": "Sunnyvale"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:yi-wang",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Yi Wang"
+      }
+    },
+    {
+      "id": "speaker:jay-rodge",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "NVIDIA",
+        "name": "Jay Rodge"
+      }
+    },
+    {
+      "id": "speaker:tengyu-ma",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Stanford University",
+        "name": "Tengyu Ma"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240328-connecting-your-unstructured-data-with-genera-yi-wang",
+      "to": "event:unstructured-data-sf-299449651",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-299449651",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240328-connecting-your-unstructured-data-with-genera-yi-wang",
+      "to": "speaker:yi-wang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240328-connecting-your-unstructured-data-with-genera-yi-wang",
+      "to": "speaker:jay-rodge",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240328-connecting-your-unstructured-data-with-genera-yi-wang",
+      "to": "speaker:tengyu-ma",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

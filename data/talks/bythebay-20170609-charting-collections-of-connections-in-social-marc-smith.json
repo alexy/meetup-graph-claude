@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20170609-charting-collections-of-connections-in-social-marc-smith",
+  "scraped_at": "2026-05-10T08:34:24.991395Z",
+  "source_file": "source/hadoopsf/240660462.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170609-charting-collections-of-connections-in-social-marc-smith",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Networks are a data structure commonly found in any social media service that allows populations to author collections of connections. The Social Media Research Foundation's (http://www.smrfoundation.org/) NodeXL (http://nodexl.codeplex.com/) project makes analysis of social media networks accessible to most users of the Excel spreadsheet application. With NodeXL, network charts become as easy to create as pie charts. Recent research created by applying the tool to a range of social media networks has already revealed the variations (http://www.pewinternet.org/2014/02/20/mapping-twitter-topic-networks-from-polarized-crowds-to-community-clusters/) in network structures present in online social spaces. A review of the tool and images of Twitter, flickr, YouTube, Facebook and email networks will be presented.\nDescription: We now live in a sea of tweets, posts, blogs, and updates coming from a significant fraction of the people in the connected world. Our personal and professional relationships are now made up as much of texts, emails, phone calls, photos, videos, documents, slides, and game play as by face-to-face interactions. Social media can be a bewildering stream of comments, a daunting fire hose of content. With better tools and a few key concepts from the social sciences, the social media swarm of favorites, comments, tags, likes, ratings, updates and links can be brought into clearer focus to reveal key people, topics and sub-communities. As more social interactions move through machine-readable data sets new insights and illustrations of human relationships and organizations become possible. But new forms of data require new tools to collect, analyze, and communicate insights.\nMarc Smith is a sociologist specializing in the social organization of online communities and computer mediated interaction. Smith leads the Connected Action consulting group and lives and works in Silicon Valley, California. Smith co-founded and directsthe Social Media Research Foundation (http://www.smrfoundation.org/) ( http://www.smrfoundation.org/ ), a non-profit devoted to open tools, data, and scholarship related to social media research.\nSmith is the co-editor with Peter Kollock of Communities in Cyberspace (Routledge), a collection of essays exploring the ways identity; interaction and social order develop in online groups. Along with Derek Hansen and Ben Shneiderman, he is the co-author and editor of Analyzing Social Media Networks with NodeXL: (http://www.amazon.com/gp/product/0123822297?ie=UTF8&tag=conneactio-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0123822297)Insights from a connected world (http://www.amazon.com/gp/product/0123822297?ie=UTF8&tag=conneactio-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0123822297), from http://www.connectedaction.net/marc-smith/ ). Smith's goal is to visualize these social cyberspaces, mapping and measuring their structure, dynamics and life cycles. While at Microsoft Research, he founded the Community Technologies Group and led the development of the \"Netscan\" web application and data mining engine that allowed researchers studying Usenet newsgroups and related repositories of threaded conversations to get reports on the rates of posting, posters, crossposting, thread length and frequency distributions of activity. He contributes to the NodeXL project ( http://nodexl.codeplex.com/ ) that adds social network analysis features to the familiar Excel spreadsheet. NodeXL enables social network analysis of email, Twitter, Flickr, WWW, Facebook and other network data sets.\nThe Connected Action consulting group (http://www.connectedaction.net (http://www.connectedaction.net/)) applies social science methods in general and social network analysis techniques in particular to enterprise and internet social media usage. SNA analysis of data from message boards, blogs, wikis, friend networks, and shared file systems can reveal insights into organizations and processes. Community managers can gain actionable insights into the volumes of community content created in their social media repositories. Mobile social software applications can visualize patterns of association that are otherwise invisible.\nSmith received a B.S. in International Area Studies (http://www.drexel.edu/catalog/ug/coas/ias-index.htm) from Drexel University (http://www.drexel.edu/) in Philadelphia in 1988, an M.Phil. in social theory (http://www.ppsis.cam.ac.uk/) from Cambridge University (http://www.cam.ac.uk/) in 1990, and a Ph.D. in Sociology from UCLA in 2001. He is an adjunct lecturer (http://ischool.umd.edu/content/marc-smith-0) at the College of Information Studies (http://ischool.umd.edu/) at the University of Maryland (http://www.umd.edu/). Smith is also a Distinguished Visiting Scholar (http://www.connectedaction.net/2010/04/21/marc-smith-joining-media-x-at-stanford-as-a-visiting-scholar/) at the Media-X Program (http://mediax.stanford.edu/) at Stanford University (http://www.stanford.edu/).",
+        "id": "bythebay-20170609-charting-collections-of-connections-in-social-marc-smith",
+        "order": 0,
+        "title": "Charting Collections of Connections in Social Media: Creating Maps and Measures with NodeXL"
+      }
+    },
+    {
+      "id": "event:hadoopsf-240660462",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-06-09",
+        "datetime": "2017-06-09T20:00:00+00:00",
+        "id": "240660462",
+        "title": "Data for Society, Product-Managing AI and AI for Code",
+        "url": "https://www.meetup.com/hadoopsf/events/240660462/",
+        "venue_address": "44 Tehama Street (between 2nd/howard)",
+        "venue_name": "Galvanize"
+      }
+    },
+    {
+      "id": "group:hadoopsf",
+      "type": "Group",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      }
+    },
+    {
+      "id": "speaker:marc-smith",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Marc Smith"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170609-charting-collections-of-connections-in-social-marc-smith",
+      "to": "event:hadoopsf-240660462",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-240660462",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170609-charting-collections-of-connections-in-social-marc-smith",
+      "to": "speaker:marc-smith",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20240626-connecting-your-unstructured-data-with-genera-kate-grossman",
+  "scraped_at": "2026-05-10T08:34:24.771980Z",
+  "source_file": "source/unstructured-data-sf/301509881.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240626-connecting-your-unstructured-data-with-genera-kate-grossman",
+      "type": "Talk",
+      "properties": {
+        "abstract": "What we’ll do:\nHave some food and refreshments. Hear three exciting talks about unstructured data and generative AI.\n5:30 - 6:00 - Welcome/Networking/Registration\n6:05 - 6:30 - Kate Grossman, GenAI Software Developer, SAP\n6:35 - 7:00 - Yi Wang, SWE, Zilliz\n7:05 - 7:30 - Lisa N Cao, Product Manager, Datastrato\n7:45 - 8:30 - Networking\nWho Should attend:\nAnyone interested in talking and learning about Unstructured Data and Generative AI Apps.\nTech Talk 1: Harnessing the Power of Generative AI with Large Language Models in Human Capital Management\nAbstract: The emergence of Generative AI, powered by large language models (LLMs), is revolutionizing the way enterprises manage and leverage their data. This talk dives into SAP's innovative use of LLMs and Generative AI to enhance business processes, improve decision-making, and drive operational efficiencies in the world of human capital management.\nTech Talk 2: Multimodal Rag with Milvus\nAbstract: We've seen an influx of powerful multimodal capabilities in many LLMs. In this talk, we'll vectorize a dataset of images and texts into the same embedding space, store them in Milvus, retrieve all relevant data using multilingual texts and/or images and input multimodal data as context into GPT-4o.\nTech Talk 3: Metadata Lakes for Next-Gen AI/ML\nAbstract: As data catalogs evolve to meet the growing and new demands of high-velocity, unstructured data, we see them taking a new shape as an emergent and flexible way to activate metadata for multiple uses. This talk discusses modern uses of metadata at the infrastructure level for AI-enablement in RAG pipelines in response to the new demands of the ecosystem. We will also discuss Apache (incubating) Gravitino and its open source-first approach to data cataloging across multi-cloud and geo-distributed architectures.\nWhen:\nJune 25, 2024\n5:30PM\nWhere:\nThis is an in-person event. Registration is required to get into the event. Registration in advance will close 2 days before the event.\nThis event is co-sponsored by Zilliz (maintainers of Milvus) and SAP",
+        "id": "bythebay-20240626-connecting-your-unstructured-data-with-genera-kate-grossman",
+        "order": 0,
+        "title": "Connecting your unstructured data with Generative AI"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-301509881",
+      "type": "Event",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-06-26",
+        "datetime": "2024-06-26T00:30:00+00:00",
+        "id": "301509881",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301509881/",
+        "venue_address": "3412 Hillview Ave",
+        "venue_name": "3412 Hillview Ave"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:kate-grossman",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "SAP",
+        "name": "Kate Grossman"
+      }
+    },
+    {
+      "id": "speaker:yi-wang",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Yi Wang"
+      }
+    },
+    {
+      "id": "speaker:lisa-n-cao",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Datastrato",
+        "name": "Lisa N Cao"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240626-connecting-your-unstructured-data-with-genera-kate-grossman",
+      "to": "event:unstructured-data-sf-301509881",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301509881",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240626-connecting-your-unstructured-data-with-genera-kate-grossman",
+      "to": "speaker:kate-grossman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240626-connecting-your-unstructured-data-with-genera-kate-grossman",
+      "to": "speaker:yi-wang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20240626-connecting-your-unstructured-data-with-genera-kate-grossman",
+      "to": "speaker:lisa-n-cao",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20150617-introducing-apache-flink-stephan-ewen",
+  "scraped_at": "2026-05-10T08:34:25.587341Z",
+  "source_file": "source/sf-data-and-ai-engineering/222631734.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150617-introducing-apache-flink-stephan-ewen",
+      "type": "Talk",
+      "properties": {
+        "abstract": "Apache Flink (flink.apache.org (http://flink.apache.org/)) is an open-source framework for batch- and streaming data analysis on top of a streaming dataflows, with high-level APIs and libraries for diverse use cases. Flink joined the Apache Incubator in 2014, and graduated as a top level project in December 2014. Since entering the Apache family, Flink has grown a lot both in terms of features and community.\nAt the heart of Apache Flink is a flexible dataflow engine that supports diverse features and workloads without compromising on performance or usability: The engine executes data streaming programs directly as streams (with low latency and flexible user-defined state), and models batch programs as streaming programs on finite data streams. Iterative programs are supported though feedback in the dataflow, graph analysis via \"delta-iterations\". Through elaborate memory management inside the JVM, Flink scales beyond main memory resident data sets.\nOn top of the dataflow engine, the Flink community has added fluent programming APIs for batch-, and stream processing, as well as a set of libraries, such as the Table API (relational queries), FlinkML (Machine Learning library), and Gelly (API and library for graph analysis).\nThis talk will present the architecture of Flink and discusses the design choices and tradeoffs that come with building a versatile analysis engine on top of a data streaming abstraction. We show examples and use cases, and give an outlook of the current developments in the Flink project.\nStephan Ewen is Flink committer and co-founder and CTO of data Artisans. Before founding data Artisans, Stephan was leading the development of Flink since the early days of the project (then called Stratosphere). Stephan has a PhD in Computer Science from TU Berlin and has worked with IBM and Microsoft.",
+        "id": "bythebay-20150617-introducing-apache-flink-stephan-ewen",
+        "order": 0,
+        "title": "Introducing Apache Flink"
+      }
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-222631734",
+      "type": "Event",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-06-17",
+        "datetime": "2015-06-17T02:00:00+00:00",
+        "id": "222631734",
+        "title": "Spark and Flink Data Pipelines in Practice",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/222631734/",
+        "venue_address": "44 Tehama St",
+        "venue_name": "Galvanize"
+      }
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "type": "Group",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      }
+    },
+    {
+      "id": "speaker:stephan-ewen",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Stephan Ewen"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150617-introducing-apache-flink-stephan-ewen",
+      "to": "event:sf-data-and-ai-engineering-222631734",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-222631734",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150617-introducing-apache-flink-stephan-ewen",
+      "to": "speaker:stephan-ewen",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20251022-milvus-swag-and-more-raffle-giveaways",
+  "scraped_at": "2026-05-10T08:34:24.775708Z",
+  "source_file": "source/unstructured-data-sf/311245267.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20251022-milvus-swag-and-more-raffle-giveaways",
+      "type": "Talk",
+      "properties": {
+        "abstract": null,
+        "id": "bythebay-20251022-milvus-swag-and-more-raffle-giveaways",
+        "order": 0,
+        "title": "Milvus swag, and more!)"
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-311245267",
+      "type": "Event",
+      "properties": {
+        "city": null,
+        "date": "2025-10-22",
+        "datetime": "2025-10-22T00:30:00+00:00",
+        "id": "311245267",
+        "title": "Unstructured Data Meetup SF",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/311245267/",
+        "venue_address": null,
+        "venue_name": null
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "name": "Unstructured Data Meetup Bay Area",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:raffle-giveaways",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": "Labubus",
+        "name": "Raffle Giveaways"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20251022-milvus-swag-and-more-raffle-giveaways",
+      "to": "event:unstructured-data-sf-311245267",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-311245267",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20251022-milvus-swag-and-more-raffle-giveaways",
+      "to": "speaker:raffle-giveaways",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

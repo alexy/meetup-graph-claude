@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "id": "bythebay-20260411-lessons-from-evaluating-genai-projects-samar-deen",
+  "scraped_at": "2026-05-10T08:34:25.863452Z",
+  "source_file": "source/big-data-developers-in-nyc/314151810.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20260411-lessons-from-evaluating-genai-projects-samar-deen",
+      "type": "Talk",
+      "properties": {
+        "abstract": null,
+        "id": "bythebay-20260411-lessons-from-evaluating-genai-projects-samar-deen",
+        "order": 0,
+        "title": "Lessons from Evaluating GenAI Projects"
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-314151810",
+      "type": "Event",
+      "properties": {
+        "city": "New York",
+        "date": "2026-04-11",
+        "datetime": "2026-04-11T13:45:00+00:00",
+        "id": "314151810",
+        "title": "Women in Data Science - New York City  ",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/314151810/",
+        "venue_address": "101 Astor Place  NYC, New York, 10003",
+        "venue_name": "Susan Malaika"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:samar-deen",
+      "type": "Speaker",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Samar Deen"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20260411-lessons-from-evaluating-genai-projects-samar-deen",
+      "to": "event:big-data-developers-in-nyc-314151810",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-314151810",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20260411-lessons-from-evaluating-genai-projects-samar-deen",
+      "to": "speaker:samar-deen",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}
