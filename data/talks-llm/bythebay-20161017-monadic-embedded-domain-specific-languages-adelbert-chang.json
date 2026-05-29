@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20161017-monadic-embedded-domain-specific-languages-adelbert-chang",
+  "scraped_at": "2026-05-29T05:21:47.755775+00:00",
+  "source_file": "source/scala-bay/230428555.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161017-monadic-embedded-domain-specific-languages-adelbert-chang",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20161017-monadic-embedded-domain-specific-languages-adelbert-chang",
+        "title": "Monadic Embedded Domain-Specific Languages",
+        "abstract": "Embedded DSLs are a powerful tool for abstracting effects and business logic. Using free monads and other techniques to isolate each domain into a little language, then compose mini-programs to build applications.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-230428555",
+      "type": "Event",
+      "properties": {
+        "id": "230428555",
+        "title": "Adelbert Chang, Monadic embedded domain-specific languages",
+        "date": "2016-10-17",
+        "datetime": "2016-10-18T01:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/230428555/",
+        "venue_name": "Box, Inc",
+        "venue_address": "900, Jefferson Avenue",
+        "city": "Redwood City"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:adelbert-chang",
+      "type": "Speaker",
+      "properties": {
+        "name": "Adelbert Chang",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20161017-monadic-embedded-domain-specific-languages-adelbert-chang",
+      "to": "event:scala-bay-230428555",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-230428555",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161017-monadic-embedded-domain-specific-languages-adelbert-chang",
+      "to": "speaker:adelbert-chang",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

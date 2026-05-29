@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140910-integrating-akka-with-non-reactive-systems-marek-kolodziej",
+      "to": "event:sf-scala-202371622",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-202371622",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140910-integrating-akka-with-non-reactive-systems-marek-kolodziej",
+      "to": "speaker:marek-kolodziej",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20140910-integrating-akka-with-non-reactive-systems-marek-kolodziej",
+      "to": "project:akka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140910-integrating-akka-with-non-reactive-systems-marek-kolodziej",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140910-integrating-akka-with-non-reactive-systems-marek-kolodziej",
+      "properties": {
+        "abstract": "How to integrate Akka actors with non-reactive systems such as R for statistical computing, bridging the reactive and non-reactive worlds.",
+        "id": "bythebay-20140910-integrating-akka-with-non-reactive-systems-marek-kolodziej",
+        "order": 1,
+        "title": "Integrating Akka with Non-Reactive Systems"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-202371622",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-09-10",
+        "datetime": "2014-09-11T01:00:00+00:00",
+        "id": "202371622",
+        "title": "The Road to Akka Cluster and Beyond with Jonas Bon\u00e9r",
+        "url": "https://www.meetup.com/sf-scala/events/202371622/",
+        "venue_address": "420 Taylor Street",
+        "venue_name": "Chartboost"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:marek-kolodziej",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Marek Kolodziej",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:akka",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.447937+00:00",
+  "source_file": "source/sf-scala/202371622.html"
+}

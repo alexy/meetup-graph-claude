@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20130114-scala-at-sumo-logic-type-classes-with-a-machi-david-andrzejewski",
+  "scraped_at": "2026-05-29T05:21:47.764043+00:00",
+  "source_file": "source/scala-bay/95527972.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130114-scala-at-sumo-logic-type-classes-with-a-machi-david-andrzejewski",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20130114-scala-at-sumo-logic-type-classes-with-a-machi-david-andrzejewski",
+        "title": "Scala at Sumo Logic: Type Classes with a Machine Learning Example",
+        "abstract": "How Sumo Logic uses Scala type classes in practice, illustrated with a machine learning example.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-95527972",
+      "type": "Event",
+      "properties": {
+        "id": "95527972",
+        "title": "Lightning Talks @ StumbleUpon in SF",
+        "date": "2013-01-14",
+        "datetime": "2013-01-15T02:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/95527972/",
+        "venue_name": "StumbleUpon SF",
+        "venue_address": "301 Brannan Street",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:david-andrzejewski",
+      "type": "Speaker",
+      "properties": {
+        "name": "David Andrzejewski",
+        "role": null,
+        "company": "Sumo Logic",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:sumo-logic",
+      "type": "Company",
+      "properties": {
+        "name": "Sumo Logic"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20130114-scala-at-sumo-logic-type-classes-with-a-machi-david-andrzejewski",
+      "to": "event:scala-bay-95527972",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-95527972",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130114-scala-at-sumo-logic-type-classes-with-a-machi-david-andrzejewski",
+      "to": "speaker:david-andrzejewski",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:david-andrzejewski",
+      "to": "company:sumo-logic",
+      "type": "WORKS_AT"
+    }
+  ]
+}

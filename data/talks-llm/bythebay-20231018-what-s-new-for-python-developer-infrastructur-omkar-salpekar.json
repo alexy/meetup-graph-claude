@@ -1,0 +1,120 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20231018-what-s-new-for-python-developer-infrastructur-omkar-salpekar",
+      "to": "event:bay-area-ai-296052494",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-296052494",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231018-what-s-new-for-python-developer-infrastructur-omkar-salpekar",
+      "to": "speaker:omkar-salpekar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:omkar-salpekar",
+      "to": "company:meta",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231018-what-s-new-for-python-developer-infrastructur-omkar-salpekar",
+      "to": "speaker:elias-uriegas",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:elias-uriegas",
+      "to": "company:meta",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231018-what-s-new-for-python-developer-infrastructur-omkar-salpekar",
+      "to": "project:pytorch",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20231018-what-s-new-for-python-developer-infrastructur-omkar-salpekar",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231018-what-s-new-for-python-developer-infrastructur-omkar-salpekar",
+      "properties": {
+        "abstract": "Updates on the state of the world for PyTorch Developer Infrastructure including future projects, Data- and Model-Parallel training support for large models, and automating PyTorch's package release infrastructure.",
+        "id": "bythebay-20231018-what-s-new-for-python-developer-infrastructur-omkar-salpekar",
+        "order": 1,
+        "title": "What's New for Python Developer Infrastructure in PyTorch"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-296052494",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-10-18",
+        "datetime": "2023-10-18T23:00:00+00:00",
+        "id": "296052494",
+        "title": "PyTorch Conference + Bay Area AI Meetup",
+        "url": "https://www.meetup.com/bay-area-ai/events/296052494/",
+        "venue_address": "425 Market St",
+        "venue_name": "IBM"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:omkar-salpekar",
+      "properties": {
+        "bio": null,
+        "company": "Meta",
+        "name": "Omkar Salpekar",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:meta",
+      "properties": {
+        "name": "Meta"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:elias-uriegas",
+      "properties": {
+        "bio": null,
+        "company": "Meta",
+        "name": "Elias Uriegas",
+        "role": "Engineering Manager"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:meta",
+      "properties": {
+        "name": "Meta"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:pytorch",
+      "properties": {
+        "github_url": "https://github.com/pytorch/pytorch",
+        "name": "PyTorch"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.228696+00:00",
+  "source_file": "source/bay-area-ai/296052494.html"
+}

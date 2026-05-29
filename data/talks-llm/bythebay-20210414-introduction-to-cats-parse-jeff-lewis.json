@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20210414-introduction-to-cats-parse-jeff-lewis",
+      "to": "event:sf-scala-276753362",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-276753362",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20210414-introduction-to-cats-parse-jeff-lewis",
+      "to": "speaker:jeff-lewis",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20210414-introduction-to-cats-parse-jeff-lewis",
+      "to": "project:cats-parse",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20210414-introduction-to-cats-parse-jeff-lewis",
+      "to": "project:cats",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20210414-introduction-to-cats-parse-jeff-lewis",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20210414-introduction-to-cats-parse-jeff-lewis",
+      "properties": {
+        "abstract": "Cats Parse is a Scala library for writing text parsers using a pure functional approach with the Cats library. Covers the API, design decisions, and how to build parsers for real-world text formats.",
+        "id": "bythebay-20210414-introduction-to-cats-parse-jeff-lewis",
+        "order": 0,
+        "title": "Introduction to Cats Parse"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-276753362",
+      "properties": {
+        "city": "",
+        "date": "2021-04-14",
+        "datetime": "2021-04-15T00:30:00+00:00",
+        "id": "276753362",
+        "title": "Introduction to Cats Parse By Jeff Lewis",
+        "url": "https://www.meetup.com/sf-scala/events/276753362/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jeff-lewis",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jeff Lewis",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:cats-parse",
+      "properties": {
+        "github_url": "https://github.com/typelevel/cats-parse",
+        "name": "Cats Parse"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:cats",
+      "properties": {
+        "github_url": "https://github.com/typelevel/cats",
+        "name": "Cats"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.452084+00:00",
+  "source_file": "source/sf-scala/276753362.html"
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20120301-evolution-of-casbah-the-scala-driver-for-mong-brendan-mcadams",
+      "to": "event:sf-scala-52512152",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-52512152",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20120301-evolution-of-casbah-the-scala-driver-for-mong-brendan-mcadams",
+      "to": "speaker:brendan-mcadams",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20120301-evolution-of-casbah-the-scala-driver-for-mong-brendan-mcadams",
+      "to": "project:casbah",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20120301-evolution-of-casbah-the-scala-driver-for-mong-brendan-mcadams",
+      "to": "project:mongodb",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20120301-evolution-of-casbah-the-scala-driver-for-mong-brendan-mcadams",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20120301-evolution-of-casbah-the-scala-driver-for-mong-brendan-mcadams",
+      "properties": {
+        "abstract": "How Casbah, the Scala library for MongoDB, was born out of necessity and evolved into a sophisticated driver. Covers the journey from Java bindings to idiomatic Scala, including the development of DSLs and functional wrappers.",
+        "id": "bythebay-20120301-evolution-of-casbah-the-scala-driver-for-mong-brendan-mcadams",
+        "order": 0,
+        "title": "Evolution of Casbah: The Scala Driver for MongoDB"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-52512152",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2012-03-01",
+        "datetime": "2012-03-02T02:30:00+00:00",
+        "id": "52512152",
+        "title": "Evolution of Casbah",
+        "url": "https://www.meetup.com/sf-scala/events/52512152/",
+        "venue_address": "1098 Harrison Street",
+        "venue_name": "Atlassian Software - San Francisco Office"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:brendan-mcadams",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Brendan McAdams",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:casbah",
+      "properties": {
+        "github_url": "https://github.com/mongodb/casbah",
+        "name": "Casbah"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:mongodb",
+      "properties": {
+        "github_url": "https://github.com/mongodb/mongo",
+        "name": "MongoDB"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.452378+00:00",
+  "source_file": "source/sf-scala/52512152.html"
+}

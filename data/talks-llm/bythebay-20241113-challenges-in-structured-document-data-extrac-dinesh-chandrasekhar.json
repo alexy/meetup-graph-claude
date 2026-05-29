@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20241113-challenges-in-structured-document-data-extrac-dinesh-chandrasekhar",
+  "scraped_at": "2026-05-29T05:39:23.431819+00:00",
+  "source_file": "source/unstructured-data-sf/304207224.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241113-challenges-in-structured-document-data-extrac-dinesh-chandrasekhar",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20241113-challenges-in-structured-document-data-extrac-dinesh-chandrasekhar",
+        "title": "Challenges in Structured Document Data Extraction at Scale with LLMs",
+        "abstract": "The challenges and solutions for extracting structured information from complex documents at enterprise scale using large language models.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-304207224",
+      "type": "Event",
+      "properties": {
+        "id": "304207224",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "date": "2024-11-13",
+        "datetime": "2024-11-14T01:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/304207224/",
+        "venue_name": "Sports Basement Sunnyvale",
+        "venue_address": "1177 Kern Ave, Sunnyvale, CA 94085, USA",
+        "city": "Sunnyvale"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:dinesh-chandrasekhar",
+      "type": "Speaker",
+      "properties": {
+        "name": "Dinesh Chandrasekhar",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20241113-challenges-in-structured-document-data-extrac-dinesh-chandrasekhar",
+      "to": "event:unstructured-data-sf-304207224",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-304207224",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241113-challenges-in-structured-document-data-extrac-dinesh-chandrasekhar",
+      "to": "speaker:dinesh-chandrasekhar",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

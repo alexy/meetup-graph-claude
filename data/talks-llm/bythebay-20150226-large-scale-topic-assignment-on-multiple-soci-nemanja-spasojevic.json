@@ -1,0 +1,120 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150226-large-scale-topic-assignment-on-multiple-soci-nemanja-spasojevic",
+      "to": "event:bay-area-ai-220401029",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-220401029",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150226-large-scale-topic-assignment-on-multiple-soci-nemanja-spasojevic",
+      "to": "speaker:nemanja-spasojevic",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:nemanja-spasojevic",
+      "to": "company:lithium-technologies",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150226-large-scale-topic-assignment-on-multiple-soci-nemanja-spasojevic",
+      "to": "speaker:adithya-rao",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:adithya-rao",
+      "to": "company:lithium-technologies",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150226-large-scale-topic-assignment-on-multiple-soci-nemanja-spasojevic",
+      "to": "project:klout",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150226-large-scale-topic-assignment-on-multiple-soci-nemanja-spasojevic",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150226-large-scale-topic-assignment-on-multiple-soci-nemanja-spasojevic",
+      "properties": {
+        "abstract": "Understanding data from social networks to infer user's topical interests and expertise is a challenging problem. We present a full production system used at Lithium Technologies (Klout) which mines topical interests and expertise from multiple social networks and assigns over 10,000 topics to hundreds of millions of users on a daily basis.",
+        "id": "bythebay-20150226-large-scale-topic-assignment-on-multiple-soci-nemanja-spasojevic",
+        "order": 0,
+        "title": "Large Scale Topic Assignment on Multiple Social Networks"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-220401029",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-02-26",
+        "datetime": "2015-02-27T03:00:00+00:00",
+        "id": "220401029",
+        "title": "Topics",
+        "url": "https://www.meetup.com/bay-area-ai/events/220401029/",
+        "venue_address": "225 Bush St., 14th floor in the Prometheus meeting space",
+        "venue_name": "Lithium HQ"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:nemanja-spasojevic",
+      "properties": {
+        "bio": null,
+        "company": "Lithium Technologies",
+        "name": "Nemanja Spasojevic",
+        "role": "Director of Data Science"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:lithium-technologies",
+      "properties": {
+        "name": "Lithium Technologies"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:adithya-rao",
+      "properties": {
+        "bio": null,
+        "company": "Lithium Technologies",
+        "name": "Adithya Rao",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:lithium-technologies",
+      "properties": {
+        "name": "Lithium Technologies"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:klout",
+      "properties": {
+        "github_url": null,
+        "name": "Klout"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.927089+00:00",
+  "source_file": "source/bay-area-ai/220401029.html"
+}

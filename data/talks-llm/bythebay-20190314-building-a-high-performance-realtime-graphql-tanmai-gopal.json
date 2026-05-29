@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+      "to": "event:graphql-by-the-bay-258714481",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:graphql-by-the-bay-258714481",
+      "to": "group:graphql-by-the-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+      "to": "speaker:tanmai-gopal",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:tanmai-gopal",
+      "to": "company:hasura",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+      "to": "project:graphql",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+      "to": "project:postgresql",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+      "to": "project:hasura",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+      "properties": {
+        "abstract": "A unique approach to building a GraphQL server by transpiling/compiling GraphQL to SQL instead of using resolvers. This allows low-latency, scalable querying. Topics include compiling GraphQL to SQL, application user authorization, realtime with GraphQL subscriptions, and benchmarks.",
+        "id": "bythebay-20190314-building-a-high-performance-realtime-graphql-tanmai-gopal",
+        "order": 1,
+        "title": "Building a High-Performance Realtime GraphQL Engine on Postgres"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:graphql-by-the-bay-258714481",
+      "properties": {
+        "city": "Oakland",
+        "date": "2019-03-14",
+        "datetime": "2019-03-15T01:00:00+00:00",
+        "id": "258714481",
+        "title": "Distributed GraphQL for Enterprise Systems",
+        "url": "https://www.meetup.com/graphql-by-the-bay/events/258714481/",
+        "venue_address": "1100 Broadway",
+        "venue_name": "Credit Karma"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:graphql-by-the-bay",
+      "properties": {
+        "name": "GraphQL By the Bay",
+        "slug": "graphql-by-the-bay",
+        "url": "https://www.meetup.com/graphql-by-the-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:tanmai-gopal",
+      "properties": {
+        "bio": null,
+        "company": "Hasura",
+        "name": "Tanmai Gopal",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:hasura",
+      "properties": {
+        "name": "Hasura"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:graphql",
+      "properties": {
+        "github_url": "https://github.com/graphql/graphql-spec",
+        "name": "GraphQL"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:postgresql",
+      "properties": {
+        "github_url": "https://github.com/postgres/postgres",
+        "name": "PostgreSQL"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:hasura",
+      "properties": {
+        "github_url": "https://github.com/hasura/graphql-engine",
+        "name": "Hasura"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:09:14.568122+00:00",
+  "source_file": "source/graphql-by-the-bay/258714481.html"
+}

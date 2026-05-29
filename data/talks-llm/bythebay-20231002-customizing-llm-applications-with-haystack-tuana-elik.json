@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20231002-customizing-llm-applications-with-haystack-tuana-elik",
+      "to": "event:bay-area-ai-296372010",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-296372010",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231002-customizing-llm-applications-with-haystack-tuana-elik",
+      "to": "speaker:tuana-elik",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:tuana-elik",
+      "to": "company:deepset-ai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231002-customizing-llm-applications-with-haystack-tuana-elik",
+      "to": "project:haystack",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20231002-customizing-llm-applications-with-haystack-tuana-elik",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231002-customizing-llm-applications-with-haystack-tuana-elik",
+      "properties": {
+        "abstract": "Every LLM application comes with a unique set of requirements, use cases and restrictions. We see how to use open-source tools and frameworks to design around custom needs with Haystack.",
+        "id": "bythebay-20231002-customizing-llm-applications-with-haystack-tuana-elik",
+        "order": 0,
+        "title": "Customizing LLM Applications with Haystack"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-296372010",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-10-02",
+        "datetime": "2023-10-03T02:00:00+00:00",
+        "id": "296372010",
+        "title": "Building Production-ready GenAI Apps with RAG (Weaviate/deepset/Unstructured)",
+        "url": "https://www.meetup.com/bay-area-ai/events/296372010/",
+        "venue_address": "1974 Union St",
+        "venue_name": "NEON"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:tuana-elik",
+      "properties": {
+        "bio": null,
+        "company": "deepset.ai",
+        "name": "Tuana \u00c7elik",
+        "role": "Lead Developer Advocate"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:deepset-ai",
+      "properties": {
+        "name": "deepset.ai"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:haystack",
+      "properties": {
+        "github_url": "https://github.com/deepset-ai/haystack",
+        "name": "Haystack"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.229366+00:00",
+  "source_file": "source/bay-area-ai/296372010.html"
+}

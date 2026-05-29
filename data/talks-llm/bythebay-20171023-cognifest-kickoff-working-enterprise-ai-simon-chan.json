@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20171023-cognifest-kickoff-working-enterprise-ai-simon-chan",
+  "scraped_at": "2026-05-29T05:07:12.325447+00:00",
+  "source_file": "source/big-data-developers-in-nyc/244262292.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20171023-cognifest-kickoff-working-enterprise-ai-simon-chan",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20171023-cognifest-kickoff-working-enterprise-ai-simon-chan",
+        "title": "Cognifest Kickoff: Working Enterprise AI",
+        "abstract": "Three leaders of the top AI teams succeeding in the enterprise present at the Cognifest NYC kickoff at IBM Watson HQ.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-244262292",
+      "type": "Event",
+      "properties": {
+        "id": "244262292",
+        "title": "Cognifest: Working Enterprise AI",
+        "date": "2017-10-23",
+        "datetime": "2017-10-23T22:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/244262292/",
+        "venue_name": "IBM Watson Astor Place",
+        "venue_address": "51 Astor Place",
+        "city": "New York"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:simon-chan",
+      "type": "Speaker",
+      "properties": {
+        "name": "Simon Chan",
+        "role": "Senior Director of Product",
+        "company": "Salesforce Einstein",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:salesforce-einstein",
+      "type": "Company",
+      "properties": {
+        "name": "Salesforce Einstein"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20171023-cognifest-kickoff-working-enterprise-ai-simon-chan",
+      "to": "event:big-data-developers-in-nyc-244262292",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-244262292",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20171023-cognifest-kickoff-working-enterprise-ai-simon-chan",
+      "to": "speaker:simon-chan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:simon-chan",
+      "to": "company:salesforce-einstein",
+      "type": "WORKS_AT"
+    }
+  ]
+}

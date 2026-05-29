@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150426-introduction-to-applied-natural-language-proc-gabor-melli",
+      "to": "event:bay-area-ai-222047493",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-222047493",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150426-introduction-to-applied-natural-language-proc-gabor-melli",
+      "to": "speaker:gabor-melli",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20150426-introduction-to-applied-natural-language-proc-gabor-melli",
+      "to": "project:nltk",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150426-introduction-to-applied-natural-language-proc-gabor-melli",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150426-introduction-to-applied-natural-language-proc-gabor-melli",
+      "properties": {
+        "abstract": "The automated processing of text data is now being successfully applied to many diverse types of mission-critical tasks. The tutorial covers text preprocessing, shallow syntactic and semantic analysis, text classification and clustering, information extraction, word sense disambiguation, and text summarization.",
+        "id": "bythebay-20150426-introduction-to-applied-natural-language-proc-gabor-melli",
+        "order": 0,
+        "title": "Introduction to Applied Natural Language Processing"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-222047493",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-04-26",
+        "datetime": "2015-04-26T16:00:00+00:00",
+        "id": "222047493",
+        "title": "NLP Training with Gabor Melli",
+        "url": "https://www.meetup.com/bay-area-ai/events/222047493/",
+        "venue_address": "44 Tehama Street",
+        "venue_name": "Galvanize"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:gabor-melli",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Gabor Melli",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:nltk",
+      "properties": {
+        "github_url": "https://github.com/nltk/nltk",
+        "name": "NLTK"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.927614+00:00",
+  "source_file": "source/bay-area-ai/222047493.html"
+}

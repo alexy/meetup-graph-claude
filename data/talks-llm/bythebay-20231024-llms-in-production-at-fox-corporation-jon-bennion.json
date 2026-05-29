@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20231024-llms-in-production-at-fox-corporation-jon-bennion",
+  "scraped_at": "2026-05-29T05:39:23.425516+00:00",
+  "source_file": "source/unstructured-data-sf/296232232.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231024-llms-in-production-at-fox-corporation-jon-bennion",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20231024-llms-in-production-at-fox-corporation-jon-bennion",
+        "title": "LLMs in Production at Fox Corporation",
+        "abstract": "Machine learning engineering at Fox: deploying and maintaining large language models in production at scale.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-296232232",
+      "type": "Event",
+      "properties": {
+        "id": "296232232",
+        "title": "Unstructured Data in LLMs",
+        "date": "2023-10-24",
+        "datetime": "2023-10-25T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/296232232/",
+        "venue_name": "88 Colin P Kelly Jr St",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:jon-bennion",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jon Bennion",
+        "role": "MLE",
+        "company": "Fox",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:fox",
+      "type": "Company",
+      "properties": {
+        "name": "Fox"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20231024-llms-in-production-at-fox-corporation-jon-bennion",
+      "to": "event:unstructured-data-sf-296232232",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-296232232",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231024-llms-in-production-at-fox-corporation-jon-bennion",
+      "to": "speaker:jon-bennion",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jon-bennion",
+      "to": "company:fox",
+      "type": "WORKS_AT"
+    }
+  ]
+}

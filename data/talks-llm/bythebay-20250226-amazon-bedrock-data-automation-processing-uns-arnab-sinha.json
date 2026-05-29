@@ -1,0 +1,96 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250226-amazon-bedrock-data-automation-processing-uns-arnab-sinha",
+      "to": "event:unstructured-data-sf-305235082",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-305235082",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250226-amazon-bedrock-data-automation-processing-uns-arnab-sinha",
+      "to": "speaker:arnab-sinha",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20250226-amazon-bedrock-data-automation-processing-uns-arnab-sinha",
+      "to": "speaker:jean-malha",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20250226-amazon-bedrock-data-automation-processing-uns-arnab-sinha",
+      "to": "project:amazon-bedrock",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250226-amazon-bedrock-data-automation-processing-uns-arnab-sinha",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250226-amazon-bedrock-data-automation-processing-uns-arnab-sinha",
+      "properties": {
+        "abstract": "Amazon Bedrock Data Automation, a new feature that simplifies processing unstructured data through managed AI pipelines.",
+        "id": "bythebay-20250226-amazon-bedrock-data-automation-processing-uns-arnab-sinha",
+        "order": 1,
+        "title": "Amazon Bedrock Data Automation: Processing Unstructured Data"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-305235082",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-02-26",
+        "datetime": "2025-02-27T01:30:00+00:00",
+        "id": "305235082",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/305235082/",
+        "venue_address": "First Market Tower, 525 Market St, 2nd Flr, San Francisco, CA 94105",
+        "venue_name": "AWS Gen AI Loft"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:arnab-sinha",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Arnab Sinha",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "speaker:jean-malha",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jean Malha",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:amazon-bedrock",
+      "properties": {
+        "github_url": null,
+        "name": "Amazon Bedrock"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.432608+00:00",
+  "source_file": "source/unstructured-data-sf/305235082.html"
+}

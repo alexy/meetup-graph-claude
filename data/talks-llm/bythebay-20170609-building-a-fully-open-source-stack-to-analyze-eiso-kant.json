@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+  "scraped_at": "2026-05-29T04:53:39.930987+00:00",
+  "source_file": "source/bay-area-ai/240597202.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+        "title": "Building a Fully Open-Source Stack to Analyze Code of 60M+ Software Projects Using Deep Learning",
+        "abstract": "We show the fully open source stack built to discover and fetch all of the world's public git repositories, turn the code into a universal AST, the kinds of neural network architectures that perform well on source code, and the tools built to deal with such a large and unique data set.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:bay-area-ai-240597202",
+      "type": "Event",
+      "properties": {
+        "id": "240597202",
+        "title": "Data for Society, Product-Managing AI and AI for Code",
+        "date": "2017-06-09",
+        "datetime": "2017-06-09T20:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/240597202/",
+        "venue_name": "Galvanize",
+        "venue_address": "44 Tehama Street",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:eiso-kant",
+      "type": "Speaker",
+      "properties": {
+        "name": "Eiso Kant",
+        "role": null,
+        "company": "Source{d}",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:source-d",
+      "type": "Company",
+      "properties": {
+        "name": "Source{d}"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+      "to": "event:bay-area-ai-240597202",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-240597202",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170609-building-a-fully-open-source-stack-to-analyze-eiso-kant",
+      "to": "speaker:eiso-kant",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:eiso-kant",
+      "to": "company:source-d",
+      "type": "WORKS_AT"
+    }
+  ]
+}

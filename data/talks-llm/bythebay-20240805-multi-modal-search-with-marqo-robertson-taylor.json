@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240805-multi-modal-search-with-marqo-robertson-taylor",
+      "to": "event:unstructured-data-sf-300478750",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300478750",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240805-multi-modal-search-with-marqo-robertson-taylor",
+      "to": "speaker:robertson-taylor",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:robertson-taylor",
+      "to": "company:marqo",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240805-multi-modal-search-with-marqo-robertson-taylor",
+      "to": "project:marqo",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240805-multi-modal-search-with-marqo-robertson-taylor",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240805-multi-modal-search-with-marqo-robertson-taylor",
+      "properties": {
+        "abstract": "Marqo is an end-to-end vector search engine that supports multi-modal embeddings and provides a tensor-based search engine for AI applications.",
+        "id": "bythebay-20240805-multi-modal-search-with-marqo-robertson-taylor",
+        "order": 1,
+        "title": "Multi-Modal Search with Marqo"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-300478750",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-08-05",
+        "datetime": "2024-08-06T00:30:00+00:00",
+        "id": "300478750",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300478750/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:robertson-taylor",
+      "properties": {
+        "bio": null,
+        "company": "Marqo",
+        "name": "Robertson Taylor",
+        "role": "Solutions Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:marqo",
+      "properties": {
+        "name": "Marqo"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:marqo",
+      "properties": {
+        "github_url": "https://github.com/marqo-ai/marqo",
+        "name": "Marqo"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.427498+00:00",
+  "source_file": "source/unstructured-data-sf/300478750.html"
+}

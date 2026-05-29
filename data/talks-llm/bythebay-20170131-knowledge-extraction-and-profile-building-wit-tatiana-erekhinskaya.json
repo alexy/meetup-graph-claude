@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170131-knowledge-extraction-and-profile-building-wit-tatiana-erekhinskaya",
+  "scraped_at": "2026-05-29T04:53:39.929765+00:00",
+  "source_file": "source/bay-area-ai/237140331.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170131-knowledge-extraction-and-profile-building-wit-tatiana-erekhinskaya",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170131-knowledge-extraction-and-profile-building-wit-tatiana-erekhinskaya",
+        "title": "Knowledge Extraction and Profile Building with Semantic Calculus",
+        "abstract": "At Lymba, we are developing a knowledge extraction tool that automatically creates concise profiles for various entities. Semantic parsing and triple-based representation provide a bridge between semantic technologies and NLP, leveraging inference techniques and existing ontologies.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-237140331",
+      "type": "Event",
+      "properties": {
+        "id": "237140331",
+        "title": "Old-fashioned NLP: to be or not to be?",
+        "date": "2017-01-31",
+        "datetime": "2017-02-01T02:30:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/237140331/",
+        "venue_name": "Pubnub",
+        "venue_address": "725 Folsom St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:tatiana-erekhinskaya",
+      "type": "Speaker",
+      "properties": {
+        "name": "Tatiana Erekhinskaya",
+        "role": "Research Scientist and Product Manager",
+        "company": "Lymba Corporation",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:lymba-corporation",
+      "type": "Company",
+      "properties": {
+        "name": "Lymba Corporation"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170131-knowledge-extraction-and-profile-building-wit-tatiana-erekhinskaya",
+      "to": "event:bay-area-ai-237140331",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-237140331",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170131-knowledge-extraction-and-profile-building-wit-tatiana-erekhinskaya",
+      "to": "speaker:tatiana-erekhinskaya",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:tatiana-erekhinskaya",
+      "to": "company:lymba-corporation",
+      "type": "WORKS_AT"
+    }
+  ]
+}

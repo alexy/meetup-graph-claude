@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170719-scala-native-ahead-of-time-compilation-for-sc-denys-shabalin",
+      "to": "event:sf-scala-241665278",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-241665278",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170719-scala-native-ahead-of-time-compilation-for-sc-denys-shabalin",
+      "to": "speaker:denys-shabalin",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:denys-shabalin",
+      "to": "company:epfl",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170719-scala-native-ahead-of-time-compilation-for-sc-denys-shabalin",
+      "to": "project:scala-native",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170719-scala-native-ahead-of-time-compilation-for-sc-denys-shabalin",
+      "to": "project:llvm",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170719-scala-native-ahead-of-time-compilation-for-sc-denys-shabalin",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170719-scala-native-ahead-of-time-compilation-for-sc-denys-shabalin",
+      "properties": {
+        "abstract": "Scala Native is an optimizing ahead-of-time compiler for Scala targeting LLVM bytecode instead of the JVM. This makes it possible to run Scala programs on bare metal and easily interoperate with other native tools.",
+        "id": "bythebay-20170719-scala-native-ahead-of-time-compilation-for-sc-denys-shabalin",
+        "order": 0,
+        "title": "Scala Native: Ahead-of-Time Compilation for Scala Targeting LLVM"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-241665278",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-07-19",
+        "datetime": "2017-07-20T01:15:00+00:00",
+        "id": "241665278",
+        "title": "Scala Native, by Denys Shabalin",
+        "url": "https://www.meetup.com/sf-scala/events/241665278/",
+        "venue_address": "1700 Owens Street, Suite 405",
+        "venue_name": "Driver"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:denys-shabalin",
+      "properties": {
+        "bio": null,
+        "company": "EPFL",
+        "name": "Denys Shabalin",
+        "role": "PhD student and author of Scala Native"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:epfl",
+      "properties": {
+        "name": "EPFL"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scala-native",
+      "properties": {
+        "github_url": "https://github.com/scala-native/scala-native",
+        "name": "Scala Native"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:llvm",
+      "properties": {
+        "github_url": "https://github.com/llvm/llvm-project",
+        "name": "LLVM"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.450218+00:00",
+  "source_file": "source/sf-scala/241665278.html"
+}

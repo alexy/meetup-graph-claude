@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170822-extensions-for-graph-in-sql-susan-malaika",
+  "scraped_at": "2026-05-29T05:07:12.324891+00:00",
+  "source_file": "source/big-data-developers-in-nyc/242650560.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170822-extensions-for-graph-in-sql-susan-malaika",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170822-extensions-for-graph-in-sql-susan-malaika",
+        "title": "Extensions for Graph in SQL",
+        "abstract": "How SQL can be extended to support graph queries and traversals natively within relational database systems.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-242650560",
+      "type": "Event",
+      "properties": {
+        "id": "242650560",
+        "title": "Jupyter, Graph and More....",
+        "date": "2017-08-22",
+        "datetime": "2017-08-22T22:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/242650560/",
+        "venue_name": "Galvanize",
+        "venue_address": "315 Hudson Street - 2nd floor",
+        "city": "New York"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:susan-malaika",
+      "type": "Speaker",
+      "properties": {
+        "name": "Susan Malaika",
+        "role": null,
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170822-extensions-for-graph-in-sql-susan-malaika",
+      "to": "event:big-data-developers-in-nyc-242650560",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-242650560",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170822-extensions-for-graph-in-sql-susan-malaika",
+      "to": "speaker:susan-malaika",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:susan-malaika",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    }
+  ]
+}

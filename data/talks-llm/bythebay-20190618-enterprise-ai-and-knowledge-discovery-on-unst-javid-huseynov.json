@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20190618-enterprise-ai-and-knowledge-discovery-on-unst-javid-huseynov",
+  "scraped_at": "2026-05-29T05:07:12.326279+00:00",
+  "source_file": "source/big-data-developers-in-nyc/261460067.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190618-enterprise-ai-and-knowledge-discovery-on-unst-javid-huseynov",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20190618-enterprise-ai-and-knowledge-discovery-on-unst-javid-huseynov",
+        "title": "Enterprise AI and Knowledge Discovery on Unstructured Data",
+        "abstract": "Applying AI and NLP techniques to discover knowledge and insights from unstructured enterprise data.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-261460067",
+      "type": "Event",
+      "properties": {
+        "id": "261460067",
+        "title": "Data Science & AI Tech Talks ",
+        "date": "2019-06-18",
+        "datetime": "2019-06-18T21:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/261460067/",
+        "venue_name": "590 Madison Ave",
+        "venue_address": "590 Madison Ave",
+        "city": "New York"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:javid-huseynov",
+      "type": "Speaker",
+      "properties": {
+        "name": "Javid Huseynov",
+        "role": "Principal Data Scientist",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20190618-enterprise-ai-and-knowledge-discovery-on-unst-javid-huseynov",
+      "to": "event:big-data-developers-in-nyc-261460067",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-261460067",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190618-enterprise-ai-and-knowledge-discovery-on-unst-javid-huseynov",
+      "to": "speaker:javid-huseynov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:javid-huseynov",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20120313-play-2-0-framework-peter-hausel",
+  "scraped_at": "2026-05-29T05:47:24.452280+00:00",
+  "source_file": "source/sf-scala/43944172.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20120313-play-2-0-framework-peter-hausel",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20120313-play-2-0-framework-peter-hausel",
+        "title": "Play 2.0 Framework",
+        "abstract": "Play 2.0 brings back simplicity and agility to web application development. The framework has been designed to address the challenges of modern, real-time web applications including WebSockets and non-blocking IO.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:sf-scala-43944172",
+      "type": "Event",
+      "properties": {
+        "id": "43944172",
+        "title": "Play 2.0 with Peter Hausel of Typesafe and Felipe Oliveira of Klout",
+        "date": "2012-03-13",
+        "datetime": "2012-03-14T01:30:00+00:00",
+        "url": "https://www.meetup.com/sf-scala/events/43944172/",
+        "venue_name": "StackMob HQ",
+        "venue_address": "541 8th St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "slug": "sf-scala",
+        "name": "SF Scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:peter-hausel",
+      "type": "Speaker",
+      "properties": {
+        "name": "Peter Hausel",
+        "role": null,
+        "company": "Typesafe",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:typesafe",
+      "type": "Company",
+      "properties": {
+        "name": "Typesafe"
+      }
+    },
+    {
+      "id": "speaker:felipe-oliveira",
+      "type": "Speaker",
+      "properties": {
+        "name": "Felipe Oliveira",
+        "role": null,
+        "company": "Klout",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:klout",
+      "type": "Company",
+      "properties": {
+        "name": "Klout"
+      }
+    },
+    {
+      "id": "project:play-framework",
+      "type": "Project",
+      "properties": {
+        "name": "Play Framework",
+        "github_url": "https://github.com/playframework/playframework"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20120313-play-2-0-framework-peter-hausel",
+      "to": "event:sf-scala-43944172",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-43944172",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20120313-play-2-0-framework-peter-hausel",
+      "to": "speaker:peter-hausel",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:peter-hausel",
+      "to": "company:typesafe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20120313-play-2-0-framework-peter-hausel",
+      "to": "speaker:felipe-oliveira",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:felipe-oliveira",
+      "to": "company:klout",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20120313-play-2-0-framework-peter-hausel",
+      "to": "project:play-framework",
+      "type": "MENTIONS"
+    }
+  ]
+}

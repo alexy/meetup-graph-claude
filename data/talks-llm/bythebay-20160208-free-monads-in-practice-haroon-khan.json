@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20160208-free-monads-in-practice-haroon-khan",
+  "scraped_at": "2026-05-29T05:21:47.754875+00:00",
+  "source_file": "source/scala-bay/228543862.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160208-free-monads-in-practice-haroon-khan",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20160208-free-monads-in-practice-haroon-khan",
+        "title": "Free Monads in Practice",
+        "abstract": "Free Monads are an alternative to the Monad Transformer design pattern. Using free monads, a programmer can create flexible, extensible programs by assembling larger monads from primitive ones without the static, inflexible designs of monad transformers.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-228543862",
+      "type": "Event",
+      "properties": {
+        "id": "228543862",
+        "title": "Haroon Khan, Free Monads in Practice",
+        "date": "2016-02-08",
+        "datetime": "2016-02-09T03:00:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/228543862/",
+        "venue_name": "HealthExpense",
+        "venue_address": "440 N Wolfe Road",
+        "city": "Sunnyvale"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:haroon-khan",
+      "type": "Speaker",
+      "properties": {
+        "name": "Haroon Khan",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160208-free-monads-in-practice-haroon-khan",
+      "to": "event:scala-bay-228543862",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-228543862",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160208-free-monads-in-practice-haroon-khan",
+      "to": "speaker:haroon-khan",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20241114-introduction-to-llamaindex-workflows-zeyu-alex-yang",
+      "to": "event:bay-area-ai-304270396",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-304270396",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241114-introduction-to-llamaindex-workflows-zeyu-alex-yang",
+      "to": "speaker:zeyu-alex-yang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:zeyu-alex-yang",
+      "to": "company:llamaindex",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20241114-introduction-to-llamaindex-workflows-zeyu-alex-yang",
+      "to": "project:llamaindex",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20241114-introduction-to-llamaindex-workflows-zeyu-alex-yang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241114-introduction-to-llamaindex-workflows-zeyu-alex-yang",
+      "properties": {
+        "abstract": "LlamaIndex Workflows empower developers to design adaptable, event-driven processes. This session explores how Workflows enable connecting tasks, building custom flows, and gaining actionable insights whether developing agents or designing complex data pipelines.",
+        "id": "bythebay-20241114-introduction-to-llamaindex-workflows-zeyu-alex-yang",
+        "order": 2,
+        "title": "Introduction to LlamaIndex Workflows"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-304270396",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-11-14",
+        "datetime": "2024-11-15T01:30:00+00:00",
+        "id": "304270396",
+        "title": "[lu.ma registration required! AI Agents+Knowledge Graphs => Intelligent Systems",
+        "url": "https://www.meetup.com/bay-area-ai/events/304270396/",
+        "venue_address": "525 Market St",
+        "venue_name": "525 Market St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:zeyu-alex-yang",
+      "properties": {
+        "bio": null,
+        "company": "LlamaIndex",
+        "name": "Zeyu Alex Yang",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:llamaindex",
+      "properties": {
+        "name": "LlamaIndex"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:llamaindex",
+      "properties": {
+        "github_url": "https://github.com/run-llama/llama_index",
+        "name": "LlamaIndex"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.231437+00:00",
+  "source_file": "source/bay-area-ai/304270396.html"
+}

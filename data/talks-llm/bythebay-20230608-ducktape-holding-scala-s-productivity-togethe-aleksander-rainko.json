@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230608-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "to": "event:scala-bay-293127928",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-293127928",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230608-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "to": "speaker:aleksander-rainko",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:aleksander-rainko",
+      "to": "company:scalac",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230608-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "to": "project:ducktape",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20230608-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "to": "project:scala-3",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230608-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230608-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+      "properties": {
+        "abstract": "A macro-based library that abstracts away data transformations from generated code to clean business domain models. Shows how ducktape integrates with guardrail/smithy4s and newtype/refinement type libraries.",
+        "id": "bythebay-20230608-ducktape-holding-scala-s-productivity-togethe-aleksander-rainko",
+        "order": 0,
+        "title": "ducktape: Holding Scala's Productivity Together"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-293127928",
+      "properties": {
+        "city": "Oakland",
+        "date": "2023-06-08",
+        "datetime": "2023-06-09T00:00:00+00:00",
+        "id": "293127928",
+        "title": "ducktape -- Scala productivity + Holden Karau + Scala Center!",
+        "url": "https://www.meetup.com/scala-bay/events/293127928/",
+        "venue_address": "1999 Harrison St Suite 1100",
+        "venue_name": "LaunchDarkly"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:aleksander-rainko",
+      "properties": {
+        "bio": null,
+        "company": "Scalac",
+        "name": "Aleksander Rainko",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:scalac",
+      "properties": {
+        "name": "Scalac"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:ducktape",
+      "properties": {
+        "github_url": "https://github.com/arainko/ducktape",
+        "name": "ducktape"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:scala-3",
+      "properties": {
+        "github_url": "https://github.com/scala/scala",
+        "name": "Scala 3"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.760885+00:00",
+  "source_file": "source/scala-bay/293127928.html"
+}

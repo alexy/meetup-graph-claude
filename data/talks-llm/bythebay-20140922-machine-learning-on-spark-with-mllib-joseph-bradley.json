@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140922-machine-learning-on-spark-with-mllib-joseph-bradley",
+      "to": "event:sf-scala-208085622",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-208085622",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140922-machine-learning-on-spark-with-mllib-joseph-bradley",
+      "to": "speaker:joseph-bradley",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:joseph-bradley",
+      "to": "company:databricks",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140922-machine-learning-on-spark-with-mllib-joseph-bradley",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20140922-machine-learning-on-spark-with-mllib-joseph-bradley",
+      "to": "project:mllib",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140922-machine-learning-on-spark-with-mllib-joseph-bradley",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140922-machine-learning-on-spark-with-mllib-joseph-bradley",
+      "properties": {
+        "abstract": "A focused look at Machine Learning on Spark, covering the MLlib library and how to build scalable ML applications using Databricks and Spark.",
+        "id": "bythebay-20140922-machine-learning-on-spark-with-mllib-joseph-bradley",
+        "order": 0,
+        "title": "Machine Learning on Spark with MLlib"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-208085622",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-09-22",
+        "datetime": "2014-09-23T01:30:00+00:00",
+        "id": "208085622",
+        "title": "Workshop: Spark and Machine Learning",
+        "url": "https://www.meetup.com/sf-scala/events/208085622/",
+        "venue_address": "1355 Market St",
+        "venue_name": "Yammer HQ"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:joseph-bradley",
+      "properties": {
+        "bio": null,
+        "company": "Databricks",
+        "name": "Joseph Bradley",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:databricks",
+      "properties": {
+        "name": "Databricks"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:mllib",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "MLlib"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.448288+00:00",
+  "source_file": "source/sf-scala/208085622.html"
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150209-predictionio-a-machine-learning-server-for-sc-simon-chan",
+      "to": "event:scala-bay-219624829",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-219624829",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150209-predictionio-a-machine-learning-server-for-sc-simon-chan",
+      "to": "speaker:simon-chan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:simon-chan",
+      "to": "company:predictionio",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150209-predictionio-a-machine-learning-server-for-sc-simon-chan",
+      "to": "project:predictionio",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150209-predictionio-a-machine-learning-server-for-sc-simon-chan",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150209-predictionio-a-machine-learning-server-for-sc-simon-chan",
+      "properties": {
+        "abstract": "PredictionIO is an open source machine learning server written in Scala, ranked top on Github with over 5000 developers. Designed for data scientists and developers to build predictive engines for real-world applications in a fraction of the normal time.",
+        "id": "bythebay-20150209-predictionio-a-machine-learning-server-for-sc-simon-chan",
+        "order": 0,
+        "title": "PredictionIO: A Machine Learning Server for Scala Developers"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-219624829",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2015-02-09",
+        "datetime": "2015-02-10T03:00:00+00:00",
+        "id": "219624829",
+        "title": "Simon Chan, \"PredictionIO - A Machine Learning Server for Scala Developers\"",
+        "url": "https://www.meetup.com/scala-bay/events/219624829/",
+        "venue_address": "100 W. Evelyn Ave",
+        "venue_name": "Clari Inc."
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:simon-chan",
+      "properties": {
+        "bio": null,
+        "company": "PredictionIO",
+        "name": "Simon Chan",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:predictionio",
+      "properties": {
+        "name": "PredictionIO"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:predictionio",
+      "properties": {
+        "github_url": "https://github.com/apache/predictionio",
+        "name": "PredictionIO"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.752698+00:00",
+  "source_file": "source/scala-bay/219624829.html"
+}

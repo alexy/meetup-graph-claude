@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20120105-sbt-introduction-and-cookbook-josh-suereth",
+      "to": "event:scala-bay-44582312",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-44582312",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20120105-sbt-introduction-and-cookbook-josh-suereth",
+      "to": "speaker:josh-suereth",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:josh-suereth",
+      "to": "company:typesafe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20120105-sbt-introduction-and-cookbook-josh-suereth",
+      "to": "project:sbt",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20120105-sbt-introduction-and-cookbook-josh-suereth",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20120105-sbt-introduction-and-cookbook-josh-suereth",
+      "properties": {
+        "abstract": "The Simple Build Tool offers a new way to configure build systems using key-value pairs, configuration axes and plugins. This talk covers basic abstractions and offers cookbook recipes for common tasks.",
+        "id": "bythebay-20120105-sbt-introduction-and-cookbook-josh-suereth",
+        "order": 0,
+        "title": "SBT Introduction and Cookbook"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-44582312",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2012-01-05",
+        "datetime": "2012-01-06T02:30:00+00:00",
+        "id": "44582312",
+        "title": "Josh Suereth - SBT Introduction and Cookbook",
+        "url": "https://www.meetup.com/scala-bay/events/44582312/",
+        "venue_address": "2025 Stierlin Ct, Unite Room (2nd Floor)",
+        "venue_name": "LinkedIn"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:josh-suereth",
+      "properties": {
+        "bio": null,
+        "company": "Typesafe",
+        "name": "Josh Suereth",
+        "role": "Senior Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:typesafe",
+      "properties": {
+        "name": "Typesafe"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:sbt",
+      "properties": {
+        "github_url": "https://github.com/sbt/sbt",
+        "name": "SBT"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.762287+00:00",
+  "source_file": "source/scala-bay/44582312.html"
+}

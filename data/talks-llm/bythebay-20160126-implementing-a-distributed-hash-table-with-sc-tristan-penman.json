@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160126-implementing-a-distributed-hash-table-with-sc-tristan-penman",
+      "to": "event:sf-scala-227426188",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-227426188",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160126-implementing-a-distributed-hash-table-with-sc-tristan-penman",
+      "to": "speaker:tristan-penman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20160126-implementing-a-distributed-hash-table-with-sc-tristan-penman",
+      "to": "project:akka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160126-implementing-a-distributed-hash-table-with-sc-tristan-penman",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160126-implementing-a-distributed-hash-table-with-sc-tristan-penman",
+      "properties": {
+        "abstract": "An experience implementing a distributed hash table based on the Chord protocol using Scala and Akka. Covers Scala and Akka best practices and how these practices influence the design of a non-trivial distributed system.",
+        "id": "bythebay-20160126-implementing-a-distributed-hash-table-with-sc-tristan-penman",
+        "order": 0,
+        "title": "Implementing a Distributed Hash Table with Scala and Akka"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-227426188",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-01-26",
+        "datetime": "2016-01-27T02:30:00+00:00",
+        "id": "227426188",
+        "title": "A Distributed Hash Table using  Akka; Websockets to Kafka with Akka Streams",
+        "url": "https://www.meetup.com/sf-scala/events/227426188/",
+        "venue_address": "275 Sacramento Street, 4th floor",
+        "venue_name": "Wrap Media"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:tristan-penman",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Tristan Penman",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:akka",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.449523+00:00",
+  "source_file": "source/sf-scala/227426188.html"
+}

@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+      "to": "event:sf-scala-39108572",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-39108572",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+      "to": "speaker:mike-slinn",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+      "to": "speaker:james-ward",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+      "to": "project:sbt",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+      "to": "project:intellij-idea",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+      "properties": {
+        "abstract": "An overview of SBT configuration files and a live demonstration of development with IntelliJ IDEA and Eclipse for Scala projects, covering plugins and productivity tips.",
+        "id": "bythebay-20111121-sbt-intellij-idea-and-scala-development-tooli-mike-slinn",
+        "order": 0,
+        "title": "SBT, IntelliJ IDEA, and Scala Development Tooling"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-39108572",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2011-11-21",
+        "datetime": "2011-11-22T02:30:00+00:00",
+        "id": "39108572",
+        "title": "James Ward and Mike Slinn - Akka, Heroku, sbt and BlueEyes",
+        "url": "https://www.meetup.com/sf-scala/events/39108572/",
+        "venue_address": "2027 Stierlin Court",
+        "venue_name": "LinkedIn HQ"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mike-slinn",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Mike Slinn",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "speaker:james-ward",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "James Ward",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:sbt",
+      "properties": {
+        "github_url": "https://github.com/sbt/sbt",
+        "name": "SBT"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:intellij-idea",
+      "properties": {
+        "github_url": "https://github.com/JetBrains/intellij-community",
+        "name": "IntelliJ IDEA"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.452183+00:00",
+  "source_file": "source/sf-scala/39108572.html"
+}

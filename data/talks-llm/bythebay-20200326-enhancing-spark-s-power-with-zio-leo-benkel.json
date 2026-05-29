@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20200326-enhancing-spark-s-power-with-zio-leo-benkel",
+      "to": "event:sf-scala-268998404",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-268998404",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200326-enhancing-spark-s-power-with-zio-leo-benkel",
+      "to": "speaker:leo-benkel",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20200326-enhancing-spark-s-power-with-zio-leo-benkel",
+      "to": "project:zio",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20200326-enhancing-spark-s-power-with-zio-leo-benkel",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20200326-enhancing-spark-s-power-with-zio-leo-benkel",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200326-enhancing-spark-s-power-with-zio-leo-benkel",
+      "properties": {
+        "abstract": "Combining ZIO/Future with Spark can drastically speed up ML project performance, as data sources can be fetched in parallel without holding up computation. Covers why ZIO is better than Future for this use case.",
+        "id": "bythebay-20200326-enhancing-spark-s-power-with-zio-leo-benkel",
+        "order": 0,
+        "title": "Enhancing Spark's Power with ZIO"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-268998404",
+      "properties": {
+        "city": "",
+        "date": "2020-03-26",
+        "datetime": "2020-03-27T01:00:00+00:00",
+        "id": "268998404",
+        "title": "Enhancing Spark's Power with ZIO, Qubism and NLP at Scale, Using Nix for Haskell",
+        "url": "https://www.meetup.com/sf-scala/events/268998404/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:leo-benkel",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Leo Benkel",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:zio",
+      "properties": {
+        "github_url": "https://github.com/zio/zio",
+        "name": "ZIO"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.451590+00:00",
+  "source_file": "source/sf-scala/268998404.html"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20180213-tools-for-taming-tangled-code-seth-tisue",
+  "scraped_at": "2026-05-29T05:47:24.450905+00:00",
+  "source_file": "source/sf-scala/247363947.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180213-tools-for-taming-tangled-code-seth-tisue",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20180213-tools-for-taming-tangled-code-seth-tisue",
+        "title": "Tools for Taming Tangled Code",
+        "abstract": "A tour of Scala tooling for improving code quality, managing dependencies, and taming complex codebases, from a contributor to the Scala compiler.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:sf-scala-247363947",
+      "type": "Event",
+      "properties": {
+        "id": "247363947",
+        "title": "Scala and (1) Graphics, (2) Shapeless, (3) Tools for Taming Tangled Code",
+        "date": "2018-02-13",
+        "datetime": "2018-02-14T02:00:00+00:00",
+        "url": "https://www.meetup.com/sf-scala/events/247363947/",
+        "venue_name": "Iterable",
+        "venue_address": "360 3rd Street Suite 675",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "slug": "sf-scala",
+        "name": "SF Scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:seth-tisue",
+      "type": "Speaker",
+      "properties": {
+        "name": "Seth Tisue",
+        "role": null,
+        "company": "Lightbend",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:lightbend",
+      "type": "Company",
+      "properties": {
+        "name": "Lightbend"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180213-tools-for-taming-tangled-code-seth-tisue",
+      "to": "event:sf-scala-247363947",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-247363947",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180213-tools-for-taming-tangled-code-seth-tisue",
+      "to": "speaker:seth-tisue",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:seth-tisue",
+      "to": "company:lightbend",
+      "type": "WORKS_AT"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20211214-introduction-to-transactions-in-apache-pulsar-jowanza-joseph",
+      "to": "event:scala-bay-282531416",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-282531416",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20211214-introduction-to-transactions-in-apache-pulsar-jowanza-joseph",
+      "to": "speaker:jowanza-joseph",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jowanza-joseph",
+      "to": "company:finicity",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20211214-introduction-to-transactions-in-apache-pulsar-jowanza-joseph",
+      "to": "project:apache-pulsar",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20211214-introduction-to-transactions-in-apache-pulsar-jowanza-joseph",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20211214-introduction-to-transactions-in-apache-pulsar-jowanza-joseph",
+      "properties": {
+        "abstract": "Transactions in Apache Pulsar enable atomic operations among Pulsar consumers and producers. Covers the motivating factors, deep-dives into the transactions API, and walks through examples using the pulsar4s client.",
+        "id": "bythebay-20211214-introduction-to-transactions-in-apache-pulsar-jowanza-joseph",
+        "order": 1,
+        "title": "Introduction to Transactions in Apache Pulsar"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-282531416",
+      "properties": {
+        "city": null,
+        "date": "2021-12-14",
+        "datetime": "2021-12-14T20:00:00+00:00",
+        "id": "282531416",
+        "title": "fs2.Chunk and Infrastructure as Scala",
+        "url": "https://www.meetup.com/scala-bay/events/282531416/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jowanza-joseph",
+      "properties": {
+        "bio": null,
+        "company": "Finicity",
+        "name": "Jowanza Joseph",
+        "role": "VP of Engineering"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:finicity",
+      "properties": {
+        "name": "Finicity"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-pulsar",
+      "properties": {
+        "github_url": "https://github.com/apache/pulsar",
+        "name": "Apache Pulsar"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.760754+00:00",
+  "source_file": "source/scala-bay/282531416.html"
+}

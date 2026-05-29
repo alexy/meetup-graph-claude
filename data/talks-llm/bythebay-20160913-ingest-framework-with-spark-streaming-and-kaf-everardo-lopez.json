@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+      "to": "event:hadoopsf-233741637",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-233741637",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+      "to": "speaker:everardo-lopez",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:everardo-lopez",
+      "to": "company:intel",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+      "to": "speaker:carlos-villavicencio",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:carlos-villavicencio",
+      "to": "company:intel",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+      "to": "project:apache-kafka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+      "properties": {
+        "abstract": "Building an extensible and scalable ingest framework using Spark Streaming and Kafka, developed for the Open Network Insight (ONI) project at Intel to analyze network traffic for security.",
+        "id": "bythebay-20160913-ingest-framework-with-spark-streaming-and-kaf-everardo-lopez",
+        "order": 0,
+        "title": "Ingest Framework with Spark Streaming and Kafka"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-233741637",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-09-13",
+        "datetime": "2016-09-14T01:00:00+00:00",
+        "id": "233741637",
+        "title": "September 2016 Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/233741637/",
+        "venue_address": "420 Taylor Street",
+        "venue_name": "Chartboost"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:everardo-lopez",
+      "properties": {
+        "bio": null,
+        "company": "Intel",
+        "name": "Everardo Lopez",
+        "role": "Software Development Lead for Cloud Analytics"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:intel",
+      "properties": {
+        "name": "Intel"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:carlos-villavicencio",
+      "properties": {
+        "bio": null,
+        "company": "Intel",
+        "name": "Carlos Villavicencio",
+        "role": "Security Researcher for Cloud Analytics"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:intel",
+      "properties": {
+        "name": "Intel"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-kafka",
+      "properties": {
+        "github_url": "https://github.com/apache/kafka",
+        "name": "Apache Kafka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.373216+00:00",
+  "source_file": "source/hadoopsf/233741637.html"
+}

@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20131120-inside-hunk-architecture-analytics-and-use-ca-clint-sharp",
+      "to": "event:hadoopsf-148676842",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-148676842",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20131120-inside-hunk-architecture-analytics-and-use-ca-clint-sharp",
+      "to": "speaker:clint-sharp",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:clint-sharp",
+      "to": "company:splunk",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20131120-inside-hunk-architecture-analytics-and-use-ca-clint-sharp",
+      "to": "project:hunk",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20131120-inside-hunk-architecture-analytics-and-use-ca-clint-sharp",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20131120-inside-hunk-architecture-analytics-and-use-ca-clint-sharp",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20131120-inside-hunk-architecture-analytics-and-use-ca-clint-sharp",
+      "properties": {
+        "abstract": "How Splunk built Hunk \u2014 a Hadoop analytics solution. Covers the architecture, the challenges, the solutions, and real-world analytics use cases powered by Hunk.",
+        "id": "bythebay-20131120-inside-hunk-architecture-analytics-and-use-ca-clint-sharp",
+        "order": 0,
+        "title": "Inside Hunk: Architecture, Analytics and Use Cases"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-148676842",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2013-11-20",
+        "datetime": "2013-11-21T02:00:00+00:00",
+        "id": "148676842",
+        "title": "November SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/148676842/",
+        "venue_address": "2nd Floor,, 250 Brannan St",
+        "venue_name": "Splunk Inc"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:clint-sharp",
+      "properties": {
+        "bio": null,
+        "company": "Splunk",
+        "name": "Clint Sharp",
+        "role": "Director of Product Management"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:splunk",
+      "properties": {
+        "name": "Splunk"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:hunk",
+      "properties": {
+        "github_url": null,
+        "name": "Hunk"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.370767+00:00",
+  "source_file": "source/hadoopsf/148676842.html"
+}

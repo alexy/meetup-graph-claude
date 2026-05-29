@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240813-llm-powered-applications-at-intuit-sriharsha-yayi",
+  "scraped_at": "2026-05-29T05:39:23.429363+00:00",
+  "source_file": "source/unstructured-data-sf/302334174.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240813-llm-powered-applications-at-intuit-sriharsha-yayi",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240813-llm-powered-applications-at-intuit-sriharsha-yayi",
+        "title": "LLM-Powered Applications at Intuit",
+        "abstract": "How Intuit builds and deploys LLM-powered applications at scale for financial services, from engineering to product management.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-302334174",
+      "type": "Event",
+      "properties": {
+        "id": "302334174",
+        "title": "Unstructured Data Meetup - South Bay Edition",
+        "date": "2024-08-13",
+        "datetime": "2024-08-14T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334174/",
+        "venue_name": "SAP Building 1",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:sriharsha-yayi",
+      "type": "Speaker",
+      "properties": {
+        "name": "Sriharsha Yayi",
+        "role": "Senior Product Manager",
+        "company": "Intuit",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:intuit",
+      "type": "Company",
+      "properties": {
+        "name": "Intuit"
+      }
+    },
+    {
+      "id": "speaker:derek-wang",
+      "type": "Speaker",
+      "properties": {
+        "name": "Derek Wang",
+        "role": "Principal Software Engineer",
+        "company": "Intuit",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:intuit",
+      "type": "Company",
+      "properties": {
+        "name": "Intuit"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240813-llm-powered-applications-at-intuit-sriharsha-yayi",
+      "to": "event:unstructured-data-sf-302334174",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334174",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240813-llm-powered-applications-at-intuit-sriharsha-yayi",
+      "to": "speaker:sriharsha-yayi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:sriharsha-yayi",
+      "to": "company:intuit",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240813-llm-powered-applications-at-intuit-sriharsha-yayi",
+      "to": "speaker:derek-wang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:derek-wang",
+      "to": "company:intuit",
+      "type": "WORKS_AT"
+    }
+  ]
+}

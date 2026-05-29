@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240522-upstage-document-ai-and-llm-platform-lucy-park",
+  "scraped_at": "2026-05-29T05:39:23.428236+00:00",
+  "source_file": "source/unstructured-data-sf/300812829.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240522-upstage-document-ai-and-llm-platform-lucy-park",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240522-upstage-document-ai-and-llm-platform-lucy-park",
+        "title": "Upstage: Document AI and LLM Platform",
+        "abstract": "How Upstage builds document AI and LLM capabilities for enterprise applications, including Solar LLM and document parsing.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-300812829",
+      "type": "Event",
+      "properties": {
+        "id": "300812829",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "date": "2024-05-22",
+        "datetime": "2024-05-23T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300812829/",
+        "venue_name": "3412 Hillview Ave",
+        "venue_address": "3412 Hillview Ave",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:lucy-park",
+      "type": "Speaker",
+      "properties": {
+        "name": "Lucy Park",
+        "role": "co-founder and CSO",
+        "company": "Upstage",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:upstage",
+      "type": "Company",
+      "properties": {
+        "name": "Upstage"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240522-upstage-document-ai-and-llm-platform-lucy-park",
+      "to": "event:unstructured-data-sf-300812829",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300812829",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240522-upstage-document-ai-and-llm-platform-lucy-park",
+      "to": "speaker:lucy-park",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:lucy-park",
+      "to": "company:upstage",
+      "type": "WORKS_AT"
+    }
+  ]
+}

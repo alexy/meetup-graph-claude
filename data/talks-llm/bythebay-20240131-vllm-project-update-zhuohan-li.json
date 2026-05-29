@@ -1,0 +1,120 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240131-vllm-project-update-zhuohan-li",
+      "to": "event:bay-area-ai-298461968",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-298461968",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240131-vllm-project-update-zhuohan-li",
+      "to": "speaker:zhuohan-li",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:zhuohan-li",
+      "to": "company:uc-berkeley",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240131-vllm-project-update-zhuohan-li",
+      "to": "speaker:woosuk-kwon",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:woosuk-kwon",
+      "to": "company:uc-berkeley",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240131-vllm-project-update-zhuohan-li",
+      "to": "project:vllm",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240131-vllm-project-update-zhuohan-li",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240131-vllm-project-update-zhuohan-li",
+      "properties": {
+        "abstract": "Update from the maintainers of vLLM, the high-throughput and memory-efficient inference and serving engine for LLMs.",
+        "id": "bythebay-20240131-vllm-project-update-zhuohan-li",
+        "order": 1,
+        "title": "vLLM Project Update"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-298461968",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-01-31",
+        "datetime": "2024-02-01T00:00:00+00:00",
+        "id": "298461968",
+        "title": "[External Registration Required] AI Alliance and vLLM",
+        "url": "https://www.meetup.com/bay-area-ai/events/298461968/",
+        "venue_address": "425 Market St",
+        "venue_name": "IBM"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:zhuohan-li",
+      "properties": {
+        "bio": null,
+        "company": "UC Berkeley",
+        "name": "Zhuohan Li",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:uc-berkeley",
+      "properties": {
+        "name": "UC Berkeley"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:woosuk-kwon",
+      "properties": {
+        "bio": null,
+        "company": "UC Berkeley",
+        "name": "Woosuk Kwon",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:uc-berkeley",
+      "properties": {
+        "name": "UC Berkeley"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:vllm",
+      "properties": {
+        "github_url": "https://github.com/vllm-project/vllm",
+        "name": "vLLM"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.229816+00:00",
+  "source_file": "source/bay-area-ai/298461968.html"
+}

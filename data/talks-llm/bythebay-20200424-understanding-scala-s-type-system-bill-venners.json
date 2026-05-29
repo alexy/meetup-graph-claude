@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20200424-understanding-scala-s-type-system-bill-venners",
+      "to": "event:graphql-by-the-bay-269884376",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:graphql-by-the-bay-269884376",
+      "to": "group:graphql-by-the-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200424-understanding-scala-s-type-system-bill-venners",
+      "to": "speaker:bill-venners",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:bill-venners",
+      "to": "company:artima",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20200424-understanding-scala-s-type-system-bill-venners",
+      "to": "project:scalatest",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20200424-understanding-scala-s-type-system-bill-venners",
+      "to": "project:scalactic",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20200424-understanding-scala-s-type-system-bill-venners",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200424-understanding-scala-s-type-system-bill-venners",
+      "properties": {
+        "abstract": "A tour of Scala's type system covering all types of types: nominal, structural, singleton, refinement, higher-kinded, parameterized, bounded, abstract, path-dependent, union, intersection types, and variance. Also covers how the type system is evolving in Scala 3.",
+        "id": "bythebay-20200424-understanding-scala-s-type-system-bill-venners",
+        "order": 1,
+        "title": "Understanding Scala's Type System"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:graphql-by-the-bay-269884376",
+      "properties": {
+        "city": "",
+        "date": "2020-04-24",
+        "datetime": "2020-04-25T01:00:00+00:00",
+        "id": "269884376",
+        "title": "A Tour of Caliban: FP GraphQL in Scala & Understanding Scala's Type System",
+        "url": "https://www.meetup.com/graphql-by-the-bay/events/269884376/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:graphql-by-the-bay",
+      "properties": {
+        "name": "GraphQL By the Bay",
+        "slug": "graphql-by-the-bay",
+        "url": "https://www.meetup.com/graphql-by-the-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:bill-venners",
+      "properties": {
+        "bio": null,
+        "company": "Artima",
+        "name": "Bill Venners",
+        "role": "president"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:artima",
+      "properties": {
+        "name": "Artima"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scalatest",
+      "properties": {
+        "github_url": "https://github.com/scalatest/scalatest",
+        "name": "ScalaTest"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:scalactic",
+      "properties": {
+        "github_url": "https://github.com/scalatest/scalatest",
+        "name": "Scalactic"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:09:14.568703+00:00",
+  "source_file": "source/graphql-by-the-bay/269884376.html"
+}

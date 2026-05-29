@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20150727-scala-for-machine-learning-patrick-r-nicolas",
+  "scraped_at": "2026-05-29T05:21:47.753631+00:00",
+  "source_file": "source/scala-bay/223478413.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150727-scala-for-machine-learning-patrick-r-nicolas",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20150727-scala-for-machine-learning-patrick-r-nicolas",
+        "title": "Scala for Machine Learning",
+        "abstract": "What makes Scala particularly suitable for implementing machine learning techniques: mathematical abstractions, dynamic instantiation of data transformations and workflows, and scalable execution.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-223478413",
+      "type": "Event",
+      "properties": {
+        "id": "223478413",
+        "title": "Patrick R. Nicolas, \"Scala for Machine Learning\"",
+        "date": "2015-07-27",
+        "datetime": "2015-07-28T02:00:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/223478413/",
+        "venue_name": "Clari Inc.",
+        "venue_address": "100 W. Evelyn Ave",
+        "city": "Mountain View"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:patrick-r-nicolas",
+      "type": "Speaker",
+      "properties": {
+        "name": "Patrick R. Nicolas",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150727-scala-for-machine-learning-patrick-r-nicolas",
+      "to": "event:scala-bay-223478413",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-223478413",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150727-scala-for-machine-learning-patrick-r-nicolas",
+      "to": "speaker:patrick-r-nicolas",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

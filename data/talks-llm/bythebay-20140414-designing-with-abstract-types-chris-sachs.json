@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140414-designing-with-abstract-types-chris-sachs",
+      "to": "event:scala-bay-175163962",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-175163962",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140414-designing-with-abstract-types-chris-sachs",
+      "to": "speaker:chris-sachs",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:chris-sachs",
+      "to": "company:sensity-systems",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140414-designing-with-abstract-types-chris-sachs",
+      "to": "project:scala-basis",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140414-designing-with-abstract-types-chris-sachs",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140414-designing-with-abstract-types-chris-sachs",
+      "properties": {
+        "abstract": "Type members and path-dependent types breathe new life into objects. This talk focuses on type abstraction and how to wield it effectively to create simple, robust, performant designs.",
+        "id": "bythebay-20140414-designing-with-abstract-types-chris-sachs",
+        "order": 0,
+        "title": "Designing with Abstract Types"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-175163962",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2014-04-14",
+        "datetime": "2014-04-15T01:30:00+00:00",
+        "id": "175163962",
+        "title": "Chris Sachs. Designing with Abstract Types",
+        "url": "https://www.meetup.com/scala-bay/events/175163962/",
+        "venue_address": "4440 El Camino Real, Los Altos, CA, Palo Alto, CA",
+        "venue_name": "Box"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:chris-sachs",
+      "properties": {
+        "bio": null,
+        "company": "Sensity Systems",
+        "name": "Chris Sachs",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:sensity-systems",
+      "properties": {
+        "name": "Sensity Systems"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scala-basis",
+      "properties": {
+        "github_url": "https://github.com/ReifyIt/basis",
+        "name": "Scala Basis"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.750500+00:00",
+  "source_file": "source/scala-bay/175163962.html"
+}

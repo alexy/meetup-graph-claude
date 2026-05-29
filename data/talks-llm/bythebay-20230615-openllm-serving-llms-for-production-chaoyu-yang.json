@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230615-openllm-serving-llms-for-production-chaoyu-yang",
+      "to": "event:unstructured-data-sf-293939805",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-293939805",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230615-openllm-serving-llms-for-production-chaoyu-yang",
+      "to": "speaker:chaoyu-yang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20230615-openllm-serving-llms-for-production-chaoyu-yang",
+      "to": "project:openllm",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230615-openllm-serving-llms-for-production-chaoyu-yang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230615-openllm-serving-llms-for-production-chaoyu-yang",
+      "properties": {
+        "abstract": "OpenLLM is an open-source platform for operating LLMs in production, providing a unified interface for serving any open-source LLM.",
+        "id": "bythebay-20230615-openllm-serving-llms-for-production-chaoyu-yang",
+        "order": 2,
+        "title": "OpenLLM: Serving LLMs for Production"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-293939805",
+      "properties": {
+        "city": "Redwood City",
+        "date": "2023-06-15",
+        "datetime": "2023-06-16T01:00:00+00:00",
+        "id": "293939805",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/293939805/",
+        "venue_address": "555 Twin Dolphin Dr",
+        "venue_name": "555 Twin Dolphin Dr"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:chaoyu-yang",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Chaoyu Yang",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:openllm",
+      "properties": {
+        "github_url": "https://github.com/bentoml/OpenLLM",
+        "name": "OpenLLM"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.424770+00:00",
+  "source_file": "source/unstructured-data-sf/293939805.html"
+}

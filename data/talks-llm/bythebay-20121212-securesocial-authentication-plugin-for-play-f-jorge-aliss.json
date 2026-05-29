@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20121212-securesocial-authentication-plugin-for-play-f-jorge-aliss",
+      "to": "event:scala-bay-76919492",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-76919492",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20121212-securesocial-authentication-plugin-for-play-f-jorge-aliss",
+      "to": "speaker:jorge-aliss",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20121212-securesocial-authentication-plugin-for-play-f-jorge-aliss",
+      "to": "project:securesocial",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20121212-securesocial-authentication-plugin-for-play-f-jorge-aliss",
+      "to": "project:play-framework",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20121212-securesocial-authentication-plugin-for-play-f-jorge-aliss",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20121212-securesocial-authentication-plugin-for-play-f-jorge-aliss",
+      "properties": {
+        "abstract": "SecureSocial is a Play Framework plugin providing authentication with Twitter, Facebook, GitHub, and more. This talk covers what it does, why it was made, and the authentication schemes it supports.",
+        "id": "bythebay-20121212-securesocial-authentication-plugin-for-play-f-jorge-aliss",
+        "order": 0,
+        "title": "SecureSocial: Authentication Plugin for Play Framework"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-76919492",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2012-12-12",
+        "datetime": "2012-12-13T02:30:00+00:00",
+        "id": "76919492",
+        "title": "Effective Scala at Box in Los Altos",
+        "url": "https://www.meetup.com/scala-bay/events/76919492/",
+        "venue_address": "4440 El Camino Real, Los Altos, CA, Palo Alto, CA",
+        "venue_name": "Box"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jorge-aliss",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jorge Aliss",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:securesocial",
+      "properties": {
+        "github_url": "https://github.com/jaliss/securesocial",
+        "name": "SecureSocial"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:play-framework",
+      "properties": {
+        "github_url": "https://github.com/playframework/playframework",
+        "name": "Play Framework"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.763584+00:00",
+  "source_file": "source/scala-bay/76919492.html"
+}

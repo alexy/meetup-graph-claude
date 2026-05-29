@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240813-milvus-vector-database-performance-bill-zhang",
+      "to": "event:unstructured-data-sf-302334174",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334174",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240813-milvus-vector-database-performance-bill-zhang",
+      "to": "speaker:bill-zhang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:bill-zhang",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240813-milvus-vector-database-performance-bill-zhang",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240813-milvus-vector-database-performance-bill-zhang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240813-milvus-vector-database-performance-bill-zhang",
+      "properties": {
+        "abstract": "Performance optimization and benchmarking for Milvus vector database in production deployments.",
+        "id": "bythebay-20240813-milvus-vector-database-performance-bill-zhang",
+        "order": 1,
+        "title": "Milvus Vector Database Performance"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-302334174",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-08-13",
+        "datetime": "2024-08-14T00:30:00+00:00",
+        "id": "302334174",
+        "title": "Unstructured Data Meetup - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334174/",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "venue_name": "SAP Building 1"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:bill-zhang",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Bill Zhang",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.429246+00:00",
+  "source_file": "source/unstructured-data-sf/302334174.html"
+}

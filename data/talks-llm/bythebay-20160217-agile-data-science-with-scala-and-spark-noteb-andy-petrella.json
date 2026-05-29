@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+      "to": "event:scala-bay-228814274",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-228814274",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+      "to": "speaker:andy-petrella",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:andy-petrella",
+      "to": "company:datafellas",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+      "to": "speaker:xavier-tordoir",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:xavier-tordoir",
+      "to": "company:datafellas",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+      "to": "project:spark-notebook",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+      "properties": {
+        "abstract": "A unified environment starting with Spark Notebook that helps different people with different tasks develop a data service pipeline with minimal friction and maximal agility. Demo of the latest features of the open source Spark Notebook.",
+        "id": "bythebay-20160217-agile-data-science-with-scala-and-spark-noteb-andy-petrella",
+        "order": 1,
+        "title": "Agile Data Science with Scala and Spark Notebook"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-228814274",
+      "properties": {
+        "city": "Santa Clara",
+        "date": "2016-02-17",
+        "datetime": "2016-02-18T02:30:00+00:00",
+        "id": "228814274",
+        "title": "A Data Pipeline for the Internet of Data Centers;  Agile Data Science with Scala",
+        "url": "https://www.meetup.com/scala-bay/events/228814274/",
+        "venue_address": "3979 Freedom Cir",
+        "venue_name": "CloudPhysics"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:andy-petrella",
+      "properties": {
+        "bio": null,
+        "company": "DataFellas",
+        "name": "Andy Petrella",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:datafellas",
+      "properties": {
+        "name": "DataFellas"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:xavier-tordoir",
+      "properties": {
+        "bio": null,
+        "company": "DataFellas",
+        "name": "Xavier Tordoir",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:datafellas",
+      "properties": {
+        "name": "DataFellas"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:spark-notebook",
+      "properties": {
+        "github_url": "https://github.com/spark-notebook/spark-notebook",
+        "name": "Spark Notebook"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.755081+00:00",
+  "source_file": "source/scala-bay/228814274.html"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20150224-microservices-in-scala-with-scala-and-java-chris-richardson",
+  "scraped_at": "2026-05-29T05:47:24.448821+00:00",
+  "source_file": "source/sf-scala/220150547.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150224-microservices-in-scala-with-scala-and-java-chris-richardson",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20150224-microservices-in-scala-with-scala-and-java-chris-richardson",
+        "title": "Microservices in Scala with Scala and Java",
+        "abstract": "An overview of microservices architecture in Scala and Java, covering the patterns, tools, and frameworks for building distributed microservices systems.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:sf-scala-220150547",
+      "type": "Event",
+      "properties": {
+        "id": "220150547",
+        "title": "Scala at Sungevity: SF Scala goes to Oakland!",
+        "date": "2015-02-24",
+        "datetime": "2015-02-25T02:30:00+00:00",
+        "url": "https://www.meetup.com/sf-scala/events/220150547/",
+        "venue_name": "Sungevity",
+        "venue_address": "55 Harrison St., ste 300",
+        "city": "oakland"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "slug": "sf-scala",
+        "name": "SF Scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:chris-richardson",
+      "type": "Speaker",
+      "properties": {
+        "name": "Chris Richardson",
+        "role": "founder",
+        "company": "Eventuate.io",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:eventuate-io",
+      "type": "Company",
+      "properties": {
+        "name": "Eventuate.io"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150224-microservices-in-scala-with-scala-and-java-chris-richardson",
+      "to": "event:sf-scala-220150547",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-220150547",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150224-microservices-in-scala-with-scala-and-java-chris-richardson",
+      "to": "speaker:chris-richardson",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:chris-richardson",
+      "to": "company:eventuate-io",
+      "type": "WORKS_AT"
+    }
+  ]
+}

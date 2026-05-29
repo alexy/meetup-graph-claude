@@ -1,0 +1,107 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+      "to": "event:bay-area-ai-227042419",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-227042419",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+      "to": "speaker:ilya-kreymer",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+      "to": "project:wayback-machine",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+      "to": "project:commoncrawl",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+      "to": "project:webrecorder",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+      "properties": {
+        "abstract": "A broad overview of the field of web archiving, covering how web data is crawled, stored and accessed by the Wayback Machine, CommonCrawl and the new Webrecorder project. Covers the ISO standard WARC format, web archive index APIs, and high-fidelity web archiving.",
+        "id": "bythebay-20151215-web-archiving-wayback-machine-webrecorder-and-ilya-kreymer",
+        "order": 0,
+        "title": "Web Archiving: Wayback Machine, Webrecorder, and CommonCrawl"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-227042419",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-12-15",
+        "datetime": "2015-12-16T02:30:00+00:00",
+        "id": "227042419",
+        "title": "Archiving Web Data Big and Small: Wayback, Webrecorder, CommonCrawl",
+        "url": "https://www.meetup.com/bay-area-ai/events/227042419/",
+        "venue_address": "144 Second St., 2nd Floor",
+        "venue_name": "Smartnews"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:ilya-kreymer",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Ilya Kreymer",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:wayback-machine",
+      "properties": {
+        "github_url": "https://github.com/internetarchive/wayback",
+        "name": "Wayback Machine"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:commoncrawl",
+      "properties": {
+        "github_url": "https://github.com/commoncrawl/commoncrawl",
+        "name": "CommonCrawl"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:webrecorder",
+      "properties": {
+        "github_url": "https://github.com/webrecorder/pywb",
+        "name": "Webrecorder"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.928634+00:00",
+  "source_file": "source/bay-area-ai/227042419.html"
+}

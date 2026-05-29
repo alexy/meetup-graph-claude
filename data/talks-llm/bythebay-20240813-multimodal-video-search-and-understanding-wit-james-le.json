@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240813-multimodal-video-search-and-understanding-wit-james-le",
+      "to": "event:unstructured-data-sf-302334174",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334174",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240813-multimodal-video-search-and-understanding-wit-james-le",
+      "to": "speaker:james-le",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:james-le",
+      "to": "company:twelvelabs",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240813-multimodal-video-search-and-understanding-wit-james-le",
+      "to": "project:twelvelabs",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240813-multimodal-video-search-and-understanding-wit-james-le",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240813-multimodal-video-search-and-understanding-wit-james-le",
+      "properties": {
+        "abstract": "Building AI applications that understand and search video content using multimodal embeddings and vector search.",
+        "id": "bythebay-20240813-multimodal-video-search-and-understanding-wit-james-le",
+        "order": 0,
+        "title": "Multimodal Video Search and Understanding with TwelveLabs"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-302334174",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-08-13",
+        "datetime": "2024-08-14T00:30:00+00:00",
+        "id": "302334174",
+        "title": "Unstructured Data Meetup - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334174/",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "venue_name": "SAP Building 1"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:james-le",
+      "properties": {
+        "bio": null,
+        "company": "TwelveLabs",
+        "name": "James Le",
+        "role": "Head of Developer Experience"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:twelvelabs",
+      "properties": {
+        "name": "TwelveLabs"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:twelvelabs",
+      "properties": {
+        "github_url": null,
+        "name": "TwelveLabs"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.429142+00:00",
+  "source_file": "source/unstructured-data-sf/302334174.html"
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20221214-2022-accomplishments-and-2023-plan-for-ibm-te-sonia-singh",
+  "scraped_at": "2026-05-29T05:07:12.326715+00:00",
+  "source_file": "source/big-data-developers-in-nyc/289676735.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20221214-2022-accomplishments-and-2023-plan-for-ibm-te-sonia-singh",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20221214-2022-accomplishments-and-2023-plan-for-ibm-te-sonia-singh",
+        "title": "2022 Accomplishments and 2023 Plan for IBM Technical Meetup Group",
+        "abstract": "Year-in-review recap of the Technical Meetup Group's accomplishments in 2022, acknowledging contributors, and sharing plans for 2023.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-289676735",
+      "type": "Event",
+      "properties": {
+        "id": "289676735",
+        "title": "Technical Meetup Group hosted by IBM - 2022 Accomplishments and 2023 Plan",
+        "date": "2022-12-14",
+        "datetime": "2022-12-14T13:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/289676735/",
+        "venue_name": "Online event",
+        "venue_address": "",
+        "city": ""
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:sonia-singh",
+      "type": "Speaker",
+      "properties": {
+        "name": "Sonia Singh",
+        "role": "Data and AI Engagement Program Manager",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    },
+    {
+      "id": "speaker:alfredo-ballon",
+      "type": "Speaker",
+      "properties": {
+        "name": "Alfredo Ballon",
+        "role": null,
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20221214-2022-accomplishments-and-2023-plan-for-ibm-te-sonia-singh",
+      "to": "event:big-data-developers-in-nyc-289676735",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-289676735",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20221214-2022-accomplishments-and-2023-plan-for-ibm-te-sonia-singh",
+      "to": "speaker:sonia-singh",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:sonia-singh",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20221214-2022-accomplishments-and-2023-plan-for-ibm-te-sonia-singh",
+      "to": "speaker:alfredo-ballon",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:alfredo-ballon",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140910-the-road-to-akka-cluster-and-beyond-jonas-bon-r",
+      "to": "event:sf-scala-202371622",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-202371622",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140910-the-road-to-akka-cluster-and-beyond-jonas-bon-r",
+      "to": "speaker:jonas-bon-r",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jonas-bon-r",
+      "to": "company:typesafe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140910-the-road-to-akka-cluster-and-beyond-jonas-bon-r",
+      "to": "project:akka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140910-the-road-to-akka-cluster-and-beyond-jonas-bon-r",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140910-the-road-to-akka-cluster-and-beyond-jonas-bon-r",
+      "properties": {
+        "abstract": "The journey of building distributed systems with Akka Cluster. Today's sky is the limit for systems that need to be elastic, resilient, and responsive, and Akka Cluster is at the heart of building such systems.",
+        "id": "bythebay-20140910-the-road-to-akka-cluster-and-beyond-jonas-bon-r",
+        "order": 0,
+        "title": "The Road to Akka Cluster and Beyond"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-202371622",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-09-10",
+        "datetime": "2014-09-11T01:00:00+00:00",
+        "id": "202371622",
+        "title": "The Road to Akka Cluster and Beyond with Jonas Bon\u00e9r",
+        "url": "https://www.meetup.com/sf-scala/events/202371622/",
+        "venue_address": "420 Taylor Street",
+        "venue_name": "Chartboost"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jonas-bon-r",
+      "properties": {
+        "bio": null,
+        "company": "Typesafe",
+        "name": "Jonas Bon\u00e9r",
+        "role": "cofounder and CTO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:typesafe",
+      "properties": {
+        "name": "Typesafe"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:akka",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.447820+00:00",
+  "source_file": "source/sf-scala/202371622.html"
+}

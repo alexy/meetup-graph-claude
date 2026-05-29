@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20200625-hugging-face-transformers-the-nlp-library-tak-clement-delangue",
+      "to": "event:bay-area-ai-270962399",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-270962399",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200625-hugging-face-transformers-the-nlp-library-tak-clement-delangue",
+      "to": "speaker:clement-delangue",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:clement-delangue",
+      "to": "company:hugging-face",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20200625-hugging-face-transformers-the-nlp-library-tak-clement-delangue",
+      "to": "project:transformers",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20200625-hugging-face-transformers-the-nlp-library-tak-clement-delangue",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200625-hugging-face-transformers-the-nlp-library-tak-clement-delangue",
+      "properties": {
+        "abstract": "Hugging Face created Transformers, the fastest growing open-source library enabling thousands of companies to leverage natural language processing.",
+        "id": "bythebay-20200625-hugging-face-transformers-the-nlp-library-tak-clement-delangue",
+        "order": 0,
+        "title": "Hugging Face Transformers: The NLP Library Taking the World by Storm"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-270962399",
+      "properties": {
+        "city": "",
+        "date": "2020-06-25",
+        "datetime": "2020-06-25T18:00:00+00:00",
+        "id": "270962399",
+        "title": "Hugging Face By the Bay!",
+        "url": "https://www.meetup.com/bay-area-ai/events/270962399/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:clement-delangue",
+      "properties": {
+        "bio": null,
+        "company": "Hugging Face",
+        "name": "Clement Delangue",
+        "role": "co-founder and CEO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:hugging-face",
+      "properties": {
+        "name": "Hugging Face"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:transformers",
+      "properties": {
+        "github_url": "https://github.com/huggingface/transformers",
+        "name": "Transformers"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.227454+00:00",
+  "source_file": "source/bay-area-ai/270962399.html"
+}

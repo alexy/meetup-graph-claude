@@ -179,6 +179,7 @@ fn speaker_node(id: &str, s: &SpeakerData) -> Node {
             "name":    s.name,
             "bio":     s.bio,
             "company": s.company,
+            "role":    s.role,
         }),
     }
 }

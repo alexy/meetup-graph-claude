@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160314-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "to": "event:scala-bay-224243967",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-224243967",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160314-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "to": "speaker:mike-slinn",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20160314-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "to": "project:sbt",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160314-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "to": "project:play-framework",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160314-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160314-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+      "properties": {
+        "abstract": "Selected topics from ScalaCourses.com covering Introduction to Scala, Intermediate Scala, Introduction to Play Framework for Scala, and practical tips for everyday Scala development.",
+        "id": "bythebay-20160314-useful-things-you-probably-don-t-know-about-s-mike-slinn",
+        "order": 0,
+        "title": "Useful Things You Probably Don't Know About SBT, Scala and Play"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-224243967",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2016-03-14",
+        "datetime": "2016-03-15T01:30:00+00:00",
+        "id": "224243967",
+        "title": "Mike Slinn, Useful Things You Probably Don't Know About SBT, Scala and Play",
+        "url": "https://www.meetup.com/scala-bay/events/224243967/",
+        "venue_address": "2027 Stierlin Ct.",
+        "venue_name": "LinkedIn"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mike-slinn",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Mike Slinn",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:sbt",
+      "properties": {
+        "github_url": "https://github.com/sbt/sbt",
+        "name": "SBT"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:play-framework",
+      "properties": {
+        "github_url": "https://github.com/playframework/playframework",
+        "name": "Play Framework"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.753848+00:00",
+  "source_file": "source/scala-bay/224243967.html"
+}

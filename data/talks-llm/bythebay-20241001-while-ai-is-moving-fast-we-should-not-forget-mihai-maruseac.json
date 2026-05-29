@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20241001-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+      "to": "event:bay-area-ai-303492376",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-303492376",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241001-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+      "to": "speaker:mihai-maruseac",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:mihai-maruseac",
+      "to": "company:google-open-source-security-team",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20241001-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+      "to": "project:tensorflow",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20241001-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241001-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+      "properties": {
+        "abstract": "AI is moving at breakneck speed but security incidents are repeating at an accelerated pace. An overview of why security is important for AI and how we can quickly resolve several of the most pressing issues.",
+        "id": "bythebay-20241001-while-ai-is-moving-fast-we-should-not-forget-mihai-maruseac",
+        "order": 1,
+        "title": "While AI is Moving Fast, We Should Not Forget Security"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-303492376",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-10-01",
+        "datetime": "2024-10-02T01:00:00+00:00",
+        "id": "303492376",
+        "title": "[lu.ma/_ai registration required] Secure AI Models and Knowledge Graphs",
+        "url": "https://www.meetup.com/bay-area-ai/events/303492376/",
+        "venue_address": "525 Market St",
+        "venue_name": "525 Market St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mihai-maruseac",
+      "properties": {
+        "bio": null,
+        "company": "Google Open Source Security Team",
+        "name": "Mihai Maruseac",
+        "role": "member"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:google-open-source-security-team",
+      "properties": {
+        "name": "Google Open Source Security Team"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:tensorflow",
+      "properties": {
+        "github_url": "https://github.com/tensorflow/tensorflow",
+        "name": "TensorFlow"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.231047+00:00",
+  "source_file": "source/bay-area-ai/303492376.html"
+}

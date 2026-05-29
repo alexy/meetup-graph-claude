@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20190604-creating-the-omnisci-f1-demo-real-time-data-i-veda-shankar",
+      "to": "event:hadoopsf-261903946",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-261903946",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190604-creating-the-omnisci-f1-demo-real-time-data-i-veda-shankar",
+      "to": "speaker:veda-shankar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:veda-shankar",
+      "to": "company:omnisci",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20190604-creating-the-omnisci-f1-demo-real-time-data-i-veda-shankar",
+      "to": "project:omnisci",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20190604-creating-the-omnisci-f1-demo-real-time-data-i-veda-shankar",
+      "to": "project:streamsets",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20190604-creating-the-omnisci-f1-demo-real-time-data-i-veda-shankar",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190604-creating-the-omnisci-f1-demo-real-time-data-i-veda-shankar",
+      "properties": {
+        "abstract": "How OmniSci built a real-time F1 racing telemetry demo using StreamSets for data ingestion into OmniSci's GPU-accelerated database. Telematics is a rapidly growing use case for IoT and Big Data.",
+        "id": "bythebay-20190604-creating-the-omnisci-f1-demo-real-time-data-i-veda-shankar",
+        "order": 0,
+        "title": "Creating the OmniSci F1 Demo: Real-Time Data Ingestion with StreamSets"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-261903946",
+      "properties": {
+        "city": "San Mateo",
+        "date": "2019-06-04",
+        "datetime": "2019-06-05T01:30:00+00:00",
+        "id": "261903946",
+        "title": "OmniSci-StreamSets F1 Demo + Scaling StreamSets On Azure Kubernetes Service",
+        "url": "https://www.meetup.com/hadoopsf/events/261903946/",
+        "venue_address": "1875 S Grant St #810",
+        "venue_name": "StreamSets, Inc."
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:veda-shankar",
+      "properties": {
+        "bio": null,
+        "company": "OmniSci",
+        "name": "Veda Shankar",
+        "role": "Senior Developer Advocate"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:omnisci",
+      "properties": {
+        "name": "OmniSci"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:omnisci",
+      "properties": {
+        "github_url": null,
+        "name": "OmniSci"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:streamsets",
+      "properties": {
+        "github_url": null,
+        "name": "StreamSets"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.373464+00:00",
+  "source_file": "source/hadoopsf/261903946.html"
+}

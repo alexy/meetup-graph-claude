@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20151015-nlp-and-data-science-at-meltwater-babak-rasolzadeh",
+  "scraped_at": "2026-05-29T04:53:39.928372+00:00",
+  "source_file": "source/bay-area-ai/225763676.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151015-nlp-and-data-science-at-meltwater-babak-rasolzadeh",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20151015-nlp-and-data-science-at-meltwater-babak-rasolzadeh",
+        "title": "NLP and Data Science at Meltwater",
+        "abstract": "The Data Science team at Meltwater has the mission to ingest, categorize, label, classify, and enrich the content that we crawl in order to index it properly in our big data architecture. We do these enrichments in 15+ languages.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-225763676",
+      "type": "Event",
+      "properties": {
+        "id": "225763676",
+        "title": "NLP and Data Science at Meltwater",
+        "date": "2015-10-15",
+        "datetime": "2015-10-16T01:30:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/225763676/",
+        "venue_name": "Meltwater",
+        "venue_address": "225 Bush St., 10th floor",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:babak-rasolzadeh",
+      "type": "Speaker",
+      "properties": {
+        "name": "Babak Rasolzadeh",
+        "role": "Director of Data Science",
+        "company": "Meltwater",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:meltwater",
+      "type": "Company",
+      "properties": {
+        "name": "Meltwater"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20151015-nlp-and-data-science-at-meltwater-babak-rasolzadeh",
+      "to": "event:bay-area-ai-225763676",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-225763676",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151015-nlp-and-data-science-at-meltwater-babak-rasolzadeh",
+      "to": "speaker:babak-rasolzadeh",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:babak-rasolzadeh",
+      "to": "company:meltwater",
+      "type": "WORKS_AT"
+    }
+  ]
+}

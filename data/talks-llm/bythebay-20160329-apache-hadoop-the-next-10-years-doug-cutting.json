@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160329-apache-hadoop-the-next-10-years-doug-cutting",
+      "to": "event:hadoopsf-229420973",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-229420973",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160329-apache-hadoop-the-next-10-years-doug-cutting",
+      "to": "speaker:doug-cutting",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:doug-cutting",
+      "to": "company:cloudera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160329-apache-hadoop-the-next-10-years-doug-cutting",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160329-apache-hadoop-the-next-10-years-doug-cutting",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160329-apache-hadoop-the-next-10-years-doug-cutting",
+      "properties": {
+        "abstract": "Hadoop became 10 years young in 2016. Doug Cutting, Hadoop co-founder, reflects on the reasons for Hadoop's success, lessons for other open source projects, and predictions for Hadoop's next decade.",
+        "id": "bythebay-20160329-apache-hadoop-the-next-10-years-doug-cutting",
+        "order": 0,
+        "title": "Apache Hadoop: The Next 10 Years"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-229420973",
+      "properties": {
+        "city": "San Jose",
+        "date": "2016-03-29",
+        "datetime": "2016-03-30T01:00:00+00:00",
+        "id": "229420973",
+        "title": "Strata + Hadoop World Meetup - Apache Hadoop: The Next 10 Years",
+        "url": "https://www.meetup.com/hadoopsf/events/229420973/",
+        "venue_address": "150 W San Carlos St",
+        "venue_name": "San Jose Convention Center, Room LL21 E/F"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:doug-cutting",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Doug Cutting",
+        "role": "Chief Architect"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cloudera",
+      "properties": {
+        "name": "Cloudera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.372993+00:00",
+  "source_file": "source/hadoopsf/229420973.html"
+}

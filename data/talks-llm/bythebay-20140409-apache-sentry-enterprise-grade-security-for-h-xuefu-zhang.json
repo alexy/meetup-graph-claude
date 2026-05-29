@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+      "to": "event:hadoopsf-170948182",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-170948182",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+      "to": "speaker:xuefu-zhang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:xuefu-zhang",
+      "to": "company:cloudera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+      "to": "speaker:sravya-tirukkovalur",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:sravya-tirukkovalur",
+      "to": "company:cloudera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+      "to": "project:apache-sentry",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+      "properties": {
+        "abstract": "Apache Hadoop offers strong support for authentication and authorization. Apache Sentry adds fine-grained, role-based authorization to the Hadoop ecosystem.",
+        "id": "bythebay-20140409-apache-sentry-enterprise-grade-security-for-h-xuefu-zhang",
+        "order": 0,
+        "title": "Apache Sentry: Enterprise-Grade Security for Hadoop"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-170948182",
+      "properties": {
+        "city": "94104",
+        "date": "2014-04-09",
+        "datetime": "2014-04-10T01:00:00+00:00",
+        "id": "170948182",
+        "title": "April SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/170948182/",
+        "venue_address": "433 California St, 11th floor",
+        "venue_name": "Cloudera"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:xuefu-zhang",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Xuefu Zhang",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cloudera",
+      "properties": {
+        "name": "Cloudera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:sravya-tirukkovalur",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Sravya Tirukkovalur",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cloudera",
+      "properties": {
+        "name": "Cloudera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-sentry",
+      "properties": {
+        "github_url": "https://github.com/apache/sentry",
+        "name": "Apache Sentry"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.370996+00:00",
+  "source_file": "source/hadoopsf/170948182.html"
+}

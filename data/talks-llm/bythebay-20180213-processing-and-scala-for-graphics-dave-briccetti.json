@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20180213-processing-and-scala-for-graphics-dave-briccetti",
+      "to": "event:sf-scala-247363947",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-247363947",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180213-processing-and-scala-for-graphics-dave-briccetti",
+      "to": "speaker:dave-briccetti",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20180213-processing-and-scala-for-graphics-dave-briccetti",
+      "to": "project:processing",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20180213-processing-and-scala-for-graphics-dave-briccetti",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180213-processing-and-scala-for-graphics-dave-briccetti",
+      "properties": {
+        "abstract": "How Processing, a flexible software sketchbook and language for visual arts, can be combined with Scala for creating interactive graphics and learning the language.",
+        "id": "bythebay-20180213-processing-and-scala-for-graphics-dave-briccetti",
+        "order": 0,
+        "title": "Processing and Scala for Graphics"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-247363947",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2018-02-13",
+        "datetime": "2018-02-14T02:00:00+00:00",
+        "id": "247363947",
+        "title": "Scala and (1) Graphics, (2) Shapeless, (3) Tools for Taming Tangled Code",
+        "url": "https://www.meetup.com/sf-scala/events/247363947/",
+        "venue_address": "360 3rd Street Suite 675",
+        "venue_name": "Iterable"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:dave-briccetti",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Dave Briccetti",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:processing",
+      "properties": {
+        "github_url": "https://github.com/processing/processing4",
+        "name": "Processing"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.450702+00:00",
+  "source_file": "source/sf-scala/247363947.html"
+}

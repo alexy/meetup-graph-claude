@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20130911-apache-hadoop-yarn-architecture-and-evolution-vinod-kumar-vavilapalli",
+      "to": "event:hadoopsf-136499862",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-136499862",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130911-apache-hadoop-yarn-architecture-and-evolution-vinod-kumar-vavilapalli",
+      "to": "speaker:vinod-kumar-vavilapalli",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:vinod-kumar-vavilapalli",
+      "to": "company:hortonworks",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20130911-apache-hadoop-yarn-architecture-and-evolution-vinod-kumar-vavilapalli",
+      "to": "project:apache-hadoop-yarn",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20130911-apache-hadoop-yarn-architecture-and-evolution-vinod-kumar-vavilapalli",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130911-apache-hadoop-yarn-architecture-and-evolution-vinod-kumar-vavilapalli",
+      "properties": {
+        "abstract": "An overview of Apache Hadoop YARN, the resource management layer for Hadoop 2.0, from the project lead.",
+        "id": "bythebay-20130911-apache-hadoop-yarn-architecture-and-evolution-vinod-kumar-vavilapalli",
+        "order": 1,
+        "title": "Apache Hadoop YARN: Architecture and Evolution"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-136499862",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2013-09-11",
+        "datetime": "2013-09-12T01:00:00+00:00",
+        "id": "136499862",
+        "title": "September SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/136499862/",
+        "venue_address": "375 Alabama St #350",
+        "venue_name": "WibiData"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:vinod-kumar-vavilapalli",
+      "properties": {
+        "bio": null,
+        "company": "Hortonworks",
+        "name": "Vinod Kumar Vavilapalli",
+        "role": "YARN project lead"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:hortonworks",
+      "properties": {
+        "name": "Hortonworks"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop-yarn",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop YARN"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.370483+00:00",
+  "source_file": "source/hadoopsf/136499862.html"
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20120611-five-akka-scala-concurrency-options-mike-slinn",
+      "to": "event:scala-bay-64044672",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-64044672",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20120611-five-akka-scala-concurrency-options-mike-slinn",
+      "to": "speaker:mike-slinn",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20120611-five-akka-scala-concurrency-options-mike-slinn",
+      "to": "project:akka",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20120611-five-akka-scala-concurrency-options-mike-slinn",
+      "to": "project:scala",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20120611-five-akka-scala-concurrency-options-mike-slinn",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20120611-five-akka-scala-concurrency-options-mike-slinn",
+      "properties": {
+        "abstract": "Akka and Scala provide five concurrency options: java.util.concurrent, Scala parallel collections, Akka futures, Akka dataflow, and Akka actors. This talk contrasts them and offers guidance on when to use each.",
+        "id": "bythebay-20120611-five-akka-scala-concurrency-options-mike-slinn",
+        "order": 0,
+        "title": "Five Akka/Scala Concurrency Options"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-64044672",
+      "properties": {
+        "city": "Los Altos",
+        "date": "2012-06-11",
+        "datetime": "2012-06-12T01:30:00+00:00",
+        "id": "64044672",
+        "title": "Five Akka / Scala Concurrency Options",
+        "url": "https://www.meetup.com/scala-bay/events/64044672/",
+        "venue_address": "4440 El Camino Real",
+        "venue_name": "Box"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mike-slinn",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Mike Slinn",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:akka",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:scala",
+      "properties": {
+        "github_url": "https://github.com/scala/scala",
+        "name": "Scala"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.763167+00:00",
+  "source_file": "source/scala-bay/64044672.html"
+}

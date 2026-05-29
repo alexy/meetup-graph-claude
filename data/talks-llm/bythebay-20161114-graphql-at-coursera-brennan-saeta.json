@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20161114-graphql-at-coursera-brennan-saeta",
+      "to": "event:graphql-by-the-bay-235184302",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:graphql-by-the-bay-235184302",
+      "to": "group:graphql-by-the-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161114-graphql-at-coursera-brennan-saeta",
+      "to": "speaker:brennan-saeta",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:brennan-saeta",
+      "to": "company:coursera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20161114-graphql-at-coursera-brennan-saeta",
+      "to": "project:graphql",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20161114-graphql-at-coursera-brennan-saeta",
+      "to": "project:sangria",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20161114-graphql-at-coursera-brennan-saeta",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161114-graphql-at-coursera-brennan-saeta",
+      "properties": {
+        "abstract": "Coursera embraced GraphQL and uses Sangria, the open-source implementation of GraphQL for Scala, to serve its thousands of courses with multiple ontologies, authors, and students. This talk explores what GraphQL is and how it supersedes REST.",
+        "id": "bythebay-20161114-graphql-at-coursera-brennan-saeta",
+        "order": 0,
+        "title": "GraphQL at Coursera"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:graphql-by-the-bay-235184302",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-11-14",
+        "datetime": "2016-11-15T03:00:00+00:00",
+        "id": "235184302",
+        "title": "GraphQL at Coursera",
+        "url": "https://www.meetup.com/graphql-by-the-bay/events/235184302/",
+        "venue_address": "303 2nd St., North Tower, Ste. 550",
+        "venue_name": "Zenefits"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:graphql-by-the-bay",
+      "properties": {
+        "name": "GraphQL By the Bay",
+        "slug": "graphql-by-the-bay",
+        "url": "https://www.meetup.com/graphql-by-the-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:brennan-saeta",
+      "properties": {
+        "bio": null,
+        "company": "Coursera",
+        "name": "Brennan Saeta",
+        "role": "Software Architect"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:coursera",
+      "properties": {
+        "name": "Coursera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:graphql",
+      "properties": {
+        "github_url": "https://github.com/graphql/graphql-spec",
+        "name": "GraphQL"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:sangria",
+      "properties": {
+        "github_url": "https://github.com/sangria-graphql/sangria",
+        "name": "Sangria"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:09:14.567219+00:00",
+  "source_file": "source/graphql-by-the-bay/235184302.html"
+}

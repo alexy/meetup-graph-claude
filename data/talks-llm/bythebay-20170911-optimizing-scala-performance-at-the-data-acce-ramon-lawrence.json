@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170911-optimizing-scala-performance-at-the-data-acce-ramon-lawrence",
+  "scraped_at": "2026-05-29T05:21:47.756545+00:00",
+  "source_file": "source/scala-bay/240486142.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170911-optimizing-scala-performance-at-the-data-acce-ramon-lawrence",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170911-optimizing-scala-performance-at-the-data-acce-ramon-lawrence",
+        "title": "Optimizing Scala Performance at the Data Access Layer",
+        "abstract": "Heimdall Data provides a data access layer for Scala developers with SQL auto-caching, auto-invalidation, automated database failover, and a Database Firewall, requiring zero application code changes and working across MySQL, Postgres, Oracle, and SQL Server.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-240486142",
+      "type": "Event",
+      "properties": {
+        "id": "240486142",
+        "title": "Ramon Lawrence,Roland Lee, Optimizing Scala Performance at the Data Access Layer",
+        "date": "2017-09-11",
+        "datetime": "2017-09-12T01:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/240486142/",
+        "venue_name": "Current place: GlobalLogic",
+        "venue_address": "1741 Technology Dr, Level 4",
+        "city": "San Jose"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:ramon-lawrence",
+      "type": "Speaker",
+      "properties": {
+        "name": "Ramon Lawrence",
+        "role": null,
+        "company": "Heimdall Data",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:heimdall-data",
+      "type": "Company",
+      "properties": {
+        "name": "Heimdall Data"
+      }
+    },
+    {
+      "id": "speaker:roland-lee",
+      "type": "Speaker",
+      "properties": {
+        "name": "Roland Lee",
+        "role": null,
+        "company": "Heimdall Data",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:heimdall-data",
+      "type": "Company",
+      "properties": {
+        "name": "Heimdall Data"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170911-optimizing-scala-performance-at-the-data-acce-ramon-lawrence",
+      "to": "event:scala-bay-240486142",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-240486142",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170911-optimizing-scala-performance-at-the-data-acce-ramon-lawrence",
+      "to": "speaker:ramon-lawrence",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:ramon-lawrence",
+      "to": "company:heimdall-data",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170911-optimizing-scala-performance-at-the-data-acce-ramon-lawrence",
+      "to": "speaker:roland-lee",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:roland-lee",
+      "to": "company:heimdall-data",
+      "type": "WORKS_AT"
+    }
+  ]
+}

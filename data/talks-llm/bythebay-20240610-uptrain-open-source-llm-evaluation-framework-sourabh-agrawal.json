@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240610-uptrain-open-source-llm-evaluation-framework-sourabh-agrawal",
+      "to": "event:unstructured-data-sf-299447366",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-299447366",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240610-uptrain-open-source-llm-evaluation-framework-sourabh-agrawal",
+      "to": "speaker:sourabh-agrawal",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:sourabh-agrawal",
+      "to": "company:uptrain",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240610-uptrain-open-source-llm-evaluation-framework-sourabh-agrawal",
+      "to": "project:uptrain",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240610-uptrain-open-source-llm-evaluation-framework-sourabh-agrawal",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240610-uptrain-open-source-llm-evaluation-framework-sourabh-agrawal",
+      "properties": {
+        "abstract": "UpTrain is an open-source tool for evaluating and improving LLM applications, covering metrics like context relevance, response completeness, and factual accuracy.",
+        "id": "bythebay-20240610-uptrain-open-source-llm-evaluation-framework-sourabh-agrawal",
+        "order": 0,
+        "title": "UpTrain: Open-Source LLM Evaluation Framework"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-299447366",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-06-10",
+        "datetime": "2024-06-11T00:30:00+00:00",
+        "id": "299447366",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/299447366/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:sourabh-agrawal",
+      "properties": {
+        "bio": null,
+        "company": "UpTrain",
+        "name": "Sourabh Agrawal",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:uptrain",
+      "properties": {
+        "name": "UpTrain"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:uptrain",
+      "properties": {
+        "github_url": "https://github.com/uptrain-ai/uptrain",
+        "name": "UpTrain"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.426939+00:00",
+  "source_file": "source/unstructured-data-sf/299447366.html"
+}

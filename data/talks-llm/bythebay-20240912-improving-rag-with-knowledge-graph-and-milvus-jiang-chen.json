@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240912-improving-rag-with-knowledge-graph-and-milvus-jiang-chen",
+      "to": "event:bay-area-ai-302540816",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-302540816",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240912-improving-rag-with-knowledge-graph-and-milvus-jiang-chen",
+      "to": "speaker:jiang-chen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jiang-chen",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240912-improving-rag-with-knowledge-graph-and-milvus-jiang-chen",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240912-improving-rag-with-knowledge-graph-and-milvus-jiang-chen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240912-improving-rag-with-knowledge-graph-and-milvus-jiang-chen",
+      "properties": {
+        "abstract": "Techniques of Knowledge Engineering that improve RAG quality: offline extracting knowledge graphs and implementing comprehensive retrieval by storing and searching knowledge embeddings in Milvus.",
+        "id": "bythebay-20240912-improving-rag-with-knowledge-graph-and-milvus-jiang-chen",
+        "order": 3,
+        "title": "Improving RAG with Knowledge Graph and Milvus"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-302540816",
+      "properties": {
+        "city": null,
+        "date": "2024-09-12",
+        "datetime": "2024-09-13T02:00:00+00:00",
+        "id": "302540816",
+        "title": "[lu.ma/_ai registration required] DSPy and GraphRAG: Making GenAI Real",
+        "url": "https://www.meetup.com/bay-area-ai/events/302540816/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jiang-chen",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Jiang Chen",
+        "role": "Head of Ecosystem and Developer Relations"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.230855+00:00",
+  "source_file": "source/bay-area-ai/302540816.html"
+}

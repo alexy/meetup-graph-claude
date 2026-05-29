@@ -1,0 +1,107 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+      "to": "event:graphql-by-the-bay-269884376",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:graphql-by-the-bay-269884376",
+      "to": "group:graphql-by-the-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+      "to": "speaker:pierre-ricadat",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+      "to": "project:caliban",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+      "to": "project:graphql",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+      "to": "project:zio",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+      "properties": {
+        "abstract": "Caliban is a library for creating GraphQL backends in Scala with minimal boilerplate and a purely functional interface. This talk covers creating a simple GraphQL API from the ground up, then advanced features such as query optimization, middlewares, and the GraphQL client support.",
+        "id": "bythebay-20200424-a-tour-of-caliban-functional-graphql-in-scala-pierre-ricadat",
+        "order": 0,
+        "title": "A Tour of Caliban: Functional GraphQL in Scala"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:graphql-by-the-bay-269884376",
+      "properties": {
+        "city": "",
+        "date": "2020-04-24",
+        "datetime": "2020-04-25T01:00:00+00:00",
+        "id": "269884376",
+        "title": "A Tour of Caliban: FP GraphQL in Scala & Understanding Scala's Type System",
+        "url": "https://www.meetup.com/graphql-by-the-bay/events/269884376/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:graphql-by-the-bay",
+      "properties": {
+        "name": "GraphQL By the Bay",
+        "slug": "graphql-by-the-bay",
+        "url": "https://www.meetup.com/graphql-by-the-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:pierre-ricadat",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Pierre Ricadat",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:caliban",
+      "properties": {
+        "github_url": "https://github.com/ghostdogpr/caliban",
+        "name": "Caliban"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:graphql",
+      "properties": {
+        "github_url": "https://github.com/graphql/graphql-spec",
+        "name": "GraphQL"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:zio",
+      "properties": {
+        "github_url": "https://github.com/zio/zio",
+        "name": "ZIO"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:09:14.568595+00:00",
+  "source_file": "source/graphql-by-the-bay/269884376.html"
+}

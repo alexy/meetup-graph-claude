@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20141008-the-cake-pattern-in-practice-peter-potts",
+  "scraped_at": "2026-05-29T05:21:47.751884+00:00",
+  "source_file": "source/scala-bay/208798572.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20141008-the-cake-pattern-in-practice-peter-potts",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20141008-the-cake-pattern-in-practice-peter-potts",
+        "title": "The Cake Pattern in Practice",
+        "abstract": "How to use the Cake pattern for dependency injection in Scala applications, illustrated with production experience.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-208798572",
+      "type": "Event",
+      "properties": {
+        "id": "208798572",
+        "title": "Peter Potts - the Cake Pattern in Practice",
+        "date": "2014-10-08",
+        "datetime": "2014-10-09T00:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/208798572/",
+        "venue_name": "Kixeye",
+        "venue_address": "333 Bush St, 19th floor",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:peter-potts",
+      "type": "Speaker",
+      "properties": {
+        "name": "Peter Potts",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20141008-the-cake-pattern-in-practice-peter-potts",
+      "to": "event:scala-bay-208798572",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-208798572",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20141008-the-cake-pattern-in-practice-peter-potts",
+      "to": "speaker:peter-potts",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

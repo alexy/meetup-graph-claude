@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20221018-ai-powered-personalization-drives-decision-in-john-andersen",
+  "scraped_at": "2026-05-29T04:58:30.228196+00:00",
+  "source_file": "source/bay-area-ai/288827696.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20221018-ai-powered-personalization-drives-decision-in-john-andersen",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20221018-ai-powered-personalization-drives-decision-in-john-andersen",
+        "title": "AI-Powered Personalization Drives Decision Intelligence",
+        "abstract": "AI-Powered Personalization drives decision intelligence through continuous learning and feedback loops. Profile-of-One allows enterprises to build a rich contextual understanding of key entities through declared, observed and inferred data.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:bay-area-ai-288827696",
+      "type": "Event",
+      "properties": {
+        "id": "288827696",
+        "title": "The AI Meetup is Back In-Person: Large Language Models and Personalized AI!",
+        "date": "2022-10-18",
+        "datetime": "2022-10-19T00:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/288827696/",
+        "venue_name": "Weights & Biases",
+        "venue_address": "1479 Folsom St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:john-andersen",
+      "type": "Speaker",
+      "properties": {
+        "name": "John Andersen",
+        "role": "VP, Solutions Consulting and Architecture",
+        "company": "CognitiveScale",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:cognitivescale",
+      "type": "Company",
+      "properties": {
+        "name": "CognitiveScale"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20221018-ai-powered-personalization-drives-decision-in-john-andersen",
+      "to": "event:bay-area-ai-288827696",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-288827696",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20221018-ai-powered-personalization-drives-decision-in-john-andersen",
+      "to": "speaker:john-andersen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:john-andersen",
+      "to": "company:cognitivescale",
+      "type": "WORKS_AT"
+    }
+  ]
+}

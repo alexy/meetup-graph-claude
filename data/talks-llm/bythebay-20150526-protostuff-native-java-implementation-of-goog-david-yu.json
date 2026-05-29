@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150526-protostuff-native-java-implementation-of-goog-david-yu",
+      "to": "event:sf-scala-222631904",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-222631904",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150526-protostuff-native-java-implementation-of-goog-david-yu",
+      "to": "speaker:david-yu",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20150526-protostuff-native-java-implementation-of-goog-david-yu",
+      "to": "project:protostuff",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150526-protostuff-native-java-implementation-of-goog-david-yu",
+      "to": "project:protocol-buffers",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150526-protostuff-native-java-implementation-of-goog-david-yu",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150526-protostuff-native-java-implementation-of-goog-david-yu",
+      "properties": {
+        "abstract": "Protostuff is the native Java implementation of Google Protocol Buffers, used for serializing data in large-scale systems. The talk covers serialization with a focus on efficiency and flexibility.",
+        "id": "bythebay-20150526-protostuff-native-java-implementation-of-goog-david-yu",
+        "order": 0,
+        "title": "Protostuff: Native Java Implementation of Google Protocol Buffers"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-222631904",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-05-26",
+        "datetime": "2015-05-27T01:30:00+00:00",
+        "id": "222631904",
+        "title": "Protostuff in Java and Scala",
+        "url": "https://www.meetup.com/sf-scala/events/222631904/",
+        "venue_address": "114 Sansome St, 10th floor.",
+        "venue_name": "Radius"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:david-yu",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "David Yu",
+        "role": "creator of Protostuff"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:protostuff",
+      "properties": {
+        "github_url": "https://github.com/protostuff/protostuff",
+        "name": "Protostuff"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:protocol-buffers",
+      "properties": {
+        "github_url": "https://github.com/protocolbuffers/protobuf",
+        "name": "Protocol Buffers"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.449125+00:00",
+  "source_file": "source/sf-scala/222631904.html"
+}

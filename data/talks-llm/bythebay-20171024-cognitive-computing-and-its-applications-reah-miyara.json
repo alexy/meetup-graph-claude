@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20171024-cognitive-computing-and-its-applications-reah-miyara",
+  "scraped_at": "2026-05-29T05:07:12.325345+00:00",
+  "source_file": "source/big-data-developers-in-nyc/244261633.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20171024-cognitive-computing-and-its-applications-reah-miyara",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20171024-cognitive-computing-and-its-applications-reah-miyara",
+        "title": "Cognitive Computing and Its Applications",
+        "abstract": "An overview of the developing era of Cognitive Computing, illustrating potential use cases for cognitive technologies and demonstrating advancements in processing ever-increasing volumes of complex data.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-244261633",
+      "type": "Event",
+      "properties": {
+        "id": "244261633",
+        "title": "Cognitive Computing & Its Applications",
+        "date": "2017-10-24",
+        "datetime": "2017-10-24T22:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/244261633/",
+        "venue_name": "IBM",
+        "venue_address": "590 Madison Avenue",
+        "city": "New York"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:reah-miyara",
+      "type": "Speaker",
+      "properties": {
+        "name": "Reah Miyara",
+        "role": "Senior Offering Associate",
+        "company": "IBM Watson",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm-watson",
+      "type": "Company",
+      "properties": {
+        "name": "IBM Watson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20171024-cognitive-computing-and-its-applications-reah-miyara",
+      "to": "event:big-data-developers-in-nyc-244261633",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-244261633",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20171024-cognitive-computing-and-its-applications-reah-miyara",
+      "to": "speaker:reah-miyara",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:reah-miyara",
+      "to": "company:ibm-watson",
+      "type": "WORKS_AT"
+    }
+  ]
+}

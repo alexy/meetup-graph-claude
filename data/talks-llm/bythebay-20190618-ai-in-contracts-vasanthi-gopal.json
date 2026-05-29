@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20190618-ai-in-contracts-vasanthi-gopal",
+  "scraped_at": "2026-05-29T05:07:12.326186+00:00",
+  "source_file": "source/big-data-developers-in-nyc/261460067.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190618-ai-in-contracts-vasanthi-gopal",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20190618-ai-in-contracts-vasanthi-gopal",
+        "title": "AI in Contracts",
+        "abstract": "Applying cognitive solutions architecture and AI to contract analysis and management.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-261460067",
+      "type": "Event",
+      "properties": {
+        "id": "261460067",
+        "title": "Data Science & AI Tech Talks ",
+        "date": "2019-06-18",
+        "datetime": "2019-06-18T21:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/261460067/",
+        "venue_name": "590 Madison Ave",
+        "venue_address": "590 Madison Ave",
+        "city": "New York"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:vasanthi-gopal",
+      "type": "Speaker",
+      "properties": {
+        "name": "Vasanthi Gopal",
+        "role": "Cognitive Solutions Architect",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20190618-ai-in-contracts-vasanthi-gopal",
+      "to": "event:big-data-developers-in-nyc-261460067",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-261460067",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190618-ai-in-contracts-vasanthi-gopal",
+      "to": "speaker:vasanthi-gopal",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:vasanthi-gopal",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    }
+  ]
+}

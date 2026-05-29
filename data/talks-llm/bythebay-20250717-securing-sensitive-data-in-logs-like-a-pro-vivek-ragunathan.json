@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20250717-securing-sensitive-data-in-logs-like-a-pro-vivek-ragunathan",
+  "scraped_at": "2026-05-29T05:21:47.761931+00:00",
+  "source_file": "source/scala-bay/308661456.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250717-securing-sensitive-data-in-logs-like-a-pro-vivek-ragunathan",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20250717-securing-sensitive-data-in-logs-like-a-pro-vivek-ragunathan",
+        "title": "Securing Sensitive Data in Logs Like a Pro",
+        "abstract": "Writing sensitive data to logs poses security risks, compliance issues, and potential breaches. Presents the Sanitizer library that makes it easy for developers to safely log data by sanitizing sensitive fields.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:scala-bay-308661456",
+      "type": "Event",
+      "properties": {
+        "id": "308661456",
+        "title": "Demystifying Scala 3 Types & Securing sensitive data in logs like a pro",
+        "date": "2025-07-17",
+        "datetime": "2025-07-18T00:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/308661456/",
+        "venue_name": null,
+        "venue_address": null,
+        "city": null
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:vivek-ragunathan",
+      "type": "Speaker",
+      "properties": {
+        "name": "Vivek Ragunathan",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    },
+    {
+      "id": "speaker:bahul-jain",
+      "type": "Speaker",
+      "properties": {
+        "name": "Bahul Jain",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20250717-securing-sensitive-data-in-logs-like-a-pro-vivek-ragunathan",
+      "to": "event:scala-bay-308661456",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-308661456",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250717-securing-sensitive-data-in-logs-like-a-pro-vivek-ragunathan",
+      "to": "speaker:vivek-ragunathan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20250717-securing-sensitive-data-in-logs-like-a-pro-vivek-ragunathan",
+      "to": "speaker:bahul-jain",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

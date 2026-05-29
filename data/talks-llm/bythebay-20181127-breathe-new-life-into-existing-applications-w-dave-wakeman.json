@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20181127-breathe-new-life-into-existing-applications-w-dave-wakeman",
+      "to": "event:big-data-developers-in-nyc-256348061",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-256348061",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20181127-breathe-new-life-into-existing-applications-w-dave-wakeman",
+      "to": "speaker:dave-wakeman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:dave-wakeman",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20181127-breathe-new-life-into-existing-applications-w-dave-wakeman",
+      "to": "project:kubernetes",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20181127-breathe-new-life-into-existing-applications-w-dave-wakeman",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20181127-breathe-new-life-into-existing-applications-w-dave-wakeman",
+      "properties": {
+        "abstract": "How Microservices and Kubernetes can apply not just to new cloud-native applications but also to existing legacy applications, transforming them to take advantage of cloud infrastructure.",
+        "id": "bythebay-20181127-breathe-new-life-into-existing-applications-w-dave-wakeman",
+        "order": 0,
+        "title": "Breathe New Life into Existing Applications with Microservices Architecture"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-256348061",
+      "properties": {
+        "city": "New York",
+        "date": "2018-11-27",
+        "datetime": "2018-11-27T23:00:00+00:00",
+        "id": "256348061",
+        "title": "Breathe New Life into Existing Applications with Microservices Architecture ",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/256348061/",
+        "venue_address": "142 W 57th St",
+        "venue_name": "WeWork 142 W 57th St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:dave-wakeman",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Dave Wakeman",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:kubernetes",
+      "properties": {
+        "github_url": "https://github.com/kubernetes/kubernetes",
+        "name": "Kubernetes"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.326087+00:00",
+  "source_file": "source/big-data-developers-in-nyc/256348061.html"
+}

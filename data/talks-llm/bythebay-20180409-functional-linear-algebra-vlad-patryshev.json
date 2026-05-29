@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20180409-functional-linear-algebra-vlad-patryshev",
+  "scraped_at": "2026-05-29T05:21:47.757176+00:00",
+  "source_file": "source/scala-bay/248179801.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180409-functional-linear-algebra-vlad-patryshev",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20180409-functional-linear-algebra-vlad-patryshev",
+        "title": "Functional Linear Algebra",
+        "abstract": "A functional implementation of linear algebra with less mutability and more abstractions. Shows pieces of easy-to-read code working with vectors and matrices in a functional way, with an efficient and practical implementation of PCA.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-248179801",
+      "type": "Event",
+      "properties": {
+        "id": "248179801",
+        "title": "Vlad Patryshev, \"Functional Linear Algebra\"",
+        "date": "2018-04-09",
+        "datetime": "2018-04-10T02:00:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/248179801/",
+        "venue_name": "Auditorium - Samsung Research America",
+        "venue_address": "665 Clyde Ave.",
+        "city": "Mountain View"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:vlad-patryshev",
+      "type": "Speaker",
+      "properties": {
+        "name": "Vlad Patryshev",
+        "role": null,
+        "company": "Samsung Research America",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:samsung-research-america",
+      "type": "Company",
+      "properties": {
+        "name": "Samsung Research America"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180409-functional-linear-algebra-vlad-patryshev",
+      "to": "event:scala-bay-248179801",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-248179801",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180409-functional-linear-algebra-vlad-patryshev",
+      "to": "speaker:vlad-patryshev",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:vlad-patryshev",
+      "to": "company:samsung-research-america",
+      "type": "WORKS_AT"
+    }
+  ]
+}

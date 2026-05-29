@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20151209-deploying-big-data-in-the-insurance-industry-david-skrivanek",
+  "scraped_at": "2026-05-29T05:07:12.324189+00:00",
+  "source_file": "source/big-data-developers-in-nyc/226995075.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151209-deploying-big-data-in-the-insurance-industry-david-skrivanek",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20151209-deploying-big-data-in-the-insurance-industry-david-skrivanek",
+        "title": "Deploying Big Data in the Insurance Industry",
+        "abstract": "Real-world case study of deploying big data infrastructure in the insurance industry.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-226995075",
+      "type": "Event",
+      "properties": {
+        "id": "226995075",
+        "title": "Continuous Data Management for Hadoop and Spark \u2013 On-Premise or in the Cloud",
+        "date": "2015-12-09",
+        "datetime": "2015-12-09T22:30:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/226995075/",
+        "venue_name": "HopScotch",
+        "venue_address": "286 Washington Street",
+        "city": "Jersey City"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:david-skrivanek",
+      "type": "Speaker",
+      "properties": {
+        "name": "David Skrivanek",
+        "role": "Big Data expert",
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20151209-deploying-big-data-in-the-insurance-industry-david-skrivanek",
+      "to": "event:big-data-developers-in-nyc-226995075",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-226995075",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151209-deploying-big-data-in-the-insurance-industry-david-skrivanek",
+      "to": "speaker:david-skrivanek",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

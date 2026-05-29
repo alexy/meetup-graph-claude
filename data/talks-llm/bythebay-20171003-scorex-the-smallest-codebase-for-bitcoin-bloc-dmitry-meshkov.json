@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20171003-scorex-the-smallest-codebase-for-bitcoin-bloc-dmitry-meshkov",
+      "to": "event:sf-scala-243376543",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-243376543",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20171003-scorex-the-smallest-codebase-for-bitcoin-bloc-dmitry-meshkov",
+      "to": "speaker:dmitry-meshkov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:dmitry-meshkov",
+      "to": "company:ergo-platform",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20171003-scorex-the-smallest-codebase-for-bitcoin-bloc-dmitry-meshkov",
+      "to": "project:scorex",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20171003-scorex-the-smallest-codebase-for-bitcoin-bloc-dmitry-meshkov",
+      "to": "project:ergo",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20171003-scorex-the-smallest-codebase-for-bitcoin-bloc-dmitry-meshkov",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20171003-scorex-the-smallest-codebase-for-bitcoin-bloc-dmitry-meshkov",
+      "properties": {
+        "abstract": "A code-centric deep dive into Bitcoin mechanics from an engineering viewpoint, using Scorex as the reference implementation. Covers the core data structures and algorithms of Bitcoin.",
+        "id": "bythebay-20171003-scorex-the-smallest-codebase-for-bitcoin-bloc-dmitry-meshkov",
+        "order": 0,
+        "title": "Scorex: The Smallest Codebase for Bitcoin/Blockchain"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-243376543",
+      "properties": {
+        "city": "Oakland",
+        "date": "2017-10-03",
+        "datetime": "2017-10-04T02:00:00+00:00",
+        "id": "243376543",
+        "title": "Scorex -- the Smallest Codebase for Blockchain",
+        "url": "https://www.meetup.com/sf-scala/events/243376543/",
+        "venue_address": "180 Grand Avenue",
+        "venue_name": "Marqeta Inc"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:dmitry-meshkov",
+      "properties": {
+        "bio": null,
+        "company": "Ergo Platform",
+        "name": "Dmitry Meshkov",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ergo-platform",
+      "properties": {
+        "name": "Ergo Platform"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scorex",
+      "properties": {
+        "github_url": "https://github.com/hyperledger-labs/Scorex",
+        "name": "Scorex"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:ergo",
+      "properties": {
+        "github_url": "https://github.com/ergo-services/ergo",
+        "name": "Ergo"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.450409+00:00",
+  "source_file": "source/sf-scala/243376543.html"
+}

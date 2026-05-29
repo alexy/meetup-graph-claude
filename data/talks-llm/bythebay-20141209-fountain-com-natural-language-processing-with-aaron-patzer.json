@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20141209-fountain-com-natural-language-processing-with-aaron-patzer",
+  "scraped_at": "2026-05-29T05:47:24.448498+00:00",
+  "source_file": "source/sf-scala/218670517.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20141209-fountain-com-natural-language-processing-with-aaron-patzer",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20141209-fountain-com-natural-language-processing-with-aaron-patzer",
+        "title": "Fountain.com: Natural Language Processing with Scala",
+        "abstract": "Fountain.com is a platform that understands plain English questions and routes them to experts for 1-on-1 live collaboration. The system is written entirely in Scala and relies heavily on machine learning.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:sf-scala-218670517",
+      "type": "Event",
+      "properties": {
+        "id": "218670517",
+        "title": "Fountain.com NLP in Scala, Enigma with Monads and Lenses",
+        "date": "2014-12-09",
+        "datetime": "2014-12-10T02:30:00+00:00",
+        "url": "https://www.meetup.com/sf-scala/events/218670517/",
+        "venue_name": "Lithium HQ",
+        "venue_address": "225 Bush St, 14th floor in the break room area",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "slug": "sf-scala",
+        "name": "SF Scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:aaron-patzer",
+      "type": "Speaker",
+      "properties": {
+        "name": "Aaron Patzer",
+        "role": "CEO",
+        "company": "Fountain.com",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:fountain-com",
+      "type": "Company",
+      "properties": {
+        "name": "Fountain.com"
+      }
+    },
+    {
+      "id": "speaker:jean-sini",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jean Sini",
+        "role": "VP of Engineering",
+        "company": "Fountain.com",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:fountain-com",
+      "type": "Company",
+      "properties": {
+        "name": "Fountain.com"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20141209-fountain-com-natural-language-processing-with-aaron-patzer",
+      "to": "event:sf-scala-218670517",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-218670517",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20141209-fountain-com-natural-language-processing-with-aaron-patzer",
+      "to": "speaker:aaron-patzer",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:aaron-patzer",
+      "to": "company:fountain-com",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20141209-fountain-com-natural-language-processing-with-aaron-patzer",
+      "to": "speaker:jean-sini",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jean-sini",
+      "to": "company:fountain-com",
+      "type": "WORKS_AT"
+    }
+  ]
+}

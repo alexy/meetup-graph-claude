@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20120409-construction-of-twitter-s-highly-concurrent-s-marius-eriksen",
+      "to": "event:scala-bay-57195142",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-57195142",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20120409-construction-of-twitter-s-highly-concurrent-s-marius-eriksen",
+      "to": "speaker:marius-eriksen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:marius-eriksen",
+      "to": "company:twitter",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20120409-construction-of-twitter-s-highly-concurrent-s-marius-eriksen",
+      "to": "project:finagle",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20120409-construction-of-twitter-s-highly-concurrent-s-marius-eriksen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20120409-construction-of-twitter-s-highly-concurrent-s-marius-eriksen",
+      "properties": {
+        "abstract": "How Twitter uses Scala to build modern, highly concurrent services. Covers the libraries that make up the Twitter stack and how these primitives help create correct, composable and modular systems, along with challenges around efficiency.",
+        "id": "bythebay-20120409-construction-of-twitter-s-highly-concurrent-s-marius-eriksen",
+        "order": 0,
+        "title": "Construction of Twitter's Highly Concurrent Scala Services"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-57195142",
+      "properties": {
+        "city": "San Mateo",
+        "date": "2012-04-09",
+        "datetime": "2012-04-10T01:30:00+00:00",
+        "id": "57195142",
+        "title": "Scala Usage at Twitter",
+        "url": "https://www.meetup.com/scala-bay/events/57195142/",
+        "venue_address": "1500 Fashion Island Blvd # 300",
+        "venue_name": "SuccessFactors, an SAP Company"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:marius-eriksen",
+      "properties": {
+        "bio": null,
+        "company": "Twitter",
+        "name": "Marius Eriksen",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:twitter",
+      "properties": {
+        "name": "Twitter"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:finagle",
+      "properties": {
+        "github_url": "https://github.com/twitter/finagle",
+        "name": "Finagle"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.762388+00:00",
+  "source_file": "source/scala-bay/57195142.html"
+}

@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+      "to": "event:big-data-developers-in-nyc-243156555",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-243156555",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+      "to": "speaker:trevor-grant",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:trevor-grant",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+      "to": "project:apache-mahout",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+      "to": "project:apache-flink",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+      "to": "project:apache-kafka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+      "properties": {
+        "abstract": "How to hack drones and connect the camera feed to a Machine Learning model to identify humans, using all open source components including IBM Data Science Experience for the Spark model and HDP open projects like Flink, Solr, and Kafka.",
+        "id": "bythebay-20170925-using-open-source-ai-with-drones-to-identify-trevor-grant",
+        "order": 0,
+        "title": "Using Open Source AI with Drones to Identify Humans"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-243156555",
+      "properties": {
+        "city": "New York",
+        "date": "2017-09-25",
+        "datetime": "2017-09-25T22:00:00+00:00",
+        "id": "243156555",
+        "title": "Using Open Source AI w/ Drones to identify humans.... Friendly Cylons 1.0...",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/243156555/",
+        "venue_address": "655 West 34th Street",
+        "venue_name": "Jacob K. Javits Convention Center"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:trevor-grant",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Trevor Grant",
+        "role": "Open Source Technical Evangelist"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-mahout",
+      "properties": {
+        "github_url": "https://github.com/apache/mahout",
+        "name": "Apache Mahout"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-flink",
+      "properties": {
+        "github_url": "https://github.com/apache/flink",
+        "name": "Apache Flink"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-kafka",
+      "properties": {
+        "github_url": "https://github.com/apache/kafka",
+        "name": "Apache Kafka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.325234+00:00",
+  "source_file": "source/big-data-developers-in-nyc/243156555.html"
+}

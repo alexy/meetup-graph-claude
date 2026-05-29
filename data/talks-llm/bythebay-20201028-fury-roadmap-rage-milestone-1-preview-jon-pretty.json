@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20201028-fury-roadmap-rage-milestone-1-preview-jon-pretty",
+      "to": "event:scala-bay-273537257",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-273537257",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20201028-fury-roadmap-rage-milestone-1-preview-jon-pretty",
+      "to": "speaker:jon-pretty",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20201028-fury-roadmap-rage-milestone-1-preview-jon-pretty",
+      "to": "project:fury",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20201028-fury-roadmap-rage-milestone-1-preview-jon-pretty",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20201028-fury-roadmap-rage-milestone-1-preview-jon-pretty",
+      "properties": {
+        "abstract": "Fury is close to its first milestone release. This talk introduces new features arriving in Milestone 1 such as ecosystem-wide updates, Scala.js support, and online publishing, plus a preview of future milestones.",
+        "id": "bythebay-20201028-fury-roadmap-rage-milestone-1-preview-jon-pretty",
+        "order": 0,
+        "title": "Fury: Roadmap Rage \u2014 Milestone 1 Preview"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-273537257",
+      "properties": {
+        "city": "",
+        "date": "2020-10-28",
+        "datetime": "2020-10-29T01:00:00+00:00",
+        "id": "273537257",
+        "title": "Fury: Roadmap Rage",
+        "url": "https://www.meetup.com/scala-bay/events/273537257/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jon-pretty",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Jon Pretty",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:fury",
+      "properties": {
+        "github_url": "https://github.com/propensive/fury",
+        "name": "Fury"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.759655+00:00",
+  "source_file": "source/scala-bay/273537257.html"
+}

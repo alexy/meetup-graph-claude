@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150121-hadoop-use-cases-vs-run-time-environments-tom-phelan",
+      "to": "event:hadoopsf-219049168",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-219049168",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150121-hadoop-use-cases-vs-run-time-environments-tom-phelan",
+      "to": "speaker:tom-phelan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:tom-phelan",
+      "to": "company:bluedata",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150121-hadoop-use-cases-vs-run-time-environments-tom-phelan",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150121-hadoop-use-cases-vs-run-time-environments-tom-phelan",
+      "to": "project:docker",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150121-hadoop-use-cases-vs-run-time-environments-tom-phelan",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150121-hadoop-use-cases-vs-run-time-environments-tom-phelan",
+      "properties": {
+        "abstract": "Investigating the advantages and disadvantages of running a Hadoop cluster in different environments: bare metal, public cloud, private cloud, and containers. Practical guidance for choosing the right deployment model.",
+        "id": "bythebay-20150121-hadoop-use-cases-vs-run-time-environments-tom-phelan",
+        "order": 0,
+        "title": "Hadoop Use Cases vs. Run Time Environments"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-219049168",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-01-21",
+        "datetime": "2015-01-22T02:00:00+00:00",
+        "id": "219049168",
+        "title": "January SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/219049168/",
+        "venue_address": "875 Howard Street",
+        "venue_name": "Pivotal Labs"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:tom-phelan",
+      "properties": {
+        "bio": null,
+        "company": "BlueData",
+        "name": "Tom Phelan",
+        "role": "Chief Architect and co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:bluedata",
+      "properties": {
+        "name": "BlueData"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:docker",
+      "properties": {
+        "github_url": "https://github.com/moby/moby",
+        "name": "Docker"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.372167+00:00",
+  "source_file": "source/hadoopsf/219049168.html"
+}

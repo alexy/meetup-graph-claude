@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20151013-fastparse-fast-programmable-modern-parser-com-li-haoyi",
+      "to": "event:sf-scala-225779954",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-225779954",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151013-fastparse-fast-programmable-modern-parser-com-li-haoyi",
+      "to": "speaker:li-haoyi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20151013-fastparse-fast-programmable-modern-parser-com-li-haoyi",
+      "to": "project:fastparse",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20151013-fastparse-fast-programmable-modern-parser-com-li-haoyi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151013-fastparse-fast-programmable-modern-parser-com-li-haoyi",
+      "properties": {
+        "abstract": "Parsing semi-structured text has always been a pain: from fragile regexes to complex tools like YACC or ANTLR. FastParse provides fast, programmable, modern parser-combinators in Scala.",
+        "id": "bythebay-20151013-fastparse-fast-programmable-modern-parser-com-li-haoyi",
+        "order": 0,
+        "title": "FastParse: Fast, Programmable, Modern Parser-Combinators in Scala"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-225779954",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-10-13",
+        "datetime": "2015-10-14T01:30:00+00:00",
+        "id": "225779954",
+        "title": "FastParse and Akka Streams",
+        "url": "https://www.meetup.com/sf-scala/events/225779954/",
+        "venue_address": "225 Bush St, 14th floor in the break room area",
+        "venue_name": "Lithium HQ"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:li-haoyi",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Li Haoyi",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:fastparse",
+      "properties": {
+        "github_url": "https://github.com/com-lihaoyi/fastparse",
+        "name": "FastParse"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.449423+00:00",
+  "source_file": "source/sf-scala/225779954.html"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240723-secure-and-private-ai-with-opsin-oz-wasserman",
+  "scraped_at": "2026-05-29T05:39:23.428865+00:00",
+  "source_file": "source/unstructured-data-sf/301978598.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240723-secure-and-private-ai-with-opsin-oz-wasserman",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240723-secure-and-private-ai-with-opsin-oz-wasserman",
+        "title": "Secure and Private AI with Opsin",
+        "abstract": "Ensuring secure and privacy-preserving AI applications when working with sensitive enterprise data.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-301978598",
+      "type": "Event",
+      "properties": {
+        "id": "301978598",
+        "title": "Unstructured Data Meetup - South Bay Edition",
+        "date": "2024-07-23",
+        "datetime": "2024-07-24T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301978598/",
+        "venue_name": "3412 Hillview Ave",
+        "venue_address": "3412 Hillview Ave",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:oz-wasserman",
+      "type": "Speaker",
+      "properties": {
+        "name": "Oz Wasserman",
+        "role": "Founder",
+        "company": "Opsin",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:opsin",
+      "type": "Company",
+      "properties": {
+        "name": "Opsin"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240723-secure-and-private-ai-with-opsin-oz-wasserman",
+      "to": "event:unstructured-data-sf-301978598",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301978598",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240723-secure-and-private-ai-with-opsin-oz-wasserman",
+      "to": "speaker:oz-wasserman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:oz-wasserman",
+      "to": "company:opsin",
+      "type": "WORKS_AT"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240625-milvus-sparse-vector-search-yi-wang",
+      "to": "event:unstructured-data-sf-301509881",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301509881",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240625-milvus-sparse-vector-search-yi-wang",
+      "to": "speaker:yi-wang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:yi-wang",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240625-milvus-sparse-vector-search-yi-wang",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240625-milvus-sparse-vector-search-yi-wang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240625-milvus-sparse-vector-search-yi-wang",
+      "properties": {
+        "abstract": "Building hybrid search applications with Milvus using sparse vectors for keyword matching combined with dense vectors for semantic search.",
+        "id": "bythebay-20240625-milvus-sparse-vector-search-yi-wang",
+        "order": 1,
+        "title": "Milvus Sparse Vector Search"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-301509881",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-06-25",
+        "datetime": "2024-06-26T00:30:00+00:00",
+        "id": "301509881",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301509881/",
+        "venue_address": "3412 Hillview Ave",
+        "venue_name": "3412 Hillview Ave"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:yi-wang",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Yi Wang",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.428663+00:00",
+  "source_file": "source/unstructured-data-sf/301509881.html"
+}

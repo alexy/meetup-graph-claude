@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+      "to": "event:big-data-developers-in-nyc-226995075",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-226995075",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+      "to": "speaker:michael-harkins",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:michael-harkins",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+      "to": "speaker:virender-thakur",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:virender-thakur",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+      "to": "project:ibm-big-sql",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+      "properties": {
+        "abstract": "Big SQL delivers comprehensive SQL functionality that leverages advanced data virtualization to make all data sources SQL accessible using an optimal execution strategy.",
+        "id": "bythebay-20151209-ibm-big-sql-making-all-of-your-big-data-sql-a-michael-harkins",
+        "order": 2,
+        "title": "IBM Big SQL — Making All of Your Big Data SQL Accessible"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-226995075",
+      "properties": {
+        "city": "Jersey City",
+        "date": "2015-12-09",
+        "datetime": "2015-12-09T22:30:00+00:00",
+        "id": "226995075",
+        "title": "Continuous Data Management for Hadoop and Spark – On-Premise or in the Cloud",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/226995075/",
+        "venue_address": "286 Washington Street",
+        "venue_name": "HopScotch"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:michael-harkins",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Michael Harkins",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:virender-thakur",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Virender Thakur",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:ibm-big-sql",
+      "properties": {
+        "github_url": null,
+        "name": "IBM Big SQL"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.324318+00:00",
+  "source_file": "source/big-data-developers-in-nyc/226995075.html"
+}

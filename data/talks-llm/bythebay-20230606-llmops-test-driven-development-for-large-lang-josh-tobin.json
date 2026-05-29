@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230606-llmops-test-driven-development-for-large-lang-josh-tobin",
+      "to": "event:bay-area-ai-293476064",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-293476064",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230606-llmops-test-driven-development-for-large-lang-josh-tobin",
+      "to": "speaker:josh-tobin",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:josh-tobin",
+      "to": "company:gantry",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230606-llmops-test-driven-development-for-large-lang-josh-tobin",
+      "to": "project:gantry",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20230606-llmops-test-driven-development-for-large-lang-josh-tobin",
+      "to": "project:full-stack-deep-learning",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230606-llmops-test-driven-development-for-large-lang-josh-tobin",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230606-llmops-test-driven-development-for-large-lang-josh-tobin",
+      "properties": {
+        "abstract": "Practitioners should build LM Programs comprised of several composable calls to LLMs which can be rigorously tested, audited, and optimized. This talk covers the emerging engineering discipline of production machine learning and LLM applications.",
+        "id": "bythebay-20230606-llmops-test-driven-development-for-large-lang-josh-tobin",
+        "order": 0,
+        "title": "LLMOps: Test-Driven Development for Large Language Model Applications"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-293476064",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-06-06",
+        "datetime": "2023-06-07T00:00:00+00:00",
+        "id": "293476064",
+        "title": "LLMOps: Test-Driven Development for Large Language Model Applications",
+        "url": "https://www.meetup.com/bay-area-ai/events/293476064/",
+        "venue_address": "500 Treat Ave",
+        "venue_name": "500 Treat Ave"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:josh-tobin",
+      "properties": {
+        "bio": null,
+        "company": "Gantry",
+        "name": "Josh Tobin",
+        "role": "founder and CEO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:gantry",
+      "properties": {
+        "name": "Gantry"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:gantry",
+      "properties": {
+        "github_url": null,
+        "name": "Gantry"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:full-stack-deep-learning",
+      "properties": {
+        "github_url": "https://github.com/the-full-stack/fsdl-text-recognizer-project",
+        "name": "Full Stack Deep Learning"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.228294+00:00",
+  "source_file": "source/bay-area-ai/293476064.html"
+}

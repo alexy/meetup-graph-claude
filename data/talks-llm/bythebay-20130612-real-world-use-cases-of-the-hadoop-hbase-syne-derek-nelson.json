@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20130612-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "to": "event:hadoopsf-120561212",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-120561212",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130612-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "to": "speaker:derek-nelson",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:derek-nelson",
+      "to": "company:adroll",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20130612-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20130612-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "to": "project:apache-hbase",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20130612-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130612-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+      "properties": {
+        "abstract": "Combining the batch, heavy lifting Hadoop powerhouse with the low-latency, random access capabilities of HBase. Real-world use cases from AdRoll's data infrastructure.",
+        "id": "bythebay-20130612-real-world-use-cases-of-the-hadoop-hbase-syne-derek-nelson",
+        "order": 0,
+        "title": "Real-World Use Cases of the Hadoop/HBase Synergy"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-120561212",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2013-06-12",
+        "datetime": "2013-06-13T01:00:00+00:00",
+        "id": "120561212",
+        "title": "June 2013 San Francisco Hadoop Meetup ",
+        "url": "https://www.meetup.com/hadoopsf/events/120561212/",
+        "venue_address": "972 Mission St, 1st Floor",
+        "venue_name": "AdRoll HQ"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:derek-nelson",
+      "properties": {
+        "bio": null,
+        "company": "AdRoll",
+        "name": "Derek Nelson",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:adroll",
+      "properties": {
+        "name": "AdRoll"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hbase",
+      "properties": {
+        "github_url": "https://github.com/apache/hbase",
+        "name": "Apache HBase"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.369243+00:00",
+  "source_file": "source/hadoopsf/120561212.html"
+}

@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230615-quivr-talk-to-your-genai-second-brain-shaun-wei",
+      "to": "event:unstructured-data-sf-293939805",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-293939805",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230615-quivr-talk-to-your-genai-second-brain-shaun-wei",
+      "to": "speaker:shaun-wei",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20230615-quivr-talk-to-your-genai-second-brain-shaun-wei",
+      "to": "project:quivr",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230615-quivr-talk-to-your-genai-second-brain-shaun-wei",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230615-quivr-talk-to-your-genai-second-brain-shaun-wei",
+      "properties": {
+        "abstract": "Quivr is an open-source tool that lets you chat with your documents and files using large language models.",
+        "id": "bythebay-20230615-quivr-talk-to-your-genai-second-brain-shaun-wei",
+        "order": 1,
+        "title": "Quivr: Talk to Your GenAI Second Brain"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-293939805",
+      "properties": {
+        "city": "Redwood City",
+        "date": "2023-06-15",
+        "datetime": "2023-06-16T01:00:00+00:00",
+        "id": "293939805",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/293939805/",
+        "venue_address": "555 Twin Dolphin Dr",
+        "venue_name": "555 Twin Dolphin Dr"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:shaun-wei",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Shaun Wei",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:quivr",
+      "properties": {
+        "github_url": "https://github.com/QuivrHQ/quivr",
+        "name": "Quivr"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.424654+00:00",
+  "source_file": "source/unstructured-data-sf/293939805.html"
+}

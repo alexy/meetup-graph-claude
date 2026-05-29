@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20180205-deep-learning-and-scala-oswald-campesato",
+      "to": "event:scala-bay-246206268",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-246206268",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180205-deep-learning-and-scala-oswald-campesato",
+      "to": "speaker:oswald-campesato",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20180205-deep-learning-and-scala-oswald-campesato",
+      "to": "project:tensorflow",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20180205-deep-learning-and-scala-oswald-campesato",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180205-deep-learning-and-scala-oswald-campesato",
+      "properties": {
+        "abstract": "A fast-paced introduction to Deep Learning concepts including neural networks, backpropagation, activation functions, CNNs, and RNNs, with code samples in Scala and TensorFlow.",
+        "id": "bythebay-20180205-deep-learning-and-scala-oswald-campesato",
+        "order": 0,
+        "title": "Deep Learning and Scala"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-246206268",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2018-02-05",
+        "datetime": "2018-02-06T03:00:00+00:00",
+        "id": "246206268",
+        "title": "Oswald Campesato, \"Deep Learning and Scala\"",
+        "url": "https://www.meetup.com/scala-bay/events/246206268/",
+        "venue_address": "1154 Sonora Court",
+        "venue_name": "Clari Inc"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:oswald-campesato",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Oswald Campesato",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:tensorflow",
+      "properties": {
+        "github_url": "https://github.com/tensorflow/tensorflow",
+        "name": "TensorFlow"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.756996+00:00",
+  "source_file": "source/scala-bay/246206268.html"
+}

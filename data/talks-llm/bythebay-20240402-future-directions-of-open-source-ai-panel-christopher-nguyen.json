@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240402-future-directions-of-open-source-ai-panel-christopher-nguyen",
+  "scraped_at": "2026-05-29T04:58:30.230242+00:00",
+  "source_file": "source/bay-area-ai/299961290.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240402-future-directions-of-open-source-ai-panel-christopher-nguyen",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240402-future-directions-of-open-source-ai-panel-christopher-nguyen",
+        "title": "Future Directions of Open-Source AI Panel",
+        "abstract": "Panel discussion on the future of open-source AI with leaders from AItomatic, IBM, and HuggingFace.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:bay-area-ai-299961290",
+      "type": "Event",
+      "properties": {
+        "id": "299961290",
+        "title": "[Luma registration] AI Alliance Meetup 2",
+        "date": "2024-04-02",
+        "datetime": "2024-04-03T01:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/299961290/",
+        "venue_name": "Databricks Inc.",
+        "venue_address": "160 Spear St 15th floor",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:christopher-nguyen",
+      "type": "Speaker",
+      "properties": {
+        "name": "Christopher Nguyen",
+        "role": null,
+        "company": "AItomatic",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:aitomatic",
+      "type": "Company",
+      "properties": {
+        "name": "AItomatic"
+      }
+    },
+    {
+      "id": "speaker:dean-wampler",
+      "type": "Speaker",
+      "properties": {
+        "name": "Dean Wampler",
+        "role": null,
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    },
+    {
+      "id": "speaker:irene-solaiman",
+      "type": "Speaker",
+      "properties": {
+        "name": "Irene Solaiman",
+        "role": null,
+        "company": "Hugging Face",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:hugging-face",
+      "type": "Company",
+      "properties": {
+        "name": "Hugging Face"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240402-future-directions-of-open-source-ai-panel-christopher-nguyen",
+      "to": "event:bay-area-ai-299961290",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-299961290",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240402-future-directions-of-open-source-ai-panel-christopher-nguyen",
+      "to": "speaker:christopher-nguyen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:christopher-nguyen",
+      "to": "company:aitomatic",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240402-future-directions-of-open-source-ai-panel-christopher-nguyen",
+      "to": "speaker:dean-wampler",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:dean-wampler",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240402-future-directions-of-open-source-ai-panel-christopher-nguyen",
+      "to": "speaker:irene-solaiman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:irene-solaiman",
+      "to": "company:hugging-face",
+      "type": "WORKS_AT"
+    }
+  ]
+}

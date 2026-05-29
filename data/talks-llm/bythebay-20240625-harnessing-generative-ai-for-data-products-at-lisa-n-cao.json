@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240625-harnessing-generative-ai-for-data-products-at-lisa-n-cao",
+  "scraped_at": "2026-05-29T05:39:23.428759+00:00",
+  "source_file": "source/unstructured-data-sf/301509881.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240625-harnessing-generative-ai-for-data-products-at-lisa-n-cao",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240625-harnessing-generative-ai-for-data-products-at-lisa-n-cao",
+        "title": "Harnessing Generative AI for Data Products at Datastrato",
+        "abstract": "How Datastrato uses generative AI to build data products and analytics pipelines with large language models.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-301509881",
+      "type": "Event",
+      "properties": {
+        "id": "301509881",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "date": "2024-06-25",
+        "datetime": "2024-06-26T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301509881/",
+        "venue_name": "3412 Hillview Ave",
+        "venue_address": "3412 Hillview Ave",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:lisa-n-cao",
+      "type": "Speaker",
+      "properties": {
+        "name": "Lisa N Cao",
+        "role": "Product Manager",
+        "company": "Datastrato",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:datastrato",
+      "type": "Company",
+      "properties": {
+        "name": "Datastrato"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240625-harnessing-generative-ai-for-data-products-at-lisa-n-cao",
+      "to": "event:unstructured-data-sf-301509881",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301509881",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240625-harnessing-generative-ai-for-data-products-at-lisa-n-cao",
+      "to": "speaker:lisa-n-cao",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:lisa-n-cao",
+      "to": "company:datastrato",
+      "type": "WORKS_AT"
+    }
+  ]
+}

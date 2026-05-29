@@ -6,9 +6,10 @@
 //!
 //! # Graph schema
 //!
-//! Nodes:  Talk · Event · Group · Speaker
+//! Nodes:  Talk · Event · Group · Speaker · Project · Company
 //! Edges:  PRESENTED_AT (Talk→Event) · PRESENTED_BY (Talk→Speaker)
-//!         PART_OF (Event→Group)
+//!         PART_OF (Event→Group) · MENTIONS (Talk→Project)
+//!         WORKS_AT (Speaker→Company)
 //!
 //! # Workflow
 //!
@@ -135,15 +136,16 @@ pub fn add_group(
 }
 
 /// Create a Speaker node.
-/// HTTP: POST /v1/query/add_speaker  {"nid":"…","name":"…","bio":"…","company":"…"}
+/// HTTP: POST /v1/query/add_speaker  {"nid":"…","name":"…","bio":"…","company":"…","role":"…"}
 #[register]
 pub fn add_speaker(
     nid: String,
     name: String,
     bio: String,
     company: String,
+    role: String,
 ) -> WriteBatch {
-    let _ = (&nid, &name, &bio, &company);
+    let _ = (&nid, &name, &bio, &company, &role);
     write_batch()
         .var_as(
             "speaker",
@@ -154,11 +156,60 @@ pub fn add_speaker(
                     ("name",    PropertyInput::param("name")),
                     ("bio",     PropertyInput::param("bio")),
                     ("company", PropertyInput::param("company")),
+                    ("role",    PropertyInput::param("role")),
                 ],
             )
             .project(vec![PropertyProjection::renamed("$id", "id")]),
         )
         .returning(["speaker"])
+}
+
+/// Create a Project node.
+/// HTTP: POST /v1/query/add_project  {"nid":"…","name":"…","github_url":"…"}
+#[register]
+pub fn add_project(
+    nid: String,
+    name: String,
+    github_url: String,
+) -> WriteBatch {
+    let _ = (&nid, &name, &github_url);
+    write_batch()
+        .var_as(
+            "project",
+            g().add_n(
+                "Project",
+                vec![
+                    ("nid",        PropertyInput::param("nid")),
+                    ("name",       PropertyInput::param("name")),
+                    ("github_url", PropertyInput::param("github_url")),
+                ],
+            )
+            .project(vec![PropertyProjection::renamed("$id", "id")]),
+        )
+        .returning(["project"])
+}
+
+/// Create a Company node.
+/// HTTP: POST /v1/query/add_company  {"nid":"…","name":"…"}
+#[register]
+pub fn add_company(
+    nid: String,
+    name: String,
+) -> WriteBatch {
+    let _ = (&nid, &name);
+    write_batch()
+        .var_as(
+            "company",
+            g().add_n(
+                "Company",
+                vec![
+                    ("nid",  PropertyInput::param("nid")),
+                    ("name", PropertyInput::param("name")),
+                ],
+            )
+            .project(vec![PropertyProjection::renamed("$id", "id")]),
+        )
+        .returning(["company"])
 }
 
 // ── Edge-creation queries ─────────────────────────────────────────────────────
@@ -248,6 +299,60 @@ pub fn add_part_of(event_nid: String, group_nid: String) -> WriteBatch {
         .returning(["edge"])
 }
 
+/// Talk -[MENTIONS]-> Project
+/// HTTP: POST /v1/query/add_mentions  {"talk_nid":"…","project_nid":"…"}
+#[register]
+pub fn add_mentions(talk_nid: String, project_nid: String) -> WriteBatch {
+    let _ = (&talk_nid, &project_nid);
+    write_batch()
+        .var_as(
+            "talk",
+            g().n_with_label("Talk")
+                .where_(Predicate::eq_param("nid", "talk_nid"))
+                .limit(1),
+        )
+        .var_as(
+            "project",
+            g().n_with_label("Project")
+                .where_(Predicate::eq_param("nid", "project_nid"))
+                .limit(1),
+        )
+        .var_as(
+            "edge",
+            g().n(NodeRef::var("talk"))
+                .add_e("MENTIONS", NodeRef::var("project"), Vec::<(&str, &str)>::new())
+                .count(),
+        )
+        .returning(["edge"])
+}
+
+/// Speaker -[WORKS_AT]-> Company
+/// HTTP: POST /v1/query/add_works_at  {"speaker_nid":"…","company_nid":"…"}
+#[register]
+pub fn add_works_at(speaker_nid: String, company_nid: String) -> WriteBatch {
+    let _ = (&speaker_nid, &company_nid);
+    write_batch()
+        .var_as(
+            "speaker",
+            g().n_with_label("Speaker")
+                .where_(Predicate::eq_param("nid", "speaker_nid"))
+                .limit(1),
+        )
+        .var_as(
+            "company",
+            g().n_with_label("Company")
+                .where_(Predicate::eq_param("nid", "company_nid"))
+                .limit(1),
+        )
+        .var_as(
+            "edge",
+            g().n(NodeRef::var("speaker"))
+                .add_e("WORKS_AT", NodeRef::var("company"), Vec::<(&str, &str)>::new())
+                .count(),
+        )
+        .returning(["edge"])
+}
+
 // ── Utility queries ───────────────────────────────────────────────────────────
 
 /// Delete all nodes of every type (and their incident edges).
@@ -256,11 +361,13 @@ pub fn add_part_of(event_nid: String, group_nid: String) -> WriteBatch {
 #[register]
 pub fn clear_all() -> WriteBatch {
     write_batch()
-        .var_as("talks",    g().n_with_label("Talk").drop())
-        .var_as("events",   g().n_with_label("Event").drop())
-        .var_as("groups",   g().n_with_label("Group").drop())
-        .var_as("speakers", g().n_with_label("Speaker").drop())
-        .returning(["talks", "events", "groups", "speakers"])
+        .var_as("talks",     g().n_with_label("Talk").drop())
+        .var_as("events",    g().n_with_label("Event").drop())
+        .var_as("groups",    g().n_with_label("Group").drop())
+        .var_as("speakers",  g().n_with_label("Speaker").drop())
+        .var_as("projects",  g().n_with_label("Project").drop())
+        .var_as("companies", g().n_with_label("Company").drop())
+        .returning(["talks", "events", "groups", "speakers", "projects", "companies"])
 }
 
 /// Count nodes by label — handy for post-load verification.
@@ -268,11 +375,13 @@ pub fn clear_all() -> WriteBatch {
 #[register]
 pub fn node_counts() -> ReadBatch {
     read_batch()
-        .var_as("talks",    g().n_with_label("Talk").count())
-        .var_as("events",   g().n_with_label("Event").count())
-        .var_as("groups",   g().n_with_label("Group").count())
-        .var_as("speakers", g().n_with_label("Speaker").count())
-        .returning(["talks", "events", "groups", "speakers"])
+        .var_as("talks",     g().n_with_label("Talk").count())
+        .var_as("events",    g().n_with_label("Event").count())
+        .var_as("groups",    g().n_with_label("Group").count())
+        .var_as("speakers",  g().n_with_label("Speaker").count())
+        .var_as("projects",  g().n_with_label("Project").count())
+        .var_as("companies", g().n_with_label("Company").count())
+        .returning(["talks", "events", "groups", "speakers", "projects", "companies"])
 }
 
 // ── main ──────────────────────────────────────────────────────────────────────
@@ -293,8 +402,8 @@ fn main() -> anyhow::Result<()> {
     println!("Generated {}", path.display());
     println!();
     println!("Registered queries:");
-    println!("  Write  add_talk, add_event, add_group, add_speaker");
-    println!("  Write  add_presented_at, add_presented_by, add_part_of");
+    println!("  Write  add_talk, add_event, add_group, add_speaker, add_project, add_company");
+    println!("  Write  add_presented_at, add_presented_by, add_part_of, add_mentions, add_works_at");
     println!("  Write  clear_all");
     println!("  Read   node_counts");
     println!();

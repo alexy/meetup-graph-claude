@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140411-reactive-all-the-way-down-end-to-end-reactive-james-ward",
+      "to": "event:sf-scala-175274442",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-175274442",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140411-reactive-all-the-way-down-end-to-end-reactive-james-ward",
+      "to": "speaker:james-ward",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:james-ward",
+      "to": "company:typesafe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140411-reactive-all-the-way-down-end-to-end-reactive-james-ward",
+      "to": "project:play-framework",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20140411-reactive-all-the-way-down-end-to-end-reactive-james-ward",
+      "to": "project:akka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140411-reactive-all-the-way-down-end-to-end-reactive-james-ward",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140411-reactive-all-the-way-down-end-to-end-reactive-james-ward",
+      "properties": {
+        "abstract": "The world is going Reactive not just for the back-end; UIs are also becoming Reactive. Walking through how to build an end-to-end Reactive application with Scala, Play Framework, Akka, and AngularJS.",
+        "id": "bythebay-20140411-reactive-all-the-way-down-end-to-end-reactive-james-ward",
+        "order": 0,
+        "title": "Reactive All the Way Down: End-to-end Reactive Application with Scala and Play"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-175274442",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-04-11",
+        "datetime": "2014-04-12T01:00:00+00:00",
+        "id": "175274442",
+        "title": "Reactive All the Way Down with James Ward, 2/2",
+        "url": "https://www.meetup.com/sf-scala/events/175274442/",
+        "venue_address": "160 Spear St., Ste. #1700",
+        "venue_name": "Workday"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:james-ward",
+      "properties": {
+        "bio": null,
+        "company": "Typesafe",
+        "name": "James Ward",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:typesafe",
+      "properties": {
+        "name": "Typesafe"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:play-framework",
+      "properties": {
+        "github_url": "https://github.com/playframework/playframework",
+        "name": "Play Framework"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:akka",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.446725+00:00",
+  "source_file": "source/sf-scala/175274442.html"
+}

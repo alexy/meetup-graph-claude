@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240723-building-ai-applications-with-milvus-frank-liu",
+      "to": "event:unstructured-data-sf-301978598",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301978598",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240723-building-ai-applications-with-milvus-frank-liu",
+      "to": "speaker:frank-liu",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:frank-liu",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240723-building-ai-applications-with-milvus-frank-liu",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240723-building-ai-applications-with-milvus-frank-liu",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240723-building-ai-applications-with-milvus-frank-liu",
+      "properties": {
+        "abstract": "How to build production AI applications using Milvus as the vector database for efficient unstructured data retrieval.",
+        "id": "bythebay-20240723-building-ai-applications-with-milvus-frank-liu",
+        "order": 2,
+        "title": "Building AI Applications with Milvus"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-301978598",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-07-23",
+        "datetime": "2024-07-24T00:30:00+00:00",
+        "id": "301978598",
+        "title": "Unstructured Data Meetup - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301978598/",
+        "venue_address": "3412 Hillview Ave",
+        "venue_name": "3412 Hillview Ave"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:frank-liu",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Frank Liu",
+        "role": "Head of AI/ML"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.429043+00:00",
+  "source_file": "source/unstructured-data-sf/301978598.html"
+}

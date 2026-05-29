@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240319-building-production-llm-apps-with-langchain-lance-martin",
+      "to": "event:unstructured-data-sf-297446753",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-297446753",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240319-building-production-llm-apps-with-langchain-lance-martin",
+      "to": "speaker:lance-martin",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:lance-martin",
+      "to": "company:langchain",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240319-building-production-llm-apps-with-langchain-lance-martin",
+      "to": "project:langchain",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240319-building-production-llm-apps-with-langchain-lance-martin",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240319-building-production-llm-apps-with-langchain-lance-martin",
+      "properties": {
+        "abstract": "Practical patterns for building production-ready LLM applications with LangChain, covering chains, agents, and retrieval.",
+        "id": "bythebay-20240319-building-production-llm-apps-with-langchain-lance-martin",
+        "order": 1,
+        "title": "Building Production LLM Apps with LangChain"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-297446753",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-03-19",
+        "datetime": "2024-03-20T00:30:00+00:00",
+        "id": "297446753",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/297446753/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:lance-martin",
+      "properties": {
+        "bio": null,
+        "company": "LangChain",
+        "name": "Lance Martin",
+        "role": "Software/ML"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:langchain",
+      "properties": {
+        "name": "LangChain"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:langchain",
+      "properties": {
+        "github_url": "https://github.com/langchain-ai/langchain",
+        "name": "LangChain"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.426523+00:00",
+  "source_file": "source/unstructured-data-sf/297446753.html"
+}

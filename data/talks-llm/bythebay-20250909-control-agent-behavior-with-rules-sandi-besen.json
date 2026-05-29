@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250909-control-agent-behavior-with-rules-sandi-besen",
+      "to": "event:bay-area-ai-310960653",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-310960653",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250909-control-agent-behavior-with-rules-sandi-besen",
+      "to": "speaker:sandi-besen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:sandi-besen",
+      "to": "company:beeai-by-ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250909-control-agent-behavior-with-rules-sandi-besen",
+      "to": "project:beeai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250909-control-agent-behavior-with-rules-sandi-besen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250909-control-agent-behavior-with-rules-sandi-besen",
+      "properties": {
+        "abstract": "How to control agent behavior using declarative rules with BeeAI by IBM.",
+        "id": "bythebay-20250909-control-agent-behavior-with-rules-sandi-besen",
+        "order": 4,
+        "title": "Control Agent Behavior with Rules"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-310960653",
+      "properties": {
+        "city": null,
+        "date": "2025-09-09",
+        "datetime": "2025-09-10T00:00:00+00:00",
+        "id": "310960653",
+        "title": "[lu.ma/_ai registration] AI Agent SF Meetup #6",
+        "url": "https://www.meetup.com/bay-area-ai/events/310960653/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:sandi-besen",
+      "properties": {
+        "bio": null,
+        "company": "BeeAI by IBM",
+        "name": "Sandi Besen",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:beeai-by-ibm",
+      "properties": {
+        "name": "BeeAI by IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:beeai",
+      "properties": {
+        "github_url": "https://github.com/i-am-bee/beeai-framework",
+        "name": "BeeAI"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.233077+00:00",
+  "source_file": "source/bay-area-ai/310960653.html"
+}

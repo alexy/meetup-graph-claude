@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20230426-unique-risks-of-large-language-models-and-how-gautam-siwach",
+  "scraped_at": "2026-05-29T05:07:12.326903+00:00",
+  "source_file": "source/big-data-developers-in-nyc/292013365.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230426-unique-risks-of-large-language-models-and-how-gautam-siwach",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20230426-unique-risks-of-large-language-models-and-how-gautam-siwach",
+        "title": "Unique Risks of Large Language Models and How to Use Them More Responsibly",
+        "abstract": "Large Language Models have inspired many people but also come with risks. This session covers where potential harm could come from as well as ways to mitigate it, from the perspective of a thought leader in open source technologies.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-292013365",
+      "type": "Event",
+      "properties": {
+        "id": "292013365",
+        "title": "Unique risks of Large Language Models and how to use them more responsibly",
+        "date": "2023-04-26",
+        "datetime": "2023-04-26T12:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/292013365/",
+        "venue_name": "Online event",
+        "venue_address": "",
+        "city": ""
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:gautam-siwach",
+      "type": "Speaker",
+      "properties": {
+        "name": "Gautam Siwach",
+        "role": "principal executive, open source technologies",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20230426-unique-risks-of-large-language-models-and-how-gautam-siwach",
+      "to": "event:big-data-developers-in-nyc-292013365",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-292013365",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230426-unique-risks-of-large-language-models-and-how-gautam-siwach",
+      "to": "speaker:gautam-siwach",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:gautam-siwach",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    }
+  ]
+}

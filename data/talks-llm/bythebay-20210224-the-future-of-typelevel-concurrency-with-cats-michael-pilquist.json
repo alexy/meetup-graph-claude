@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20210224-the-future-of-typelevel-concurrency-with-cats-michael-pilquist",
+      "to": "event:scala-bay-276456115",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-276456115",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20210224-the-future-of-typelevel-concurrency-with-cats-michael-pilquist",
+      "to": "speaker:michael-pilquist",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20210224-the-future-of-typelevel-concurrency-with-cats-michael-pilquist",
+      "to": "project:cats-effect",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20210224-the-future-of-typelevel-concurrency-with-cats-michael-pilquist",
+      "to": "project:fs2",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20210224-the-future-of-typelevel-concurrency-with-cats-michael-pilquist",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20210224-the-future-of-typelevel-concurrency-with-cats-michael-pilquist",
+      "properties": {
+        "abstract": "Cats Effect and FS2 power dozens of high-level Scala libraries and provide the foundation for safe, functional concurrency. Cats Effect 3 & FS2 3 are on the verge of release after 18 months of development.",
+        "id": "bythebay-20210224-the-future-of-typelevel-concurrency-with-cats-michael-pilquist",
+        "order": 0,
+        "title": "The Future of Typelevel Concurrency with Cats Effect 3 and FS2 3"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-276456115",
+      "properties": {
+        "city": "",
+        "date": "2021-02-24",
+        "datetime": "2021-02-25T00:30:00+00:00",
+        "id": "276456115",
+        "title": "Joint with PHASE: The Future of Typelevel Concurrency",
+        "url": "https://www.meetup.com/scala-bay/events/276456115/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:michael-pilquist",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Michael Pilquist",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:cats-effect",
+      "properties": {
+        "github_url": "https://github.com/typelevel/cats-effect",
+        "name": "Cats Effect"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:fs2",
+      "properties": {
+        "github_url": "https://github.com/typelevel/fs2",
+        "name": "FS2"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.760111+00:00",
+  "source_file": "source/scala-bay/276456115.html"
+}

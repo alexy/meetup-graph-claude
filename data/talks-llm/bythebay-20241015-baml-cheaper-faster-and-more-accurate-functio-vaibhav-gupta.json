@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20241015-baml-cheaper-faster-and-more-accurate-functio-vaibhav-gupta",
+      "to": "event:unstructured-data-sf-303687526",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-303687526",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241015-baml-cheaper-faster-and-more-accurate-functio-vaibhav-gupta",
+      "to": "speaker:vaibhav-gupta",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:vaibhav-gupta",
+      "to": "company:boundaryml",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20241015-baml-cheaper-faster-and-more-accurate-functio-vaibhav-gupta",
+      "to": "project:baml",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20241015-baml-cheaper-faster-and-more-accurate-functio-vaibhav-gupta",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241015-baml-cheaper-faster-and-more-accurate-functio-vaibhav-gupta",
+      "properties": {
+        "abstract": "BAML (Boundary Markup Language) enables more reliable function calling in LLMs without fine-tuning, making it cheaper, faster, and more accurate.",
+        "id": "bythebay-20241015-baml-cheaper-faster-and-more-accurate-functio-vaibhav-gupta",
+        "order": 2,
+        "title": "BAML: Cheaper, Faster, and More Accurate Function Calling Without Fine-Tuning"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-303687526",
+      "properties": {
+        "city": "Redwood City",
+        "date": "2024-10-15",
+        "datetime": "2024-10-16T00:00:00+00:00",
+        "id": "303687526",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/303687526/",
+        "venue_address": "202 Walnut St",
+        "venue_name": "Sports Basement Redwood City"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:vaibhav-gupta",
+      "properties": {
+        "bio": null,
+        "company": "BoundaryML",
+        "name": "Vaibhav Gupta",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:boundaryml",
+      "properties": {
+        "name": "BoundaryML"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:baml",
+      "properties": {
+        "github_url": "https://github.com/BoundaryML/baml",
+        "name": "BAML"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.430848+00:00",
+  "source_file": "source/unstructured-data-sf/303687526.html"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20161128-technical-challenges-of-self-driving-trucks-jur-van-den-berg",
+  "scraped_at": "2026-05-29T04:53:39.929532+00:00",
+  "source_file": "source/bay-area-ai/235681083.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161128-technical-challenges-of-self-driving-trucks-jur-van-den-berg",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20161128-technical-challenges-of-self-driving-trucks-jur-van-den-berg",
+        "title": "Technical Challenges of Self-Driving Trucks",
+        "abstract": "Jur van den Berg will focus on specific technical challenges in motion planning and control for trucks versus personal vehicles, including staying in lane, turning radius, discerning a stopped vehicle, and speed control on hills.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-235681083",
+      "type": "Event",
+      "properties": {
+        "id": "235681083",
+        "title": "Technical Challenges of Self-Driving Trucks",
+        "date": "2016-11-28",
+        "datetime": "2016-11-29T03:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/235681083/",
+        "venue_name": "Otto",
+        "venue_address": "737 Harrison St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:jur-van-den-berg",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jur van den Berg",
+        "role": "PhD",
+        "company": "Otto",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:otto",
+      "type": "Company",
+      "properties": {
+        "name": "Otto"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20161128-technical-challenges-of-self-driving-trucks-jur-van-den-berg",
+      "to": "event:bay-area-ai-235681083",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-235681083",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161128-technical-challenges-of-self-driving-trucks-jur-van-den-berg",
+      "to": "speaker:jur-van-den-berg",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jur-van-den-berg",
+      "to": "company:otto",
+      "type": "WORKS_AT"
+    }
+  ]
+}

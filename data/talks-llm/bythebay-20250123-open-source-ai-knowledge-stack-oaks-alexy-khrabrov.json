@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250123-open-source-ai-knowledge-stack-oaks-alexy-khrabrov",
+      "to": "event:bay-area-ai-305744908",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-305744908",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250123-open-source-ai-knowledge-stack-oaks-alexy-khrabrov",
+      "to": "speaker:alexy-khrabrov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:alexy-khrabrov",
+      "to": "company:neo4j",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250123-open-source-ai-knowledge-stack-oaks-alexy-khrabrov",
+      "to": "project:neo4j",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250123-open-source-ai-knowledge-stack-oaks-alexy-khrabrov",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250123-open-source-ai-knowledge-stack-oaks-alexy-khrabrov",
+      "properties": {
+        "abstract": "A review of the OSS AI ecosystem proposing a big tent approach to organizing knowledge for AI applications and building an ecosystem of OSS AI practitioners in LFAI.",
+        "id": "bythebay-20250123-open-source-ai-knowledge-stack-oaks-alexy-khrabrov",
+        "order": 0,
+        "title": "Open-Source AI Knowledge Stack (OAKS)"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-305744908",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-01-23",
+        "datetime": "2025-01-24T01:00:00+00:00",
+        "id": "305744908",
+        "title": "[registration required on lu.ma/_ai] Full Stack OSS AI: Chips to Apps!",
+        "url": "https://www.meetup.com/bay-area-ai/events/305744908/",
+        "venue_address": "525 Market St",
+        "venue_name": "525 Market St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:alexy-khrabrov",
+      "properties": {
+        "bio": null,
+        "company": "Neo4j",
+        "name": "Alexy Khrabrov",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:neo4j",
+      "properties": {
+        "name": "Neo4j"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:neo4j",
+      "properties": {
+        "github_url": "https://github.com/neo4j/neo4j",
+        "name": "Neo4j"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.231527+00:00",
+  "source_file": "source/bay-area-ai/305744908.html"
+}

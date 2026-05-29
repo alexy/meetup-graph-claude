@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240603-production-rag-with-milvus-and-langchain-jiang-chen",
+      "to": "event:unstructured-data-sf-300622146",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300622146",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240603-production-rag-with-milvus-and-langchain-jiang-chen",
+      "to": "speaker:jiang-chen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jiang-chen",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240603-production-rag-with-milvus-and-langchain-jiang-chen",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20240603-production-rag-with-milvus-and-langchain-jiang-chen",
+      "to": "project:langchain",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240603-production-rag-with-milvus-and-langchain-jiang-chen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240603-production-rag-with-milvus-and-langchain-jiang-chen",
+      "properties": {
+        "abstract": "Building production-ready retrieval-augmented generation systems with Milvus vector database and LangChain orchestration.",
+        "id": "bythebay-20240603-production-rag-with-milvus-and-langchain-jiang-chen",
+        "order": 0,
+        "title": "Production RAG with Milvus and LangChain"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-300622146",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-06-03",
+        "datetime": "2024-06-04T00:30:00+00:00",
+        "id": "300622146",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300622146/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jiang-chen",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Jiang Chen",
+        "role": "Head of Ecosystem & AI Platform"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:langchain",
+      "properties": {
+        "github_url": "https://github.com/langchain-ai/langchain",
+        "name": "LangChain"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.427867+00:00",
+  "source_file": "source/unstructured-data-sf/300622146.html"
+}

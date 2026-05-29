@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20190207-property-based-testing-in-scalatest-3-1-bill-venners",
+      "to": "event:scala-bay-258712091",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-258712091",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190207-property-based-testing-in-scalatest-3-1-bill-venners",
+      "to": "speaker:bill-venners",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:bill-venners",
+      "to": "company:artima",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20190207-property-based-testing-in-scalatest-3-1-bill-venners",
+      "to": "project:scalatest",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20190207-property-based-testing-in-scalatest-3-1-bill-venners",
+      "to": "project:scalacheck",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20190207-property-based-testing-in-scalatest-3-1-bill-venners",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190207-property-based-testing-in-scalatest-3-1-bill-venners",
+      "properties": {
+        "abstract": "ScalaTest 3.1 includes built-in support for property-based testing. This talk explains property-based testing, walks through the design of ScalaTest's support, and compares it to ScalaCheck's approach.",
+        "id": "bythebay-20190207-property-based-testing-in-scalatest-3-1-bill-venners",
+        "order": 0,
+        "title": "Property-Based Testing in ScalaTest 3.1"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-258712091",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2019-02-07",
+        "datetime": "2019-02-08T02:00:00+00:00",
+        "id": "258712091",
+        "title": "Bill Venners introduces Property-based Testing in ScalaTest 3.1",
+        "url": "https://www.meetup.com/scala-bay/events/258712091/",
+        "venue_address": "221 Main St #250",
+        "venue_name": "Tradeshift Holdings"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:bill-venners",
+      "properties": {
+        "bio": null,
+        "company": "Artima",
+        "name": "Bill Venners",
+        "role": "president"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:artima",
+      "properties": {
+        "name": "Artima"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scalatest",
+      "properties": {
+        "github_url": "https://github.com/scalatest/scalatest",
+        "name": "ScalaTest"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:scalacheck",
+      "properties": {
+        "github_url": "https://github.com/typelevel/scalacheck",
+        "name": "ScalaCheck"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.758347+00:00",
+  "source_file": "source/scala-bay/258712091.html"
+}

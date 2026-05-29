@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20161114-categories-for-scala-programmers-vlad-patryshev",
+  "scraped_at": "2026-05-29T05:21:47.755679+00:00",
+  "source_file": "source/scala-bay/229524950.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161114-categories-for-scala-programmers-vlad-patryshev",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20161114-categories-for-scala-programmers-vlad-patryshev",
+        "title": "Categories for Scala Programmers",
+        "abstract": "An introduction to category theory for Scala programmers covering categories, functors, products, coproducts, pullbacks, and Monads, focusing on Scala and SQL examples. Math is easier to grasp if applied to real life.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-229524950",
+      "type": "Event",
+      "properties": {
+        "id": "229524950",
+        "title": "Vlad Patryshev, Categories for Scala Programmers",
+        "date": "2016-11-14",
+        "datetime": "2016-11-15T02:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/229524950/",
+        "venue_name": "Current place: GlobalLogic",
+        "venue_address": "1741 Technology Dr, Level 4",
+        "city": "San Jose"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:vlad-patryshev",
+      "type": "Speaker",
+      "properties": {
+        "name": "Vlad Patryshev",
+        "role": "software engineer and professor",
+        "company": "H2O.ai / Santa Clara University",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:h2o-ai-santa-clara-university",
+      "type": "Company",
+      "properties": {
+        "name": "H2O.ai / Santa Clara University"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20161114-categories-for-scala-programmers-vlad-patryshev",
+      "to": "event:scala-bay-229524950",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-229524950",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161114-categories-for-scala-programmers-vlad-patryshev",
+      "to": "speaker:vlad-patryshev",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:vlad-patryshev",
+      "to": "company:h2o-ai-santa-clara-university",
+      "type": "WORKS_AT"
+    }
+  ]
+}

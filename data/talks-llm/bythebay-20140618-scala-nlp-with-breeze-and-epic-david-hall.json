@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140618-scala-nlp-with-breeze-and-epic-david-hall",
+      "to": "event:sf-scala-187006842",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-187006842",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140618-scala-nlp-with-breeze-and-epic-david-hall",
+      "to": "speaker:david-hall",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:david-hall",
+      "to": "company:uc-berkeley",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140618-scala-nlp-with-breeze-and-epic-david-hall",
+      "to": "project:breeze",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20140618-scala-nlp-with-breeze-and-epic-david-hall",
+      "to": "project:epic",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140618-scala-nlp-with-breeze-and-epic-david-hall",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140618-scala-nlp-with-breeze-and-epic-david-hall",
+      "properties": {
+        "abstract": "Scala NLP technologies including Breeze, a numerical processing and machine learning library, and Epic, a parser for linguistic structures. Both are designed for high-performance NLP research in Scala.",
+        "id": "bythebay-20140618-scala-nlp-with-breeze-and-epic-david-hall",
+        "order": 0,
+        "title": "Scala NLP with Breeze and Epic"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-187006842",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-06-18",
+        "datetime": "2014-06-19T01:30:00+00:00",
+        "id": "187006842",
+        "title": "NLP & ML in Scala",
+        "url": "https://www.meetup.com/sf-scala/events/187006842/",
+        "venue_address": "848 Battery",
+        "venue_name": "Tagged"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:david-hall",
+      "properties": {
+        "bio": null,
+        "company": "UC Berkeley",
+        "name": "David Hall",
+        "role": "PhD student"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:uc-berkeley",
+      "properties": {
+        "name": "UC Berkeley"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:breeze",
+      "properties": {
+        "github_url": "https://github.com/scalanlp/breeze",
+        "name": "Breeze"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:epic",
+      "properties": {
+        "github_url": "https://github.com/dlwh/epic",
+        "name": "Epic"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.447513+00:00",
+  "source_file": "source/sf-scala/187006842.html"
+}

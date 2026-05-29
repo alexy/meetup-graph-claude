@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20160516-event-sourcing-and-async-messaging-for-micros-jason-swartz",
+  "scraped_at": "2026-05-29T05:21:47.755374+00:00",
+  "source_file": "source/scala-bay/229055974.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160516-event-sourcing-and-async-messaging-for-micros-jason-swartz",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20160516-event-sourcing-and-async-messaging-for-micros-jason-swartz",
+        "title": "Event-Sourcing and Async Messaging for Microservices",
+        "abstract": "Why and how to use event-sourcing to introduce immutability to regular database tables. Discusses asynchronous, non-blocking microservices and straightforward solutions for building them.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-229055974",
+      "type": "Event",
+      "properties": {
+        "id": "229055974",
+        "title": "Jason Swartz, Everyone's guide to event-sourcing and async messaging for micros",
+        "date": "2016-05-16",
+        "datetime": "2016-05-17T01:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/229055974/",
+        "venue_name": "Clari Inc",
+        "venue_address": "1154 Sonora Court",
+        "city": "Sunnyvale"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:jason-swartz",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jason Swartz",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160516-event-sourcing-and-async-messaging-for-micros-jason-swartz",
+      "to": "event:scala-bay-229055974",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-229055974",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160516-event-sourcing-and-async-messaging-for-micros-jason-swartz",
+      "to": "speaker:jason-swartz",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

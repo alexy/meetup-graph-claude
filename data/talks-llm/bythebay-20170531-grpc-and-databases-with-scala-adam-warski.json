@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170531-grpc-and-databases-with-scala-adam-warski",
+      "to": "event:sf-scala-239942879",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-239942879",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170531-grpc-and-databases-with-scala-adam-warski",
+      "to": "speaker:adam-warski",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:adam-warski",
+      "to": "company:softwaremill",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170531-grpc-and-databases-with-scala-adam-warski",
+      "to": "project:grpc",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170531-grpc-and-databases-with-scala-adam-warski",
+      "to": "project:slick",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170531-grpc-and-databases-with-scala-adam-warski",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170531-grpc-and-databases-with-scala-adam-warski",
+      "properties": {
+        "abstract": "Combining gRPC for service communication with Scala database access libraries for building modern, type-safe microservices.",
+        "id": "bythebay-20170531-grpc-and-databases-with-scala-adam-warski",
+        "order": 1,
+        "title": "gRPC and Databases with Scala"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-239942879",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-05-31",
+        "datetime": "2017-06-01T01:00:00+00:00",
+        "id": "239942879",
+        "title": "gRPC and Databases with Scala",
+        "url": "https://www.meetup.com/sf-scala/events/239942879/",
+        "venue_address": "685 Market Street",
+        "venue_name": "BigCommerce"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:adam-warski",
+      "properties": {
+        "bio": null,
+        "company": "SoftwareMill",
+        "name": "Adam Warski",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:softwaremill",
+      "properties": {
+        "name": "SoftwareMill"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:grpc",
+      "properties": {
+        "github_url": "https://github.com/grpc/grpc",
+        "name": "gRPC"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:slick",
+      "properties": {
+        "github_url": "https://github.com/slick/slick",
+        "name": "Slick"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.450121+00:00",
+  "source_file": "source/sf-scala/239942879.html"
+}

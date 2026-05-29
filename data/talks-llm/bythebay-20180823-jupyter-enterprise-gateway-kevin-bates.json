@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20180823-jupyter-enterprise-gateway-kevin-bates",
+      "to": "event:big-data-developers-in-nyc-253667181",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-253667181",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180823-jupyter-enterprise-gateway-kevin-bates",
+      "to": "speaker:kevin-bates",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:kevin-bates",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20180823-jupyter-enterprise-gateway-kevin-bates",
+      "to": "project:jupyter-enterprise-gateway",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20180823-jupyter-enterprise-gateway-kevin-bates",
+      "to": "project:jupyter",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20180823-jupyter-enterprise-gateway-kevin-bates",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180823-jupyter-enterprise-gateway-kevin-bates",
+      "properties": {
+        "abstract": "Jupyter Enterprise Gateway provides a multi-user, process-isolated kernel management framework for Jupyter Notebooks at scale.",
+        "id": "bythebay-20180823-jupyter-enterprise-gateway-kevin-bates",
+        "order": 0,
+        "title": "Jupyter Enterprise Gateway"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-253667181",
+      "properties": {
+        "city": "New York",
+        "date": "2018-08-23",
+        "datetime": "2018-08-23T23:00:00+00:00",
+        "id": "253667181",
+        "title": "Jupyter at Scale - Deep Learning & More",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/253667181/",
+        "venue_address": "303 Spring Street",
+        "venue_name": "Galvanize"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:kevin-bates",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Kevin Bates",
+        "role": "Senior Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:jupyter-enterprise-gateway",
+      "properties": {
+        "github_url": "https://github.com/jupyter-server/enterprise_gateway",
+        "name": "Jupyter Enterprise Gateway"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:jupyter",
+      "properties": {
+        "github_url": "https://github.com/jupyter/notebook",
+        "name": "Jupyter"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.325658+00:00",
+  "source_file": "source/big-data-developers-in-nyc/253667181.html"
+}

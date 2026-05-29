@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+      "to": "event:bay-area-ai-248985548",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-248985548",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+      "to": "speaker:oscar-boykin",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:oscar-boykin",
+      "to": "company:stripe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+      "to": "project:bazel",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+      "to": "project:semblance",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+      "to": "project:scalding",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+      "to": "project:summingbird",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+      "properties": {
+        "abstract": "Functional programming offers powerful tools in our quest for reproducible machine learned systems. We see two tools from Stripe's toolbox: our use of the Bazel build tool with Scala, and semblance, a functional-reactive-programming based system for feature engineering.",
+        "id": "bythebay-20180329-reproducible-machine-learning-with-functional-oscar-boykin",
+        "order": 0,
+        "title": "Reproducible Machine Learning with Functional Programming"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-248985548",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2018-03-29",
+        "datetime": "2018-03-30T01:00:00+00:00",
+        "id": "248985548",
+        "title": "Reproducible Machine Learning with Oscar Boykin",
+        "url": "https://www.meetup.com/bay-area-ai/events/248985548/",
+        "venue_address": "875 Stevenson St",
+        "venue_name": "Tbd"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:oscar-boykin",
+      "properties": {
+        "bio": null,
+        "company": "Stripe",
+        "name": "Oscar Boykin",
+        "role": "mathematical hacker"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:stripe",
+      "properties": {
+        "name": "Stripe"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:bazel",
+      "properties": {
+        "github_url": "https://github.com/bazelbuild/bazel",
+        "name": "Bazel"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:semblance",
+      "properties": {
+        "github_url": "https://github.com/zfigura/semblance",
+        "name": "semblance"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:scalding",
+      "properties": {
+        "github_url": "https://github.com/twitter/scalding",
+        "name": "Scalding"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:summingbird",
+      "properties": {
+        "github_url": "https://github.com/twitter/summingbird",
+        "name": "Summingbird"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.931679+00:00",
+  "source_file": "source/bay-area-ai/248985548.html"
+}

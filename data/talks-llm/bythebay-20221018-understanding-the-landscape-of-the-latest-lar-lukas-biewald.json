@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+      "to": "event:bay-area-ai-288827696",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-288827696",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+      "to": "speaker:lukas-biewald",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:lukas-biewald",
+      "to": "company:weights-biases",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+      "to": "project:gpt-3",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+      "to": "project:stable-diffusion",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+      "to": "project:weights-biases",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+      "properties": {
+        "abstract": "Mapping the landscape of new large ML models\u2014GPT-3, DALL-E 2, Whisper, Stable Diffusion, OpenFold, Craiyon\u2014and how teams use W&B to accelerate their work building these models.",
+        "id": "bythebay-20221018-understanding-the-landscape-of-the-latest-lar-lukas-biewald",
+        "order": 0,
+        "title": "Understanding the Landscape of the Latest Large Models"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-288827696",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2022-10-18",
+        "datetime": "2022-10-19T00:00:00+00:00",
+        "id": "288827696",
+        "title": "The AI Meetup is Back In-Person: Large Language Models and Personalized AI!",
+        "url": "https://www.meetup.com/bay-area-ai/events/288827696/",
+        "venue_address": "1479 Folsom St",
+        "venue_name": "Weights & Biases"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:lukas-biewald",
+      "properties": {
+        "bio": null,
+        "company": "Weights & Biases",
+        "name": "Lukas Biewald",
+        "role": "Founder and CEO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:weights-biases",
+      "properties": {
+        "name": "Weights & Biases"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:gpt-3",
+      "properties": {
+        "github_url": null,
+        "name": "GPT-3"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:stable-diffusion",
+      "properties": {
+        "github_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "name": "Stable Diffusion"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:weights-biases",
+      "properties": {
+        "github_url": "https://github.com/wandb/wandb",
+        "name": "Weights & Biases"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.228084+00:00",
+  "source_file": "source/bay-area-ai/288827696.html"
+}

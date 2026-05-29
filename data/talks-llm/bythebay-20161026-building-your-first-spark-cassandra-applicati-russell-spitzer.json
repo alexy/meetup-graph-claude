@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20161026-building-your-first-spark-cassandra-applicati-russell-spitzer",
+      "to": "event:sf-data-and-ai-engineering-234932979",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-234932979",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161026-building-your-first-spark-cassandra-applicati-russell-spitzer",
+      "to": "speaker:russell-spitzer",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20161026-building-your-first-spark-cassandra-applicati-russell-spitzer",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20161026-building-your-first-spark-cassandra-applicati-russell-spitzer",
+      "to": "project:apache-cassandra",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20161026-building-your-first-spark-cassandra-applicati-russell-spitzer",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161026-building-your-first-spark-cassandra-applicati-russell-spitzer",
+      "properties": {
+        "abstract": "A code-along adventure to build your first Spark Application with Cassandra, covering how Spark and Cassandra work together in production.",
+        "id": "bythebay-20161026-building-your-first-spark-cassandra-applicati-russell-spitzer",
+        "order": 0,
+        "title": "Building Your First Spark & Cassandra Application"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-234932979",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-10-26",
+        "datetime": "2016-10-27T01:45:00+00:00",
+        "id": "234932979",
+        "title": "1) Building your first Spark & C* App 2) SMACK Stack 3) The Cassandra Odyssey",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/234932979/",
+        "venue_address": "555 Market St",
+        "venue_name": "Uber"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:russell-spitzer",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Russell Spitzer",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-cassandra",
+      "properties": {
+        "github_url": "https://github.com/apache/cassandra",
+        "name": "Apache Cassandra"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:36:22.447936+00:00",
+  "source_file": "source/sf-data-and-ai-engineering/234932979.html"
+}

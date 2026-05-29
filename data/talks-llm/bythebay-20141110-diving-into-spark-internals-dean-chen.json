@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20141110-diving-into-spark-internals-dean-chen",
+      "to": "event:scala-bay-209740892",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-209740892",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20141110-diving-into-spark-internals-dean-chen",
+      "to": "speaker:dean-chen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20141110-diving-into-spark-internals-dean-chen",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20141110-diving-into-spark-internals-dean-chen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20141110-diving-into-spark-internals-dean-chen",
+      "properties": {
+        "abstract": "How Spark takes advantage of Scala's functional idioms to produce an expressive API. Covers the design of Spark RDDs, how the abstraction enables the execution engine to support diverse use cases, and Spark SQL, Streaming, MLlib and GraphX.",
+        "id": "bythebay-20141110-diving-into-spark-internals-dean-chen",
+        "order": 0,
+        "title": "Diving into Spark Internals"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-209740892",
+      "properties": {
+        "city": "San Jose",
+        "date": "2014-11-10",
+        "datetime": "2014-11-11T02:30:00+00:00",
+        "id": "209740892",
+        "title": "Dean Chen, \" Diving into Spark Internals\"; Alex Cozzi, \"Kafka and akka...\"",
+        "url": "https://www.meetup.com/scala-bay/events/209740892/",
+        "venue_address": "2161 N. First St.",
+        "venue_name": "North Paypal Campus"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:dean-chen",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Dean Chen",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.752010+00:00",
+  "source_file": "source/scala-bay/209740892.html"
+}

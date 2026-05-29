@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20231018-ai-for-science-with-neural-operators-jean-kossaifi",
+      "to": "event:bay-area-ai-296052494",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-296052494",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231018-ai-for-science-with-neural-operators-jean-kossaifi",
+      "to": "speaker:jean-kossaifi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jean-kossaifi",
+      "to": "company:nvidia",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231018-ai-for-science-with-neural-operators-jean-kossaifi",
+      "to": "project:tensorly",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20231018-ai-for-science-with-neural-operators-jean-kossaifi",
+      "to": "project:neuraloperator",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20231018-ai-for-science-with-neural-operators-jean-kossaifi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231018-ai-for-science-with-neural-operators-jean-kossaifi",
+      "properties": {
+        "abstract": "Applying AI to science problems using neural operators, which generalize traditional deep learning to learn mappings between function spaces. Applications include weather forecasting and solving partial differential equations, running orders of magnitude faster than traditional simulators.",
+        "id": "bythebay-20231018-ai-for-science-with-neural-operators-jean-kossaifi",
+        "order": 3,
+        "title": "AI for Science with Neural Operators"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-296052494",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-10-18",
+        "datetime": "2023-10-18T23:00:00+00:00",
+        "id": "296052494",
+        "title": "PyTorch Conference + Bay Area AI Meetup",
+        "url": "https://www.meetup.com/bay-area-ai/events/296052494/",
+        "venue_address": "425 Market St",
+        "venue_name": "IBM"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jean-kossaifi",
+      "properties": {
+        "bio": null,
+        "company": "NVIDIA",
+        "name": "Jean Kossaifi",
+        "role": "Senior Research Scientist"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:nvidia",
+      "properties": {
+        "name": "NVIDIA"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:tensorly",
+      "properties": {
+        "github_url": "https://github.com/tensorly/tensorly",
+        "name": "TensorLy"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:neuraloperator",
+      "properties": {
+        "github_url": "https://github.com/neuraloperator/neuraloperator",
+        "name": "neuraloperator"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.229091+00:00",
+  "source_file": "source/bay-area-ai/296052494.html"
+}

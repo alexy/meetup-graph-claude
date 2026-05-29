@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20141106-function-passing-style-a-new-model-for-asynch-heather",
+      "to": "event:sf-scala-215252782",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-215252782",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20141106-function-passing-style-a-new-model-for-asynch-heather",
+      "to": "speaker:heather",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20141106-function-passing-style-a-new-model-for-asynch-heather",
+      "to": "project:scala-pickling",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20141106-function-passing-style-a-new-model-for-asynch-heather",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20141106-function-passing-style-a-new-model-for-asynch-heather",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20141106-function-passing-style-a-new-model-for-asynch-heather",
+      "properties": {
+        "abstract": "A new programming model for asynchronous and distributed programming called function-passing style — an inversion of the actor model where data stays stationary and functionality (functions/spores) is sent to that data, with typed communication. Also covers porting Scala Pickling to Spark.",
+        "id": "bythebay-20141106-function-passing-style-a-new-model-for-asynch-heather",
+        "order": 0,
+        "title": "Function-Passing Style: A New Model for Asynchronous and Distributed Programming"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-215252782",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-11-06",
+        "datetime": "2014-11-07T03:00:00+00:00",
+        "id": "215252782",
+        "title": "Function-Passing Style, A New Model for Asynchronous and Distributed Programming",
+        "url": "https://www.meetup.com/sf-scala/events/215252782/",
+        "venue_address": "795 Folsom St., 6th Floor",
+        "venue_name": "Kabam"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:heather",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Heather",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:scala-pickling",
+      "properties": {
+        "github_url": "https://github.com/scala/pickling",
+        "name": "Scala Pickling"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:57:20.890162+00:00",
+  "source_file": "source/sf-scala/215252782.html"
+}

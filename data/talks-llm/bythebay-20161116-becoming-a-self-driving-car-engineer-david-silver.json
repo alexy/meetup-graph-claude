@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20161116-becoming-a-self-driving-car-engineer-david-silver",
+  "scraped_at": "2026-05-29T04:53:39.929394+00:00",
+  "source_file": "source/bay-area-ai/234786637.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161116-becoming-a-self-driving-car-engineer-david-silver",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20161116-becoming-a-self-driving-car-engineer-david-silver",
+        "title": "Becoming a Self-Driving Car Engineer",
+        "abstract": "Companies ranging from Google to Tesla to NVIDIA are on the hunt for great engineers to build self-driving cars. Learn how to acquire the skills to work in one of the most exciting fields of software engineering.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-234786637",
+      "type": "Event",
+      "properties": {
+        "id": "234786637",
+        "title": "Becoming a Self-Driving Car Engineer",
+        "date": "2016-11-16",
+        "datetime": "2016-11-17T02:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/234786637/",
+        "venue_name": "Galvanize",
+        "venue_address": "44 Tehama Street",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:david-silver",
+      "type": "Speaker",
+      "properties": {
+        "name": "David Silver",
+        "role": "Self-Driving Car Team Lead",
+        "company": "Udacity",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:udacity",
+      "type": "Company",
+      "properties": {
+        "name": "Udacity"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20161116-becoming-a-self-driving-car-engineer-david-silver",
+      "to": "event:bay-area-ai-234786637",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-234786637",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161116-becoming-a-self-driving-car-engineer-david-silver",
+      "to": "speaker:david-silver",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:david-silver",
+      "to": "company:udacity",
+      "type": "WORKS_AT"
+    }
+  ]
+}

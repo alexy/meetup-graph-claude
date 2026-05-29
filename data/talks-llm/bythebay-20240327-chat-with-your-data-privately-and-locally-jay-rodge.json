@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240327-chat-with-your-data-privately-and-locally-jay-rodge",
+  "scraped_at": "2026-05-29T05:39:23.427227+00:00",
+  "source_file": "source/unstructured-data-sf/299449651.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240327-chat-with-your-data-privately-and-locally-jay-rodge",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240327-chat-with-your-data-privately-and-locally-jay-rodge",
+        "title": "Chat with Your Data Privately and Locally",
+        "abstract": "How to build private, locally-running LLM applications that chat with your data using NVIDIA's tools and models without sending data to external APIs.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-299449651",
+      "type": "Event",
+      "properties": {
+        "id": "299449651",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "date": "2024-03-27",
+        "datetime": "2024-03-28T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/299449651/",
+        "venue_name": "Sunnyvale",
+        "venue_address": "",
+        "city": "Sunnyvale"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:jay-rodge",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jay Rodge",
+        "role": "Developer Advocate",
+        "company": "NVIDIA",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:nvidia",
+      "type": "Company",
+      "properties": {
+        "name": "NVIDIA"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240327-chat-with-your-data-privately-and-locally-jay-rodge",
+      "to": "event:unstructured-data-sf-299449651",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-299449651",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240327-chat-with-your-data-privately-and-locally-jay-rodge",
+      "to": "speaker:jay-rodge",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jay-rodge",
+      "to": "company:nvidia",
+      "type": "WORKS_AT"
+    }
+  ]
+}

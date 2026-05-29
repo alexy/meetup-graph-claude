@@ -1,0 +1,107 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+      "to": "event:sf-data-and-ai-engineering-223796970",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-223796970",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+      "to": "speaker:cyrille-chepelov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+      "to": "project:scalding",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+      "to": "project:apache-tez",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+      "to": "project:cascading",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+      "properties": {
+        "abstract": "How to boost performance of Scalding applications by over 50% by running on Apache Tez instead of MapReduce, leveraging Cascading's ability to port Scalding apps from MapReduce to newer, faster execution fabrics.",
+        "id": "bythebay-20150714-scalding-on-tez-boosting-hadoop-pipeline-perf-cyrille-chepelov",
+        "order": 0,
+        "title": "Scalding on Tez: Boosting Hadoop Pipeline Performance"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-223796970",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-07-14",
+        "datetime": "2015-07-14T18:30:00+00:00",
+        "id": "223796970",
+        "title": "Scalding on Tez [registration via Eventbrite only]",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/223796970/",
+        "venue_address": "1355 Market St # 900",
+        "venue_name": "Twitter"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:cyrille-chepelov",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Cyrille Chepelov",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:scalding",
+      "properties": {
+        "github_url": "https://github.com/twitter/scalding",
+        "name": "Scalding"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-tez",
+      "properties": {
+        "github_url": "https://github.com/apache/tez",
+        "name": "Apache Tez"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:cascading",
+      "properties": {
+        "github_url": "https://github.com/cwensel/cascading",
+        "name": "Cascading"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:36:22.446461+00:00",
+  "source_file": "source/sf-data-and-ai-engineering/223796970.html"
+}

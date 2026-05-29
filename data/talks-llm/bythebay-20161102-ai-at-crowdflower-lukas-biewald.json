@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20161102-ai-at-crowdflower-lukas-biewald",
+  "scraped_at": "2026-05-29T04:53:39.929153+00:00",
+  "source_file": "source/bay-area-ai/234760100.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161102-ai-at-crowdflower-lukas-biewald",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20161102-ai-at-crowdflower-lukas-biewald",
+        "title": "AI at CrowdFlower",
+        "abstract": "Lukas Biewald, founder and Chief Data Scientist of CrowdFlower, will describe the enormous amount of data processing customers perform on its platform, and where CrowdFlower AI is headed.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-234760100",
+      "type": "Event",
+      "properties": {
+        "id": "234760100",
+        "title": "Bay Area AI: CrowdFlower AI and Text Generation",
+        "date": "2016-11-02",
+        "datetime": "2016-11-03T01:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/234760100/",
+        "venue_name": "CrowdFlower, Inc",
+        "venue_address": "2111 Mission Street, Suite 302",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:lukas-biewald",
+      "type": "Speaker",
+      "properties": {
+        "name": "Lukas Biewald",
+        "role": "founder and Chief Data Scientist",
+        "company": "CrowdFlower",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:crowdflower",
+      "type": "Company",
+      "properties": {
+        "name": "CrowdFlower"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20161102-ai-at-crowdflower-lukas-biewald",
+      "to": "event:bay-area-ai-234760100",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-234760100",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161102-ai-at-crowdflower-lukas-biewald",
+      "to": "speaker:lukas-biewald",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:lukas-biewald",
+      "to": "company:crowdflower",
+      "type": "WORKS_AT"
+    }
+  ]
+}

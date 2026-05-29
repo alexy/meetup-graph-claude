@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170927-better-models-through-metaprogramming-at-jane-yaron-minsky",
+  "scraped_at": "2026-05-29T05:47:24.450317+00:00",
+  "source_file": "source/sf-scala/243125720.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170927-better-models-through-metaprogramming-at-jane-yaron-minsky",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170927-better-models-through-metaprogramming-at-jane-yaron-minsky",
+        "title": "Better Models through Metaprogramming at Jane Street",
+        "abstract": "Jane Street needs the ability for many users to work collaboratively on quantitative models, with real-time viewing and debugging. This talk covers how metaprogramming enables better models with scalable, understandable code.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:sf-scala-243125720",
+      "type": "Event",
+      "properties": {
+        "id": "243125720",
+        "title": "Yaron Minsky: Better Models through Metaprogramming",
+        "date": "2017-09-27",
+        "datetime": "2017-09-28T01:00:00+00:00",
+        "url": "https://www.meetup.com/sf-scala/events/243125720/",
+        "venue_name": "Credit Karma",
+        "venue_address": "760 Market St.",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "slug": "sf-scala",
+        "name": "SF Scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:yaron-minsky",
+      "type": "Speaker",
+      "properties": {
+        "name": "Yaron Minsky",
+        "role": "CTO",
+        "company": "Jane Street",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:jane-street",
+      "type": "Company",
+      "properties": {
+        "name": "Jane Street"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170927-better-models-through-metaprogramming-at-jane-yaron-minsky",
+      "to": "event:sf-scala-243125720",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-243125720",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170927-better-models-through-metaprogramming-at-jane-yaron-minsky",
+      "to": "speaker:yaron-minsky",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:yaron-minsky",
+      "to": "company:jane-street",
+      "type": "WORKS_AT"
+    }
+  ]
+}

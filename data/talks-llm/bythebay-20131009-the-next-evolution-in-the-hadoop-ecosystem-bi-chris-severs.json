@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+      "to": "event:hadoopsf-141368262",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-141368262",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+      "to": "speaker:chris-severs",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:chris-severs",
+      "to": "company:ebay",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+      "to": "speaker:eric-sammer",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:eric-sammer",
+      "to": "company:cloudera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+      "to": "speaker:oscar-boykin",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:oscar-boykin",
+      "to": "company:twitter",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+      "to": "speaker:colin-marc",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:colin-marc",
+      "to": "company:stripe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+      "properties": {
+        "abstract": "Panel discussion on the next evolution in the Hadoop ecosystem, covering big data applications, the emerging role of Hadoop in production applications, and the future of the ecosystem.",
+        "id": "bythebay-20131009-the-next-evolution-in-the-hadoop-ecosystem-bi-chris-severs",
+        "order": 0,
+        "title": "The Next Evolution in the Hadoop Ecosystem: Big Data Applications"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-141368262",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2013-10-09",
+        "datetime": "2013-10-10T01:00:00+00:00",
+        "id": "141368262",
+        "title": "October SF Hadoop Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/141368262/",
+        "venue_address": "3180 18th St",
+        "venue_name": "Stripe"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:chris-severs",
+      "properties": {
+        "bio": null,
+        "company": "eBay",
+        "name": "Chris Severs",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ebay",
+      "properties": {
+        "name": "eBay"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:eric-sammer",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Eric Sammer",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cloudera",
+      "properties": {
+        "name": "Cloudera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:oscar-boykin",
+      "properties": {
+        "bio": null,
+        "company": "Twitter",
+        "name": "Oscar Boykin",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:twitter",
+      "properties": {
+        "name": "Twitter"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:colin-marc",
+      "properties": {
+        "bio": null,
+        "company": "Stripe",
+        "name": "Colin Marc",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:stripe",
+      "properties": {
+        "name": "Stripe"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.370618+00:00",
+  "source_file": "source/hadoopsf/141368262.html"
+}

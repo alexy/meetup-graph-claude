@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20140923-designing-highly-concurrent-multi-protocol-mu-greg-soltis",
+  "scraped_at": "2026-05-29T05:47:24.448064+00:00",
+  "source_file": "source/sf-scala/203999322.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140923-designing-highly-concurrent-multi-protocol-mu-greg-soltis",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20140923-designing-highly-concurrent-multi-protocol-mu-greg-soltis",
+        "title": "Designing Highly Concurrent, Multi-Protocol, Multi-Tenant Services in Scala",
+        "abstract": "How Firebase builds high performance services in Scala that speak multiple protocols and serve many tenants simultaneously, using functional programming techniques to manage complexity.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:sf-scala-203999322",
+      "type": "Event",
+      "properties": {
+        "id": "203999322",
+        "title": "High Performance Services and Framework-less Dependency Injection",
+        "date": "2014-09-23",
+        "datetime": "2014-09-24T01:00:00+00:00",
+        "url": "https://www.meetup.com/sf-scala/events/203999322/",
+        "venue_name": "Firebase HQ 3.0",
+        "venue_address": "22 4th Street, Suite 1000 (10th Floor)",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "slug": "sf-scala",
+        "name": "SF Scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:greg-soltis",
+      "type": "Speaker",
+      "properties": {
+        "name": "Greg Soltis",
+        "role": "engineer",
+        "company": "Firebase",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:firebase",
+      "type": "Company",
+      "properties": {
+        "name": "Firebase"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20140923-designing-highly-concurrent-multi-protocol-mu-greg-soltis",
+      "to": "event:sf-scala-203999322",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-203999322",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140923-designing-highly-concurrent-multi-protocol-mu-greg-soltis",
+      "to": "speaker:greg-soltis",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:greg-soltis",
+      "to": "company:firebase",
+      "type": "WORKS_AT"
+    }
+  ]
+}

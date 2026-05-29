@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240625-generative-ai-for-enterprise-applications-at-kate-grossman",
+  "scraped_at": "2026-05-29T05:39:23.428548+00:00",
+  "source_file": "source/unstructured-data-sf/301509881.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240625-generative-ai-for-enterprise-applications-at-kate-grossman",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240625-generative-ai-for-enterprise-applications-at-kate-grossman",
+        "title": "Generative AI for Enterprise Applications at SAP",
+        "abstract": "How SAP integrates generative AI capabilities into enterprise software, using large language models for business process automation.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-301509881",
+      "type": "Event",
+      "properties": {
+        "id": "301509881",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "date": "2024-06-25",
+        "datetime": "2024-06-26T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301509881/",
+        "venue_name": "3412 Hillview Ave",
+        "venue_address": "3412 Hillview Ave",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:kate-grossman",
+      "type": "Speaker",
+      "properties": {
+        "name": "Kate Grossman",
+        "role": "GenAI Software Developer",
+        "company": "SAP",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:sap",
+      "type": "Company",
+      "properties": {
+        "name": "SAP"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240625-generative-ai-for-enterprise-applications-at-kate-grossman",
+      "to": "event:unstructured-data-sf-301509881",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301509881",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240625-generative-ai-for-enterprise-applications-at-kate-grossman",
+      "to": "speaker:kate-grossman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:kate-grossman",
+      "to": "company:sap",
+      "type": "WORKS_AT"
+    }
+  ]
+}

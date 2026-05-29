@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160411-demystifying-big-data-and-apache-spark-mohammed-guller",
+      "to": "event:scala-bay-229524842",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-229524842",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160411-demystifying-big-data-and-apache-spark-mohammed-guller",
+      "to": "speaker:mohammed-guller",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:mohammed-guller",
+      "to": "company:glassbeam",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160411-demystifying-big-data-and-apache-spark-mohammed-guller",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160411-demystifying-big-data-and-apache-spark-mohammed-guller",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160411-demystifying-big-data-and-apache-spark-mohammed-guller",
+      "properties": {
+        "abstract": "An introductory talk on Big Data and Apache Spark for those who want to get into Big Data. Spark is the most active open-source big data project and has set the Big Data world on fire.",
+        "id": "bythebay-20160411-demystifying-big-data-and-apache-spark-mohammed-guller",
+        "order": 0,
+        "title": "Demystifying Big Data and Apache Spark"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-229524842",
+      "properties": {
+        "city": "Redwood City",
+        "date": "2016-04-11",
+        "datetime": "2016-04-12T01:30:00+00:00",
+        "id": "229524842",
+        "title": "Mohammed Guller, Demystifying Big Data and Apache Spark",
+        "url": "https://www.meetup.com/scala-bay/events/229524842/",
+        "venue_address": "900, Jefferson Avenue",
+        "venue_name": "Box, Inc"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mohammed-guller",
+      "properties": {
+        "bio": null,
+        "company": "Glassbeam",
+        "name": "Mohammed Guller",
+        "role": "Principal Architect"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:glassbeam",
+      "properties": {
+        "name": "Glassbeam"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.755577+00:00",
+  "source_file": "source/scala-bay/229524842.html"
+}

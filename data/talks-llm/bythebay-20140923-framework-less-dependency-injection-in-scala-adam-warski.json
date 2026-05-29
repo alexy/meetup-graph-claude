@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20140923-framework-less-dependency-injection-in-scala-adam-warski",
+  "scraped_at": "2026-05-29T05:47:24.448171+00:00",
+  "source_file": "source/sf-scala/203999322.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140923-framework-less-dependency-injection-in-scala-adam-warski",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20140923-framework-less-dependency-injection-in-scala-adam-warski",
+        "title": "Framework-less Dependency Injection in Scala",
+        "abstract": "How to implement dependency injection in Scala without a framework, using the language's type system and functional programming patterns.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:sf-scala-203999322",
+      "type": "Event",
+      "properties": {
+        "id": "203999322",
+        "title": "High Performance Services and Framework-less Dependency Injection",
+        "date": "2014-09-23",
+        "datetime": "2014-09-24T01:00:00+00:00",
+        "url": "https://www.meetup.com/sf-scala/events/203999322/",
+        "venue_name": "Firebase HQ 3.0",
+        "venue_address": "22 4th Street, Suite 1000 (10th Floor)",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:sf-scala",
+      "type": "Group",
+      "properties": {
+        "slug": "sf-scala",
+        "name": "SF Scala",
+        "url": "https://www.meetup.com/sf-scala"
+      }
+    },
+    {
+      "id": "speaker:adam-warski",
+      "type": "Speaker",
+      "properties": {
+        "name": "Adam Warski",
+        "role": null,
+        "company": "SoftwareMill",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:softwaremill",
+      "type": "Company",
+      "properties": {
+        "name": "SoftwareMill"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20140923-framework-less-dependency-injection-in-scala-adam-warski",
+      "to": "event:sf-scala-203999322",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-203999322",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140923-framework-less-dependency-injection-in-scala-adam-warski",
+      "to": "speaker:adam-warski",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:adam-warski",
+      "to": "company:softwaremill",
+      "type": "WORKS_AT"
+    }
+  ]
+}

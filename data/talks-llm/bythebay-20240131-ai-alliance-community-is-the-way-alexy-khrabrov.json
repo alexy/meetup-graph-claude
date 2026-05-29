@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240131-ai-alliance-community-is-the-way-alexy-khrabrov",
+  "scraped_at": "2026-05-29T04:58:30.229701+00:00",
+  "source_file": "source/bay-area-ai/298461968.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240131-ai-alliance-community-is-the-way-alexy-khrabrov",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240131-ai-alliance-community-is-the-way-alexy-khrabrov",
+        "title": "AI Alliance: Community is the Way",
+        "abstract": "The AI Alliance comprises more than 60 members worldwide including IBM and UC Berkeley. Community is a core part and value informing AI decisions today.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-298461968",
+      "type": "Event",
+      "properties": {
+        "id": "298461968",
+        "title": "[External Registration Required] AI Alliance and vLLM",
+        "date": "2024-01-31",
+        "datetime": "2024-02-01T00:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/298461968/",
+        "venue_name": "IBM",
+        "venue_address": "425 Market St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:alexy-khrabrov",
+      "type": "Speaker",
+      "properties": {
+        "name": "Alexy Khrabrov",
+        "role": "Open-Source Science Director",
+        "company": "IBM Research",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm-research",
+      "type": "Company",
+      "properties": {
+        "name": "IBM Research"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240131-ai-alliance-community-is-the-way-alexy-khrabrov",
+      "to": "event:bay-area-ai-298461968",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-298461968",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240131-ai-alliance-community-is-the-way-alexy-khrabrov",
+      "to": "speaker:alexy-khrabrov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:alexy-khrabrov",
+      "to": "company:ibm-research",
+      "type": "WORKS_AT"
+    }
+  ]
+}

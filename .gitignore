@@ -21,3 +21,7 @@
 *~
 *.tmp
 *.bak
+
+# Intermediate extraction staging artifacts
+data/events_staged.jsonl
+data/event_datetimes.json

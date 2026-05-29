@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160804-better-together-fast-data-with-apache-spark-a-dmitriy-setrakyan",
+      "to": "event:sf-data-and-ai-engineering-232407316",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-232407316",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160804-better-together-fast-data-with-apache-spark-a-dmitriy-setrakyan",
+      "to": "speaker:dmitriy-setrakyan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:dmitriy-setrakyan",
+      "to": "company:gridgain",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160804-better-together-fast-data-with-apache-spark-a-dmitriy-setrakyan",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160804-better-together-fast-data-with-apache-spark-a-dmitriy-setrakyan",
+      "to": "project:apache-ignite",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160804-better-together-fast-data-with-apache-spark-a-dmitriy-setrakyan",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160804-better-together-fast-data-with-apache-spark-a-dmitriy-setrakyan",
+      "properties": {
+        "abstract": "Spark and Ignite are two of the most popular open source projects in high-performance Big Data and Fast Data. How to use IgniteRDD — an implementation of native Spark RDD — to dramatically boost performance for real-time applications.",
+        "id": "bythebay-20160804-better-together-fast-data-with-apache-spark-a-dmitriy-setrakyan",
+        "order": 0,
+        "title": "Better Together: Fast Data with Apache Spark and Apache Ignite"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-232407316",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-08-04",
+        "datetime": "2016-08-05T01:30:00+00:00",
+        "id": "232407316",
+        "title": "Better together: Fast Data with Apache Spark™ and Apache Ignite™",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/232407316/",
+        "venue_address": "612 Howard Street Suite 300",
+        "venue_name": "Splice Machine"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:dmitriy-setrakyan",
+      "properties": {
+        "bio": null,
+        "company": "GridGain",
+        "name": "Dmitriy Setrakyan",
+        "role": "co-founder and CPO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:gridgain",
+      "properties": {
+        "name": "GridGain"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-ignite",
+      "properties": {
+        "github_url": "https://github.com/apache/ignite",
+        "name": "Apache Ignite"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:36:22.447725+00:00",
+  "source_file": "source/sf-data-and-ai-engineering/232407316.html"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20130114-dependency-injection-with-jellyfish-james-douglas",
+  "scraped_at": "2026-05-29T05:21:47.764146+00:00",
+  "source_file": "source/scala-bay/95527972.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130114-dependency-injection-with-jellyfish-james-douglas",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20130114-dependency-injection-with-jellyfish-james-douglas",
+        "title": "Dependency Injection with Jellyfish",
+        "abstract": "A Scala-based dependency injection framework called Jellyfish and how it can simplify building modular Scala applications.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:scala-bay-95527972",
+      "type": "Event",
+      "properties": {
+        "id": "95527972",
+        "title": "Lightning Talks @ StumbleUpon in SF",
+        "date": "2013-01-14",
+        "datetime": "2013-01-15T02:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/95527972/",
+        "venue_name": "StumbleUpon SF",
+        "venue_address": "301 Brannan Street",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:james-douglas",
+      "type": "Speaker",
+      "properties": {
+        "name": "James Douglas",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20130114-dependency-injection-with-jellyfish-james-douglas",
+      "to": "event:scala-bay-95527972",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-95527972",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130114-dependency-injection-with-jellyfish-james-douglas",
+      "to": "speaker:james-douglas",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

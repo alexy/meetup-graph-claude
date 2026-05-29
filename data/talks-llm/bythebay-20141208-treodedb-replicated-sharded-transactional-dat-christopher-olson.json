@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20141208-treodedb-replicated-sharded-transactional-dat-christopher-olson",
+      "to": "event:scala-bay-215725532",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-215725532",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20141208-treodedb-replicated-sharded-transactional-dat-christopher-olson",
+      "to": "speaker:christopher-olson",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20141208-treodedb-replicated-sharded-transactional-dat-christopher-olson",
+      "to": "project:treodedb",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20141208-treodedb-replicated-sharded-transactional-dat-christopher-olson",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20141208-treodedb-replicated-sharded-transactional-dat-christopher-olson",
+      "properties": {
+        "abstract": "TreodeDB is a resilient and consistent database for petabytes, open source, running on commodity hardware, written entirely in Scala. Provides transactional semantics in a reliable and scalable way for applications not suited to current distributed databases.",
+        "id": "bythebay-20141208-treodedb-replicated-sharded-transactional-dat-christopher-olson",
+        "order": 1,
+        "title": "TreodeDB: Replicated, Sharded, Transactional Database in Scala"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-215725532",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2014-12-08",
+        "datetime": "2014-12-09T03:00:00+00:00",
+        "id": "215725532",
+        "title": "Jaime Jorge, \"The State of Scala Code Style\", Christopher Olson, \"TreodeDB\"",
+        "url": "https://www.meetup.com/scala-bay/events/215725532/",
+        "venue_address": "4440 El Camino Real, Los Altos, CA, Palo Alto, CA",
+        "venue_name": "Box"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:christopher-olson",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Christopher Olson",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:treodedb",
+      "properties": {
+        "github_url": "https://github.com/Treode/store",
+        "name": "TreodeDB"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.752351+00:00",
+  "source_file": "source/scala-bay/215725532.html"
+}

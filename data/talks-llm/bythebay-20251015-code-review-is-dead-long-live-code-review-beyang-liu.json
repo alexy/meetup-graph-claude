@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20251015-code-review-is-dead-long-live-code-review-beyang-liu",
+      "to": "event:bay-area-ai-311526427",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-311526427",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20251015-code-review-is-dead-long-live-code-review-beyang-liu",
+      "to": "speaker:beyang-liu",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:beyang-liu",
+      "to": "company:sourcegraph",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20251015-code-review-is-dead-long-live-code-review-beyang-liu",
+      "to": "project:sourcegraph",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20251015-code-review-is-dead-long-live-code-review-beyang-liu",
+      "to": "project:ampcode",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20251015-code-review-is-dead-long-live-code-review-beyang-liu",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20251015-code-review-is-dead-long-live-code-review-beyang-liu",
+      "properties": {
+        "abstract": "The bottleneck for agentic coding is now human review. If you don't read the code, you're going to ship slop. What should we do when the code volume from AI exceeds human review capacity?",
+        "id": "bythebay-20251015-code-review-is-dead-long-live-code-review-beyang-liu",
+        "order": 0,
+        "title": "Code Review is Dead; Long Live Code Review!"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-311526427",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-10-15",
+        "datetime": "2025-10-16T00:30:00+00:00",
+        "id": "311526427",
+        "title": "[luma registration required] AI Agent SF #7: Coding Agents",
+        "url": "https://www.meetup.com/bay-area-ai/events/311526427/",
+        "venue_address": "972 Mission St",
+        "venue_name": "972 Mission St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:beyang-liu",
+      "properties": {
+        "bio": null,
+        "company": "Sourcegraph",
+        "name": "Beyang Liu",
+        "role": "Co-Founder and CTO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:sourcegraph",
+      "properties": {
+        "name": "Sourcegraph"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:sourcegraph",
+      "properties": {
+        "github_url": null,
+        "name": "Sourcegraph"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:ampcode",
+      "properties": {
+        "github_url": null,
+        "name": "AmpCode"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.233187+00:00",
+  "source_file": "source/bay-area-ai/311526427.html"
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140319-sbt-in-action-josh-suereth",
+      "to": "event:scala-bay-170549992",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-170549992",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140319-sbt-in-action-josh-suereth",
+      "to": "speaker:josh-suereth",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:josh-suereth",
+      "to": "company:typesafe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140319-sbt-in-action-josh-suereth",
+      "to": "project:sbt",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140319-sbt-in-action-josh-suereth",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140319-sbt-in-action-josh-suereth",
+      "properties": {
+        "abstract": "An introduction to SBT showing how it can make your development flow better, covering basic abstractions, configuration, and cookbook recipes for common tasks.",
+        "id": "bythebay-20140319-sbt-in-action-josh-suereth",
+        "order": 0,
+        "title": "SBT in Action"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-170549992",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2014-03-19",
+        "datetime": "2014-03-20T01:30:00+00:00",
+        "id": "170549992",
+        "title": "Josh Suereth, \"SBT in Action\" - joint event with Play Framework",
+        "url": "https://www.meetup.com/scala-bay/events/170549992/",
+        "venue_address": "2027 Stierlin Ct.",
+        "venue_name": "LinkedIn"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:josh-suereth",
+      "properties": {
+        "bio": null,
+        "company": "Typesafe",
+        "name": "Josh Suereth",
+        "role": "active contributor to SBT"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:typesafe",
+      "properties": {
+        "name": "Typesafe"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:sbt",
+      "properties": {
+        "github_url": "https://github.com/sbt/sbt",
+        "name": "SBT"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.750370+00:00",
+  "source_file": "source/scala-bay/170549992.html"
+}

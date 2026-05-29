@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20151111-amazon-echo-applications-skills-with-scala-richard-wall",
+      "to": "event:scala-bay-225169599",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-225169599",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151111-amazon-echo-applications-skills-with-scala-richard-wall",
+      "to": "speaker:richard-wall",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20151111-amazon-echo-applications-skills-with-scala-richard-wall",
+      "to": "project:aws-lambda",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20151111-amazon-echo-applications-skills-with-scala-richard-wall",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151111-amazon-echo-applications-skills-with-scala-richard-wall",
+      "properties": {
+        "abstract": "How to program Amazon Echo using Scala and AWS Lambda. Lambda suits Scala nicely for this kind of event-driven development and is useful for many things including Amazon Echo skills.",
+        "id": "bythebay-20151111-amazon-echo-applications-skills-with-scala-richard-wall",
+        "order": 0,
+        "title": "Amazon Echo Applications (Skills) with Scala"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-225169599",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2015-11-11",
+        "datetime": "2015-11-12T03:00:00+00:00",
+        "id": "225169599",
+        "title": "Richard Wall, Amazon Echo applications (called skills)",
+        "url": "https://www.meetup.com/scala-bay/events/225169599/",
+        "venue_address": "1050 Enterprise Way",
+        "venue_name": "Comcast"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:richard-wall",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Richard Wall",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:aws-lambda",
+      "properties": {
+        "github_url": null,
+        "name": "AWS Lambda"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.754638+00:00",
+  "source_file": "source/scala-bay/225169599.html"
+}

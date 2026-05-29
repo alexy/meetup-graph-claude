@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20231018-efficiently-serving-llms-at-scale-nick-hill",
+      "to": "event:bay-area-ai-296052494",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-296052494",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231018-efficiently-serving-llms-at-scale-nick-hill",
+      "to": "speaker:nick-hill",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:nick-hill",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231018-efficiently-serving-llms-at-scale-nick-hill",
+      "to": "project:kserve",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20231018-efficiently-serving-llms-at-scale-nick-hill",
+      "to": "project:pytorch",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20231018-efficiently-serving-llms-at-scale-nick-hill",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231018-efficiently-serving-llms-at-scale-nick-hill",
+      "properties": {
+        "abstract": "Challenges of serving LLMs efficiently in highly concurrent, multi-user contexts, including continuous batching of heterogeneous requests and careful manipulation of tensors with PyTorch.",
+        "id": "bythebay-20231018-efficiently-serving-llms-at-scale-nick-hill",
+        "order": 0,
+        "title": "Efficiently Serving LLMs at Scale"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-296052494",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-10-18",
+        "datetime": "2023-10-18T23:00:00+00:00",
+        "id": "296052494",
+        "title": "PyTorch Conference + Bay Area AI Meetup",
+        "url": "https://www.meetup.com/bay-area-ai/events/296052494/",
+        "venue_address": "425 Market St",
+        "venue_name": "IBM"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:nick-hill",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Nick Hill",
+        "role": "Senior Research Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:kserve",
+      "properties": {
+        "github_url": "https://github.com/kserve/kserve",
+        "name": "KServe"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:pytorch",
+      "properties": {
+        "github_url": "https://github.com/pytorch/pytorch",
+        "name": "PyTorch"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.228592+00:00",
+  "source_file": "source/bay-area-ai/296052494.html"
+}

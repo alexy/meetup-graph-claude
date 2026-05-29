@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20220420-text-extensions-for-pandas-for-nlp-use-cases-frederick-reiss",
+      "to": "event:big-data-developers-in-nyc-285357014",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-285357014",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20220420-text-extensions-for-pandas-for-nlp-use-cases-frederick-reiss",
+      "to": "speaker:frederick-reiss",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:frederick-reiss",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20220420-text-extensions-for-pandas-for-nlp-use-cases-frederick-reiss",
+      "to": "project:text-extensions-for-pandas",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20220420-text-extensions-for-pandas-for-nlp-use-cases-frederick-reiss",
+      "to": "project:ray",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20220420-text-extensions-for-pandas-for-nlp-use-cases-frederick-reiss",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20220420-text-extensions-for-pandas-for-nlp-use-cases-frederick-reiss",
+      "properties": {
+        "abstract": "Text Extensions for Pandas turns Pandas DataFrames into a universal data structure for natural language processing, helping use DataFrames for representing and manipulating complex data structures in modern NLP applications.",
+        "id": "bythebay-20220420-text-extensions-for-pandas-for-nlp-use-cases-frederick-reiss",
+        "order": 0,
+        "title": "Text Extensions for Pandas for NLP Use Cases"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-285357014",
+      "properties": {
+        "city": "",
+        "date": "2022-04-20",
+        "datetime": "2022-04-20T18:00:00+00:00",
+        "id": "285357014",
+        "title": "Introduction to Text Extensions for Pandas for NLP Use Cases & \u000bRay",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/285357014/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:frederick-reiss",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Frederick Reiss",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:text-extensions-for-pandas",
+      "properties": {
+        "github_url": "https://github.com/CODAIT/text-extensions-for-pandas",
+        "name": "Text Extensions for Pandas"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:ray",
+      "properties": {
+        "github_url": "https://github.com/ray-project/ray",
+        "name": "Ray"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.326488+00:00",
+  "source_file": "source/big-data-developers-in-nyc/285357014.html"
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20180301-taming-large-scale-deep-learning-evan-r-sparks",
+      "to": "event:bay-area-ai-248015635",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-248015635",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180301-taming-large-scale-deep-learning-evan-r-sparks",
+      "to": "speaker:evan-r-sparks",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:evan-r-sparks",
+      "to": "company:determined-ai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20180301-taming-large-scale-deep-learning-evan-r-sparks",
+      "to": "project:determined-ai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20180301-taming-large-scale-deep-learning-evan-r-sparks",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180301-taming-large-scale-deep-learning-evan-r-sparks",
+      "properties": {
+        "abstract": "Building practical applications powered by deep learning remains an enormous challenge. This talk describes how deep learning workflows are supported by existing software tooling and several promising opportunities to improve these workflows via automated hyperparameter optimization, efficient utilization of distributed resources, and reproducible workflow management.",
+        "id": "bythebay-20180301-taming-large-scale-deep-learning-evan-r-sparks",
+        "order": 0,
+        "title": "Taming Large Scale Deep Learning"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-248015635",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2018-03-01",
+        "datetime": "2018-03-02T02:00:00+00:00",
+        "id": "248015635",
+        "title": "Taming Large Scale Deep Learning",
+        "url": "https://www.meetup.com/bay-area-ai/events/248015635/",
+        "venue_address": "225 Bush St, 7th Floor",
+        "venue_name": "Nitro"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:evan-r-sparks",
+      "properties": {
+        "bio": null,
+        "company": "Determined AI",
+        "name": "Evan R. Sparks",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:determined-ai",
+      "properties": {
+        "name": "Determined AI"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:determined-ai",
+      "properties": {
+        "github_url": "https://github.com/determined-ai/determined",
+        "name": "Determined AI"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.931585+00:00",
+  "source_file": "source/bay-area-ai/248015635.html"
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240522-milvus-for-production-ai-applications-jiang-chen",
+      "to": "event:unstructured-data-sf-300812829",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300812829",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240522-milvus-for-production-ai-applications-jiang-chen",
+      "to": "speaker:jiang-chen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jiang-chen",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240522-milvus-for-production-ai-applications-jiang-chen",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240522-milvus-for-production-ai-applications-jiang-chen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240522-milvus-for-production-ai-applications-jiang-chen",
+      "properties": {
+        "abstract": "How Milvus powers production AI applications with efficient vector similarity search at scale.",
+        "id": "bythebay-20240522-milvus-for-production-ai-applications-jiang-chen",
+        "order": 0,
+        "title": "Milvus for Production AI Applications"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-300812829",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-05-22",
+        "datetime": "2024-05-23T00:30:00+00:00",
+        "id": "300812829",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300812829/",
+        "venue_address": "3412 Hillview Ave",
+        "venue_name": "3412 Hillview Ave"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jiang-chen",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Jiang Chen",
+        "role": "Head of Ecosystem & AI Platform"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.428058+00:00",
+  "source_file": "source/unstructured-data-sf/300812829.html"
+}

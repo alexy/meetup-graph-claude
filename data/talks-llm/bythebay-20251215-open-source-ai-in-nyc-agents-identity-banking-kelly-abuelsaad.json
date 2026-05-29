@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "to": "event:big-data-developers-in-nyc-312365099",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-312365099",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "to": "speaker:kelly-abuelsaad",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:kelly-abuelsaad",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "to": "speaker:santosh-borse",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:santosh-borse",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "to": "speaker:gil-isaacs",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:gil-isaacs",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "to": "project:langflow",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "to": "project:docling",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "to": "project:data-prep-kit",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+      "properties": {
+        "abstract": "Talks covering building AI agents, enterprise identity considerations for agents, an agentic AI powered mobile banking application with Langflow, document intelligence with Docling, and data engineering for LLMs with Data Prep Kit.",
+        "id": "bythebay-20251215-open-source-ai-in-nyc-agents-identity-banking-kelly-abuelsaad",
+        "order": 0,
+        "title": "Open Source AI in NYC: Agents, Identity, Banking, and Data"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-312365099",
+      "properties": {
+        "city": "NYC",
+        "date": "2025-12-15",
+        "datetime": "2025-12-15T21:30:00+00:00",
+        "id": "312365099",
+        "title": "Open Source AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/312365099/",
+        "venue_address": "1 Madison Avenue",
+        "venue_name": "One Madison"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:kelly-abuelsaad",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Kelly Abuelsaad",
+        "role": "Architect & Engineer, AI Platform"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:santosh-borse",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Santosh Borse",
+        "role": "Senior Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:gil-isaacs",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Gil Isaacs",
+        "role": "Software & Cloud Solutions Architect"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:langflow",
+      "properties": {
+        "github_url": "https://github.com/langflow-ai/langflow",
+        "name": "Langflow"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:docling",
+      "properties": {
+        "github_url": "https://github.com/docling-project/docling",
+        "name": "Docling"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:data-prep-kit",
+      "properties": {
+        "github_url": "https://github.com/data-prep-kit/data-prep-kit",
+        "name": "Data Prep Kit"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.327854+00:00",
+  "source_file": "source/big-data-developers-in-nyc/312365099.html"
+}

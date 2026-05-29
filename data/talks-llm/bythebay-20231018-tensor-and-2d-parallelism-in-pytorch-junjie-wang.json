@@ -1,0 +1,147 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+      "to": "event:bay-area-ai-296052494",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-296052494",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+      "to": "speaker:junjie-wang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:junjie-wang",
+      "to": "company:meta",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+      "to": "speaker:xilun-wu",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:xilun-wu",
+      "to": "company:meta",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+      "to": "speaker:iris-zhang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:iris-zhang",
+      "to": "company:meta",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+      "to": "project:pytorch",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+      "properties": {
+        "abstract": "DTensor and Tensor Parallel APIs in PyTorch Distributed, including Sequence Parallel and contributions to TCPStore and ProcessGroup for large training clusters.",
+        "id": "bythebay-20231018-tensor-and-2d-parallelism-in-pytorch-junjie-wang",
+        "order": 2,
+        "title": "Tensor and 2D Parallelism in PyTorch"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-296052494",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-10-18",
+        "datetime": "2023-10-18T23:00:00+00:00",
+        "id": "296052494",
+        "title": "PyTorch Conference + Bay Area AI Meetup",
+        "url": "https://www.meetup.com/bay-area-ai/events/296052494/",
+        "venue_address": "425 Market St",
+        "venue_name": "IBM"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:junjie-wang",
+      "properties": {
+        "bio": null,
+        "company": "Meta",
+        "name": "Junjie Wang",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:meta",
+      "properties": {
+        "name": "Meta"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:xilun-wu",
+      "properties": {
+        "bio": null,
+        "company": "Meta",
+        "name": "Xilun Wu",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:meta",
+      "properties": {
+        "name": "Meta"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:iris-zhang",
+      "properties": {
+        "bio": null,
+        "company": "Meta",
+        "name": "Iris Zhang",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:meta",
+      "properties": {
+        "name": "Meta"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:pytorch",
+      "properties": {
+        "github_url": "https://github.com/pytorch/pytorch",
+        "name": "PyTorch"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.228833+00:00",
+  "source_file": "source/bay-area-ai/296052494.html"
+}

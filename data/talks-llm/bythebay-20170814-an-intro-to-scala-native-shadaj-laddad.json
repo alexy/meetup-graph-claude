@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170814-an-intro-to-scala-native-shadaj-laddad",
+      "to": "event:scala-bay-239831257",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-239831257",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170814-an-intro-to-scala-native-shadaj-laddad",
+      "to": "speaker:shadaj-laddad",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20170814-an-intro-to-scala-native-shadaj-laddad",
+      "to": "project:scala-native",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170814-an-intro-to-scala-native-shadaj-laddad",
+      "to": "project:llvm",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170814-an-intro-to-scala-native-shadaj-laddad",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170814-an-intro-to-scala-native-shadaj-laddad",
+      "properties": {
+        "abstract": "Introduction to Scala Native, a Scala to LLVM compiler, covering how it works, where it can be used, and how to use it in your own projects with a practical implementation example.",
+        "id": "bythebay-20170814-an-intro-to-scala-native-shadaj-laddad",
+        "order": 0,
+        "title": "An Intro to Scala Native"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-239831257",
+      "properties": {
+        "city": "Santa Clara",
+        "date": "2017-08-14",
+        "datetime": "2017-08-15T01:30:00+00:00",
+        "id": "239831257",
+        "title": "An Intro to Scala Native",
+        "url": "https://www.meetup.com/scala-bay/events/239831257/",
+        "venue_address": "4701 Patrick Henry Drive  # 23",
+        "venue_name": "Mindrome"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:shadaj-laddad",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Shadaj Laddad",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:scala-native",
+      "properties": {
+        "github_url": "https://github.com/scala-native/scala-native",
+        "name": "Scala Native"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:llvm",
+      "properties": {
+        "github_url": "https://github.com/llvm/llvm-project",
+        "name": "LLVM"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.756451+00:00",
+  "source_file": "source/scala-bay/239831257.html"
+}

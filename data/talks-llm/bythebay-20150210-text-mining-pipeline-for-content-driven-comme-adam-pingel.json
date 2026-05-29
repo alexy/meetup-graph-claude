@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20150210-text-mining-pipeline-for-content-driven-comme-adam-pingel",
+  "scraped_at": "2026-05-29T04:53:39.926553+00:00",
+  "source_file": "source/bay-area-ai/219857140.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150210-text-mining-pipeline-for-content-driven-comme-adam-pingel",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20150210-text-mining-pipeline-for-content-driven-comme-adam-pingel",
+        "title": "Text Mining Pipeline for Content-Driven Commerce at VigLink",
+        "abstract": "Adam Pingel, Katrin Tomanek, and Gabor Melli of VigLink will present a text mining pipeline that connects readers with focused ads based on phrases relevant to merchants.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:bay-area-ai-219857140",
+      "type": "Event",
+      "properties": {
+        "id": "219857140",
+        "title": "Solr/Lucene and Content-Driven Commerce at VigLink",
+        "date": "2015-02-10",
+        "datetime": "2015-02-11T02:45:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/219857140/",
+        "venue_name": "VigLink",
+        "venue_address": "333 Bush St.",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:adam-pingel",
+      "type": "Speaker",
+      "properties": {
+        "name": "Adam Pingel",
+        "role": null,
+        "company": "VigLink",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:viglink",
+      "type": "Company",
+      "properties": {
+        "name": "VigLink"
+      }
+    },
+    {
+      "id": "speaker:katrin-tomanek",
+      "type": "Speaker",
+      "properties": {
+        "name": "Katrin Tomanek",
+        "role": null,
+        "company": "VigLink",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:viglink",
+      "type": "Company",
+      "properties": {
+        "name": "VigLink"
+      }
+    },
+    {
+      "id": "speaker:gabor-melli",
+      "type": "Speaker",
+      "properties": {
+        "name": "Gabor Melli",
+        "role": null,
+        "company": "VigLink",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:viglink",
+      "type": "Company",
+      "properties": {
+        "name": "VigLink"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150210-text-mining-pipeline-for-content-driven-comme-adam-pingel",
+      "to": "event:bay-area-ai-219857140",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-219857140",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150210-text-mining-pipeline-for-content-driven-comme-adam-pingel",
+      "to": "speaker:adam-pingel",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:adam-pingel",
+      "to": "company:viglink",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150210-text-mining-pipeline-for-content-driven-comme-adam-pingel",
+      "to": "speaker:katrin-tomanek",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:katrin-tomanek",
+      "to": "company:viglink",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150210-text-mining-pipeline-for-content-driven-comme-adam-pingel",
+      "to": "speaker:gabor-melli",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:gabor-melli",
+      "to": "company:viglink",
+      "type": "WORKS_AT"
+    }
+  ]
+}

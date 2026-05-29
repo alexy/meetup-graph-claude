@@ -1,0 +1,120 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20120514-norbert-and-scala-in-search-analytics-at-link-rui-wang",
+      "to": "event:scala-bay-57803812",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-57803812",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20120514-norbert-and-scala-in-search-analytics-at-link-rui-wang",
+      "to": "speaker:rui-wang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:rui-wang",
+      "to": "company:linkedin",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20120514-norbert-and-scala-in-search-analytics-at-link-rui-wang",
+      "to": "speaker:joshua-erlich",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:joshua-erlich",
+      "to": "company:linkedin",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20120514-norbert-and-scala-in-search-analytics-at-link-rui-wang",
+      "to": "project:norbert",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20120514-norbert-and-scala-in-search-analytics-at-link-rui-wang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20120514-norbert-and-scala-in-search-analytics-at-link-rui-wang",
+      "properties": {
+        "abstract": "Norbert is a cluster management and RPC library written in Scala. This talk covers its use in LinkedIn's search and analytics infrastructure.",
+        "id": "bythebay-20120514-norbert-and-scala-in-search-analytics-at-link-rui-wang",
+        "order": 3,
+        "title": "Norbert and Scala in Search & Analytics at LinkedIn"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-57803812",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2012-05-14",
+        "datetime": "2012-05-15T01:30:00+00:00",
+        "id": "57803812",
+        "title": "Scala at LinkedIn",
+        "url": "https://www.meetup.com/scala-bay/events/57803812/",
+        "venue_address": "2025 Stierlin Ct, Unite Room (2nd Floor)",
+        "venue_name": "LinkedIn"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:rui-wang",
+      "properties": {
+        "bio": null,
+        "company": "LinkedIn",
+        "name": "Rui Wang",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:linkedin",
+      "properties": {
+        "name": "LinkedIn"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:joshua-erlich",
+      "properties": {
+        "bio": null,
+        "company": "LinkedIn",
+        "name": "Joshua Erlich",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:linkedin",
+      "properties": {
+        "name": "LinkedIn"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:norbert",
+      "properties": {
+        "github_url": "https://github.com/rhavyn/norbert",
+        "name": "Norbert"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.762945+00:00",
+  "source_file": "source/scala-bay/57803812.html"
+}

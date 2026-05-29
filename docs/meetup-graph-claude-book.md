@@ -2042,4 +2042,377 @@ This codebase is a compact but complete Rust application demonstrating:
 
 ---
 
+# Part IX — Enriching the Graph
+
+## Chapter 26 — Expanded Graph Model: Projects, Companies, and Roles
+
+### Why Expand?
+
+The initial graph model captured the "who spoke where" structure: Talk nodes
+connected to Events, Events to Groups, and Talks to Speakers.  This is rich
+enough for questions like *"which speakers have co-presented?"* but misses an
+entire dimension of the data: *"what did each talk actually discuss?"*
+
+The heuristic scraper in `parse.rs` focuses on extracting speaker names and
+talk titles from free-form HTML.  Pulling out structured metadata — which
+libraries were demoed, what role the speaker held at the time, which company
+they worked for — is beyond what regex patterns can reliably achieve.  This
+is exactly the kind of task where a language model excels.
+
+### New Node Types
+
+Three new node labels were added to the schema (defined by `NODE_KINDS` in
+`src/bin/load.rs`):
+
+| Label   | Key properties                     | Source          |
+|---------|------------------------------------|-----------------|
+| Project | nid, name, github_url              | LLM extraction  |
+| Company | nid, name                          | LLM extraction  |
+| Speaker | nid, name, bio, company, **role**  | Both pipelines  |
+
+The Speaker label already existed; the `role` field ("Staff Engineer",
+"VP of AI", etc.) is new.
+
+### New Edge Types
+
+Two new edge types were added to `EDGE_SCHEMA`:
+
+| Type     | From    | To      | Meaning                              |
+|----------|---------|---------|--------------------------------------|
+| MENTIONS | Talk    | Project | The talk discussed or demoed this project |
+| WORKS_AT | Speaker | Company | The speaker was affiliated with this company at talk time |
+
+With these additions the graph can now answer richer questions:
+
+```
+# Which projects are most frequently mentioned across all talks?
+MATCH (t:Talk)-[:MENTIONS]->(p:Project)
+RETURN p.name, count(t) AS mentions
+ORDER BY mentions DESC LIMIT 10
+
+# Which companies have the most speakers in the corpus?
+MATCH (s:Speaker)-[:WORKS_AT]->(c:Company)
+RETURN c.name, count(DISTINCT s) AS speakers
+ORDER BY speakers DESC LIMIT 10
+
+# What did this speaker's employer work on?
+MATCH (s:Speaker {nid:'speaker:alice-smith'})-[:WORKS_AT]->(c:Company)
+      <-[:WORKS_AT]-(colleague:Speaker)
+      <-[:PRESENTED_BY]-(t:Talk)-[:MENTIONS]->(p:Project)
+RETURN DISTINCT p.name
+```
+
+### Node IDs
+
+Project and Company node IDs follow the same slug convention used by Speaker
+and Talk nodes:
+
+```
+project:{slugify(project_name)}   # e.g. "project:apache-kafka"
+company:{slugify(company_name)}   # e.g. "company:confluent"
+```
+
+The `slugify` helper (defined in `llm_extract.rs`) lowercases the name,
+replaces non-alphanumeric characters with `-`, collapses runs of dashes, and
+caps the result at 60 characters.  This means two talks that both mention
+"Apache Kafka" produce the same `project:apache-kafka` node — deduplication
+happens naturally in the `collect()` function of `load.rs`, which uses
+`BTreeMap::entry().or_insert()` to keep the first-seen properties.
+
+---
+
+## Chapter 27 — The LLM Extraction Pipeline
+
+### From Heuristics to Semantic Extraction
+
+The original `meetup-scraper` binary uses eight cascading regex strategies in
+`parse.rs` to extract talk titles and speaker names from raw HTML.  This works
+for the most common meetup page formats but has fundamental limitations:
+regex patterns can't understand context, so they silently drop rich metadata
+(abstracts, roles, company affiliations) and miss project mentions embedded
+in description prose.
+
+`src/bin/llm_extract.rs` replaces the heuristics entirely.  It reads the
+**raw HTML source** from `data/source/`, decodes the structured event
+description from the Apollo `__NEXT_DATA__` JSON, and lets the LLM understand
+the content semantically — no pattern matching involved.
+
+### Batched Extraction: N Events per API Call
+
+Instead of one API call per event, the binary groups events into **batches of
+`--batch-size` (default 10)** and sends each batch in a single call.  With
+960 HTML files across 8 groups, this reduces API calls from ~960 to ~96 — a
+10× saving.
+
+The prompt for a batch of N events looks like:
+
+```
+Extract structured talk information from each of the following N meetup events.
+...rules...
+
+══ EVENT 1/10  event_id:314321640  group:Bay Area AI  date:2026-04-18
+Title: Gemma 4 SF Edition
+URL: https://www.meetup.com/bay-area-ai/events/314321640/
+
+<verbatim description markdown>
+
+══ EVENT 2/10  event_id:...
+...
+```
+
+The model is instructed to return one entry per `event_id`, even for events
+with no identifiable talks (empty `talks` array), so the caller always has a
+complete mapping.
+
+### Forced Tool Calling with `save_events`
+
+The call uses `"tool_choice": {"type": "tool", "name": "save_events"}` so the
+API is guaranteed to return well-formed JSON.  The tool schema wraps the
+per-talk schema in an array keyed by `event_id`:
+
+```json
+{
+  "events": [
+    {
+      "event_id": "314321640",
+      "talks": [
+        {
+          "title": "Gemma 4 on Device",
+          "abstract": "...",
+          "speakers": [
+            {"name": "Alice Smith", "role": "Staff Engineer", "company": "Google"}
+          ],
+          "projects": [
+            {"name": "Gemma"}, {"name": "LiteLLM"}
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+Forced tool calling is more reliable than asking the model to "respond in
+JSON" because the API validates the response against the schema before
+returning it.  In Rust the batch result is decoded with a single
+`serde_json::from_value` call:
+
+```rust
+let result: BatchResult = serde_json::from_value(tool_use["input"].clone())?;
+```
+
+`BatchResult` contains `Vec<EventExtractionResult>`, each with `event_id` and
+`Vec<ExtractedTalk>`.  The caller matches results back to input `EventMeta`
+structs via a `HashMap<&str, (&PathBuf, &EventMeta)>`.
+
+### Extraction Rules in the Prompt
+
+The prompt includes explicit rules that act as a rubric for the model:
+
+- *Grounding*: "Do NOT invent any data. Use only facts stated in the description."
+- *Semantics*: The LLM reads the description as prose — it understands when
+  "Jordan West will present on Scalamachine" implies Jordan West is the
+  speaker and Scalamachine is the project, without needing a regex.
+- *Scope*: "Projects must be specific named things ('Apache Kafka'), not
+  generic concepts ('machine learning')."
+- *Normalisation*: "Speaker.name is a person's full name. Strip role
+  prefixes; those go in role/company."
+- *Coverage*: "Return an entry for every event_id, even if talks is empty."
+
+The last rule is critical for the batched approach: it ensures the response
+covers all N input events so missing events don't silently disappear.
+
+### Skip-Existing via Source-File Scanning
+
+At startup `llm-extract` pre-scans the output directory and builds a
+`HashSet<String>` of `event_id`s already present:
+
+```rust
+fn scan_extracted_events(output_dir: &Path) -> HashSet<String> {
+    // each output JSON has:  "source_file": "source/<group>/<event_id>.html"
+    // extract the stem (= event_id) and insert into the set
+}
+```
+
+This single up-front scan is O(output files) instead of O(events × output
+files), making `--skip-existing` efficient for incremental runs.
+
+### Output Schema Version
+
+Records produced by `llm-extract` carry `"schema_version": "1.1"` while
+records from the original heuristic scraper carry `"1.0"`.  The `load`
+binary accepts both — the version field is informational only.
+
+### Concurrency and Retry
+
+Batch tasks run concurrently, bounded by a `Semaphore` (default
+`--concurrency 3`).  `call_llm_batch` implements exponential back-off for
+network errors, 429 (rate limit), and 5xx server errors:
+
+```rust
+if status == reqwest::StatusCode::TOO_MANY_REQUESTS && attempt < 5 {
+    let wait = 2u64.pow(attempt);
+    tokio::time::sleep(Duration::from_secs(wait)).await;
+    continue;
+}
+```
+
+The `2u64.pow(attempt)` pattern is Rust's integer exponentiation.  Using `u64`
+avoids overflow for small exponents; the result is converted to seconds for
+`Duration::from_secs`.
+
+---
+
+## Chapter 28 — GitHub Enrichment
+
+### The Problem
+
+The LLM extraction gives us project *names* — "Apache Kafka", "LangChain",
+"Scalamachine" — but to turn them into actionable graph data we want the
+canonical GitHub repository URL so the graph can link to source code, star
+counts, or release history.
+
+`src/bin/github_enrich.rs` closes this gap with a two-phase pipeline:
+
+1. **Collect** — scan all `data/talks-llm/*.json` files for `Project` nodes
+   whose `github_url` is null.
+2. **Enrich** — search the GitHub API for each unique project name, match the
+   top result against the name heuristically, and write the URL back into all
+   JSON files that contain that project node.
+
+### GitHub Search and Matching
+
+The search URL is:
+
+```
+GET https://api.github.com/search/repositories
+    ?q={name}+in:name,description
+    &sort=stars
+    &order=desc
+    &per_page=5
+```
+
+The `urlencoding::encode` function percent-encodes the query string.  After
+receiving the top-5 results, the binary applies a two-tier match:
+
+**Tier 1 (substring)**: Does the repo `name` or `full_name` contain the
+project name (after normalization), or vice versa?  If yes, accept immediately.
+
+**Tier 2 (Jaccard)**: Tokenize both names on `-`, compute intersection and
+union.  If `|intersection| * 2 ≥ |union|` (i.e. ≥50% overlap), accept the
+top result.  This catches "apache-kafka" matching a query of "kafka".
+
+If neither tier matches, `github_url` stays null for that project.
+
+### In-Place File Update
+
+Because multiple talk JSON files can contain the same project node (one per
+talk that mentions the project), the enrichment must update every occurrence.
+The binary re-reads each file after the search phase and mutates `serde_json::Value`
+in memory before writing back:
+
+```rust
+node["properties"]["github_url"] = serde_json::Value::String(url.clone());
+```
+
+This is safe because `serde_json::Value` is a `serde_json::Map<String, Value>`
+under the hood, and `operator[]` returns a `&mut Value`.
+
+### Rate Limiting
+
+GitHub's unauthenticated API allows 60 requests/hour; with a `GITHUB_TOKEN`
+it rises to 5 000/hour.  The binary:
+
+- Accepts an optional bearer token via `GITHUB_TOKEN` env var.
+- Waits `--delay-ms` milliseconds between search calls (default 500 ms).
+- Backs off 60 × attempt seconds on 403/429 responses.
+- Supports `--limit N` to process only N projects (for smoke tests).
+
+---
+
+## Chapter 29 — Backend Schema Updates
+
+### The Single Source of Truth
+
+All five backends — FalkorDB, HelixDB HTTP, HelixDB SDK, SurrealDB HTTP, and
+SurrealDB SDK — share their schema definition in two constants at the top of
+`src/bin/load.rs`:
+
+```rust
+const NODE_KINDS: &[&str] =
+    &["Talk", "Event", "Group", "Speaker", "Project", "Company"];
+
+const EDGE_SCHEMA: &[(&str, &str, &str)] = &[
+    ("PRESENTED_AT", "Talk",    "Event"),
+    ("PRESENTED_BY", "Talk",    "Speaker"),
+    ("PART_OF",      "Event",   "Group"),
+    ("MENTIONS",     "Talk",    "Project"),  // new
+    ("WORKS_AT",     "Speaker", "Company"),  // new
+];
+```
+
+And in the `node_props` function that maps raw JSON properties to the
+canonical property bag for each label.  Adding `"Project"` and `"Company"`
+cases to that function was the only change required to make all five backends
+handle the new node types.
+
+### HelixDB Stored Queries
+
+The HelixDB HTTP backend requires pre-registered stored queries (generated by
+`helix-gen`).  Five new queries were added:
+
+| Query endpoint  | Operation                    |
+|-----------------|------------------------------|
+| `add_project`   | Create a Project node        |
+| `add_company`   | Create a Company node        |
+| `add_mentions`  | Create a MENTIONS edge       |
+| `add_works_at`  | Create a WORKS_AT edge       |
+| `add_speaker`   | Updated to include `role`    |
+
+The `clear_all` query and `node_counts` read query were also updated to cover
+`Project` and `Company`.
+
+### Clear Operations
+
+Each backend's `clear()` now deletes the two new node tables and two new edge
+tables in addition to the original four/three:
+
+```rust
+// SurrealDB
+"DELETE talk; DELETE event; DELETE group; DELETE speaker; \
+ DELETE project; DELETE company; \
+ DELETE presented_at; DELETE presented_by; DELETE part_of; \
+ DELETE mentions; DELETE works_at;"
+```
+
+The HelixDB SDK backend drops nodes with `g().n_with_label("Project").drop()`
+and `g().n_with_label("Company").drop()`.  Dropping a node in HelixDB
+automatically deletes its incident edges, so no separate edge-drop step is
+needed.
+
+### Running the Full Pipeline
+
+```text
+# 1. Scrape HTML (optional if data/source/ already exists)
+cargo run --bin meetup-scraper
+
+# 2. LLM extraction → data/talks-llm/
+ANTHROPIC_API_KEY=sk-ant-... cargo run --bin llm-extract -- --skip-existing
+
+# 3. GitHub enrichment (optional, adds github_url to Project nodes)
+GITHUB_TOKEN=ghp_...         cargo run --bin github-enrich
+
+# 4. Load into SurrealDB
+cargo run --bin load -- --backend surreal-http --input data/talks-llm --clear
+
+# 5. (Optional) Load the heuristic-extracted data/talks/ for comparison
+cargo run --bin load -- --backend surreal-http --input data/talks
+```
+
+The `--input data/talks-llm` flag points `load` at the LLM-extracted records
+instead of the default `data/talks`.  Both directories use the same JSON
+schema, so `load` accepts either transparently.
+
+---
+
 *End of book.*

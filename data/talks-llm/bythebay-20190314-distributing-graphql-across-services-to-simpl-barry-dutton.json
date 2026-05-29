@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20190314-distributing-graphql-across-services-to-simpl-barry-dutton",
+      "to": "event:graphql-by-the-bay-258714481",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:graphql-by-the-bay-258714481",
+      "to": "group:graphql-by-the-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190314-distributing-graphql-across-services-to-simpl-barry-dutton",
+      "to": "speaker:barry-dutton",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:barry-dutton",
+      "to": "company:credit-karma",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20190314-distributing-graphql-across-services-to-simpl-barry-dutton",
+      "to": "project:graphql",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20190314-distributing-graphql-across-services-to-simpl-barry-dutton",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190314-distributing-graphql-across-services-to-simpl-barry-dutton",
+      "properties": {
+        "abstract": "How Credit Karma distributed GraphQL across microservices to simplify workflows and increase developer productivity.",
+        "id": "bythebay-20190314-distributing-graphql-across-services-to-simpl-barry-dutton",
+        "order": 0,
+        "title": "Distributing GraphQL Across Services to Simplify Workflows"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:graphql-by-the-bay-258714481",
+      "properties": {
+        "city": "Oakland",
+        "date": "2019-03-14",
+        "datetime": "2019-03-15T01:00:00+00:00",
+        "id": "258714481",
+        "title": "Distributed GraphQL for Enterprise Systems",
+        "url": "https://www.meetup.com/graphql-by-the-bay/events/258714481/",
+        "venue_address": "1100 Broadway",
+        "venue_name": "Credit Karma"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:graphql-by-the-bay",
+      "properties": {
+        "name": "GraphQL By the Bay",
+        "slug": "graphql-by-the-bay",
+        "url": "https://www.meetup.com/graphql-by-the-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:barry-dutton",
+      "properties": {
+        "bio": null,
+        "company": "Credit Karma",
+        "name": "Barry Dutton",
+        "role": "Senior Software Developer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:credit-karma",
+      "properties": {
+        "name": "Credit Karma"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:graphql",
+      "properties": {
+        "github_url": "https://github.com/graphql/graphql-spec",
+        "name": "GraphQL"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:09:14.567998+00:00",
+  "source_file": "source/graphql-by-the-bay/258714481.html"
+}

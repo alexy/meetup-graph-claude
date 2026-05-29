@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20250909-securing-the-ai-agent-workforce-amean-asad",
+  "scraped_at": "2026-05-29T04:58:30.232966+00:00",
+  "source_file": "source/bay-area-ai/310960653.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250909-securing-the-ai-agent-workforce-amean-asad",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20250909-securing-the-ai-agent-workforce-amean-asad",
+        "title": "Securing the AI Agent Workforce",
+        "abstract": "As AI agents enter the workplace as autonomous virtual collaborators that make decisions, handle sensitive data, and require elevated permissions, Trusted Execution Environments provide a secure agent runtime with verifiable agent identity, data confidentiality, and runtime integrity.",
+        "order": 3
+      }
+    },
+    {
+      "id": "event:bay-area-ai-310960653",
+      "type": "Event",
+      "properties": {
+        "id": "310960653",
+        "title": "[lu.ma/_ai registration] AI Agent SF Meetup #6",
+        "date": "2025-09-09",
+        "datetime": "2025-09-10T00:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/310960653/",
+        "venue_name": null,
+        "venue_address": null,
+        "city": null
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:amean-asad",
+      "type": "Speaker",
+      "properties": {
+        "name": "Amean Asad",
+        "role": null,
+        "company": "Lunal",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:lunal",
+      "type": "Company",
+      "properties": {
+        "name": "Lunal"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20250909-securing-the-ai-agent-workforce-amean-asad",
+      "to": "event:bay-area-ai-310960653",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-310960653",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250909-securing-the-ai-agent-workforce-amean-asad",
+      "to": "speaker:amean-asad",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:amean-asad",
+      "to": "company:lunal",
+      "type": "WORKS_AT"
+    }
+  ]
+}

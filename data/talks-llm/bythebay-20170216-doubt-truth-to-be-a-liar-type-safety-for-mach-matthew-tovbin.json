@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170216-doubt-truth-to-be-a-liar-type-safety-for-mach-matthew-tovbin",
+  "scraped_at": "2026-05-29T05:21:47.755963+00:00",
+  "source_file": "source/scala-bay/235598752.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170216-doubt-truth-to-be-a-liar-type-safety-for-mach-matthew-tovbin",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170216-doubt-truth-to-be-a-liar-type-safety-for-mach-matthew-tovbin",
+        "title": "Doubt Truth to be a Liar: Type Safety for Machine Learning",
+        "abstract": "Feature vectors are the basic unit of any ML algorithm. This talk presents how to use Scala's type system to guarantee type safety for feature engineering manipulations, even when distributed with Spark or Flink.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-235598752",
+      "type": "Event",
+      "properties": {
+        "id": "235598752",
+        "title": "Matthew Tovbin, Doubt Truth to be a Liar: Type Safety for Machine Learning",
+        "date": "2017-02-16",
+        "datetime": "2017-02-17T02:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/235598752/",
+        "venue_name": "LinkedIn",
+        "venue_address": "LinkedIn 605 W. Maude",
+        "city": "Sunnyvale"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:matthew-tovbin",
+      "type": "Speaker",
+      "properties": {
+        "name": "Matthew Tovbin",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170216-doubt-truth-to-be-a-liar-type-safety-for-mach-matthew-tovbin",
+      "to": "event:scala-bay-235598752",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-235598752",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170216-doubt-truth-to-be-a-liar-type-safety-for-mach-matthew-tovbin",
+      "to": "speaker:matthew-tovbin",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

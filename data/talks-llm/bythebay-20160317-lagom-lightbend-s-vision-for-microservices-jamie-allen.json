@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160317-lagom-lightbend-s-vision-for-microservices-jamie-allen",
+      "to": "event:sf-scala-229155087",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-229155087",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160317-lagom-lightbend-s-vision-for-microservices-jamie-allen",
+      "to": "speaker:jamie-allen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jamie-allen",
+      "to": "company:lightbend",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160317-lagom-lightbend-s-vision-for-microservices-jamie-allen",
+      "to": "project:lagom",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160317-lagom-lightbend-s-vision-for-microservices-jamie-allen",
+      "to": "project:akka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160317-lagom-lightbend-s-vision-for-microservices-jamie-allen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160317-lagom-lightbend-s-vision-for-microservices-jamie-allen",
+      "properties": {
+        "abstract": "Lightbend's vision for microservices and an introduction to Lagom, a framework for developing reactive microservices in Scala and Java.",
+        "id": "bythebay-20160317-lagom-lightbend-s-vision-for-microservices-jamie-allen",
+        "order": 1,
+        "title": "Lagom: Lightbend's Vision for Microservices"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-229155087",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-03-17",
+        "datetime": "2016-03-18T01:00:00+00:00",
+        "id": "229155087",
+        "title": "Microservices in Scala and Java",
+        "url": "https://www.meetup.com/sf-scala/events/229155087/",
+        "venue_address": "612 Howard Street Ste 100",
+        "venue_name": "Tradeshift"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jamie-allen",
+      "properties": {
+        "bio": null,
+        "company": "Lightbend",
+        "name": "Jamie Allen",
+        "role": "Senior Director of Global Services"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:lightbend",
+      "properties": {
+        "name": "Lightbend"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:lagom",
+      "properties": {
+        "github_url": "https://github.com/lagom/lagom",
+        "name": "Lagom"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:akka",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.449814+00:00",
+  "source_file": "source/sf-scala/229155087.html"
+}

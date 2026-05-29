@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+  "scraped_at": "2026-05-29T05:21:47.759329+00:00",
+  "source_file": "source/scala-bay/272939887.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+        "title": "Tagless-Final: Abstraction Without Guilt",
+        "abstract": "Is tagless-final something more than programming with type classes? Can purely functional abstractions be as efficient as bare metal? This talk answers these questions by exploring a practical problem.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-272939887",
+      "type": "Event",
+      "properties": {
+        "id": "272939887",
+        "title": "Juan Manuel Serrano, Tagless-final: Abstraction Without Guilt",
+        "date": "2020-09-05",
+        "datetime": "2020-09-05T17:00:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/272939887/",
+        "venue_name": "Online event",
+        "venue_address": "",
+        "city": ""
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:juan-manuel-serrano",
+      "type": "Speaker",
+      "properties": {
+        "name": "Juan Manuel Serrano",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+      "to": "event:scala-bay-272939887",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-272939887",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200905-tagless-final-abstraction-without-guilt-juan-manuel-serrano",
+      "to": "speaker:juan-manuel-serrano",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

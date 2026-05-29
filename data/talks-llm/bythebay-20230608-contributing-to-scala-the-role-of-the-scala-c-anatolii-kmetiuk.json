@@ -1,0 +1,120 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230608-contributing-to-scala-the-role-of-the-scala-c-anatolii-kmetiuk",
+      "to": "event:scala-bay-293127928",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-293127928",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230608-contributing-to-scala-the-role-of-the-scala-c-anatolii-kmetiuk",
+      "to": "speaker:anatolii-kmetiuk",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:anatolii-kmetiuk",
+      "to": "company:scala-center",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230608-contributing-to-scala-the-role-of-the-scala-c-anatolii-kmetiuk",
+      "to": "speaker:guillaume-martres",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:guillaume-martres",
+      "to": "company:scala-center",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230608-contributing-to-scala-the-role-of-the-scala-c-anatolii-kmetiuk",
+      "to": "project:scala-3",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230608-contributing-to-scala-the-role-of-the-scala-c-anatolii-kmetiuk",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230608-contributing-to-scala-the-role-of-the-scala-c-anatolii-kmetiuk",
+      "properties": {
+        "abstract": "The mission of the Scala Center, on-going projects with the community, and ways to get involved and contribute to Scala.",
+        "id": "bythebay-20230608-contributing-to-scala-the-role-of-the-scala-c-anatolii-kmetiuk",
+        "order": 2,
+        "title": "Contributing to Scala: The Role of the Scala Center"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-293127928",
+      "properties": {
+        "city": "Oakland",
+        "date": "2023-06-08",
+        "datetime": "2023-06-09T00:00:00+00:00",
+        "id": "293127928",
+        "title": "ducktape -- Scala productivity + Holden Karau + Scala Center!",
+        "url": "https://www.meetup.com/scala-bay/events/293127928/",
+        "venue_address": "1999 Harrison St Suite 1100",
+        "venue_name": "LaunchDarkly"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:anatolii-kmetiuk",
+      "properties": {
+        "bio": null,
+        "company": "Scala Center",
+        "name": "Anatolii Kmetiuk",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:scala-center",
+      "properties": {
+        "name": "Scala Center"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:guillaume-martres",
+      "properties": {
+        "bio": null,
+        "company": "Scala Center",
+        "name": "Guillaume Martres",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:scala-center",
+      "properties": {
+        "name": "Scala Center"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scala-3",
+      "properties": {
+        "github_url": "https://github.com/scala/scala",
+        "name": "Scala 3"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.761137+00:00",
+  "source_file": "source/scala-bay/293127928.html"
+}

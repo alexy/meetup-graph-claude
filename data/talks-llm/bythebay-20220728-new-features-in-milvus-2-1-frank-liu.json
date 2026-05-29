@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20220728-new-features-in-milvus-2-1-frank-liu",
+      "to": "event:unstructured-data-sf-287272694",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-287272694",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20220728-new-features-in-milvus-2-1-frank-liu",
+      "to": "speaker:frank-liu",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:frank-liu",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20220728-new-features-in-milvus-2-1-frank-liu",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20220728-new-features-in-milvus-2-1-frank-liu",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20220728-new-features-in-milvus-2-1-frank-liu",
+      "properties": {
+        "abstract": "Overview of differences between Milvus 2.x and 1.x and the latest features in the upcoming Milvus 2.1 release.",
+        "id": "bythebay-20220728-new-features-in-milvus-2-1-frank-liu",
+        "order": 0,
+        "title": "New Features in Milvus 2.1"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-287272694",
+      "properties": {
+        "city": "",
+        "date": "2022-07-28",
+        "datetime": "2022-07-29T02:00:00+00:00",
+        "id": "287272694",
+        "title": "Milvus Community Talks",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/287272694/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:frank-liu",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Frank Liu",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.423161+00:00",
+  "source_file": "source/unstructured-data-sf/287272694.html"
+}

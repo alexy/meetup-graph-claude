@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240220-hnsw-and-approximate-nearest-neighbor-search-yury-malkov",
+  "scraped_at": "2026-05-29T05:39:23.426221+00:00",
+  "source_file": "source/unstructured-data-sf/297446712.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240220-hnsw-and-approximate-nearest-neighbor-search-yury-malkov",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240220-hnsw-and-approximate-nearest-neighbor-search-yury-malkov",
+        "title": "HNSW and Approximate Nearest Neighbor Search",
+        "abstract": "The HNSW (Hierarchical Navigable Small World) algorithm for efficient approximate nearest neighbor search, foundational to modern vector databases.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-297446712",
+      "type": "Event",
+      "properties": {
+        "id": "297446712",
+        "title": "Unstructured Data in LLMs",
+        "date": "2024-02-20",
+        "datetime": "2024-02-21T01:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/297446712/",
+        "venue_name": "88 Colin P Kelly Jr St",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:yury-malkov",
+      "type": "Speaker",
+      "properties": {
+        "name": "Yury Malkov",
+        "role": "Research Scientist",
+        "company": "OpenAI",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:openai",
+      "type": "Company",
+      "properties": {
+        "name": "OpenAI"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240220-hnsw-and-approximate-nearest-neighbor-search-yury-malkov",
+      "to": "event:unstructured-data-sf-297446712",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-297446712",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240220-hnsw-and-approximate-nearest-neighbor-search-yury-malkov",
+      "to": "speaker:yury-malkov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:yury-malkov",
+      "to": "company:openai",
+      "type": "WORKS_AT"
+    }
+  ]
+}

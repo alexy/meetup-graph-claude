@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20241119-gandalf-insights-from-the-world-s-largest-llm-max-mathys",
+  "scraped_at": "2026-05-29T05:39:23.430308+00:00",
+  "source_file": "source/unstructured-data-sf/303008570.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241119-gandalf-insights-from-the-world-s-largest-llm-max-mathys",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20241119-gandalf-insights-from-the-world-s-largest-llm-max-mathys",
+        "title": "Gandalf: Insights from the World's Largest LLM Red Team",
+        "abstract": "Lessons from running the world's largest LLM red team exercise (Gandalf), exploring how to prompt-inject, jailbreak, and defend language models.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-303008570",
+      "type": "Event",
+      "properties": {
+        "id": "303008570",
+        "title": "Unstructured Data Meetup",
+        "date": "2024-11-19",
+        "datetime": "2024-11-20T01:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/303008570/",
+        "venue_name": "88 Colin P Kelly Jr St",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:max-mathys",
+      "type": "Speaker",
+      "properties": {
+        "name": "Max Mathys",
+        "role": null,
+        "company": "Lakera",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:lakera",
+      "type": "Company",
+      "properties": {
+        "name": "Lakera"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20241119-gandalf-insights-from-the-world-s-largest-llm-max-mathys",
+      "to": "event:unstructured-data-sf-303008570",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-303008570",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241119-gandalf-insights-from-the-world-s-largest-llm-max-mathys",
+      "to": "speaker:max-mathys",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:max-mathys",
+      "to": "company:lakera",
+      "type": "WORKS_AT"
+    }
+  ]
+}

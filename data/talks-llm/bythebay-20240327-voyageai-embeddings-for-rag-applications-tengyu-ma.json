@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240327-voyageai-embeddings-for-rag-applications-tengyu-ma",
+      "to": "event:unstructured-data-sf-299449651",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-299449651",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240327-voyageai-embeddings-for-rag-applications-tengyu-ma",
+      "to": "speaker:tengyu-ma",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:tengyu-ma",
+      "to": "company:voyageai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240327-voyageai-embeddings-for-rag-applications-tengyu-ma",
+      "to": "project:voyageai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240327-voyageai-embeddings-for-rag-applications-tengyu-ma",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240327-voyageai-embeddings-for-rag-applications-tengyu-ma",
+      "properties": {
+        "abstract": "How to use VoyageAI's domain-specific embedding models to build more accurate RAG applications with better retrieval precision.",
+        "id": "bythebay-20240327-voyageai-embeddings-for-rag-applications-tengyu-ma",
+        "order": 2,
+        "title": "VoyageAI Embeddings for RAG Applications"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-299449651",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2024-03-27",
+        "datetime": "2024-03-28T00:30:00+00:00",
+        "id": "299449651",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/299449651/",
+        "venue_address": "",
+        "venue_name": "Sunnyvale"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:tengyu-ma",
+      "properties": {
+        "bio": null,
+        "company": "VoyageAI",
+        "name": "Tengyu Ma",
+        "role": "CEO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:voyageai",
+      "properties": {
+        "name": "VoyageAI"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:voyageai",
+      "properties": {
+        "github_url": null,
+        "name": "VoyageAI"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.427316+00:00",
+  "source_file": "source/unstructured-data-sf/299449651.html"
+}

@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150218-transparent-encryption-in-hdfs-charles-lamb",
+      "to": "event:hadoopsf-219049335",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-219049335",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150218-transparent-encryption-in-hdfs-charles-lamb",
+      "to": "speaker:charles-lamb",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:charles-lamb",
+      "to": "company:cloudera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150218-transparent-encryption-in-hdfs-charles-lamb",
+      "to": "project:hdfs",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150218-transparent-encryption-in-hdfs-charles-lamb",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150218-transparent-encryption-in-hdfs-charles-lamb",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150218-transparent-encryption-in-hdfs-charles-lamb",
+      "properties": {
+        "abstract": "Apache Hadoop 2.6 adds support for transparent encryption to HDFS. Data read from and written to specified HDFS directories is transparently encrypted and decrypted without requiring any changes to user application code.",
+        "id": "bythebay-20150218-transparent-encryption-in-hdfs-charles-lamb",
+        "order": 0,
+        "title": "Transparent Encryption in HDFS"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-219049335",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-02-18",
+        "datetime": "2015-02-19T02:00:00+00:00",
+        "id": "219049335",
+        "title": "February SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/219049335/",
+        "venue_address": "375 Alabama St #350",
+        "venue_name": "WibiData"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:charles-lamb",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Charles Lamb",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cloudera",
+      "properties": {
+        "name": "Cloudera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:hdfs",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "HDFS"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.372287+00:00",
+  "source_file": "source/hadoopsf/219049335.html"
+}

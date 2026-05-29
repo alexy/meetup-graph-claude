@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20161215-the-essence-of-testing-bill-venners",
+  "scraped_at": "2026-05-29T04:53:39.929648+00:00",
+  "source_file": "source/bay-area-ai/236197928.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20161215-the-essence-of-testing-bill-venners",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20161215-the-essence-of-testing-bill-venners",
+        "title": "The Essence of Testing",
+        "abstract": "Bill Venners will talk about The Essence of Testing.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-236197928",
+      "type": "Event",
+      "properties": {
+        "id": "236197928",
+        "title": "[sfscala.org] By the Bay End of Year Party with Bill Venners, Essence of Testing",
+        "date": "2016-12-15",
+        "datetime": "2016-12-16T02:30:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/236197928/",
+        "venue_name": "Clara",
+        "venue_address": "222 Sutter St., 8th Floor",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:bill-venners",
+      "type": "Speaker",
+      "properties": {
+        "name": "Bill Venners",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20161215-the-essence-of-testing-bill-venners",
+      "to": "event:bay-area-ai-236197928",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-236197928",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20161215-the-essence-of-testing-bill-venners",
+      "to": "speaker:bill-venners",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

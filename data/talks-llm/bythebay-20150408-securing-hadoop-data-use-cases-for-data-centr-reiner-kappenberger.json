@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150408-securing-hadoop-data-use-cases-for-data-centr-reiner-kappenberger",
+      "to": "event:hadoopsf-220286707",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-220286707",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150408-securing-hadoop-data-use-cases-for-data-centr-reiner-kappenberger",
+      "to": "speaker:reiner-kappenberger",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:reiner-kappenberger",
+      "to": "company:hp-security-voltage",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150408-securing-hadoop-data-use-cases-for-data-centr-reiner-kappenberger",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150408-securing-hadoop-data-use-cases-for-data-centr-reiner-kappenberger",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150408-securing-hadoop-data-use-cases-for-data-centr-reiner-kappenberger",
+      "properties": {
+        "abstract": "A key driver to getting Hadoop into production is enabling rapid time-to-insight while ensuring sensitive, regulated data—payment transactions, customer personal data—is protected. Covers data-centric security approaches for Hadoop environments.",
+        "id": "bythebay-20150408-securing-hadoop-data-use-cases-for-data-centr-reiner-kappenberger",
+        "order": 0,
+        "title": "Securing Hadoop Data: Use Cases for Data-Centric Security"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-220286707",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-04-08",
+        "datetime": "2015-04-09T01:00:00+00:00",
+        "id": "220286707",
+        "title": "April SF Hadoop Users Meetup ",
+        "url": "https://www.meetup.com/hadoopsf/events/220286707/",
+        "venue_address": "848 Battery Street",
+        "venue_name": "If(we)"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:reiner-kappenberger",
+      "properties": {
+        "bio": null,
+        "company": "HP Security Voltage",
+        "name": "Reiner Kappenberger",
+        "role": "Senior Director of Product Management"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:hp-security-voltage",
+      "properties": {
+        "name": "HP Security Voltage"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.372534+00:00",
+  "source_file": "source/hadoopsf/220286707.html"
+}

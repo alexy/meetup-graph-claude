@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20241113-why-dense-embedding-search-isn-t-enough-the-c-james-luan",
+      "to": "event:unstructured-data-sf-304207224",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-304207224",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241113-why-dense-embedding-search-isn-t-enough-the-c-james-luan",
+      "to": "speaker:james-luan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:james-luan",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20241113-why-dense-embedding-search-isn-t-enough-the-c-james-luan",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20241113-why-dense-embedding-search-isn-t-enough-the-c-james-luan",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241113-why-dense-embedding-search-isn-t-enough-the-c-james-luan",
+      "properties": {
+        "abstract": "A sneak peek at Milvus 2.5's hybrid search capabilities, explaining why combining dense embedding search with sparse keyword search produces better results.",
+        "id": "bythebay-20241113-why-dense-embedding-search-isn-t-enough-the-c-james-luan",
+        "order": 1,
+        "title": "Why Dense Embedding Search Isn't Enough: The Case for Hybrid Search"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-304207224",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2024-11-13",
+        "datetime": "2024-11-14T01:30:00+00:00",
+        "id": "304207224",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/304207224/",
+        "venue_address": "1177 Kern Ave, Sunnyvale, CA 94085, USA",
+        "venue_name": "Sports Basement Sunnyvale"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:james-luan",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "James Luan",
+        "role": "VP Engineering"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.432088+00:00",
+  "source_file": "source/unstructured-data-sf/304207224.html"
+}

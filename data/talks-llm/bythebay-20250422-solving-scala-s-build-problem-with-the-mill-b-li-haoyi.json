@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250422-solving-scala-s-build-problem-with-the-mill-b-li-haoyi",
+      "to": "event:scala-bay-306928356",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-306928356",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250422-solving-scala-s-build-problem-with-the-mill-b-li-haoyi",
+      "to": "speaker:li-haoyi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:li-haoyi",
+      "to": "company:databricks",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250422-solving-scala-s-build-problem-with-the-mill-b-li-haoyi",
+      "to": "project:mill",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20250422-solving-scala-s-build-problem-with-the-mill-b-li-haoyi",
+      "to": "project:sbt",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250422-solving-scala-s-build-problem-with-the-mill-b-li-haoyi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250422-solving-scala-s-build-problem-with-the-mill-b-li-haoyi",
+      "properties": {
+        "abstract": "Mill is a Scala build tool that improves upon SBT: more performant, easier to understand, and scalable to larger codebases. Covers how Mill works, its advantages over SBT, and the novel techniques a modern build tool uses.",
+        "id": "bythebay-20250422-solving-scala-s-build-problem-with-the-mill-b-li-haoyi",
+        "order": 0,
+        "title": "Solving Scala's Build Problem with the Mill Build Tool"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-306928356",
+      "properties": {
+        "city": null,
+        "date": "2025-04-22",
+        "datetime": "2025-04-23T00:30:00+00:00",
+        "id": "306928356",
+        "title": "Solving Scala's Build Problem with the Mill Build Tool By Li Haoyi",
+        "url": "https://www.meetup.com/scala-bay/events/306928356/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:li-haoyi",
+      "properties": {
+        "bio": null,
+        "company": "Databricks",
+        "name": "Li Haoyi",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:databricks",
+      "properties": {
+        "name": "Databricks"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:mill",
+      "properties": {
+        "github_url": "https://github.com/com-lihaoyi/mill",
+        "name": "Mill"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:sbt",
+      "properties": {
+        "github_url": "https://github.com/sbt/sbt",
+        "name": "SBT"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.761602+00:00",
+  "source_file": "source/scala-bay/306928356.html"
+}

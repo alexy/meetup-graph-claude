@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+      "to": "event:bay-area-ai-240486931",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-240486931",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+      "to": "speaker:javier-luraschi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:javier-luraschi",
+      "to": "company:rstudio",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+      "to": "project:sparklyr",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+      "to": "project:mllib",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+      "to": "project:h2o",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+      "properties": {
+        "abstract": "This session covers what sparklyr is, and how it can be used to analyze, visualize and perform machine learning in Spark from R. Covers installation, configuration, data wrangling with SQL or dplyr, modeling in MLlib or H2O.",
+        "id": "bythebay-20170608-introduction-to-sparklyr-javier-luraschi",
+        "order": 0,
+        "title": "Introduction to Sparklyr"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-240486931",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2017-06-08",
+        "datetime": "2017-06-08T17:00:00+00:00",
+        "id": "240486931",
+        "title": "Deep Learning Breakfast with MXNet and Sparklyr",
+        "url": "https://www.meetup.com/bay-area-ai/events/240486931/",
+        "venue_address": "44 Tehama Street",
+        "venue_name": "Galvanize"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:javier-luraschi",
+      "properties": {
+        "bio": null,
+        "company": "RStudio",
+        "name": "Javier Luraschi",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:rstudio",
+      "properties": {
+        "name": "RStudio"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:sparklyr",
+      "properties": {
+        "github_url": "https://github.com/sparklyr/sparklyr",
+        "name": "sparklyr"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:mllib",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "MLlib"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:h2o",
+      "properties": {
+        "github_url": "https://github.com/h2oai/h2o-3",
+        "name": "H2O"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.930403+00:00",
+  "source_file": "source/bay-area-ai/240486931.html"
+}

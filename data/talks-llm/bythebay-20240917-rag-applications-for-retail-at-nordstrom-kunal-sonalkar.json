@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240917-rag-applications-for-retail-at-nordstrom-kunal-sonalkar",
+  "scraped_at": "2026-05-29T05:39:23.429555+00:00",
+  "source_file": "source/unstructured-data-sf/302334199.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240917-rag-applications-for-retail-at-nordstrom-kunal-sonalkar",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240917-rag-applications-for-retail-at-nordstrom-kunal-sonalkar",
+        "title": "RAG Applications for Retail at Nordstrom",
+        "abstract": "Building retrieval-augmented generation applications for retail use cases including product search and customer service at Nordstrom.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-302334199",
+      "type": "Event",
+      "properties": {
+        "id": "302334199",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "date": "2024-09-17",
+        "datetime": "2024-09-18T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334199/",
+        "venue_name": "SAP Building 1",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:kunal-sonalkar",
+      "type": "Speaker",
+      "properties": {
+        "name": "Kunal Sonalkar",
+        "role": "Data Scientist",
+        "company": "Nordstrom",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:nordstrom",
+      "type": "Company",
+      "properties": {
+        "name": "Nordstrom"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240917-rag-applications-for-retail-at-nordstrom-kunal-sonalkar",
+      "to": "event:unstructured-data-sf-302334199",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334199",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240917-rag-applications-for-retail-at-nordstrom-kunal-sonalkar",
+      "to": "speaker:kunal-sonalkar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:kunal-sonalkar",
+      "to": "company:nordstrom",
+      "type": "WORKS_AT"
+    }
+  ]
+}

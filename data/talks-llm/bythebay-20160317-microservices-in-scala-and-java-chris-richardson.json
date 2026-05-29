@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160317-microservices-in-scala-and-java-chris-richardson",
+      "to": "event:sf-scala-229155087",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-229155087",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160317-microservices-in-scala-and-java-chris-richardson",
+      "to": "speaker:chris-richardson",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:chris-richardson",
+      "to": "company:eventuate-io",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160317-microservices-in-scala-and-java-chris-richardson",
+      "to": "project:eventuate",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160317-microservices-in-scala-and-java-chris-richardson",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160317-microservices-in-scala-and-java-chris-richardson",
+      "properties": {
+        "abstract": "An overview of microservices architecture in Scala and Java, covering the Eventuate framework for building reliable microservices.",
+        "id": "bythebay-20160317-microservices-in-scala-and-java-chris-richardson",
+        "order": 0,
+        "title": "Microservices in Scala and Java"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-229155087",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-03-17",
+        "datetime": "2016-03-18T01:00:00+00:00",
+        "id": "229155087",
+        "title": "Microservices in Scala and Java",
+        "url": "https://www.meetup.com/sf-scala/events/229155087/",
+        "venue_address": "612 Howard Street Ste 100",
+        "venue_name": "Tradeshift"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:chris-richardson",
+      "properties": {
+        "bio": null,
+        "company": "Eventuate.io",
+        "name": "Chris Richardson",
+        "role": "founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:eventuate-io",
+      "properties": {
+        "name": "Eventuate.io"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:eventuate",
+      "properties": {
+        "github_url": "https://github.com/eventuate-tram/eventuate-tram-core",
+        "name": "Eventuate"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.449718+00:00",
+  "source_file": "source/sf-scala/229155087.html"
+}

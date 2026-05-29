@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170320-thinking-functionally-with-databases-jason-swartz",
+  "scraped_at": "2026-05-29T05:21:47.756049+00:00",
+  "source_file": "source/scala-bay/238419430.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170320-thinking-functionally-with-databases-jason-swartz",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170320-thinking-functionally-with-databases-jason-swartz",
+        "title": "Thinking Functionally with Databases",
+        "abstract": "As functional programmers, we embrace immutable collections and pure functions in our code. This talk looks at why and how to take a more functional approach to persistence with databases, from managing connections to using immutable table rows and event-source persistence.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-238419430",
+      "type": "Event",
+      "properties": {
+        "id": "238419430",
+        "title": "Jason Swartz, Thinking Functionally with Databases",
+        "date": "2017-03-20",
+        "datetime": "2017-03-21T01:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/238419430/",
+        "venue_name": "Current place: GlobalLogic",
+        "venue_address": "1741 Technology Dr, Level 4",
+        "city": "San Jose"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:jason-swartz",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jason Swartz",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170320-thinking-functionally-with-databases-jason-swartz",
+      "to": "event:scala-bay-238419430",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-238419430",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170320-thinking-functionally-with-databases-jason-swartz",
+      "to": "speaker:jason-swartz",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

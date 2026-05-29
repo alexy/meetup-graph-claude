@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20190502-aperturedata-managing-visual-data-for-machine-vishakha-gupta",
+  "scraped_at": "2026-05-29T04:53:39.932795+00:00",
+  "source_file": "source/bay-area-ai/260707660.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190502-aperturedata-managing-visual-data-for-machine-vishakha-gupta",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20190502-aperturedata-managing-visual-data-for-machine-vishakha-gupta",
+        "title": "ApertureData: Managing Visual Data for Machine Learning",
+        "abstract": "ApertureData's platform accelerates AI applications through its Data Management solution that redefines how large visual data sets are stored, searched and processed. It exposes a unified interface for storing and searching both the data and metadata associated with visual artifacts.",
+        "order": 2
+      }
+    },
+    {
+      "id": "event:bay-area-ai-260707660",
+      "type": "Event",
+      "properties": {
+        "id": "260707660",
+        "title": "Applied Machine Learning: a Netflix Production, Deep Recommendations at Twitch",
+        "date": "2019-05-02",
+        "datetime": "2019-05-03T01:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/260707660/",
+        "venue_name": "Twitch",
+        "venue_address": "348 Bush St.",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:vishakha-gupta",
+      "type": "Speaker",
+      "properties": {
+        "name": "Vishakha Gupta",
+        "role": "Founder and CEO",
+        "company": "ApertureData",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:aperturedata",
+      "type": "Company",
+      "properties": {
+        "name": "ApertureData"
+      }
+    },
+    {
+      "id": "project:vdms",
+      "type": "Project",
+      "properties": {
+        "name": "VDMS",
+        "github_url": "https://github.com/IntelLabs/vdms"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20190502-aperturedata-managing-visual-data-for-machine-vishakha-gupta",
+      "to": "event:bay-area-ai-260707660",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-260707660",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190502-aperturedata-managing-visual-data-for-machine-vishakha-gupta",
+      "to": "speaker:vishakha-gupta",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:vishakha-gupta",
+      "to": "company:aperturedata",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20190502-aperturedata-managing-visual-data-for-machine-vishakha-gupta",
+      "to": "project:vdms",
+      "type": "MENTIONS"
+    }
+  ]
+}

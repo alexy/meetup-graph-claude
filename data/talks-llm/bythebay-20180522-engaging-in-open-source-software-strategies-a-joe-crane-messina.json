@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20180522-engaging-in-open-source-software-strategies-a-joe-crane-messina",
+  "scraped_at": "2026-05-29T05:07:12.325548+00:00",
+  "source_file": "source/big-data-developers-in-nyc/250718279.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180522-engaging-in-open-source-software-strategies-a-joe-crane-messina",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20180522-engaging-in-open-source-software-strategies-a-joe-crane-messina",
+        "title": "Engaging in Open Source Software: Strategies and Personal Eminence",
+        "abstract": "Panel discussing open source adoption by individuals and institutions, the importance of developing incentives and policies to manage open source internally, and guidelines for participating in external open source projects.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-250718279",
+      "type": "Event",
+      "properties": {
+        "id": "250718279",
+        "title": "Engaging in Open Source Software",
+        "date": "2018-05-22",
+        "datetime": "2018-05-22T22:30:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/250718279/",
+        "venue_name": "IBM",
+        "venue_address": "51 ASTOR PLACE",
+        "city": "New York"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:joe-crane-messina",
+      "type": "Speaker",
+      "properties": {
+        "name": "Joe Crane-Messina",
+        "role": "NYC Lead Developer Advocate",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    },
+    {
+      "id": "speaker:augustina-ragwitz",
+      "type": "Speaker",
+      "properties": {
+        "name": "Augustina Ragwitz",
+        "role": "Open Tech Lead",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    },
+    {
+      "id": "speaker:jennifer-skeivik",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jennifer Skeivik",
+        "role": null,
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20180522-engaging-in-open-source-software-strategies-a-joe-crane-messina",
+      "to": "event:big-data-developers-in-nyc-250718279",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-250718279",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180522-engaging-in-open-source-software-strategies-a-joe-crane-messina",
+      "to": "speaker:joe-crane-messina",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:joe-crane-messina",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20180522-engaging-in-open-source-software-strategies-a-joe-crane-messina",
+      "to": "speaker:augustina-ragwitz",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:augustina-ragwitz",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20180522-engaging-in-open-source-software-strategies-a-joe-crane-messina",
+      "to": "speaker:jennifer-skeivik",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jennifer-skeivik",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    }
+  ]
+}

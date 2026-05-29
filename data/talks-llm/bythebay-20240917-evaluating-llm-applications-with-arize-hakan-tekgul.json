@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240917-evaluating-llm-applications-with-arize-hakan-tekgul",
+      "to": "event:unstructured-data-sf-302334199",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334199",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240917-evaluating-llm-applications-with-arize-hakan-tekgul",
+      "to": "speaker:hakan-tekgul",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:hakan-tekgul",
+      "to": "company:arize",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240917-evaluating-llm-applications-with-arize-hakan-tekgul",
+      "to": "project:arize-ai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240917-evaluating-llm-applications-with-arize-hakan-tekgul",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240917-evaluating-llm-applications-with-arize-hakan-tekgul",
+      "properties": {
+        "abstract": "How to evaluate and monitor LLM application performance in production using Arize's observability platform.",
+        "id": "bythebay-20240917-evaluating-llm-applications-with-arize-hakan-tekgul",
+        "order": 2,
+        "title": "Evaluating LLM Applications with Arize"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-302334199",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-09-17",
+        "datetime": "2024-09-18T00:30:00+00:00",
+        "id": "302334199",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334199/",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "venue_name": "SAP Building 1"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:hakan-tekgul",
+      "properties": {
+        "bio": null,
+        "company": "Arize",
+        "name": "Hakan Tekgul",
+        "role": "Solutions Architect"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:arize",
+      "properties": {
+        "name": "Arize"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:arize-ai",
+      "properties": {
+        "github_url": "https://github.com/Arize-ai/phoenix",
+        "name": "Arize AI"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.429657+00:00",
+  "source_file": "source/unstructured-data-sf/302334199.html"
+}

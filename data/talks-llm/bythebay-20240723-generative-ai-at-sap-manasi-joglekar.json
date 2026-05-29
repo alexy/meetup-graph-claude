@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240723-generative-ai-at-sap-manasi-joglekar",
+  "scraped_at": "2026-05-29T05:39:23.428954+00:00",
+  "source_file": "source/unstructured-data-sf/301978598.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240723-generative-ai-at-sap-manasi-joglekar",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240723-generative-ai-at-sap-manasi-joglekar",
+        "title": "Generative AI at SAP",
+        "abstract": "Building enterprise generative AI applications at SAP, integrating LLMs with business data and processes.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-301978598",
+      "type": "Event",
+      "properties": {
+        "id": "301978598",
+        "title": "Unstructured Data Meetup - South Bay Edition",
+        "date": "2024-07-23",
+        "datetime": "2024-07-24T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/301978598/",
+        "venue_name": "3412 Hillview Ave",
+        "venue_address": "3412 Hillview Ave",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:manasi-joglekar",
+      "type": "Speaker",
+      "properties": {
+        "name": "Manasi Joglekar",
+        "role": "Software Engineer",
+        "company": "SAP",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:sap",
+      "type": "Company",
+      "properties": {
+        "name": "SAP"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240723-generative-ai-at-sap-manasi-joglekar",
+      "to": "event:unstructured-data-sf-301978598",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-301978598",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240723-generative-ai-at-sap-manasi-joglekar",
+      "to": "speaker:manasi-joglekar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:manasi-joglekar",
+      "to": "company:sap",
+      "type": "WORKS_AT"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20180911-project-egeria-open-metadata-for-data-governa-mandy-chessell",
+      "to": "event:big-data-developers-in-nyc-253974350",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-253974350",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180911-project-egeria-open-metadata-for-data-governa-mandy-chessell",
+      "to": "speaker:mandy-chessell",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:mandy-chessell",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20180911-project-egeria-open-metadata-for-data-governa-mandy-chessell",
+      "to": "project:egeria",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20180911-project-egeria-open-metadata-for-data-governa-mandy-chessell",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180911-project-egeria-open-metadata-for-data-governa-mandy-chessell",
+      "properties": {
+        "abstract": "Project Egeria is a new initiative supporting the flow of metadata between different technologies and tools, enabling organizations to locate, manage and use their data more effectively. Automating data governance becomes simpler with this open source project.",
+        "id": "bythebay-20180911-project-egeria-open-metadata-for-data-governa-mandy-chessell",
+        "order": 1,
+        "title": "Project Egeria — Open Metadata for Data Governance"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-253974350",
+      "properties": {
+        "city": "New York",
+        "date": "2018-09-11",
+        "datetime": "2018-09-11T22:00:00+00:00",
+        "id": "253974350",
+        "title": "Managing Your Metadata with Project Egeria ",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/253974350/",
+        "venue_address": "1133 6th Ave,",
+        "venue_name": "ING"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mandy-chessell",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Mandy Chessell",
+        "role": "Distinguished Engineer, Master Inventor"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:egeria",
+      "properties": {
+        "github_url": "https://github.com/odpi/egeria",
+        "name": "Egeria"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.325980+00:00",
+  "source_file": "source/big-data-developers-in-nyc/253974350.html"
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+  "scraped_at": "2026-05-29T04:53:39.930271+00:00",
+  "source_file": "source/bay-area-ai/240457597.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+        "title": "The Future of Cognitive Frameworks for Business: Industry Lightning Talks",
+        "abstract": "Lightning talks from industry leaders at IBM, Mesosphere, Salesforce, Cisco, Lightbend, Nitro, and NVIDIA on cognitive infrastructure, cognitive products, and the ecosystem around cognitive business.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:bay-area-ai-240457597",
+      "type": "Event",
+      "properties": {
+        "id": "240457597",
+        "title": "The Future of Cognitive Frameworks for Business",
+        "date": "2017-06-07",
+        "datetime": "2017-06-07T23:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/240457597/",
+        "venue_name": "IBM Watson",
+        "venue_address": "505 Howard Street",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:willie-tejada",
+      "type": "Speaker",
+      "properties": {
+        "name": "Willie Tejada",
+        "role": "Chief Developer Advocate",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    },
+    {
+      "id": "speaker:joel-horwitz",
+      "type": "Speaker",
+      "properties": {
+        "name": "Joel Horwitz",
+        "role": "VP of Strategic Partnerships",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    },
+    {
+      "id": "speaker:neil-gehani",
+      "type": "Speaker",
+      "properties": {
+        "name": "Neil Gehani",
+        "role": "Product Manager",
+        "company": "Mesosphere",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:mesosphere",
+      "type": "Company",
+      "properties": {
+        "name": "Mesosphere"
+      }
+    },
+    {
+      "id": "speaker:simon-chan",
+      "type": "Speaker",
+      "properties": {
+        "name": "Simon Chan",
+        "role": "Senior Director, Product Management",
+        "company": "Salesforce",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:salesforce",
+      "type": "Company",
+      "properties": {
+        "name": "Salesforce"
+      }
+    },
+    {
+      "id": "speaker:jose-de-castro",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jose de Castro",
+        "role": "CTO for APIs and Integrations",
+        "company": "Cisco",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:cisco",
+      "type": "Company",
+      "properties": {
+        "name": "Cisco"
+      }
+    },
+    {
+      "id": "speaker:brad-murdoch",
+      "type": "Speaker",
+      "properties": {
+        "name": "Brad Murdoch",
+        "role": "VP, Corporate & Business Development",
+        "company": "Lightbend",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:lightbend",
+      "type": "Company",
+      "properties": {
+        "name": "Lightbend"
+      }
+    },
+    {
+      "id": "speaker:devin-loftis",
+      "type": "Speaker",
+      "properties": {
+        "name": "Devin Loftis",
+        "role": "Director, Platform Engineering",
+        "company": "Nitro",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:nitro",
+      "type": "Company",
+      "properties": {
+        "name": "Nitro"
+      }
+    },
+    {
+      "id": "speaker:william-ramey",
+      "type": "Speaker",
+      "properties": {
+        "name": "William Ramey",
+        "role": "Director, Developer Programs",
+        "company": "NVIDIA",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:nvidia",
+      "type": "Company",
+      "properties": {
+        "name": "NVIDIA"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "event:bay-area-ai-240457597",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-240457597",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:willie-tejada",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:willie-tejada",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:joel-horwitz",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:joel-horwitz",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:neil-gehani",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:neil-gehani",
+      "to": "company:mesosphere",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:simon-chan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:simon-chan",
+      "to": "company:salesforce",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:jose-de-castro",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jose-de-castro",
+      "to": "company:cisco",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:brad-murdoch",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:brad-murdoch",
+      "to": "company:lightbend",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:devin-loftis",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:devin-loftis",
+      "to": "company:nitro",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170607-the-future-of-cognitive-frameworks-for-busine-willie-tejada",
+      "to": "speaker:william-ramey",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:william-ramey",
+      "to": "company:nvidia",
+      "type": "WORKS_AT"
+    }
+  ]
+}

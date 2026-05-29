@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250320-building-an-agent-to-reason-about-private-dat-stefan-webb",
+      "to": "event:unstructured-data-sf-306180969",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-306180969",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250320-building-an-agent-to-reason-about-private-dat-stefan-webb",
+      "to": "speaker:stefan-webb",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:stefan-webb",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250320-building-an-agent-to-reason-about-private-dat-stefan-webb",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20250320-building-an-agent-to-reason-about-private-dat-stefan-webb",
+      "to": "project:openai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250320-building-an-agent-to-reason-about-private-dat-stefan-webb",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250320-building-an-agent-to-reason-about-private-dat-stefan-webb",
+      "properties": {
+        "abstract": "Hands-on tutorial: building an AI agent that reasons about private enterprise data using OpenAI models and Milvus for vector storage.",
+        "id": "bythebay-20250320-building-an-agent-to-reason-about-private-dat-stefan-webb",
+        "order": 1,
+        "title": "Building an Agent to Reason About Private Data with OpenAI and Milvus"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-306180969",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2025-03-20",
+        "datetime": "2025-03-21T00:30:00+00:00",
+        "id": "306180969",
+        "title": "Unstructured Data Workshop with Milvus and OpenAI",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/306180969/",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "venue_name": "SAP Building 1"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:stefan-webb",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Stefan Webb",
+        "role": "Research Scientist"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:openai",
+      "properties": {
+        "github_url": null,
+        "name": "OpenAI"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.432857+00:00",
+  "source_file": "source/unstructured-data-sf/306180969.html"
+}

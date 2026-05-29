@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230927-cambioml-unstructured-data-processing-rachel-hu",
+      "to": "event:unstructured-data-sf-295803056",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-295803056",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230927-cambioml-unstructured-data-processing-rachel-hu",
+      "to": "speaker:rachel-hu",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:rachel-hu",
+      "to": "company:cambioml",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230927-cambioml-unstructured-data-processing-rachel-hu",
+      "to": "project:cambioml",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230927-cambioml-unstructured-data-processing-rachel-hu",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230927-cambioml-unstructured-data-processing-rachel-hu",
+      "properties": {
+        "abstract": "How CambioML processes and extracts structured information from unstructured documents for LLM applications.",
+        "id": "bythebay-20230927-cambioml-unstructured-data-processing-rachel-hu",
+        "order": 1,
+        "title": "CambioML: Unstructured Data Processing"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-295803056",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-09-27",
+        "datetime": "2023-09-28T00:30:00+00:00",
+        "id": "295803056",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/295803056/",
+        "venue_address": "1974 Union St",
+        "venue_name": "1974 Union St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:rachel-hu",
+      "properties": {
+        "bio": null,
+        "company": "CambioML",
+        "name": "Rachel Hu",
+        "role": "Founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cambioml",
+      "properties": {
+        "name": "CambioML"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:cambioml",
+      "properties": {
+        "github_url": "https://github.com/CambioML/pykoi",
+        "name": "CambioML"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.425310+00:00",
+  "source_file": "source/unstructured-data-sf/295803056.html"
+}

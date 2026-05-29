@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20180329-bazel-build-system-ulf-adams",
+      "to": "event:bay-area-ai-248985548",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-248985548",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20180329-bazel-build-system-ulf-adams",
+      "to": "speaker:ulf-adams",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:ulf-adams",
+      "to": "company:google",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20180329-bazel-build-system-ulf-adams",
+      "to": "project:bazel",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20180329-bazel-build-system-ulf-adams",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20180329-bazel-build-system-ulf-adams",
+      "properties": {
+        "abstract": "An overview of the Bazel build tool, its focus on reproducibility, and how it enables build caching which can dramatically lower CI times.",
+        "id": "bythebay-20180329-bazel-build-system-ulf-adams",
+        "order": 1,
+        "title": "Bazel Build System"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-248985548",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2018-03-29",
+        "datetime": "2018-03-30T01:00:00+00:00",
+        "id": "248985548",
+        "title": "Reproducible Machine Learning with Oscar Boykin",
+        "url": "https://www.meetup.com/bay-area-ai/events/248985548/",
+        "venue_address": "875 Stevenson St",
+        "venue_name": "Tbd"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:ulf-adams",
+      "properties": {
+        "bio": null,
+        "company": "Google",
+        "name": "Ulf Adams",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:google",
+      "properties": {
+        "name": "Google"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:bazel",
+      "properties": {
+        "github_url": "https://github.com/bazelbuild/bazel",
+        "name": "Bazel"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.931776+00:00",
+  "source_file": "source/bay-area-ai/248985548.html"
+}

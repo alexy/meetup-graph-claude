@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250422-search-retrieval-training-and-analytics-with-chang-she",
+      "to": "event:scala-bay-306928356",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-306928356",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250422-search-retrieval-training-and-analytics-with-chang-she",
+      "to": "speaker:chang-she",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:chang-she",
+      "to": "company:lancedb",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250422-search-retrieval-training-and-analytics-with-chang-she",
+      "to": "project:lancedb",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20250422-search-retrieval-training-and-analytics-with-chang-she",
+      "to": "project:pandas",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250422-search-retrieval-training-and-analytics-with-chang-she",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250422-search-retrieval-training-and-analytics-with-chang-she",
+      "properties": {
+        "abstract": "The next generation of AI data lakes with efficient vector search, optimized training pipelines, and integrated analytics. Presents LanceDB's approach to managing large-scale multimodal datasets for machine learning workflows.",
+        "id": "bythebay-20250422-search-retrieval-training-and-analytics-with-chang-she",
+        "order": 1,
+        "title": "Search, Retrieval, Training, and Analytics with Modern AI Data Lake"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-306928356",
+      "properties": {
+        "city": null,
+        "date": "2025-04-22",
+        "datetime": "2025-04-23T00:30:00+00:00",
+        "id": "306928356",
+        "title": "Solving Scala's Build Problem with the Mill Build Tool By Li Haoyi",
+        "url": "https://www.meetup.com/scala-bay/events/306928356/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:chang-she",
+      "properties": {
+        "bio": null,
+        "company": "LanceDB",
+        "name": "Chang She",
+        "role": "CEO and co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:lancedb",
+      "properties": {
+        "name": "LanceDB"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:lancedb",
+      "properties": {
+        "github_url": "https://github.com/lancedb/lancedb",
+        "name": "LanceDB"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:pandas",
+      "properties": {
+        "github_url": "https://github.com/pandas-dev/pandas",
+        "name": "pandas"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.761716+00:00",
+  "source_file": "source/scala-bay/306928356.html"
+}

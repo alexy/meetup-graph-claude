@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20250925-building-a-deep-research-agent-using-mcp-agen-andrew-hoh",
+  "scraped_at": "2026-05-29T05:07:12.327755+00:00",
+  "source_file": "source/big-data-developers-in-nyc/311169111.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250925-building-a-deep-research-agent-using-mcp-agen-andrew-hoh",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20250925-building-a-deep-research-agent-using-mcp-agen-andrew-hoh",
+        "title": "Building a Deep Research Agent Using MCP-Agent",
+        "abstract": "Deep Research architectures require core components for production readiness. This session shares the core architecture for a Deep Research Agent and how these components influence agent behavior using LastMile AI's MCP-Agent framework.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-311169111",
+      "type": "Event",
+      "properties": {
+        "id": "311169111",
+        "title": "[AI Alliance] Building a Deep Research Agent Using MCP-Agent",
+        "date": "2025-09-25",
+        "datetime": "2025-09-25T16:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/311169111/",
+        "venue_name": "Online event",
+        "venue_address": "",
+        "city": ""
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:andrew-hoh",
+      "type": "Speaker",
+      "properties": {
+        "name": "Andrew Hoh",
+        "role": "co-founder and CPO",
+        "company": "LastMile AI",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:lastmile-ai",
+      "type": "Company",
+      "properties": {
+        "name": "LastMile AI"
+      }
+    },
+    {
+      "id": "project:mcp-agent",
+      "type": "Project",
+      "properties": {
+        "name": "MCP-Agent",
+        "github_url": "https://github.com/lastmile-ai/mcp-agent"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20250925-building-a-deep-research-agent-using-mcp-agen-andrew-hoh",
+      "to": "event:big-data-developers-in-nyc-311169111",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-311169111",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250925-building-a-deep-research-agent-using-mcp-agen-andrew-hoh",
+      "to": "speaker:andrew-hoh",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:andrew-hoh",
+      "to": "company:lastmile-ai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250925-building-a-deep-research-agent-using-mcp-agen-andrew-hoh",
+      "to": "project:mcp-agent",
+      "type": "MENTIONS"
+    }
+  ]
+}

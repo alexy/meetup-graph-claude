@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140227-scalajs-writing-games-in-scala-that-run-as-ja-li-haoyi",
+      "to": "event:sf-scala-165084672",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-165084672",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140227-scalajs-writing-games-in-scala-that-run-as-ja-li-haoyi",
+      "to": "speaker:li-haoyi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20140227-scalajs-writing-games-in-scala-that-run-as-ja-li-haoyi",
+      "to": "project:scala-js",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140227-scalajs-writing-games-in-scala-that-run-as-ja-li-haoyi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140227-scalajs-writing-games-in-scala-that-run-as-ja-li-haoyi",
+      "properties": {
+        "abstract": "The state of the art in Scala.js and how it can be used to easily write games and applications in Scala that run as JavaScript in the browser.",
+        "id": "bythebay-20140227-scalajs-writing-games-in-scala-that-run-as-ja-li-haoyi",
+        "order": 1,
+        "title": "ScalaJS: Writing Games in Scala that Run as JavaScript"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-165084672",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-02-27",
+        "datetime": "2014-02-28T02:30:00+00:00",
+        "id": "165084672",
+        "title": "Akka at Ooyala and Scala.js",
+        "url": "https://www.meetup.com/sf-scala/events/165084672/",
+        "venue_address": "301 Brannan Street",
+        "venue_name": "StumbleUpon SF"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:li-haoyi",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Li Haoyi",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:scala-js",
+      "properties": {
+        "github_url": "https://github.com/scala-js/scala-js",
+        "name": "Scala.js"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.446489+00:00",
+  "source_file": "source/sf-scala/165084672.html"
+}

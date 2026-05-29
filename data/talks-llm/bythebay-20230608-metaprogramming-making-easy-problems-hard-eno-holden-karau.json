@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230608-metaprogramming-making-easy-problems-hard-eno-holden-karau",
+      "to": "event:scala-bay-293127928",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-293127928",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230608-metaprogramming-making-easy-problems-hard-eno-holden-karau",
+      "to": "speaker:holden-karau",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20230608-metaprogramming-making-easy-problems-hard-eno-holden-karau",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230608-metaprogramming-making-easy-problems-hard-eno-holden-karau",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230608-metaprogramming-making-easy-problems-hard-eno-holden-karau",
+      "properties": {
+        "abstract": "How to automate upgrades from legacy systems using Scala metaprogramming with Spark & Friends. A tongue-in-cheek look at when making easy problems hard is actually beneficial.",
+        "id": "bythebay-20230608-metaprogramming-making-easy-problems-hard-eno-holden-karau",
+        "order": 1,
+        "title": "Metaprogramming: Making Easy Problems Hard Enough to Get Promoted"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-293127928",
+      "properties": {
+        "city": "Oakland",
+        "date": "2023-06-08",
+        "datetime": "2023-06-09T00:00:00+00:00",
+        "id": "293127928",
+        "title": "ducktape -- Scala productivity + Holden Karau + Scala Center!",
+        "url": "https://www.meetup.com/scala-bay/events/293127928/",
+        "venue_address": "1999 Harrison St Suite 1100",
+        "venue_name": "LaunchDarkly"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:holden-karau",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Holden Karau",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.761025+00:00",
+  "source_file": "source/scala-bay/293127928.html"
+}

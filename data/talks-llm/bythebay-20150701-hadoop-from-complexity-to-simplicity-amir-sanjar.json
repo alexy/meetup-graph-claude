@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150701-hadoop-from-complexity-to-simplicity-amir-sanjar",
+      "to": "event:hadoopsf-222870784",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-222870784",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150701-hadoop-from-complexity-to-simplicity-amir-sanjar",
+      "to": "speaker:amir-sanjar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:amir-sanjar",
+      "to": "company:canonical",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150701-hadoop-from-complexity-to-simplicity-amir-sanjar",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150701-hadoop-from-complexity-to-simplicity-amir-sanjar",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150701-hadoop-from-complexity-to-simplicity-amir-sanjar",
+      "properties": {
+        "abstract": "Big data architectures should not mean long and complex setup and operations. This talk discusses how to simplify Hadoop deployment and operations to make big data architectures more accessible.",
+        "id": "bythebay-20150701-hadoop-from-complexity-to-simplicity-amir-sanjar",
+        "order": 0,
+        "title": "Hadoop: From Complexity to Simplicity"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-222870784",
+      "properties": {
+        "city": "94104",
+        "date": "2015-07-01",
+        "datetime": "2015-07-02T01:00:00+00:00",
+        "id": "222870784",
+        "title": "July 2015 Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/222870784/",
+        "venue_address": "433 California St, 11th floor",
+        "venue_name": "Cloudera"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:amir-sanjar",
+      "properties": {
+        "bio": null,
+        "company": "Canonical",
+        "name": "Amir Sanjar",
+        "role": "Senior Big Data Development Lead"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:canonical",
+      "properties": {
+        "name": "Canonical"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.372669+00:00",
+  "source_file": "source/hadoopsf/222870784.html"
+}

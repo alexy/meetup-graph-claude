@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150311-privilege-isolation-in-docker-containers-dinesh-subhraveti",
+      "to": "event:hadoopsf-219155223",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-219155223",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150311-privilege-isolation-in-docker-containers-dinesh-subhraveti",
+      "to": "speaker:dinesh-subhraveti",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:dinesh-subhraveti",
+      "to": "company:altiscale",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150311-privilege-isolation-in-docker-containers-dinesh-subhraveti",
+      "to": "project:docker",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150311-privilege-isolation-in-docker-containers-dinesh-subhraveti",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150311-privilege-isolation-in-docker-containers-dinesh-subhraveti",
+      "properties": {
+        "abstract": "Containers are a fundamentally different form of virtualization designed to directly virtualize applications. The absence of a guest OS layer makes containers extremely lightweight, with almost imperceptible runtime overhead. This talk covers privilege isolation techniques in Docker containers.",
+        "id": "bythebay-20150311-privilege-isolation-in-docker-containers-dinesh-subhraveti",
+        "order": 0,
+        "title": "Privilege Isolation in Docker Containers"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-219155223",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-03-11",
+        "datetime": "2015-03-12T01:00:00+00:00",
+        "id": "219155223",
+        "title": "March SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/219155223/",
+        "venue_address": "612 Howard Street Suite 300",
+        "venue_name": "Splice Machine"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:dinesh-subhraveti",
+      "properties": {
+        "bio": null,
+        "company": "Altiscale",
+        "name": "Dinesh Subhraveti",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:altiscale",
+      "properties": {
+        "name": "Altiscale"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:docker",
+      "properties": {
+        "github_url": "https://github.com/moby/moby",
+        "name": "Docker"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.372411+00:00",
+  "source_file": "source/hadoopsf/219155223.html"
+}

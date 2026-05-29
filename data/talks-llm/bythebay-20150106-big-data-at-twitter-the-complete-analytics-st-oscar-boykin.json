@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+      "to": "event:sf-scala-219387962",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-219387962",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+      "to": "speaker:oscar-boykin",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:oscar-boykin",
+      "to": "company:twitter",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+      "to": "speaker:avi-bryant",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:avi-bryant",
+      "to": "company:twitter",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+      "to": "project:scalding",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+      "to": "project:summingbird",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+      "properties": {
+        "abstract": "The whole analytics stack from Twitter explained, from data collection to processing to analysis, featuring the open-source projects Oscar Boykin and Avi Bryant created to power Twitter's data infrastructure.",
+        "id": "bythebay-20150106-big-data-at-twitter-the-complete-analytics-st-oscar-boykin",
+        "order": 0,
+        "title": "Big Data at Twitter: The Complete Analytics Stack"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-219387962",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-01-06",
+        "datetime": "2015-01-07T02:00:00+00:00",
+        "id": "219387962",
+        "title": "Big Data Scala at Twitter: use Eventbrite",
+        "url": "https://www.meetup.com/sf-scala/events/219387962/",
+        "venue_address": "1355 Market St",
+        "venue_name": "Twitter"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:oscar-boykin",
+      "properties": {
+        "bio": null,
+        "company": "Twitter",
+        "name": "Oscar Boykin",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:twitter",
+      "properties": {
+        "name": "Twitter"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:avi-bryant",
+      "properties": {
+        "bio": null,
+        "company": "Twitter",
+        "name": "Avi Bryant",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:twitter",
+      "properties": {
+        "name": "Twitter"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scalding",
+      "properties": {
+        "github_url": "https://github.com/twitter/scalding",
+        "name": "Scalding"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:summingbird",
+      "properties": {
+        "github_url": "https://github.com/twitter/summingbird",
+        "name": "Summingbird"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.448611+00:00",
+  "source_file": "source/sf-scala/219387962.html"
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150917-soa-on-steroids-with-akka-david-bolene",
+      "to": "event:scala-bay-225107412",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-225107412",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150917-soa-on-steroids-with-akka-david-bolene",
+      "to": "speaker:david-bolene",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:david-bolene",
+      "to": "company:comcast",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150917-soa-on-steroids-with-akka-david-bolene",
+      "to": "project:akka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150917-soa-on-steroids-with-akka-david-bolene",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150917-soa-on-steroids-with-akka-david-bolene",
+      "properties": {
+        "abstract": "Building a Service-Oriented Architecture on Akka for high-performance, scalable microservices at Comcast.",
+        "id": "bythebay-20150917-soa-on-steroids-with-akka-david-bolene",
+        "order": 1,
+        "title": "SOA on Steroids with Akka"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-225107412",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2015-09-17",
+        "datetime": "2015-09-18T01:30:00+00:00",
+        "id": "225107412",
+        "title": "Akka at Comcast: SOA on Steroids",
+        "url": "https://www.meetup.com/scala-bay/events/225107412/",
+        "venue_address": "1050 Enterprise Way",
+        "venue_name": "Comcast"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:david-bolene",
+      "properties": {
+        "bio": null,
+        "company": "Comcast",
+        "name": "David Bolene",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:comcast",
+      "properties": {
+        "name": "Comcast"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:akka",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.754251+00:00",
+  "source_file": "source/scala-bay/225107412.html"
+}

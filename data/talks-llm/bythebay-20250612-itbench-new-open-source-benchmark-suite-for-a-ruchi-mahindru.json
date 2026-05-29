@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250612-itbench-new-open-source-benchmark-suite-for-a-ruchi-mahindru",
+      "to": "event:big-data-developers-in-nyc-308436218",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-308436218",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250612-itbench-new-open-source-benchmark-suite-for-a-ruchi-mahindru",
+      "to": "speaker:ruchi-mahindru",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:ruchi-mahindru",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250612-itbench-new-open-source-benchmark-suite-for-a-ruchi-mahindru",
+      "to": "project:itbench",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250612-itbench-new-open-source-benchmark-suite-for-a-ruchi-mahindru",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250612-itbench-new-open-source-benchmark-suite-for-a-ruchi-mahindru",
+      "properties": {
+        "abstract": "ITBench is a new open-source benchmark suite designed to evaluate AI agents in real-world IT environments across SRE, FinOps, and Compliance & Security Operations. The ITBench SaaS offering covers the entire workflow from environment deployment to agent evaluations.",
+        "id": "bythebay-20250612-itbench-new-open-source-benchmark-suite-for-a-ruchi-mahindru",
+        "order": 0,
+        "title": "ITBench — New Open-Source Benchmark Suite for AI Agents"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-308436218",
+      "properties": {
+        "city": "",
+        "date": "2025-06-12",
+        "datetime": "2025-06-12T16:00:00+00:00",
+        "id": "308436218",
+        "title": "[AI Alliance] ITBench - New Open-Source Benchmark Suite for AI Agents",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/308436218/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:ruchi-mahindru",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Ruchi Mahindru",
+        "role": "Distinguished Engineer and Master Inventor"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:itbench",
+      "properties": {
+        "github_url": "https://github.com/itbench-hub/ITBench",
+        "name": "ITBench"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.327475+00:00",
+  "source_file": "source/big-data-developers-in-nyc/308436218.html"
+}

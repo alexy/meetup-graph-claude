@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20231114-computer-vision-and-vector-search-with-fiftyo-jacob-marks",
+      "to": "event:unstructured-data-sf-296321063",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-296321063",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231114-computer-vision-and-vector-search-with-fiftyo-jacob-marks",
+      "to": "speaker:jacob-marks",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jacob-marks",
+      "to": "company:voxel51",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20231114-computer-vision-and-vector-search-with-fiftyo-jacob-marks",
+      "to": "project:fiftyone",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20231114-computer-vision-and-vector-search-with-fiftyo-jacob-marks",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231114-computer-vision-and-vector-search-with-fiftyo-jacob-marks",
+      "properties": {
+        "abstract": "How to use Voxel51's FiftyOne for machine learning dataset curation, visualization, and building computer vision applications with vector search.",
+        "id": "bythebay-20231114-computer-vision-and-vector-search-with-fiftyo-jacob-marks",
+        "order": 1,
+        "title": "Computer Vision and Vector Search with FiftyOne"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-296321063",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-11-14",
+        "datetime": "2023-11-15T01:30:00+00:00",
+        "id": "296321063",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/296321063/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jacob-marks",
+      "properties": {
+        "bio": null,
+        "company": "Voxel51",
+        "name": "Jacob Marks",
+        "role": "MLE and Developer Evangelist"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:voxel51",
+      "properties": {
+        "name": "Voxel51"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:fiftyone",
+      "properties": {
+        "github_url": "https://github.com/voxel51/fiftyone",
+        "name": "FiftyOne"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.425829+00:00",
+  "source_file": "source/unstructured-data-sf/296321063.html"
+}

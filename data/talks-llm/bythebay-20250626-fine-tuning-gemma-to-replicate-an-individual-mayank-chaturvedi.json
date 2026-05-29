@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250626-fine-tuning-gemma-to-replicate-an-individual-mayank-chaturvedi",
+      "to": "event:bay-area-ai-308553764",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-308553764",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250626-fine-tuning-gemma-to-replicate-an-individual-mayank-chaturvedi",
+      "to": "speaker:mayank-chaturvedi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:mayank-chaturvedi",
+      "to": "company:google",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250626-fine-tuning-gemma-to-replicate-an-individual-mayank-chaturvedi",
+      "to": "project:gemma",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250626-fine-tuning-gemma-to-replicate-an-individual-mayank-chaturvedi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250626-fine-tuning-gemma-to-replicate-an-individual-mayank-chaturvedi",
+      "properties": {
+        "abstract": "Exploring how the Gemma model can be fine-tuned to emulate the personality and cognitive style of a specific individual.",
+        "id": "bythebay-20250626-fine-tuning-gemma-to-replicate-an-individual-mayank-chaturvedi",
+        "order": 0,
+        "title": "Fine-Tuning Gemma to Replicate an Individual's Personality"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-308553764",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-06-26",
+        "datetime": "2025-06-27T00:00:00+00:00",
+        "id": "308553764",
+        "title": "[Cross Posting] Gemma Developer Meetup (June 2025)",
+        "url": "https://www.meetup.com/bay-area-ai/events/308553764/",
+        "venue_address": "Downtown",
+        "venue_name": "San Francisco"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mayank-chaturvedi",
+      "properties": {
+        "bio": null,
+        "company": "Google",
+        "name": "Mayank Chaturvedi",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:google",
+      "properties": {
+        "name": "Google"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:gemma",
+      "properties": {
+        "github_url": "https://github.com/google-deepmind/gemma",
+        "name": "Gemma"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.232193+00:00",
+  "source_file": "source/bay-area-ai/308553764.html"
+}

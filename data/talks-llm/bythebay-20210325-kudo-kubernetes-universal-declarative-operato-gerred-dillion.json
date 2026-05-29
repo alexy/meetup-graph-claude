@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20210325-kudo-kubernetes-universal-declarative-operato-gerred-dillion",
+      "to": "event:bay-area-ai-277024081",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-277024081",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20210325-kudo-kubernetes-universal-declarative-operato-gerred-dillion",
+      "to": "speaker:gerred-dillion",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:gerred-dillion",
+      "to": "company:d2iq",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20210325-kudo-kubernetes-universal-declarative-operato-gerred-dillion",
+      "to": "project:kudo",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20210325-kudo-kubernetes-universal-declarative-operato-gerred-dillion",
+      "to": "project:kubernetes",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20210325-kudo-kubernetes-universal-declarative-operato-gerred-dillion",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20210325-kudo-kubernetes-universal-declarative-operato-gerred-dillion",
+      "properties": {
+        "abstract": "KUDO is a framework for rapidly building production-grade operators for complex, stateful services on Kubernetes, reducing the deep expertise needed for Kubernetes API development. This talk introduces operators and KUDO and demonstrates two production-ready operators.",
+        "id": "bythebay-20210325-kudo-kubernetes-universal-declarative-operato-gerred-dillion",
+        "order": 0,
+        "title": "KUDO: Kubernetes Universal Declarative Operator"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-277024081",
+      "properties": {
+        "city": "",
+        "date": "2021-03-25",
+        "datetime": "2021-03-25T23:00:00+00:00",
+        "id": "277024081",
+        "title": "KUDO for MLOps: Kubernetes Universal Declarative Operator",
+        "url": "https://www.meetup.com/bay-area-ai/events/277024081/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:gerred-dillion",
+      "properties": {
+        "bio": null,
+        "company": "D2IQ",
+        "name": "Gerred Dillion",
+        "role": "creator of KUDO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:d2iq",
+      "properties": {
+        "name": "D2IQ"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:kudo",
+      "properties": {
+        "github_url": "https://github.com/kudobuilder/kudo",
+        "name": "KUDO"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:kubernetes",
+      "properties": {
+        "github_url": "https://github.com/kubernetes/kubernetes",
+        "name": "Kubernetes"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.227697+00:00",
+  "source_file": "source/bay-area-ai/277024081.html"
+}

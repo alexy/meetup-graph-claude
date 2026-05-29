@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20241017-how-scala-is-made-and-how-you-can-help-krzysztof-romanowski",
+      "to": "event:scala-bay-303718227",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-303718227",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241017-how-scala-is-made-and-how-you-can-help-krzysztof-romanowski",
+      "to": "speaker:krzysztof-romanowski",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:krzysztof-romanowski",
+      "to": "company:virtuslab",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20241017-how-scala-is-made-and-how-you-can-help-krzysztof-romanowski",
+      "to": "project:scala-3",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20241017-how-scala-is-made-and-how-you-can-help-krzysztof-romanowski",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241017-how-scala-is-made-and-how-you-can-help-krzysztof-romanowski",
+      "properties": {
+        "abstract": "An inside look at how the Scala language is developed and maintained, covering the toolchain, build system, and ways the open-source community can contribute to the future of Scala.",
+        "id": "bythebay-20241017-how-scala-is-made-and-how-you-can-help-krzysztof-romanowski",
+        "order": 0,
+        "title": "How Scala is Made and How You Can Help"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-303718227",
+      "properties": {
+        "city": null,
+        "date": "2024-10-17",
+        "datetime": "2024-10-18T00:30:00+00:00",
+        "id": "303718227",
+        "title": "How Scala is made and how you can help?",
+        "url": "https://www.meetup.com/scala-bay/events/303718227/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:krzysztof-romanowski",
+      "properties": {
+        "bio": null,
+        "company": "VirtusLab",
+        "name": "Krzysztof Romanowski",
+        "role": "Head of Scala & Tooling"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:virtuslab",
+      "properties": {
+        "name": "VirtusLab"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scala-3",
+      "properties": {
+        "github_url": "https://github.com/scala/scala",
+        "name": "Scala 3"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.761248+00:00",
+  "source_file": "source/scala-bay/303718227.html"
+}

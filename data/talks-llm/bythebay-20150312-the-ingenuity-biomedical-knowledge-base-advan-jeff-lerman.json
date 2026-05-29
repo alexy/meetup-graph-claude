@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20150312-the-ingenuity-biomedical-knowledge-base-advan-jeff-lerman",
+  "scraped_at": "2026-05-29T04:53:39.927367+00:00",
+  "source_file": "source/bay-area-ai/220718220.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150312-the-ingenuity-biomedical-knowledge-base-advan-jeff-lerman",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20150312-the-ingenuity-biomedical-knowledge-base-advan-jeff-lerman",
+        "title": "The Ingenuity Biomedical Knowledge-Base: Advantages of Modeling Knowledge in an Ontology",
+        "abstract": "Ingenuity Systems provides software solutions to interpret biological datasets. By aligning customer data to the Ingenuity Knowedgebase, datasets can be viewed and analyzed in the context of relevant biological and biomedical knowledge. The Ingenuity KB is represented as a frame-based ontology facilitating inference and testing functionality.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:bay-area-ai-220718220",
+      "type": "Event",
+      "properties": {
+        "id": "220718220",
+        "title": "Ontologies",
+        "date": "2015-03-12",
+        "datetime": "2015-03-13T01:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/220718220/",
+        "venue_name": "Groupon",
+        "venue_address": "225 Bush St., 13th floor",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:jeff-lerman",
+      "type": "Speaker",
+      "properties": {
+        "name": "Jeff Lerman",
+        "role": null,
+        "company": "QIAGEN",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:qiagen",
+      "type": "Company",
+      "properties": {
+        "name": "QIAGEN"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20150312-the-ingenuity-biomedical-knowledge-base-advan-jeff-lerman",
+      "to": "event:bay-area-ai-220718220",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-220718220",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150312-the-ingenuity-biomedical-knowledge-base-advan-jeff-lerman",
+      "to": "speaker:jeff-lerman",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jeff-lerman",
+      "to": "company:qiagen",
+      "type": "WORKS_AT"
+    }
+  ]
+}

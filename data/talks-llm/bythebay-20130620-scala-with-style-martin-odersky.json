@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20130620-scala-with-style-martin-odersky",
+      "to": "event:sf-scala-120367992",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-120367992",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130620-scala-with-style-martin-odersky",
+      "to": "speaker:martin-odersky",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:martin-odersky",
+      "to": "company:epfl-typesafe",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20130620-scala-with-style-martin-odersky",
+      "to": "project:scala",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20130620-scala-with-style-martin-odersky",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130620-scala-with-style-martin-odersky",
+      "properties": {
+        "abstract": "Scala gives you awesome expressive power, but how to make best use of it? A discussion of what makes good Scala style: syntax, naming things, mixing objects and functions, and where to use functional programming techniques.",
+        "id": "bythebay-20130620-scala-with-style-martin-odersky",
+        "order": 0,
+        "title": "Scala with Style"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-120367992",
+      "properties": {
+        "city": "Santa Clara",
+        "date": "2013-06-20",
+        "datetime": "2013-06-21T01:30:00+00:00",
+        "id": "120367992",
+        "title": "Martin Odersky: Scala with Style",
+        "url": "https://www.meetup.com/sf-scala/events/120367992/",
+        "venue_address": "3600 Juliette Lane",
+        "venue_name": "Intel SC 12 Building"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:martin-odersky",
+      "properties": {
+        "bio": null,
+        "company": "EPFL / Typesafe",
+        "name": "Martin Odersky",
+        "role": "Professor and Chairman"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:epfl-typesafe",
+      "properties": {
+        "name": "EPFL / Typesafe"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scala",
+      "properties": {
+        "github_url": "https://github.com/scala/scala",
+        "name": "Scala"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.445328+00:00",
+  "source_file": "source/sf-scala/120367992.html"
+}

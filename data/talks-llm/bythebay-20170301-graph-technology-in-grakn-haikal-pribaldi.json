@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170301-graph-technology-in-grakn-haikal-pribaldi",
+      "to": "event:big-data-developers-in-nyc-237908714",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-237908714",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170301-graph-technology-in-grakn-haikal-pribaldi",
+      "to": "speaker:haikal-pribaldi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:haikal-pribaldi",
+      "to": "company:grakn-ai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20170301-graph-technology-in-grakn-haikal-pribaldi",
+      "to": "project:grakn",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170301-graph-technology-in-grakn-haikal-pribaldi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170301-graph-technology-in-grakn-haikal-pribaldi",
+      "properties": {
+        "abstract": "How graph technology is used in GRAKN, a knowledge graph system for complex knowledge representation.",
+        "id": "bythebay-20170301-graph-technology-in-grakn-haikal-pribaldi",
+        "order": 1,
+        "title": "Graph Technology in GRAKN"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-237908714",
+      "properties": {
+        "city": "New York",
+        "date": "2017-03-01",
+        "datetime": "2017-03-01T23:30:00+00:00",
+        "id": "237908714",
+        "title": "JanusGraph NYC Meetup",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/237908714/",
+        "venue_address": "315 Hudson Street - 2nd floor",
+        "venue_name": "Galvanize"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:haikal-pribaldi",
+      "properties": {
+        "bio": null,
+        "company": "GRAKN.AI",
+        "name": "Haikal Pribaldi",
+        "role": "Founder and CEO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:grakn-ai",
+      "properties": {
+        "name": "GRAKN.AI"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:grakn",
+      "properties": {
+        "github_url": "https://github.com/typedb/typedb",
+        "name": "GRAKN"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.324567+00:00",
+  "source_file": "source/big-data-developers-in-nyc/237908714.html"
+}

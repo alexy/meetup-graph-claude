@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+      "to": "event:bay-area-ai-223171399",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-223171399",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+      "to": "speaker:abhay-kashyap",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:abhay-kashyap",
+      "to": "company:university-of-maryland",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+      "to": "project:stanford-corenlp",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+      "to": "project:nltk",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+      "to": "project:d3",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+      "properties": {
+        "abstract": "Rapalytics.com is a website dedicated to the extraction and visualization of text analytics from Rap Lyrics. Standard NLP models are trained on well-written and grammatical text; NLP on Rap lyrics deals with challenges of handling noisy text with a fundamentally different grammar.",
+        "id": "bythebay-20150714-rapalytics-data-science-and-nlp-on-rap-lyrics-abhay-kashyap",
+        "order": 0,
+        "title": "Rapalytics: Data Science and NLP on Rap Lyrics"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-223171399",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-07-14",
+        "datetime": "2015-07-15T01:30:00+00:00",
+        "id": "223171399",
+        "title": "Rapalytics, the home of Rap Data Science!",
+        "url": "https://www.meetup.com/bay-area-ai/events/223171399/",
+        "venue_address": "301 Howard St., Suite 500",
+        "venue_name": "Chegg"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:abhay-kashyap",
+      "properties": {
+        "bio": null,
+        "company": "University of Maryland",
+        "name": "Abhay Kashyap",
+        "role": "PhD student"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:university-of-maryland",
+      "properties": {
+        "name": "University of Maryland"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:stanford-corenlp",
+      "properties": {
+        "github_url": "https://github.com/stanfordnlp/CoreNLP",
+        "name": "Stanford CoreNLP"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:nltk",
+      "properties": {
+        "github_url": "https://github.com/nltk/nltk",
+        "name": "NLTK"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:d3",
+      "properties": {
+        "github_url": "https://github.com/d3/d3",
+        "name": "D3"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.927949+00:00",
+  "source_file": "source/bay-area-ai/223171399.html"
+}

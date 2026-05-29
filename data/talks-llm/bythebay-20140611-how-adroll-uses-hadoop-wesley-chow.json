@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140611-how-adroll-uses-hadoop-wesley-chow",
+      "to": "event:hadoopsf-187173842",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-187173842",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140611-how-adroll-uses-hadoop-wesley-chow",
+      "to": "speaker:wesley-chow",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:wesley-chow",
+      "to": "company:adroll",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140611-how-adroll-uses-hadoop-wesley-chow",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140611-how-adroll-uses-hadoop-wesley-chow",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140611-how-adroll-uses-hadoop-wesley-chow",
+      "properties": {
+        "abstract": "AdRoll's data infrastructure handles over one billion events per day. This talk dives into how AdRoll provides real-time statistics while processing terabytes of data using Hadoop.",
+        "id": "bythebay-20140611-how-adroll-uses-hadoop-wesley-chow",
+        "order": 0,
+        "title": "How AdRoll Uses Hadoop"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-187173842",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-06-11",
+        "datetime": "2014-06-12T01:00:00+00:00",
+        "id": "187173842",
+        "title": "June SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/187173842/",
+        "venue_address": "972 Mission St, 1st Floor",
+        "venue_name": "AdRoll HQ"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:wesley-chow",
+      "properties": {
+        "bio": null,
+        "company": "AdRoll",
+        "name": "Wesley Chow",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:adroll",
+      "properties": {
+        "name": "AdRoll"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.371659+00:00",
+  "source_file": "source/hadoopsf/187173842.html"
+}

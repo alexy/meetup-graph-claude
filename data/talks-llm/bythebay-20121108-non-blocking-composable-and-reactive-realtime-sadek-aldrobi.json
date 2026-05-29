@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20121108-non-blocking-composable-and-reactive-realtime-sadek-aldrobi",
+  "scraped_at": "2026-05-29T05:21:47.763697+00:00",
+  "source_file": "source/scala-bay/88585602.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20121108-non-blocking-composable-and-reactive-realtime-sadek-aldrobi",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20121108-non-blocking-composable-and-reactive-realtime-sadek-aldrobi",
+        "title": "Non-blocking, Composable and Reactive Realtime Web with Play",
+        "abstract": "Play's support for real-time web apps using websockets, server-sent events and comet. A deep dive into Play's reactive real-time web capabilities for building non-blocking, composable applications.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-88585602",
+      "type": "Event",
+      "properties": {
+        "id": "88585602",
+        "title": "Sadek Aldrobi @ Klout - Non-blocking, composable and reactive realtime web",
+        "date": "2012-11-08",
+        "datetime": "2012-11-09T02:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/88585602/",
+        "venue_name": "Klout.com",
+        "venue_address": "77 Stillman St.",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:sadek-aldrobi",
+      "type": "Speaker",
+      "properties": {
+        "name": "Sadek Aldrobi",
+        "role": null,
+        "company": "Klout",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:klout",
+      "type": "Company",
+      "properties": {
+        "name": "Klout"
+      }
+    },
+    {
+      "id": "project:play-framework",
+      "type": "Project",
+      "properties": {
+        "name": "Play Framework",
+        "github_url": "https://github.com/playframework/playframework"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20121108-non-blocking-composable-and-reactive-realtime-sadek-aldrobi",
+      "to": "event:scala-bay-88585602",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-88585602",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20121108-non-blocking-composable-and-reactive-realtime-sadek-aldrobi",
+      "to": "speaker:sadek-aldrobi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:sadek-aldrobi",
+      "to": "company:klout",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20121108-non-blocking-composable-and-reactive-realtime-sadek-aldrobi",
+      "to": "project:play-framework",
+      "type": "MENTIONS"
+    }
+  ]
+}

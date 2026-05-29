@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230606-pulze-ai-intelligent-llm-routing-fabian-baier",
+      "to": "event:bay-area-ai-293476064",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-293476064",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230606-pulze-ai-intelligent-llm-routing-fabian-baier",
+      "to": "speaker:fabian-baier",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:fabian-baier",
+      "to": "company:pulze-ai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230606-pulze-ai-intelligent-llm-routing-fabian-baier",
+      "to": "project:pulze-ai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230606-pulze-ai-intelligent-llm-routing-fabian-baier",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230606-pulze-ai-intelligent-llm-routing-fabian-baier",
+      "properties": {
+        "abstract": "Introduction to Pulze.ai, a platform providing intelligent routing across large language models for production AI applications.",
+        "id": "bythebay-20230606-pulze-ai-intelligent-llm-routing-fabian-baier",
+        "order": 1,
+        "title": "Pulze.ai: Intelligent LLM Routing"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-293476064",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-06-06",
+        "datetime": "2023-06-07T00:00:00+00:00",
+        "id": "293476064",
+        "title": "LLMOps: Test-Driven Development for Large Language Model Applications",
+        "url": "https://www.meetup.com/bay-area-ai/events/293476064/",
+        "venue_address": "500 Treat Ave",
+        "venue_name": "500 Treat Ave"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:fabian-baier",
+      "properties": {
+        "bio": null,
+        "company": "Pulze.ai",
+        "name": "Fabian Baier",
+        "role": "co-founder and CEO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:pulze-ai",
+      "properties": {
+        "name": "Pulze.ai"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:pulze-ai",
+      "properties": {
+        "github_url": null,
+        "name": "Pulze.ai"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.228393+00:00",
+  "source_file": "source/bay-area-ai/293476064.html"
+}

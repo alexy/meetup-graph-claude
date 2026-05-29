@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20211027-exposing-an-http-api-using-scala-3-adam-warski",
+      "to": "event:scala-bay-281527141",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-281527141",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20211027-exposing-an-http-api-using-scala-3-adam-warski",
+      "to": "speaker:adam-warski",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:adam-warski",
+      "to": "company:softwaremill",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20211027-exposing-an-http-api-using-scala-3-adam-warski",
+      "to": "project:scala-3",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20211027-exposing-an-http-api-using-scala-3-adam-warski",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20211027-exposing-an-http-api-using-scala-3-adam-warski",
+      "properties": {
+        "abstract": "Leveraging Scala 3's new features to build an HTTP API, showcasing how new libraries have adopted Scala 3 idioms to simplify API development.",
+        "id": "bythebay-20211027-exposing-an-http-api-using-scala-3-adam-warski",
+        "order": 0,
+        "title": "Exposing an HTTP API Using Scala 3"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-281527141",
+      "properties": {
+        "city": null,
+        "date": "2021-10-27",
+        "datetime": "2021-10-27T16:00:00+00:00",
+        "id": "281527141",
+        "title": "Scala 3 Training Workshop included in SBTB 2021",
+        "url": "https://www.meetup.com/scala-bay/events/281527141/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:adam-warski",
+      "properties": {
+        "bio": null,
+        "company": "SoftwareMill",
+        "name": "Adam Warski",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:softwaremill",
+      "properties": {
+        "name": "SoftwareMill"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scala-3",
+      "properties": {
+        "github_url": "https://github.com/scala/scala",
+        "name": "Scala 3"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.760493+00:00",
+  "source_file": "source/scala-bay/281527141.html"
+}

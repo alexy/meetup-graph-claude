@@ -1,0 +1,120 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240402-dbrx-introducing-a-new-state-of-the-art-open-abhi-venigalla",
+      "to": "event:bay-area-ai-299961290",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-299961290",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240402-dbrx-introducing-a-new-state-of-the-art-open-abhi-venigalla",
+      "to": "speaker:abhi-venigalla",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:abhi-venigalla",
+      "to": "company:databricks-mosaicml",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240402-dbrx-introducing-a-new-state-of-the-art-open-abhi-venigalla",
+      "to": "speaker:ajay-saini",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:ajay-saini",
+      "to": "company:databricks-mosaicml",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240402-dbrx-introducing-a-new-state-of-the-art-open-abhi-venigalla",
+      "to": "project:dbrx",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240402-dbrx-introducing-a-new-state-of-the-art-open-abhi-venigalla",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240402-dbrx-introducing-a-new-state-of-the-art-open-abhi-venigalla",
+      "properties": {
+        "abstract": "DBRX is a new state-of-the-art open large language model from Databricks and MosaicML.",
+        "id": "bythebay-20240402-dbrx-introducing-a-new-state-of-the-art-open-abhi-venigalla",
+        "order": 0,
+        "title": "DBRX: Introducing a New State-of-the-Art Open LLM"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-299961290",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-04-02",
+        "datetime": "2024-04-03T01:00:00+00:00",
+        "id": "299961290",
+        "title": "[Luma registration] AI Alliance Meetup 2",
+        "url": "https://www.meetup.com/bay-area-ai/events/299961290/",
+        "venue_address": "160 Spear St 15th floor",
+        "venue_name": "Databricks Inc."
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:abhi-venigalla",
+      "properties": {
+        "bio": null,
+        "company": "Databricks / MosaicML",
+        "name": "Abhi Venigalla",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:databricks-mosaicml",
+      "properties": {
+        "name": "Databricks / MosaicML"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:ajay-saini",
+      "properties": {
+        "bio": null,
+        "company": "Databricks / MosaicML",
+        "name": "Ajay Saini",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:databricks-mosaicml",
+      "properties": {
+        "name": "Databricks / MosaicML"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:dbrx",
+      "properties": {
+        "github_url": null,
+        "name": "DBRX"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.230031+00:00",
+  "source_file": "source/bay-area-ai/299961290.html"
+}

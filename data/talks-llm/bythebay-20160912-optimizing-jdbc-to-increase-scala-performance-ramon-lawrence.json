@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20160912-optimizing-jdbc-to-increase-scala-performance-ramon-lawrence",
+  "scraped_at": "2026-05-29T05:21:47.755471+00:00",
+  "source_file": "source/scala-bay/229524809.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160912-optimizing-jdbc-to-increase-scala-performance-ramon-lawrence",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20160912-optimizing-jdbc-to-increase-scala-performance-ramon-lawrence",
+        "title": "Optimizing JDBC to Increase Scala Performance",
+        "abstract": "Most application performance and scale problems are due to inefficient database access. Discusses existing solutions and a new alternative through JDBC that provides SQL auto-caching, auto-invalidation, automated database failover, and a Database Firewall with zero application code changes.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:scala-bay-229524809",
+      "type": "Event",
+      "properties": {
+        "id": "229524809",
+        "title": "Optimizing JDBC to Increase Scala Performance",
+        "date": "2016-09-12",
+        "datetime": "2016-09-13T01:30:00+00:00",
+        "url": "https://www.meetup.com/scala-bay/events/229524809/",
+        "venue_name": "Clari Inc",
+        "venue_address": "1154 Sonora Court",
+        "city": "Sunnyvale"
+      }
+    },
+    {
+      "id": "group:scala-bay",
+      "type": "Group",
+      "properties": {
+        "slug": "scala-bay",
+        "name": "Scala Bay",
+        "url": "https://www.meetup.com/scala-bay"
+      }
+    },
+    {
+      "id": "speaker:ramon-lawrence",
+      "type": "Speaker",
+      "properties": {
+        "name": "Ramon Lawrence",
+        "role": null,
+        "company": "Heimdall Data",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:heimdall-data",
+      "type": "Company",
+      "properties": {
+        "name": "Heimdall Data"
+      }
+    },
+    {
+      "id": "speaker:roland-lee",
+      "type": "Speaker",
+      "properties": {
+        "name": "Roland Lee",
+        "role": null,
+        "company": "Heimdall Data",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:heimdall-data",
+      "type": "Company",
+      "properties": {
+        "name": "Heimdall Data"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20160912-optimizing-jdbc-to-increase-scala-performance-ramon-lawrence",
+      "to": "event:scala-bay-229524809",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-229524809",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160912-optimizing-jdbc-to-increase-scala-performance-ramon-lawrence",
+      "to": "speaker:ramon-lawrence",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:ramon-lawrence",
+      "to": "company:heimdall-data",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160912-optimizing-jdbc-to-increase-scala-performance-ramon-lawrence",
+      "to": "speaker:roland-lee",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:roland-lee",
+      "to": "company:heimdall-data",
+      "type": "WORKS_AT"
+    }
+  ]
+}

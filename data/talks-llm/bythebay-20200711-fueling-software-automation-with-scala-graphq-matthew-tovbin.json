@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20200711-fueling-software-automation-with-scala-graphq-matthew-tovbin",
+      "to": "event:scala-bay-271744135",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-271744135",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200711-fueling-software-automation-with-scala-graphq-matthew-tovbin",
+      "to": "speaker:matthew-tovbin",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20200711-fueling-software-automation-with-scala-graphq-matthew-tovbin",
+      "to": "project:graphql",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20200711-fueling-software-automation-with-scala-graphq-matthew-tovbin",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200711-fueling-software-automation-with-scala-graphq-matthew-tovbin",
+      "properties": {
+        "abstract": "How modern engineering teams can use Scala and GraphQL to build software automation platforms that manage CI/CD pipelines, cost and performance optimization, and security governance across cloud infrastructure.",
+        "id": "bythebay-20200711-fueling-software-automation-with-scala-graphq-matthew-tovbin",
+        "order": 0,
+        "title": "Fueling Software Automation with Scala & GraphQL"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-271744135",
+      "properties": {
+        "city": "",
+        "date": "2020-07-11",
+        "datetime": "2020-07-11T17:00:00+00:00",
+        "id": "271744135",
+        "title": "Matthew Tovbin, Fueling Software Automation with Scala & GraphQL",
+        "url": "https://www.meetup.com/scala-bay/events/271744135/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:matthew-tovbin",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Matthew Tovbin",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:graphql",
+      "properties": {
+        "github_url": "https://github.com/graphql/graphql-spec",
+        "name": "GraphQL"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.759227+00:00",
+  "source_file": "source/scala-bay/271744135.html"
+}

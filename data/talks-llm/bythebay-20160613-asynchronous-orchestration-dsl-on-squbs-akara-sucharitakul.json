@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160613-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "to": "event:scala-bay-228957167",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-228957167",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160613-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "to": "speaker:akara-sucharitakul",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:akara-sucharitakul",
+      "to": "company:paypal",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160613-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "to": "project:squbs",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160613-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "to": "project:akka-streams",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160613-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160613-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+      "properties": {
+        "abstract": "squbs is an open source project by PayPal and eBay, a collection of software components for standardizing and operationalizing Akka/Streams and Spray-based services at large scale. Includes bootstrapping, actor monitor, actor registry, and data center-aware clustering.",
+        "id": "bythebay-20160613-asynchronous-orchestration-dsl-on-squbs-akara-sucharitakul",
+        "order": 0,
+        "title": "Asynchronous Orchestration DSL on squbs"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-228957167",
+      "properties": {
+        "city": "San Jose",
+        "date": "2016-06-13",
+        "datetime": "2016-06-14T01:30:00+00:00",
+        "id": "228957167",
+        "title": "Akara Sucharitakul, Asynchronous Orchestration DSL on \u201csqubs\u201d",
+        "url": "https://www.meetup.com/scala-bay/events/228957167/",
+        "venue_address": "2161 N. First St.",
+        "venue_name": "North Paypal Campus"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:akara-sucharitakul",
+      "properties": {
+        "bio": null,
+        "company": "PayPal",
+        "name": "Akara Sucharitakul",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:paypal",
+      "properties": {
+        "name": "PayPal"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:squbs",
+      "properties": {
+        "github_url": "https://github.com/paypal/squbs",
+        "name": "squbs"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:akka-streams",
+      "properties": {
+        "github_url": "https://github.com/akka/akka-core",
+        "name": "Akka Streams"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.755240+00:00",
+  "source_file": "source/scala-bay/228957167.html"
+}

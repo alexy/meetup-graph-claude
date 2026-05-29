@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20200211-less-code-more-intelligence-with-pytorch-on-s-emily-webber",
+      "to": "event:bay-area-ai-268317060",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-268317060",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20200211-less-code-more-intelligence-with-pytorch-on-s-emily-webber",
+      "to": "speaker:emily-webber",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:emily-webber",
+      "to": "company:aws",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20200211-less-code-more-intelligence-with-pytorch-on-s-emily-webber",
+      "to": "project:pytorch",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20200211-less-code-more-intelligence-with-pytorch-on-s-emily-webber",
+      "to": "project:amazon-sagemaker",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20200211-less-code-more-intelligence-with-pytorch-on-s-emily-webber",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20200211-less-code-more-intelligence-with-pytorch-on-s-emily-webber",
+      "properties": {
+        "abstract": "Tired of managing your own EC2 instances? We dive into Amazon SageMaker and understand how it helps data scientists increase their impact by leveraging a managed service, covering common design patterns for developing, training, and deploying PyTorch models.",
+        "id": "bythebay-20200211-less-code-more-intelligence-with-pytorch-on-s-emily-webber",
+        "order": 2,
+        "title": "Less Code, More Intelligence with PyTorch on SageMaker"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-268317060",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2020-02-11",
+        "datetime": "2020-02-12T02:00:00+00:00",
+        "id": "268317060",
+        "title": "Featuring PyTorch with FB, Autodesk and AWS",
+        "url": "https://www.meetup.com/bay-area-ai/events/268317060/",
+        "venue_address": "475 Sansome St",
+        "venue_name": "AWS"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:emily-webber",
+      "properties": {
+        "bio": null,
+        "company": "AWS",
+        "name": "Emily Webber",
+        "role": "Machine Learning Solutions Architect"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:aws",
+      "properties": {
+        "name": "AWS"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:pytorch",
+      "properties": {
+        "github_url": "https://github.com/pytorch/pytorch",
+        "name": "PyTorch"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:amazon-sagemaker",
+      "properties": {
+        "github_url": "https://github.com/aws/amazon-sagemaker-examples",
+        "name": "Amazon SageMaker"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.227204+00:00",
+  "source_file": "source/bay-area-ai/268317060.html"
+}

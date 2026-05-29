@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150224-comparing-functional-error-handling-in-scalaz-bill-venners",
+      "to": "event:sf-scala-220150547",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-220150547",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150224-comparing-functional-error-handling-in-scalaz-bill-venners",
+      "to": "speaker:bill-venners",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:bill-venners",
+      "to": "company:artima",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150224-comparing-functional-error-handling-in-scalaz-bill-venners",
+      "to": "project:scalaz",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150224-comparing-functional-error-handling-in-scalaz-bill-venners",
+      "to": "project:scalactic",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150224-comparing-functional-error-handling-in-scalaz-bill-venners",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150224-comparing-functional-error-handling-in-scalaz-bill-venners",
+      "properties": {
+        "abstract": "Comparing and contrasting the approaches to functional error handling taken by Scalaz and Scalactic, looking at how different opinions on typeclass coherence led to two classes in each library.",
+        "id": "bythebay-20150224-comparing-functional-error-handling-in-scalaz-bill-venners",
+        "order": 0,
+        "title": "Comparing Functional Error Handling in Scalaz and Scalactic"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-220150547",
+      "properties": {
+        "city": "oakland",
+        "date": "2015-02-24",
+        "datetime": "2015-02-25T02:30:00+00:00",
+        "id": "220150547",
+        "title": "Scala at Sungevity: SF Scala goes to Oakland!",
+        "url": "https://www.meetup.com/sf-scala/events/220150547/",
+        "venue_address": "55 Harrison St., ste 300",
+        "venue_name": "Sungevity"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:bill-venners",
+      "properties": {
+        "bio": null,
+        "company": "Artima",
+        "name": "Bill Venners",
+        "role": "president"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:artima",
+      "properties": {
+        "name": "Artima"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scalaz",
+      "properties": {
+        "github_url": "https://github.com/scalaz/scalaz",
+        "name": "Scalaz"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:scalactic",
+      "properties": {
+        "github_url": "https://github.com/scalatest/scalatest",
+        "name": "Scalactic"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.448723+00:00",
+  "source_file": "source/sf-scala/220150547.html"
+}

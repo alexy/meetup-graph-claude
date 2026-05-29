@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20130814-solr-and-hadoop-gregory-chanan",
+      "to": "event:hadoopsf-130863422",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-130863422",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20130814-solr-and-hadoop-gregory-chanan",
+      "to": "speaker:gregory-chanan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:gregory-chanan",
+      "to": "company:cloudera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20130814-solr-and-hadoop-gregory-chanan",
+      "to": "project:apache-solr",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20130814-solr-and-hadoop-gregory-chanan",
+      "to": "project:apache-hadoop",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20130814-solr-and-hadoop-gregory-chanan",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20130814-solr-and-hadoop-gregory-chanan",
+      "properties": {
+        "abstract": "Apache Solr has been integrated into the Hadoop ecosystem to provide full text search at big data scale. An overview of how Cloudera has integrated Solr with Hadoop.",
+        "id": "bythebay-20130814-solr-and-hadoop-gregory-chanan",
+        "order": 0,
+        "title": "Solr and Hadoop"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-130863422",
+      "properties": {
+        "city": "94104",
+        "date": "2013-08-14",
+        "datetime": "2013-08-15T01:00:00+00:00",
+        "id": "130863422",
+        "title": "August SF Hadoop Users Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/130863422/",
+        "venue_address": "433 California St, 11th floor",
+        "venue_name": "Cloudera"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:gregory-chanan",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Gregory Chanan",
+        "role": "software engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cloudera",
+      "properties": {
+        "name": "Cloudera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-solr",
+      "properties": {
+        "github_url": "https://github.com/apache/solr",
+        "name": "Apache Solr"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hadoop",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache Hadoop"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.370124+00:00",
+  "source_file": "source/hadoopsf/130863422.html"
+}

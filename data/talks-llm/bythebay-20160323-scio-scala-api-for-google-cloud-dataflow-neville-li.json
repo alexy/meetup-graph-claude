@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160323-scio-scala-api-for-google-cloud-dataflow-neville-li",
+      "to": "event:sf-scala-229445932",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-229445932",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160323-scio-scala-api-for-google-cloud-dataflow-neville-li",
+      "to": "speaker:neville-li",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:neville-li",
+      "to": "company:spotify",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160323-scio-scala-api-for-google-cloud-dataflow-neville-li",
+      "to": "project:scio",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160323-scio-scala-api-for-google-cloud-dataflow-neville-li",
+      "to": "project:google-cloud-dataflow",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160323-scio-scala-api-for-google-cloud-dataflow-neville-li",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160323-scio-scala-api-for-google-cloud-dataflow-neville-li",
+      "properties": {
+        "abstract": "Scio is a Scala API for Google Cloud Dataflow inspired by Spark and Scalding. Unleashes the power of Google Cloud big data products with a concise and elegant Scala DSL, covering unified batch and streaming, core API design, type safe BigQuery, HDFS, and REPL.",
+        "id": "bythebay-20160323-scio-scala-api-for-google-cloud-dataflow-neville-li",
+        "order": 0,
+        "title": "Scio: Scala API for Google Cloud Dataflow"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-229445932",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-03-23",
+        "datetime": "2016-03-24T01:30:00+00:00",
+        "id": "229445932",
+        "title": "Scala on the Google Cloud and Play 2.5",
+        "url": "https://www.meetup.com/sf-scala/events/229445932/",
+        "venue_address": "225 Bush Street Suite 700",
+        "venue_name": "Nitro"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:neville-li",
+      "properties": {
+        "bio": null,
+        "company": "Spotify",
+        "name": "Neville Li",
+        "role": "engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:spotify",
+      "properties": {
+        "name": "Spotify"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:scio",
+      "properties": {
+        "github_url": "https://github.com/spotify/scio",
+        "name": "Scio"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:google-cloud-dataflow",
+      "properties": {
+        "github_url": null,
+        "name": "Google Cloud Dataflow"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.449919+00:00",
+  "source_file": "source/sf-scala/229445932.html"
+}

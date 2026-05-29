@@ -134,7 +134,7 @@ async fn main() -> Result<()> {
     let mut node_ok = 0usize;
     let mut node_skip = 0usize;
 
-    for kind in ["Talk", "Event", "Group", "Speaker"] {
+    for kind in ["Talk", "Event", "Group", "Speaker", "Project", "Company"] {
         let Some(nodes) = nodes_by_kind.get(kind) else { continue };
         let endpoint = node_endpoint(kind);
 
@@ -178,9 +178,11 @@ async fn main() -> Result<()> {
     let mut edge_skip = 0usize;
 
     for (kind, edge_endpoint, from_param, to_param) in [
-        ("PRESENTED_AT", "add_presented_at", "talk_nid",  "event_nid"),
-        ("PRESENTED_BY", "add_presented_by", "talk_nid",  "speaker_nid"),
-        ("PART_OF",      "add_part_of",      "event_nid", "group_nid"),
+        ("PRESENTED_AT", "add_presented_at", "talk_nid",    "event_nid"),
+        ("PRESENTED_BY", "add_presented_by", "talk_nid",    "speaker_nid"),
+        ("PART_OF",      "add_part_of",      "event_nid",   "group_nid"),
+        ("MENTIONS",     "add_mentions",     "talk_nid",    "project_nid"),
+        ("WORKS_AT",     "add_works_at",     "speaker_nid", "company_nid"),
     ] {
         let Some(edges) = edges_by_kind.get(kind) else { continue };
 
@@ -353,7 +355,9 @@ fn node_endpoint(kind: &str) -> &'static str {
         "Event"   => "add_event",
         "Group"   => "add_group",
         "Speaker" => "add_speaker",
-        _         => "add_talk", // unreachable
+        "Project" => "add_project",
+        "Company" => "add_company",
+        _         => "add_talk",
     }
 }
 
@@ -403,6 +407,16 @@ fn build_node_body(
             "name":    str_prop(props, "name"),
             "bio":     str_prop(props, "bio"),
             "company": str_prop(props, "company"),
+            "role":    str_prop(props, "role"),
+        }),
+        "Project" => serde_json::json!({
+            "nid":        nid,
+            "name":       str_prop(props, "name"),
+            "github_url": str_prop(props, "github_url"),
+        }),
+        "Company" => serde_json::json!({
+            "nid":  nid,
+            "name": str_prop(props, "name"),
         }),
         _ => serde_json::json!({ "nid": nid }),
     }

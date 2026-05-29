@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240917-small-to-slide-rag-using-multimodal-llms-yi-ding",
+  "scraped_at": "2026-05-29T05:39:23.429469+00:00",
+  "source_file": "source/unstructured-data-sf/302334199.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240917-small-to-slide-rag-using-multimodal-llms-yi-ding",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240917-small-to-slide-rag-using-multimodal-llms-yi-ding",
+        "title": "Small to Slide: RAG Using MultiModal LLMs",
+        "abstract": "With the advent of LLMs understanding multimodal inputs, document understanding has new tools. Covers using multimodal LLMs for slide and document analysis in RAG pipelines.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-302334199",
+      "type": "Event",
+      "properties": {
+        "id": "302334199",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "date": "2024-09-17",
+        "datetime": "2024-09-18T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/302334199/",
+        "venue_name": "SAP Building 1",
+        "venue_address": "3410 Hillview Ave Palo Alto, CA 94304, USA",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:yi-ding",
+      "type": "Speaker",
+      "properties": {
+        "name": "Yi Ding",
+        "role": null,
+        "company": null,
+        "bio": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240917-small-to-slide-rag-using-multimodal-llms-yi-ding",
+      "to": "event:unstructured-data-sf-302334199",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-302334199",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240917-small-to-slide-rag-using-multimodal-llms-yi-ding",
+      "to": "speaker:yi-ding",
+      "type": "PRESENTED_BY"
+    }
+  ]
+}

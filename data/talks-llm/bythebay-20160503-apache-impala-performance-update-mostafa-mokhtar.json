@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+      "to": "event:hadoopsf-229848416",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:hadoopsf-229848416",
+      "to": "group:hadoopsf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+      "to": "speaker:mostafa-mokhtar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:mostafa-mokhtar",
+      "to": "company:cloudera",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+      "to": "project:apache-impala",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+      "to": "project:apache-hive",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+      "properties": {
+        "abstract": "Cloudera's performance engineering team completed new benchmark testing based on Impala 2.5 and the most recent stable releases of major SQL engine options for Apache Hadoop, including Hive-on-Tez and Spark SQL.",
+        "id": "bythebay-20160503-apache-impala-performance-update-mostafa-mokhtar",
+        "order": 0,
+        "title": "Apache Impala Performance Update"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:hadoopsf-229848416",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-05-03",
+        "datetime": "2016-05-04T01:00:00+00:00",
+        "id": "229848416",
+        "title": "May 2016 Meetup",
+        "url": "https://www.meetup.com/hadoopsf/events/229848416/",
+        "venue_address": "925 Market Street",
+        "venue_name": "AWS Pop-up Loft"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:hadoopsf",
+      "properties": {
+        "name": "San Francisco Hadoop Users",
+        "slug": "hadoopsf",
+        "url": "https://www.meetup.com/hadoopsf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:mostafa-mokhtar",
+      "properties": {
+        "bio": null,
+        "company": "Cloudera",
+        "name": "Mostafa Mokhtar",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:cloudera",
+      "properties": {
+        "name": "Cloudera"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-impala",
+      "properties": {
+        "github_url": "https://github.com/apache/impala",
+        "name": "Apache Impala"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hive",
+      "properties": {
+        "github_url": "https://github.com/apache/hive",
+        "name": "Apache Hive"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:13:44.373098+00:00",
+  "source_file": "source/hadoopsf/229848416.html"
+}

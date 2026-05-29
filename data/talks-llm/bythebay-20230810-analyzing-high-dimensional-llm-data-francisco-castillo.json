@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230810-analyzing-high-dimensional-llm-data-francisco-castillo",
+      "to": "event:unstructured-data-sf-295102315",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-295102315",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230810-analyzing-high-dimensional-llm-data-francisco-castillo",
+      "to": "speaker:francisco-castillo",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:francisco-castillo",
+      "to": "company:arize-ai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230810-analyzing-high-dimensional-llm-data-francisco-castillo",
+      "to": "project:arize-ai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230810-analyzing-high-dimensional-llm-data-francisco-castillo",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230810-analyzing-high-dimensional-llm-data-francisco-castillo",
+      "properties": {
+        "abstract": "How to analyze and debug high dimensional data produced by LLMs, understanding embeddings and model behavior in production.",
+        "id": "bythebay-20230810-analyzing-high-dimensional-llm-data-francisco-castillo",
+        "order": 0,
+        "title": "Analyzing High Dimensional LLM Data"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-295102315",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-08-10",
+        "datetime": "2023-08-11T00:30:00+00:00",
+        "id": "295102315",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/295102315/",
+        "venue_address": "1974 Union St",
+        "venue_name": "1974 Union St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:francisco-castillo",
+      "properties": {
+        "bio": null,
+        "company": "Arize AI",
+        "name": "Francisco Castillo",
+        "role": "Data Scientist"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:arize-ai",
+      "properties": {
+        "name": "Arize AI"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:arize-ai",
+      "properties": {
+        "github_url": "https://github.com/Arize-ai/phoenix",
+        "name": "Arize AI"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.424886+00:00",
+  "source_file": "source/unstructured-data-sf/295102315.html"
+}

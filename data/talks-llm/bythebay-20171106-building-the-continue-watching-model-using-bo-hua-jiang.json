@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20171106-building-the-continue-watching-model-using-bo-hua-jiang",
+      "to": "event:scala-bay-244389272",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-244389272",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20171106-building-the-continue-watching-model-using-bo-hua-jiang",
+      "to": "speaker:hua-jiang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:hua-jiang",
+      "to": "company:netflix",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20171106-building-the-continue-watching-model-using-bo-hua-jiang",
+      "to": "project:boson",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20171106-building-the-continue-watching-model-using-bo-hua-jiang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20171106-building-the-continue-watching-model-using-bo-hua-jiang",
+      "properties": {
+        "abstract": "The Continue Watching row at Netflix accounts for a large fraction of user plays. This talk covers the infrastructure behind the CW machine learning title ranking model and how Boson was used to implement the model training pipeline.",
+        "id": "bythebay-20171106-building-the-continue-watching-model-using-bo-hua-jiang",
+        "order": 1,
+        "title": "Building the Continue Watching Model Using Boson"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-244389272",
+      "properties": {
+        "city": "Los Gatos",
+        "date": "2017-11-06",
+        "datetime": "2017-11-07T02:30:00+00:00",
+        "id": "244389272",
+        "title": "Scala-based ML framework at Netflix",
+        "url": "https://www.meetup.com/scala-bay/events/244389272/",
+        "venue_address": "121 Albright way",
+        "venue_name": "Netflix"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:hua-jiang",
+      "properties": {
+        "bio": null,
+        "company": "Netflix",
+        "name": "Hua Jiang",
+        "role": "Senior Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:netflix",
+      "properties": {
+        "name": "Netflix"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:boson",
+      "properties": {
+        "github_url": null,
+        "name": "Boson"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.756902+00:00",
+  "source_file": "source/scala-bay/244389272.html"
+}

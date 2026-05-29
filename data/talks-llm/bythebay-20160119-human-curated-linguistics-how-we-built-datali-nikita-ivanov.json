@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160119-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "to": "event:bay-area-ai-227951172",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-227951172",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160119-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "to": "speaker:nikita-ivanov",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:nikita-ivanov",
+      "to": "company:datalingvo",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160119-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "to": "project:apache-ignite",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160119-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "to": "project:datalingvo",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160119-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160119-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+      "properties": {
+        "abstract": "DataLingvo is a Siri-like interface for business data based on Human Curated Linguistics (HCL) technology, unlike many NLP-based startups not based on ML but rather on a unique combination of semantic grammar modelling and human curation.",
+        "id": "bythebay-20160119-human-curated-linguistics-how-we-built-datali-nikita-ivanov",
+        "order": 0,
+        "title": "Human Curated Linguistics: How We Built DataLingvo"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-227951172",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-01-19",
+        "datetime": "2016-01-20T02:30:00+00:00",
+        "id": "227951172",
+        "title": "SF Text 2016 Begins! DataLingvo and Luka",
+        "url": "https://www.meetup.com/bay-area-ai/events/227951172/",
+        "venue_address": "225 Bush Street Suite 700",
+        "venue_name": "Nitro"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:nikita-ivanov",
+      "properties": {
+        "bio": null,
+        "company": "DataLingvo",
+        "name": "Nikita Ivanov",
+        "role": "Founder/CEO/CTO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:datalingvo",
+      "properties": {
+        "name": "DataLingvo"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-ignite",
+      "properties": {
+        "github_url": "https://github.com/apache/ignite",
+        "name": "Apache Ignite"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:datalingvo",
+      "properties": {
+        "github_url": null,
+        "name": "DataLingvo"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.928754+00:00",
+  "source_file": "source/bay-area-ai/227951172.html"
+}

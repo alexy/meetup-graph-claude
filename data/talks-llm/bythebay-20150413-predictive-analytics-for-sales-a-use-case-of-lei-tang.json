@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150413-predictive-analytics-for-sales-a-use-case-of-lei-tang",
+      "to": "event:scala-bay-220959686",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-220959686",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150413-predictive-analytics-for-sales-a-use-case-of-lei-tang",
+      "to": "speaker:lei-tang",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20150413-predictive-analytics-for-sales-a-use-case-of-lei-tang",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150413-predictive-analytics-for-sales-a-use-case-of-lei-tang",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150413-predictive-analytics-for-sales-a-use-case-of-lei-tang",
+      "properties": {
+        "abstract": "How data science and analytics can revolutionize enterprise sales using big data and modern machine learning tools. Different types of analytics for enterprise sales including predictive models built with Scala and Spark.",
+        "id": "bythebay-20150413-predictive-analytics-for-sales-a-use-case-of-lei-tang",
+        "order": 0,
+        "title": "Predictive Analytics for Sales: A Use Case of Scala and Spark"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-220959686",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2015-04-13",
+        "datetime": "2015-04-14T02:00:00+00:00",
+        "id": "220959686",
+        "title": "Lei Tang, Predictive Analytics for Sales: A Use Case of Scala and Spark",
+        "url": "https://www.meetup.com/scala-bay/events/220959686/",
+        "venue_address": "100 W. Evelyn Ave",
+        "venue_name": "Clari Inc."
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:lei-tang",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Lei Tang",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.753206+00:00",
+  "source_file": "source/scala-bay/220959686.html"
+}

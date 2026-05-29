@@ -1,0 +1,107 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170428-designing-open-source-libraries-li-haoyi",
+      "to": "event:scala-bay-238966218",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-238966218",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170428-designing-open-source-libraries-li-haoyi",
+      "to": "speaker:li-haoyi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20170428-designing-open-source-libraries-li-haoyi",
+      "to": "project:ammonite",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170428-designing-open-source-libraries-li-haoyi",
+      "to": "project:fastparse",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170428-designing-open-source-libraries-li-haoyi",
+      "to": "project:scalatags",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170428-designing-open-source-libraries-li-haoyi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170428-designing-open-source-libraries-li-haoyi",
+      "properties": {
+        "abstract": "Creating a popular open-source library like Ammonite, FastParse, or Scalatags is more than just writing code. Explores the code and non-code aspects: designing the public API, the role of tests/documentation, and the tensions of consistency, transparency, and intuitiveness.",
+        "id": "bythebay-20170428-designing-open-source-libraries-li-haoyi",
+        "order": 0,
+        "title": "Designing Open Source Libraries"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-238966218",
+      "properties": {
+        "city": "Sunnyvale",
+        "date": "2017-04-28",
+        "datetime": "2017-04-29T01:30:00+00:00",
+        "id": "238966218",
+        "title": "Haoyi Li, Designing Open Source Libraries",
+        "url": "https://www.meetup.com/scala-bay/events/238966218/",
+        "venue_address": "LinkedIn 605 W. Maude",
+        "venue_name": "LinkedIn"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:li-haoyi",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Li Haoyi",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:ammonite",
+      "properties": {
+        "github_url": "https://github.com/com-lihaoyi/Ammonite",
+        "name": "Ammonite"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:fastparse",
+      "properties": {
+        "github_url": "https://github.com/com-lihaoyi/fastparse",
+        "name": "FastParse"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:scalatags",
+      "properties": {
+        "github_url": "https://github.com/com-lihaoyi/scalatags",
+        "name": "Scalatags"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.756141+00:00",
+  "source_file": "source/scala-bay/238966218.html"
+}

@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20251015-the-future-of-building-how-ai-coding-is-trans-gary-qi",
+      "to": "event:bay-area-ai-311526427",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-311526427",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20251015-the-future-of-building-how-ai-coding-is-trans-gary-qi",
+      "to": "speaker:gary-qi",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:gary-qi",
+      "to": "company:trae",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20251015-the-future-of-building-how-ai-coding-is-trans-gary-qi",
+      "to": "project:trae",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20251015-the-future-of-building-how-ai-coding-is-trans-gary-qi",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20251015-the-future-of-building-how-ai-coding-is-trans-gary-qi",
+      "properties": {
+        "abstract": "As AI-native tools evolve, we're entering a new era of software development. This talk explores how Trae envisions the future of AI Coding\u2014where building becomes as natural as thinking and development workflows are transformed by agentic automation.",
+        "id": "bythebay-20251015-the-future-of-building-how-ai-coding-is-trans-gary-qi",
+        "order": 2,
+        "title": "The Future of Building: How AI Coding Is Transforming Product Development with Trae"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-311526427",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2025-10-15",
+        "datetime": "2025-10-16T00:30:00+00:00",
+        "id": "311526427",
+        "title": "[luma registration required] AI Agent SF #7: Coding Agents",
+        "url": "https://www.meetup.com/bay-area-ai/events/311526427/",
+        "venue_address": "972 Mission St",
+        "venue_name": "972 Mission St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:gary-qi",
+      "properties": {
+        "bio": null,
+        "company": "TRAE",
+        "name": "Gary Qi",
+        "role": "Developer Operation Manager"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:trae",
+      "properties": {
+        "name": "TRAE"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:trae",
+      "properties": {
+        "github_url": null,
+        "name": "Trae"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.233424+00:00",
+  "source_file": "source/bay-area-ai/311526427.html"
+}

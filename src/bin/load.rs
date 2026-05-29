@@ -243,13 +243,15 @@ fn collect(dir: &std::path::Path) -> Result<(NodesByKind, EdgesByKind)> {
 
 // ── Graph schema (defined once, used by all backends) ─────────────────────────
 
-const NODE_KINDS: &[&str] = &["Talk", "Event", "Group", "Speaker"];
+const NODE_KINDS: &[&str] = &["Talk", "Event", "Group", "Speaker", "Project", "Company"];
 
 /// (edge_type, from_node_label, to_node_label)
 const EDGE_SCHEMA: &[(&str, &str, &str)] = &[
     ("PRESENTED_AT", "Talk", "Event"),
     ("PRESENTED_BY", "Talk", "Speaker"),
     ("PART_OF", "Event", "Group"),
+    ("MENTIONS", "Talk", "Project"),
+    ("WORKS_AT", "Speaker", "Company"),
 ];
 
 // ── Shared node-property builder (single source of truth) ────────────────────
@@ -284,11 +286,25 @@ pub fn node_props(kind: &str, nid: &str, props: &serde_json::Value) -> serde_jso
             "name": str_prop(props, "name"),
             "url":  str_prop(props, "url"),
         }),
-        _ => serde_json::json!({
+        "Speaker" => serde_json::json!({
             "nid":     nid,
             "name":    str_prop(props, "name"),
             "bio":     str_prop(props, "bio"),
             "company": str_prop(props, "company"),
+            "role":    str_prop(props, "role"),
+        }),
+        "Project" => serde_json::json!({
+            "nid":        nid,
+            "name":       str_prop(props, "name"),
+            "github_url": str_prop(props, "github_url"),
+        }),
+        "Company" => serde_json::json!({
+            "nid":  nid,
+            "name": str_prop(props, "name"),
+        }),
+        _ => serde_json::json!({
+            "nid":  nid,
+            "name": str_prop(props, "name"),
         }),
     }
 }
@@ -782,18 +798,22 @@ mod helix_http {
 
     fn node_endpoint(kind: &str) -> &'static str {
         match kind {
-            "Talk" => "add_talk",
-            "Event" => "add_event",
-            "Group" => "add_group",
-            _ => "add_speaker",
+            "Talk"    => "add_talk",
+            "Event"   => "add_event",
+            "Group"   => "add_group",
+            "Project" => "add_project",
+            "Company" => "add_company",
+            _         => "add_speaker",
         }
     }
 
     fn edge_endpoint(kind: &str) -> Result<(&'static str, &'static str, &'static str)> {
         Ok(match kind {
-            "PRESENTED_AT" => ("add_presented_at", "talk_nid", "event_nid"),
-            "PRESENTED_BY" => ("add_presented_by", "talk_nid", "speaker_nid"),
-            "PART_OF" => ("add_part_of", "event_nid", "group_nid"),
+            "PRESENTED_AT" => ("add_presented_at", "talk_nid",    "event_nid"),
+            "PRESENTED_BY" => ("add_presented_by", "talk_nid",    "speaker_nid"),
+            "PART_OF"      => ("add_part_of",      "event_nid",   "group_nid"),
+            "MENTIONS"     => ("add_mentions",     "talk_nid",    "project_nid"),
+            "WORKS_AT"     => ("add_works_at",     "speaker_nid", "company_nid"),
             other => bail!("unknown edge kind: {other}"),
         })
     }
@@ -858,11 +878,13 @@ mod helix_sdk {
         async fn clear(&self) -> Result<()> {
             self.send(DynamicQueryRequest::write(
                 write_batch()
-                    .var_as("talks", g().n_with_label("Talk").drop())
-                    .var_as("events", g().n_with_label("Event").drop())
-                    .var_as("groups", g().n_with_label("Group").drop())
-                    .var_as("speakers", g().n_with_label("Speaker").drop())
-                    .returning(["talks", "events", "groups", "speakers"]),
+                    .var_as("talks",     g().n_with_label("Talk").drop())
+                    .var_as("events",    g().n_with_label("Event").drop())
+                    .var_as("groups",    g().n_with_label("Group").drop())
+                    .var_as("speakers",  g().n_with_label("Speaker").drop())
+                    .var_as("projects",  g().n_with_label("Project").drop())
+                    .var_as("companies", g().n_with_label("Company").drop())
+                    .returning(["talks", "events", "groups", "speakers", "projects", "companies"]),
             ))
             .await
         }
@@ -1144,7 +1166,9 @@ mod surreal_http {
 
         async fn clear(&self) -> Result<()> {
             let sql = "DELETE talk; DELETE event; DELETE group; DELETE speaker; \
-                       DELETE presented_at; DELETE presented_by; DELETE part_of;";
+                       DELETE project; DELETE company; \
+                       DELETE presented_at; DELETE presented_by; DELETE part_of; \
+                       DELETE mentions; DELETE works_at;";
             self.run_batch(sql).await.map(|_| ())
         }
 
@@ -1227,9 +1251,17 @@ mod surreal_sdk {
             concurrency: usize,
         ) -> Result<Self> {
             let ws_url = surreal_ws_address(raw_url);
-            let db: Surreal<WsClient> = Surreal::new::<Ws>(ws_url.as_str())
+            // The surrealdb `Ws` engine takes a bare `host:port` and prepends
+            // `ws://` itself (see IntoEndpoint<Ws>). If we hand it a value that
+            // already carries a scheme we get a malformed `ws://ws://host:port`
+            // whose host is "ws", which silently times out. Strip the scheme.
+            let addr = ws_url
+                .strip_prefix("ws://")
+                .or_else(|| ws_url.strip_prefix("wss://"))
+                .unwrap_or(ws_url.as_str());
+            let db: Surreal<WsClient> = Surreal::new::<Ws>(addr)
                 .await
-                .map_err(|e| anyhow::anyhow!("SurrealDB connect ({ws_url}): {e}"))?;
+                .map_err(|e| anyhow::anyhow!("SurrealDB connect ({addr}): {e}"))?;
             db.signin(Root {
                 username: user.to_string(),
                 password: pass.to_string(),
@@ -1258,7 +1290,9 @@ mod surreal_sdk {
             self.db
                 .query(
                     "DELETE talk; DELETE event; DELETE group; DELETE speaker; \
-                     DELETE presented_at; DELETE presented_by; DELETE part_of;",
+                     DELETE project; DELETE company; \
+                     DELETE presented_at; DELETE presented_by; DELETE part_of; \
+                     DELETE mentions; DELETE works_at;",
                 )
                 .await
                 .map(|_| ())
@@ -1474,7 +1508,6 @@ mod tests {
 
     #[test]
     fn test_node_props_speaker_defaults() {
-        // Completely empty props — all string fields should default to ""
         let raw = serde_json::json!({});
         let p = node_props("Speaker", "speaker:anon", &raw);
 
@@ -1482,6 +1515,50 @@ mod tests {
         assert_eq!(p["name"], "");
         assert_eq!(p["bio"], "");
         assert_eq!(p["company"], "");
+        assert_eq!(p["role"], "");
+    }
+
+    // ── 8b. node_props — Speaker with role ───────────────────────────────────
+
+    #[test]
+    fn test_node_props_speaker_with_role() {
+        let raw = serde_json::json!({
+            "name": "Alice Smith",
+            "role": "Staff Engineer",
+            "company": "Acme Corp",
+        });
+        let p = node_props("Speaker", "speaker:alice-smith", &raw);
+
+        assert_eq!(p["nid"], "speaker:alice-smith");
+        assert_eq!(p["name"], "Alice Smith");
+        assert_eq!(p["role"], "Staff Engineer");
+        assert_eq!(p["company"], "Acme Corp");
+    }
+
+    // ── 8c. node_props — Project fields ─────────────────────────────────────
+
+    #[test]
+    fn test_node_props_project_fields() {
+        let raw = serde_json::json!({
+            "name":       "Apache Kafka",
+            "github_url": "https://github.com/apache/kafka",
+        });
+        let p = node_props("Project", "project:apache-kafka", &raw);
+
+        assert_eq!(p["nid"], "project:apache-kafka");
+        assert_eq!(p["name"], "Apache Kafka");
+        assert_eq!(p["github_url"], "https://github.com/apache/kafka");
+    }
+
+    // ── 8d. node_props — Company fields ─────────────────────────────────────
+
+    #[test]
+    fn test_node_props_company_fields() {
+        let raw = serde_json::json!({ "name": "Confluent" });
+        let p = node_props("Company", "company:confluent", &raw);
+
+        assert_eq!(p["nid"], "company:confluent");
+        assert_eq!(p["name"], "Confluent");
     }
 
     // ── 9. helix_base_url normalization ───────────────────────────────────────

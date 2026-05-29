@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20160906-succinct-enabling-interactive-queries-on-comp-anurag-khandelwal",
+      "to": "event:bay-area-ai-233172746",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-233172746",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20160906-succinct-enabling-interactive-queries-on-comp-anurag-khandelwal",
+      "to": "speaker:anurag-khandelwal",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:anurag-khandelwal",
+      "to": "company:uc-berkeley",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20160906-succinct-enabling-interactive-queries-on-comp-anurag-khandelwal",
+      "to": "project:succinct",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20160906-succinct-enabling-interactive-queries-on-comp-anurag-khandelwal",
+      "to": "project:spark",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20160906-succinct-enabling-interactive-queries-on-comp-anurag-khandelwal",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20160906-succinct-enabling-interactive-queries-on-comp-anurag-khandelwal",
+      "properties": {
+        "abstract": "Cloud services today need to perform fast, interactive queries on large data volumes. We have built Succinct, a distributed data store that enables a wide range of interactive queries directly on compressed data.",
+        "id": "bythebay-20160906-succinct-enabling-interactive-queries-on-comp-anurag-khandelwal",
+        "order": 0,
+        "title": "Succinct: Enabling Interactive Queries on Compressed Data"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-233172746",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2016-09-06",
+        "datetime": "2016-09-07T01:30:00+00:00",
+        "id": "233172746",
+        "title": "Succinct: Enabling Queries on Compressed Data",
+        "url": "https://www.meetup.com/bay-area-ai/events/233172746/",
+        "venue_address": "594 Howard St., Ste. 401",
+        "venue_name": "Ravel Law"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:anurag-khandelwal",
+      "properties": {
+        "bio": null,
+        "company": "UC Berkeley",
+        "name": "Anurag Khandelwal",
+        "role": "PhD student"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:uc-berkeley",
+      "properties": {
+        "name": "UC Berkeley"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:succinct",
+      "properties": {
+        "github_url": "https://github.com/amplab/succinct",
+        "name": "Succinct"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Spark"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.928979+00:00",
+  "source_file": "source/bay-area-ai/233172746.html"
+}

@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+      "to": "event:sf-data-and-ai-engineering-225522991",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-data-and-ai-engineering-225522991",
+      "to": "group:sf-data-and-ai-engineering",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+      "to": "speaker:chul-lee",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:chul-lee",
+      "to": "company:myfitnesspal",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+      "to": "project:apache-hive",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+      "to": "project:presto",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+      "properties": {
+        "abstract": "A technical deep-dive on MyFitnessPal's use of Spark and related technologies to derive insights needed to keep their users fit and healthy.",
+        "id": "bythebay-20150929-getting-healthy-with-spark-big-data-at-myfitn-chul-lee",
+        "order": 0,
+        "title": "Getting Healthy with Spark: Big Data at MyFitnessPal"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-data-and-ai-engineering-225522991",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-09-29",
+        "datetime": "2015-09-30T01:30:00+00:00",
+        "id": "225522991",
+        "title": "Getting Healthy with Spark",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering/events/225522991/",
+        "venue_address": "535 Mission, Suite 700",
+        "venue_name": "Trulia SF"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-data-and-ai-engineering",
+      "properties": {
+        "name": "SF Data and AI Engineering",
+        "slug": "sf-data-and-ai-engineering",
+        "url": "https://www.meetup.com/sf-data-and-ai-engineering"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:chul-lee",
+      "properties": {
+        "bio": null,
+        "company": "MyFitnessPal",
+        "name": "Chul Lee",
+        "role": "Director of Data"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:myfitnesspal",
+      "properties": {
+        "name": "MyFitnessPal"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-hive",
+      "properties": {
+        "github_url": "https://github.com/apache/hive",
+        "name": "Apache Hive"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:presto",
+      "properties": {
+        "github_url": "https://github.com/prestodb/presto",
+        "name": "Presto"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:36:22.447371+00:00",
+  "source_file": "source/sf-data-and-ai-engineering/225522991.html"
+}

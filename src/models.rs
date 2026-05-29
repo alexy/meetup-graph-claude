@@ -66,6 +66,7 @@ pub struct SpeakerData {
     pub name: String,
     pub bio: Option<String>,
     pub company: Option<String>,
+    pub role: Option<String>,
 }
 
 #[derive(Debug, Clone)]

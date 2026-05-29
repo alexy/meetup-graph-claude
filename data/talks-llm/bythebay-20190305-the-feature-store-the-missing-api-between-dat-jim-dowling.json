@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20190305-the-feature-store-the-missing-api-between-dat-jim-dowling",
+      "to": "event:bay-area-ai-258164070",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-258164070",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190305-the-feature-store-the-missing-api-between-dat-jim-dowling",
+      "to": "speaker:jim-dowling",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jim-dowling",
+      "to": "company:logical-clocks",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20190305-the-feature-store-the-missing-api-between-dat-jim-dowling",
+      "to": "project:hopsworks",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20190305-the-feature-store-the-missing-api-between-dat-jim-dowling",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190305-the-feature-store-the-missing-api-between-dat-jim-dowling",
+      "properties": {
+        "abstract": "The Feature Store solves the problem of siloed and ad-hoc machine learning pipelines by providing a data layer where feature engineering can be separated from model training, making features re-usable across pipelines.",
+        "id": "bythebay-20190305-the-feature-store-the-missing-api-between-dat-jim-dowling",
+        "order": 0,
+        "title": "The Feature Store: The Missing API Between Data Engineering and Data Science"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-258164070",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2019-03-05",
+        "datetime": "2019-03-06T02:00:00+00:00",
+        "id": "258164070",
+        "title": "The Feature Stores: the missing API between Data Engineering and Data Science?",
+        "url": "https://www.meetup.com/bay-area-ai/events/258164070/",
+        "venue_address": "225 Bush St #700",
+        "venue_name": "D2iQ, Inc."
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jim-dowling",
+      "properties": {
+        "bio": null,
+        "company": "Logical Clocks",
+        "name": "Jim Dowling",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:logical-clocks",
+      "properties": {
+        "name": "Logical Clocks"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:hopsworks",
+      "properties": {
+        "github_url": "https://github.com/logicalclocks/hopsworks",
+        "name": "Hopsworks"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.931958+00:00",
+  "source_file": "source/bay-area-ai/258164070.html"
+}

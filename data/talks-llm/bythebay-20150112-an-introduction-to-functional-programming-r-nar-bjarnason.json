@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150112-an-introduction-to-functional-programming-r-nar-bjarnason",
+      "to": "event:scala-bay-219401994",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-219401994",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150112-an-introduction-to-functional-programming-r-nar-bjarnason",
+      "to": "speaker:r-nar-bjarnason",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20150112-an-introduction-to-functional-programming-r-nar-bjarnason",
+      "to": "project:scalaz",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150112-an-introduction-to-functional-programming-r-nar-bjarnason",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150112-an-introduction-to-functional-programming-r-nar-bjarnason",
+      "properties": {
+        "abstract": "An overview of functional programming: what it is, basic FP techniques, and why we should stay purely functional when we can. Based on the book Functional Programming in Scala.",
+        "id": "bythebay-20150112-an-introduction-to-functional-programming-r-nar-bjarnason",
+        "order": 0,
+        "title": "An Introduction to Functional Programming"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-219401994",
+      "properties": {
+        "city": "Mountain View",
+        "date": "2015-01-12",
+        "datetime": "2015-01-13T03:00:00+00:00",
+        "id": "219401994",
+        "title": "Rúnar Bjarnason, \"An introduction to functional programming\"",
+        "url": "https://www.meetup.com/scala-bay/events/219401994/",
+        "venue_address": "2027 Stierlin Ct.",
+        "venue_name": "LinkedIn"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:r-nar-bjarnason",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Rúnar Bjarnason",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:scalaz",
+      "properties": {
+        "github_url": "https://github.com/scalaz/scalaz",
+        "name": "Scalaz"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.752533+00:00",
+  "source_file": "source/scala-bay/219401994.html"
+}

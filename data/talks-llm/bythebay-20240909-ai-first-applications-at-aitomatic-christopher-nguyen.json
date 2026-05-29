@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240909-ai-first-applications-at-aitomatic-christopher-nguyen",
+  "scraped_at": "2026-05-29T05:39:23.427685+00:00",
+  "source_file": "source/unstructured-data-sf/300478757.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240909-ai-first-applications-at-aitomatic-christopher-nguyen",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240909-ai-first-applications-at-aitomatic-christopher-nguyen",
+        "title": "AI-First Applications at Aitomatic",
+        "abstract": "How Aitomatic builds AI-first industrial applications using large language models and unstructured data processing.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:unstructured-data-sf-300478757",
+      "type": "Event",
+      "properties": {
+        "id": "300478757",
+        "title": "The 4th AI Alliance Meetup @ The Unstructured Data Meetup",
+        "date": "2024-09-09",
+        "datetime": "2024-09-10T00:30:00+00:00",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300478757/",
+        "venue_name": "88 Colin P Kelly Jr St",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "type": "Group",
+      "properties": {
+        "slug": "unstructured-data-sf",
+        "name": "Unstructured Data SF",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      }
+    },
+    {
+      "id": "speaker:christopher-nguyen",
+      "type": "Speaker",
+      "properties": {
+        "name": "Christopher Nguyen",
+        "role": "CEO",
+        "company": "Aitomatic",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:aitomatic",
+      "type": "Company",
+      "properties": {
+        "name": "Aitomatic"
+      }
+    },
+    {
+      "id": "speaker:shruti-raghavan",
+      "type": "Speaker",
+      "properties": {
+        "name": "Shruti Raghavan",
+        "role": "AI Engineer",
+        "company": "Aitomatic",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:aitomatic",
+      "type": "Company",
+      "properties": {
+        "name": "Aitomatic"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240909-ai-first-applications-at-aitomatic-christopher-nguyen",
+      "to": "event:unstructured-data-sf-300478757",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300478757",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240909-ai-first-applications-at-aitomatic-christopher-nguyen",
+      "to": "speaker:christopher-nguyen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:christopher-nguyen",
+      "to": "company:aitomatic",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240909-ai-first-applications-at-aitomatic-christopher-nguyen",
+      "to": "speaker:shruti-raghavan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:shruti-raghavan",
+      "to": "company:aitomatic",
+      "type": "WORKS_AT"
+    }
+  ]
+}

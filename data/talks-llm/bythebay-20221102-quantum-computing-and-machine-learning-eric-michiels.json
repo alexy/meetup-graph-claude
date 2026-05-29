@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20221102-quantum-computing-and-machine-learning-eric-michiels",
+      "to": "event:big-data-developers-in-nyc-289461486",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-289461486",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20221102-quantum-computing-and-machine-learning-eric-michiels",
+      "to": "speaker:eric-michiels",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:eric-michiels",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20221102-quantum-computing-and-machine-learning-eric-michiels",
+      "to": "project:qiskit",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20221102-quantum-computing-and-machine-learning-eric-michiels",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20221102-quantum-computing-and-machine-learning-eric-michiels",
+      "properties": {
+        "abstract": "The current state and future prospects of machine learning with quantum computers, covering quantum kernel estimation, variational quantum classifiers, quantum neural networks, and quantum GANs. Demonstrates capabilities of the Qiskit Machine Learning open source software.",
+        "id": "bythebay-20221102-quantum-computing-and-machine-learning-eric-michiels",
+        "order": 0,
+        "title": "Quantum Computing and Machine Learning"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-289461486",
+      "properties": {
+        "city": "",
+        "date": "2022-11-02",
+        "datetime": "2022-11-02T12:00:00+00:00",
+        "id": "289461486",
+        "title": "Quantum Computing and Machine Learning",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/289461486/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:eric-michiels",
+      "properties": {
+        "bio": null,
+        "company": "IBM",
+        "name": "Eric Michiels",
+        "role": "Executive Architect"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:ibm",
+      "properties": {
+        "name": "IBM"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:qiskit",
+      "properties": {
+        "github_url": "https://github.com/Qiskit/qiskit",
+        "name": "Qiskit"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.326588+00:00",
+  "source_file": "source/big-data-developers-in-nyc/289461486.html"
+}

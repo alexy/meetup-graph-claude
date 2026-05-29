@@ -1,0 +1,158 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "event:bay-area-ai-281298859",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-281298859",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "speaker:matei-zaharia",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:matei-zaharia",
+      "to": "company:stanford-university-databricks",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "project:apache-spark",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "project:mlflow",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "project:delta-lake",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "project:pipedream",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "project:flexflow",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "to": "project:colbert",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+      "properties": {
+        "abstract": "Two broad lines of research to make large-scale ML accessible: (1) pipeline and hybrid parallelism as in PipeDream and FlexFlow for cheaper training of existing DNN models; (2) retrieval-based NLP models like ColBERT that search through a corpus of documents at inference time rather than memorizing all knowledge in parameters.",
+        "id": "bythebay-20211019-faster-and-cheaper-training-for-large-models-matei-zaharia",
+        "order": 0,
+        "title": "Faster and Cheaper Training for Large Models"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-281298859",
+      "properties": {
+        "city": "",
+        "date": "2021-10-19",
+        "datetime": "2021-10-20T00:00:00+00:00",
+        "id": "281298859",
+        "title": "Faster and Cheaper Training for Large Models",
+        "url": "https://www.meetup.com/bay-area-ai/events/281298859/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:matei-zaharia",
+      "properties": {
+        "bio": null,
+        "company": "Stanford University / Databricks",
+        "name": "Matei Zaharia",
+        "role": "Assistant Professor of Computer Science and Chief Technologist"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:stanford-university-databricks",
+      "properties": {
+        "name": "Stanford University / Databricks"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-spark",
+      "properties": {
+        "github_url": "https://github.com/apache/spark",
+        "name": "Apache Spark"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:mlflow",
+      "properties": {
+        "github_url": "https://github.com/mlflow/mlflow",
+        "name": "MLflow"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:delta-lake",
+      "properties": {
+        "github_url": "https://github.com/delta-io/delta",
+        "name": "Delta Lake"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:pipedream",
+      "properties": {
+        "github_url": "https://github.com/msr-fiddle/pipedream",
+        "name": "PipeDream"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:flexflow",
+      "properties": {
+        "github_url": "https://github.com/flexflow/flexflow-train",
+        "name": "FlexFlow"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:colbert",
+      "properties": {
+        "github_url": "https://github.com/stanford-futuredata/ColBERT",
+        "name": "ColBERT"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.227931+00:00",
+  "source_file": "source/bay-area-ai/281298859.html"
+}

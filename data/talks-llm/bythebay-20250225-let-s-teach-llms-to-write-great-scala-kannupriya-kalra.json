@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20250225-let-s-teach-llms-to-write-great-scala-kannupriya-kalra",
+      "to": "event:scala-bay-306178503",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-306178503",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20250225-let-s-teach-llms-to-write-great-scala-kannupriya-kalra",
+      "to": "speaker:kannupriya-kalra",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:kannupriya-kalra",
+      "to": "company:sky",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20250225-let-s-teach-llms-to-write-great-scala-kannupriya-kalra",
+      "to": "project:llm4s",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20250225-let-s-teach-llms-to-write-great-scala-kannupriya-kalra",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20250225-let-s-teach-llms-to-write-great-scala-kannupriya-kalra",
+      "properties": {
+        "abstract": "LLMs are transforming how we build intelligent applications, but most tooling is centered around Python. Explores LLM4S, a project bringing structured, type-safe AI development to Scala with tool calling, multi-step workflows, and agentic programming.",
+        "id": "bythebay-20250225-let-s-teach-llms-to-write-great-scala-kannupriya-kalra",
+        "order": 1,
+        "title": "Let's Teach LLMs to Write Great Scala!"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-306178503",
+      "properties": {
+        "city": null,
+        "date": "2025-02-25",
+        "datetime": "2025-02-26T01:30:00+00:00",
+        "id": "306178503",
+        "title": "Designing the library powering Netflix's QoE & Teach LLMs to write great Scala",
+        "url": "https://www.meetup.com/scala-bay/events/306178503/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:kannupriya-kalra",
+      "properties": {
+        "bio": null,
+        "company": "Sky",
+        "name": "Kannupriya Kalra",
+        "role": "Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:sky",
+      "properties": {
+        "name": "Sky"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:llm4s",
+      "properties": {
+        "github_url": "https://github.com/llm4s/llm4s",
+        "name": "LLM4S"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.761479+00:00",
+  "source_file": "source/scala-bay/306178503.html"
+}

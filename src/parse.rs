@@ -587,7 +587,7 @@ fn speaker_from_prose(lines: &[&str]) -> Vec<SpeakerData> {
             let company = re_name_at_company()
                 .captures(line)
                 .map(|c| c[1].trim().to_string());
-            return vec![SpeakerData { name, company, bio: None }];
+            return vec![SpeakerData { name, company, bio: None, role: None }];
         }
     }
     vec![]
@@ -1091,7 +1091,7 @@ fn parse_speaker_string(raw: &str) -> Vec<SpeakerData> {
                 return None;
             }
             if !passes_name_denylist(&name) { return None; }
-            Some(SpeakerData { name, company, bio: None })
+            Some(SpeakerData { name, company, bio: None, role: None })
         })
         .collect()
 }

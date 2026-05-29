@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20230810-retrieval-augmented-generation-pipelines-with-tuana-celik",
+      "to": "event:unstructured-data-sf-295102315",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-295102315",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20230810-retrieval-augmented-generation-pipelines-with-tuana-celik",
+      "to": "speaker:tuana-celik",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:tuana-celik",
+      "to": "company:deepset",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20230810-retrieval-augmented-generation-pipelines-with-tuana-celik",
+      "to": "project:haystack",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20230810-retrieval-augmented-generation-pipelines-with-tuana-celik",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20230810-retrieval-augmented-generation-pipelines-with-tuana-celik",
+      "properties": {
+        "abstract": "Building production-ready RAG pipelines using Haystack, an open-source framework for building LLM-powered search and question-answering applications.",
+        "id": "bythebay-20230810-retrieval-augmented-generation-pipelines-with-tuana-celik",
+        "order": 1,
+        "title": "Retrieval Augmented Generation Pipelines with Haystack"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-295102315",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2023-08-10",
+        "datetime": "2023-08-11T00:30:00+00:00",
+        "id": "295102315",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/295102315/",
+        "venue_address": "1974 Union St",
+        "venue_name": "1974 Union St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:tuana-celik",
+      "properties": {
+        "bio": null,
+        "company": "deepset",
+        "name": "Tuana Celik",
+        "role": "Developer Advocate"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:deepset",
+      "properties": {
+        "name": "deepset"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:haystack",
+      "properties": {
+        "github_url": "https://github.com/deepset-ai/haystack",
+        "name": "Haystack"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.424998+00:00",
+  "source_file": "source/unstructured-data-sf/295102315.html"
+}

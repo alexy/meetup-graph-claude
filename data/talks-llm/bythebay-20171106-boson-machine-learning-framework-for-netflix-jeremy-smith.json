@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20171106-boson-machine-learning-framework-for-netflix-jeremy-smith",
+      "to": "event:scala-bay-244389272",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-244389272",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20171106-boson-machine-learning-framework-for-netflix-jeremy-smith",
+      "to": "speaker:jeremy-smith",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jeremy-smith",
+      "to": "company:netflix",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20171106-boson-machine-learning-framework-for-netflix-jeremy-smith",
+      "to": "project:boson",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20171106-boson-machine-learning-framework-for-netflix-jeremy-smith",
+      "to": "project:finagle",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20171106-boson-machine-learning-framework-for-netflix-jeremy-smith",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20171106-boson-machine-learning-framework-for-netflix-jeremy-smith",
+      "properties": {
+        "abstract": "Boson is a Scala-based Machine Learning framework providing a high-level API and tools for ML pipelines at Netflix. Supports interactive experimentation and easy path to production ML environments, similar to SciKit Learn but with seamless integration with Netflix's systems.",
+        "id": "bythebay-20171106-boson-machine-learning-framework-for-netflix-jeremy-smith",
+        "order": 0,
+        "title": "Boson: Machine Learning Framework for Netflix Recommendations"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-244389272",
+      "properties": {
+        "city": "Los Gatos",
+        "date": "2017-11-06",
+        "datetime": "2017-11-07T02:30:00+00:00",
+        "id": "244389272",
+        "title": "Scala-based ML framework at Netflix",
+        "url": "https://www.meetup.com/scala-bay/events/244389272/",
+        "venue_address": "121 Albright way",
+        "venue_name": "Netflix"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jeremy-smith",
+      "properties": {
+        "bio": null,
+        "company": "Netflix",
+        "name": "Jeremy Smith",
+        "role": "Senior Software Engineer"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:netflix",
+      "properties": {
+        "name": "Netflix"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:boson",
+      "properties": {
+        "github_url": null,
+        "name": "Boson"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:finagle",
+      "properties": {
+        "github_url": "https://github.com/twitter/finagle",
+        "name": "Finagle"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.756813+00:00",
+  "source_file": "source/scala-bay/244389272.html"
+}

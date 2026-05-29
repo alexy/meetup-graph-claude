@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20140430-i-log-real-time-data-and-apache-kafka-jay-kreps",
+      "to": "event:sf-scala-178464502",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-178464502",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20140430-i-log-real-time-data-and-apache-kafka-jay-kreps",
+      "to": "speaker:jay-kreps",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jay-kreps",
+      "to": "company:linkedin",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20140430-i-log-real-time-data-and-apache-kafka-jay-kreps",
+      "to": "project:apache-kafka",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20140430-i-log-real-time-data-and-apache-kafka-jay-kreps",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20140430-i-log-real-time-data-and-apache-kafka-jay-kreps",
+      "properties": {
+        "abstract": "How logs and stream-processing can form a backbone for data flow, ETL, and real-time data processing. The challenges and lessons learned as LinkedIn built out its real-time data infrastructure around Kafka.",
+        "id": "bythebay-20140430-i-log-real-time-data-and-apache-kafka-jay-kreps",
+        "order": 0,
+        "title": "I ♥ Log: Real-time Data and Apache Kafka"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-178464502",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2014-04-30",
+        "datetime": "2014-05-01T01:00:00+00:00",
+        "id": "178464502",
+        "title": "Big Data Scala: Kafka and OhmData",
+        "url": "https://www.meetup.com/sf-scala/events/178464502/",
+        "venue_address": "500 Terry A. Francois Blvd",
+        "venue_name": "Cisco Meraki"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jay-kreps",
+      "properties": {
+        "bio": null,
+        "company": "LinkedIn",
+        "name": "Jay Kreps",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:linkedin",
+      "properties": {
+        "name": "LinkedIn"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-kafka",
+      "properties": {
+        "github_url": "https://github.com/apache/kafka",
+        "name": "Apache Kafka"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.446862+00:00",
+  "source_file": "source/sf-scala/178464502.html"
+}

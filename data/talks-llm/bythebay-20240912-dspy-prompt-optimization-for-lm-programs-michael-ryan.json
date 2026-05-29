@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240912-dspy-prompt-optimization-for-lm-programs-michael-ryan",
+      "to": "event:bay-area-ai-302540816",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-302540816",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240912-dspy-prompt-optimization-for-lm-programs-michael-ryan",
+      "to": "speaker:michael-ryan",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:michael-ryan",
+      "to": "company:stanford-university",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240912-dspy-prompt-optimization-for-lm-programs-michael-ryan",
+      "to": "project:dspy",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240912-dspy-prompt-optimization-for-lm-programs-michael-ryan",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240912-dspy-prompt-optimization-for-lm-programs-michael-ryan",
+      "properties": {
+        "abstract": "DSPy is the library for Programming—not Prompting—LMs. This talk introduces LM Programs as composable calls to LLMs that can be rigorously tested and optimized, and demonstrates MIPROv2, a high-performing prompt optimization algorithm.",
+        "id": "bythebay-20240912-dspy-prompt-optimization-for-lm-programs-michael-ryan",
+        "order": 0,
+        "title": "DSPy: Prompt Optimization for LM Programs"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-302540816",
+      "properties": {
+        "city": null,
+        "date": "2024-09-12",
+        "datetime": "2024-09-13T02:00:00+00:00",
+        "id": "302540816",
+        "title": "[lu.ma/_ai registration required] DSPy and GraphRAG: Making GenAI Real",
+        "url": "https://www.meetup.com/bay-area-ai/events/302540816/",
+        "venue_address": null,
+        "venue_name": null
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:michael-ryan",
+      "properties": {
+        "bio": null,
+        "company": "Stanford University",
+        "name": "Michael Ryan",
+        "role": "graduate researcher"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:stanford-university",
+      "properties": {
+        "name": "Stanford University"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:dspy",
+      "properties": {
+        "github_url": "https://github.com/stanfordnlp/dspy",
+        "name": "DSPy"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:58:30.230562+00:00",
+  "source_file": "source/bay-area-ai/302540816.html"
+}

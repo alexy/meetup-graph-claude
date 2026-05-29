@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+      "to": "event:bay-area-ai-259909063",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-259909063",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+      "to": "speaker:jagane-sundar",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:jagane-sundar",
+      "to": "company:wandisco",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+      "to": "project:tensorflow",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+      "to": "project:apache-yarn",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+      "to": "project:hbase",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+      "properties": {
+        "abstract": "A system for replicating data across geographically distributed data centers, discussing the benefits of consistently replicating data used by TensorFlow for training, and exploring the advantages of using a Paxos-based distributed coordination algorithm for replication.",
+        "id": "bythebay-20190327-managing-globally-distributed-data-for-deep-l-jagane-sundar",
+        "order": 0,
+        "title": "Managing Globally Distributed Data for Deep Learning using TensorFlow on YARN"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-259909063",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2019-03-27",
+        "datetime": "2019-03-28T00:30:00+00:00",
+        "id": "259909063",
+        "title": "Managing Globally Distributed Data for Deep Learning using TensorFlow on YARN",
+        "url": "https://www.meetup.com/bay-area-ai/events/259909063/",
+        "venue_address": "44 Tehama St",
+        "venue_name": "Galvanize - San Francisco"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:jagane-sundar",
+      "properties": {
+        "bio": null,
+        "company": "WANdisco",
+        "name": "Jagane Sundar",
+        "role": "CTO"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:wandisco",
+      "properties": {
+        "name": "WANdisco"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:tensorflow",
+      "properties": {
+        "github_url": "https://github.com/tensorflow/tensorflow",
+        "name": "TensorFlow"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:apache-yarn",
+      "properties": {
+        "github_url": "https://github.com/apache/hadoop",
+        "name": "Apache YARN"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:hbase",
+      "properties": {
+        "github_url": "https://github.com/apache/hbase",
+        "name": "HBase"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.932241+00:00",
+  "source_file": "source/bay-area-ai/259909063.html"
+}

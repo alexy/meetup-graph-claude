@@ -1,0 +1,106 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20150708-introduction-to-security-in-solr-anshum-gupta",
+      "to": "event:bay-area-ai-223646335",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-223646335",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20150708-introduction-to-security-in-solr-anshum-gupta",
+      "to": "speaker:anshum-gupta",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:anshum-gupta",
+      "to": "company:lucidworks",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20150708-introduction-to-security-in-solr-anshum-gupta",
+      "to": "project:apache-solr",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20150708-introduction-to-security-in-solr-anshum-gupta",
+      "to": "project:solrcloud",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20150708-introduction-to-security-in-solr-anshum-gupta",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20150708-introduction-to-security-in-solr-anshum-gupta",
+      "properties": {
+        "abstract": "Apache Solr 5.2 shipped with pluggable authentication and authorization modules. This talk covers an overview of both the authentication and authorization frameworks and how they work together within Solr.",
+        "id": "bythebay-20150708-introduction-to-security-in-solr-anshum-gupta",
+        "order": 1,
+        "title": "Introduction to Security in Solr"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:bay-area-ai-223646335",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2015-07-08",
+        "datetime": "2015-07-09T01:00:00+00:00",
+        "id": "223646335",
+        "title": "Building Search @ Airbnb & Security in Solr",
+        "url": "https://www.meetup.com/bay-area-ai/events/223646335/",
+        "venue_address": "888 Brannan",
+        "venue_name": "Airbnb"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:bay-area-ai",
+      "properties": {
+        "name": "Bay Area AI",
+        "slug": "bay-area-ai",
+        "url": "https://www.meetup.com/bay-area-ai"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:anshum-gupta",
+      "properties": {
+        "bio": null,
+        "company": "Lucidworks",
+        "name": "Anshum Gupta",
+        "role": "committer and PMC member"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:lucidworks",
+      "properties": {
+        "name": "Lucidworks"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:apache-solr",
+      "properties": {
+        "github_url": "https://github.com/apache/solr",
+        "name": "Apache Solr"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:solrcloud",
+      "properties": {
+        "github_url": "https://github.com/apache/solr",
+        "name": "SolrCloud"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T04:53:39.928176+00:00",
+  "source_file": "source/bay-area-ai/223646335.html"
+}

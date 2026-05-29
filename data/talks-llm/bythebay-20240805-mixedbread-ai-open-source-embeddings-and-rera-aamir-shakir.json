@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240805-mixedbread-ai-open-source-embeddings-and-rera-aamir-shakir",
+      "to": "event:unstructured-data-sf-300478750",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300478750",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240805-mixedbread-ai-open-source-embeddings-and-rera-aamir-shakir",
+      "to": "speaker:aamir-shakir",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:aamir-shakir",
+      "to": "company:mixedbread-ai",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240805-mixedbread-ai-open-source-embeddings-and-rera-aamir-shakir",
+      "to": "project:mixedbread-ai",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240805-mixedbread-ai-open-source-embeddings-and-rera-aamir-shakir",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240805-mixedbread-ai-open-source-embeddings-and-rera-aamir-shakir",
+      "properties": {
+        "abstract": "Building state-of-the-art open-source embedding and reranking models at mixedbread.ai for retrieval-augmented generation.",
+        "id": "bythebay-20240805-mixedbread-ai-open-source-embeddings-and-rera-aamir-shakir",
+        "order": 2,
+        "title": "mixedbread.ai: Open-Source Embeddings and Reranking"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-300478750",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-08-05",
+        "datetime": "2024-08-06T00:30:00+00:00",
+        "id": "300478750",
+        "title": "Unstructured Data Meetup",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300478750/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:aamir-shakir",
+      "properties": {
+        "bio": null,
+        "company": "mixedbread.ai",
+        "name": "Aamir Shakir",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:mixedbread-ai",
+      "properties": {
+        "name": "mixedbread.ai"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:mixedbread-ai",
+      "properties": {
+        "github_url": "https://github.com/mixedbread-ai/mgrep",
+        "name": "mixedbread.ai"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.427589+00:00",
+  "source_file": "source/unstructured-data-sf/300478750.html"
+}

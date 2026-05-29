@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20151104-born-in-the-cloud-architecture-what-it-is-and-yonggang-hu",
+  "scraped_at": "2026-05-29T05:07:12.323374+00:00",
+  "source_file": "source/big-data-developers-in-nyc/226110174.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20151104-born-in-the-cloud-architecture-what-it-is-and-yonggang-hu",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20151104-born-in-the-cloud-architecture-what-it-is-and-yonggang-hu",
+        "title": "Born-in-the-Cloud Architecture: What it is and Why You Should Care",
+        "abstract": "Bigger data, complex compute requirements, and cost/resource constraints are driving organizations to use cloud infrastructure. Using analytics case studies, this talk explains the born-in-the-cloud architecture, and the opportunities and challenges that it brings.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-226110174",
+      "type": "Event",
+      "properties": {
+        "id": "226110174",
+        "title": "Born-in-the-Cloud Architecture: What it is and Why You Should Care",
+        "date": "2015-11-04",
+        "datetime": "2015-11-04T22:30:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/226110174/",
+        "venue_name": "IBM",
+        "venue_address": "590 Madison Ave",
+        "city": "10022"
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:yonggang-hu",
+      "type": "Speaker",
+      "properties": {
+        "name": "Yonggang Hu",
+        "role": "Distinguished Engineer and Chief Architect",
+        "company": "IBM",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm",
+      "type": "Company",
+      "properties": {
+        "name": "IBM"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20151104-born-in-the-cloud-architecture-what-it-is-and-yonggang-hu",
+      "to": "event:big-data-developers-in-nyc-226110174",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-226110174",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20151104-born-in-the-cloud-architecture-what-it-is-and-yonggang-hu",
+      "to": "speaker:yonggang-hu",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:yonggang-hu",
+      "to": "company:ibm",
+      "type": "WORKS_AT"
+    }
+  ]
+}

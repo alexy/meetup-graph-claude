@@ -725,3 +725,137 @@ async fn helix_speaker_joins_group_through_talk() {
         "{ADAM_WARSKI} should be in {ADAM_WARSKI_GROUP}, got {groups:?}"
     );
 }
+
+// ══════════════════════════════════════════════════════════ Project / Company ═
+//
+// These tests run only when the DB was loaded from `data/talks-llm/` (LLM
+// extraction output) which contains Project and Company nodes.  They skip
+// gracefully when those tables are empty.
+
+/// SurrealDB: Project nodes loaded from LLM-extracted talks have a `name` field.
+#[tokio::test]
+async fn surreal_project_nodes_have_name() {
+    if !surreal::is_available().await {
+        eprintln!("surreal not available — skipping");
+        return;
+    }
+    let count = surreal::count_table("project").await;
+    if count == 0 {
+        eprintln!("no Project nodes loaded — skipping (load data/talks-llm/ first)");
+        return;
+    }
+    let resp = surreal::sql("SELECT name FROM project LIMIT 1;").await;
+    let name = resp[0]["result"][0]["name"].as_str().unwrap_or("");
+    assert!(!name.is_empty(), "Project node should have a non-empty name");
+}
+
+/// SurrealDB: Company nodes have a `name` field.
+#[tokio::test]
+async fn surreal_company_nodes_have_name() {
+    if !surreal::is_available().await {
+        eprintln!("surreal not available — skipping");
+        return;
+    }
+    let count = surreal::count_table("company").await;
+    if count == 0 {
+        eprintln!("no Company nodes loaded — skipping (load data/talks-llm/ first)");
+        return;
+    }
+    let resp = surreal::sql("SELECT name FROM company LIMIT 1;").await;
+    let name = resp[0]["result"][0]["name"].as_str().unwrap_or("");
+    assert!(!name.is_empty(), "Company node should have a non-empty name");
+}
+
+/// SurrealDB: MENTIONS edges connect talks to projects.
+#[tokio::test]
+async fn surreal_mentions_edges_exist() {
+    if !surreal::is_available().await {
+        eprintln!("surreal not available — skipping");
+        return;
+    }
+    let count = surreal::count_edge_table("mentions").await;
+    if count == 0 {
+        eprintln!("no MENTIONS edges — skipping (load data/talks-llm/ first)");
+        return;
+    }
+    let resp = surreal::sql(
+        "SELECT in.nid AS talk, out.nid AS project FROM mentions LIMIT 1;"
+    ).await;
+    let row = &resp[0]["result"][0];
+    assert!(
+        row["talk"].as_str().map(|s| s.starts_with("talk:")).unwrap_or(false),
+        "MENTIONS.in should be a talk nid: {row}"
+    );
+    assert!(
+        row["project"].as_str().map(|s| s.starts_with("project:")).unwrap_or(false),
+        "MENTIONS.out should be a project nid: {row}"
+    );
+}
+
+/// SurrealDB: WORKS_AT edges connect speakers to companies.
+#[tokio::test]
+async fn surreal_works_at_edges_exist() {
+    if !surreal::is_available().await {
+        eprintln!("surreal not available — skipping");
+        return;
+    }
+    let count = surreal::count_edge_table("works_at").await;
+    if count == 0 {
+        eprintln!("no WORKS_AT edges — skipping (load data/talks-llm/ first)");
+        return;
+    }
+    let resp = surreal::sql(
+        "SELECT in.nid AS speaker, out.nid AS company FROM works_at LIMIT 1;"
+    ).await;
+    let row = &resp[0]["result"][0];
+    assert!(
+        row["speaker"].as_str().map(|s| s.starts_with("speaker:")).unwrap_or(false),
+        "WORKS_AT.in should be a speaker nid: {row}"
+    );
+    assert!(
+        row["company"].as_str().map(|s| s.starts_with("company:")).unwrap_or(false),
+        "WORKS_AT.out should be a company nid: {row}"
+    );
+}
+
+/// FalkorDB: Project and Company label counts are non-negative (present in schema).
+#[tokio::test]
+async fn falkor_project_company_counts() {
+    if !tokio::task::spawn_blocking(falkor::is_available).await.unwrap() {
+        eprintln!("falkor not available — skipping");
+        return;
+    }
+    let projects = tokio::task::spawn_blocking(|| falkor::count_label("Project"))
+        .await
+        .unwrap();
+    let companies = tokio::task::spawn_blocking(|| falkor::count_label("Company"))
+        .await
+        .unwrap();
+    // Counts may be 0 when loaded from data/talks/ (heuristic path),
+    // positive when loaded from data/talks-llm/ (LLM path).
+    let _ = (projects, companies);
+    if projects > 0 {
+        let mentions = tokio::task::spawn_blocking(|| falkor::count_rel("MENTIONS"))
+            .await
+            .unwrap();
+        assert!(mentions > 0, "Project nodes present but no MENTIONS edges");
+    }
+}
+
+/// HelixDB: node_counts query returns coherent values for any loaded dataset.
+#[tokio::test]
+async fn helix_extended_node_counts_coherent() {
+    if !helix::is_available().await {
+        eprintln!("helix not available — skipping");
+        return;
+    }
+    let (talks, events, groups, speakers) = helix::node_counts().await;
+    if talks == 0 {
+        eprintln!("no talks loaded — skipping");
+        return;
+    }
+    // Core invariant: every talk must have a corresponding event and group.
+    assert!(events > 0, "talks present but no events");
+    assert!(groups > 0, "talks present but no groups");
+    assert!(speakers > 0, "talks present but no speakers");
+}

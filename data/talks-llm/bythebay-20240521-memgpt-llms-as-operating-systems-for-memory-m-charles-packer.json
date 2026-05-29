@@ -1,0 +1,120 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240521-memgpt-llms-as-operating-systems-for-memory-m-charles-packer",
+      "to": "event:unstructured-data-sf-298724299",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-298724299",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240521-memgpt-llms-as-operating-systems-for-memory-m-charles-packer",
+      "to": "speaker:charles-packer",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:charles-packer",
+      "to": "company:memgpt",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240521-memgpt-llms-as-operating-systems-for-memory-m-charles-packer",
+      "to": "speaker:sarah-wooders",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:sarah-wooders",
+      "to": "company:memgpt",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240521-memgpt-llms-as-operating-systems-for-memory-m-charles-packer",
+      "to": "project:memgpt",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240521-memgpt-llms-as-operating-systems-for-memory-m-charles-packer",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240521-memgpt-llms-as-operating-systems-for-memory-m-charles-packer",
+      "properties": {
+        "abstract": "MemGPT treats LLMs as operating systems that can manage their own context windows, enabling LLMs with virtually unlimited long-term memory.",
+        "id": "bythebay-20240521-memgpt-llms-as-operating-systems-for-memory-m-charles-packer",
+        "order": 0,
+        "title": "MemGPT: LLMs as Operating Systems for Memory Management"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-298724299",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2024-05-21",
+        "datetime": "2024-05-22T00:30:00+00:00",
+        "id": "298724299",
+        "title": "Unstructured Data in LLMs",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/298724299/",
+        "venue_address": "88 Colin P Kelly Jr St",
+        "venue_name": "88 Colin P Kelly Jr St"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:charles-packer",
+      "properties": {
+        "bio": null,
+        "company": "MemGPT",
+        "name": "Charles Packer",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:memgpt",
+      "properties": {
+        "name": "MemGPT"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "speaker:sarah-wooders",
+      "properties": {
+        "bio": null,
+        "company": "MemGPT",
+        "name": "Sarah Wooders",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:memgpt",
+      "properties": {
+        "name": "MemGPT"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:memgpt",
+      "properties": {
+        "github_url": "https://github.com/letta-ai/letta",
+        "name": "MemGPT"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.426843+00:00",
+  "source_file": "source/unstructured-data-sf/298724299.html"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20240402-new-model-openness-framework-matt-white",
+  "scraped_at": "2026-05-29T04:58:30.230132+00:00",
+  "source_file": "source/bay-area-ai/299961290.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240402-new-model-openness-framework-matt-white",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20240402-new-model-openness-framework-matt-white",
+        "title": "New Model Openness Framework",
+        "abstract": "The Linux Foundation's Model Openness Framework for evaluating and classifying the degree of openness of AI models.",
+        "order": 1
+      }
+    },
+    {
+      "id": "event:bay-area-ai-299961290",
+      "type": "Event",
+      "properties": {
+        "id": "299961290",
+        "title": "[Luma registration] AI Alliance Meetup 2",
+        "date": "2024-04-02",
+        "datetime": "2024-04-03T01:00:00+00:00",
+        "url": "https://www.meetup.com/bay-area-ai/events/299961290/",
+        "venue_name": "Databricks Inc.",
+        "venue_address": "160 Spear St 15th floor",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "group:bay-area-ai",
+      "type": "Group",
+      "properties": {
+        "slug": "bay-area-ai",
+        "name": "Bay Area AI",
+        "url": "https://www.meetup.com/bay-area-ai"
+      }
+    },
+    {
+      "id": "speaker:matt-white",
+      "type": "Speaker",
+      "properties": {
+        "name": "Matt White",
+        "role": null,
+        "company": "Linux Foundation",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:linux-foundation",
+      "type": "Company",
+      "properties": {
+        "name": "Linux Foundation"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20240402-new-model-openness-framework-matt-white",
+      "to": "event:bay-area-ai-299961290",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:bay-area-ai-299961290",
+      "to": "group:bay-area-ai",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240402-new-model-openness-framework-matt-white",
+      "to": "speaker:matt-white",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:matt-white",
+      "to": "company:linux-foundation",
+      "type": "WORKS_AT"
+    }
+  ]
+}

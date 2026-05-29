@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20121210-effective-scala-beyond-the-documentation-marius-eriksen",
+      "to": "event:scala-bay-75066602",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:scala-bay-75066602",
+      "to": "group:scala-bay",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20121210-effective-scala-beyond-the-documentation-marius-eriksen",
+      "to": "speaker:marius-eriksen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:marius-eriksen",
+      "to": "company:twitter",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20121210-effective-scala-beyond-the-documentation-marius-eriksen",
+      "to": "project:finagle",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20121210-effective-scala-beyond-the-documentation-marius-eriksen",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20121210-effective-scala-beyond-the-documentation-marius-eriksen",
+      "properties": {
+        "abstract": "Marius Eriksen goes beyond his Effective Scala document to discuss advanced best practices for Scala developers, drawing on Twitter's production experience.",
+        "id": "bythebay-20121210-effective-scala-beyond-the-documentation-marius-eriksen",
+        "order": 0,
+        "title": "Effective Scala: Beyond the Documentation"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:scala-bay-75066602",
+      "properties": {
+        "city": "San Francisco",
+        "date": "2012-12-10",
+        "datetime": "2012-12-11T02:30:00+00:00",
+        "id": "75066602",
+        "title": "Effective Scala at 111 Minna Gallery",
+        "url": "https://www.meetup.com/scala-bay/events/75066602/",
+        "venue_address": "111 Minna St",
+        "venue_name": "111 Minna Gallery"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:scala-bay",
+      "properties": {
+        "name": "Scala Bay",
+        "slug": "scala-bay",
+        "url": "https://www.meetup.com/scala-bay"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:marius-eriksen",
+      "properties": {
+        "bio": null,
+        "company": "Twitter",
+        "name": "Marius Eriksen",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:twitter",
+      "properties": {
+        "name": "Twitter"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:finagle",
+      "properties": {
+        "github_url": "https://github.com/twitter/finagle",
+        "name": "Finagle"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:21:47.763448+00:00",
+  "source_file": "source/scala-bay/75066602.html"
+}

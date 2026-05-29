@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id": "bythebay-20231101-leveraging-large-language-models-for-learning-randy-giffen",
+  "scraped_at": "2026-05-29T05:07:12.327376+00:00",
+  "source_file": "source/big-data-developers-in-nyc/296193368.html",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20231101-leveraging-large-language-models-for-learning-randy-giffen",
+      "type": "Talk",
+      "properties": {
+        "id": "bythebay-20231101-leveraging-large-language-models-for-learning-randy-giffen",
+        "title": "Leveraging Large Language Models for Learning Health Systems",
+        "abstract": "An overview of how LLMs work and how they might be applied to specific tasks in healthcare to support the goals of a Learning Health System, including summaries, translations, and knowledge extraction.",
+        "order": 0
+      }
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-296193368",
+      "type": "Event",
+      "properties": {
+        "id": "296193368",
+        "title": "Leveraging Large Language Models for Learning Health Systems",
+        "date": "2023-11-01",
+        "datetime": "2023-11-01T12:00:00+00:00",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/296193368/",
+        "venue_name": "Online event",
+        "venue_address": "",
+        "city": ""
+      }
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "type": "Group",
+      "properties": {
+        "slug": "big-data-developers-in-nyc",
+        "name": "Data, Cloud and AI in NYC",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      }
+    },
+    {
+      "id": "speaker:randy-giffen",
+      "type": "Speaker",
+      "properties": {
+        "name": "Randy Giffen",
+        "role": "healthcare solutions architect",
+        "company": "IBM Canada",
+        "bio": null
+      }
+    },
+    {
+      "id": "company:ibm-canada",
+      "type": "Company",
+      "properties": {
+        "name": "IBM Canada"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "talk:bythebay-20231101-leveraging-large-language-models-for-learning-randy-giffen",
+      "to": "event:big-data-developers-in-nyc-296193368",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-296193368",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20231101-leveraging-large-language-models-for-learning-randy-giffen",
+      "to": "speaker:randy-giffen",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:randy-giffen",
+      "to": "company:ibm-canada",
+      "type": "WORKS_AT"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20170822-cognitive-data-analysis-in-a-jupyter-notebook-luke-schantz",
+      "to": "event:big-data-developers-in-nyc-242650560",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:big-data-developers-in-nyc-242650560",
+      "to": "group:big-data-developers-in-nyc",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20170822-cognitive-data-analysis-in-a-jupyter-notebook-luke-schantz",
+      "to": "speaker:luke-schantz",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20170822-cognitive-data-analysis-in-a-jupyter-notebook-luke-schantz",
+      "to": "project:pixiedust",
+      "type": "MENTIONS"
+    },
+    {
+      "from": "talk:bythebay-20170822-cognitive-data-analysis-in-a-jupyter-notebook-luke-schantz",
+      "to": "project:jupyter",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20170822-cognitive-data-analysis-in-a-jupyter-notebook-luke-schantz",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20170822-cognitive-data-analysis-in-a-jupyter-notebook-luke-schantz",
+      "properties": {
+        "abstract": "Harnessing the power of cognitive data analysis by using PixieDust within Jupyter Notebooks for interactive visualization and data exploration.",
+        "id": "bythebay-20170822-cognitive-data-analysis-in-a-jupyter-notebook-luke-schantz",
+        "order": 3,
+        "title": "Cognitive Data Analysis in a Jupyter Notebook with PixieDust"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:big-data-developers-in-nyc-242650560",
+      "properties": {
+        "city": "New York",
+        "date": "2017-08-22",
+        "datetime": "2017-08-22T22:00:00+00:00",
+        "id": "242650560",
+        "title": "Jupyter, Graph and More....",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc/events/242650560/",
+        "venue_address": "315 Hudson Street - 2nd floor",
+        "venue_name": "Galvanize"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:big-data-developers-in-nyc",
+      "properties": {
+        "name": "Data, Cloud and AI in NYC",
+        "slug": "big-data-developers-in-nyc",
+        "url": "https://www.meetup.com/big-data-developers-in-nyc"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:luke-schantz",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Luke Schantz",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:pixiedust",
+      "properties": {
+        "github_url": "https://github.com/pixiedust/pixiedust",
+        "name": "PixieDust"
+      },
+      "type": "Project"
+    },
+    {
+      "id": "project:jupyter",
+      "properties": {
+        "github_url": "https://github.com/jupyter/notebook",
+        "name": "Jupyter"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:07:12.324992+00:00",
+  "source_file": "source/big-data-developers-in-nyc/242650560.html"
+}

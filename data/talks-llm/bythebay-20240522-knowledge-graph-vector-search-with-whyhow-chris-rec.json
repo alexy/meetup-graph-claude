@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20240522-knowledge-graph-vector-search-with-whyhow-chris-rec",
+      "to": "event:unstructured-data-sf-300812829",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-300812829",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20240522-knowledge-graph-vector-search-with-whyhow-chris-rec",
+      "to": "speaker:chris-rec",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:chris-rec",
+      "to": "company:whyhow",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20240522-knowledge-graph-vector-search-with-whyhow-chris-rec",
+      "to": "project:whyhow",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20240522-knowledge-graph-vector-search-with-whyhow-chris-rec",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20240522-knowledge-graph-vector-search-with-whyhow-chris-rec",
+      "properties": {
+        "abstract": "How to combine knowledge graphs with vector search for more structured and reliable AI workflows using WhyHow.",
+        "id": "bythebay-20240522-knowledge-graph-vector-search-with-whyhow-chris-rec",
+        "order": 1,
+        "title": "Knowledge Graph + Vector Search with WhyHow"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-300812829",
+      "properties": {
+        "city": "Palo Alto",
+        "date": "2024-05-22",
+        "datetime": "2024-05-23T00:30:00+00:00",
+        "id": "300812829",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/300812829/",
+        "venue_address": "3412 Hillview Ave",
+        "venue_name": "3412 Hillview Ave"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:chris-rec",
+      "properties": {
+        "bio": null,
+        "company": "WhyHow",
+        "name": "Chris Rec",
+        "role": "co-founder"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:whyhow",
+      "properties": {
+        "name": "WhyHow"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:whyhow",
+      "properties": {
+        "github_url": "https://github.com/whyhow-ai/knowledge-graph-studio",
+        "name": "WhyHow"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.428145+00:00",
+  "source_file": "source/unstructured-data-sf/300812829.html"
+}

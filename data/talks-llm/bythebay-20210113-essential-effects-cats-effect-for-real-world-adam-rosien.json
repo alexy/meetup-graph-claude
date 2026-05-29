@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20210113-essential-effects-cats-effect-for-real-world-adam-rosien",
+      "to": "event:sf-scala-275583573",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:sf-scala-275583573",
+      "to": "group:sf-scala",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20210113-essential-effects-cats-effect-for-real-world-adam-rosien",
+      "to": "speaker:adam-rosien",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "talk:bythebay-20210113-essential-effects-cats-effect-for-real-world-adam-rosien",
+      "to": "project:cats-effect",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20210113-essential-effects-cats-effect-for-real-world-adam-rosien",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20210113-essential-effects-cats-effect-for-real-world-adam-rosien",
+      "properties": {
+        "abstract": "Cats Effect is a library that provides asynchronous and concurrent programming primitives for Scala. This talk covers the essential patterns for using Cats Effect to write correct, composable, and efficient programs.",
+        "id": "bythebay-20210113-essential-effects-cats-effect-for-real-world-adam-rosien",
+        "order": 0,
+        "title": "Essential Effects: Cats Effect for Real-World Programs"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:sf-scala-275583573",
+      "properties": {
+        "city": "",
+        "date": "2021-01-13",
+        "datetime": "2021-01-14T01:30:00+00:00",
+        "id": "275583573",
+        "title": "Essential Effects By Adam Rosien",
+        "url": "https://www.meetup.com/sf-scala/events/275583573/",
+        "venue_address": "",
+        "venue_name": "Online event"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:sf-scala",
+      "properties": {
+        "name": "SF Scala",
+        "slug": "sf-scala",
+        "url": "https://www.meetup.com/sf-scala"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:adam-rosien",
+      "properties": {
+        "bio": null,
+        "company": null,
+        "name": "Adam Rosien",
+        "role": null
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "project:cats-effect",
+      "properties": {
+        "github_url": "https://github.com/typelevel/cats-effect",
+        "name": "Cats Effect"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:47:24.451883+00:00",
+  "source_file": "source/sf-scala/275583573.html"
+}

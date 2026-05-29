@@ -1,0 +1,93 @@
+{
+  "edges": [
+    {
+      "from": "talk:bythebay-20241015-constrained-sampling-from-llms-producing-stru-stefan-webb",
+      "to": "event:unstructured-data-sf-303687526",
+      "type": "PRESENTED_AT"
+    },
+    {
+      "from": "event:unstructured-data-sf-303687526",
+      "to": "group:unstructured-data-sf",
+      "type": "PART_OF"
+    },
+    {
+      "from": "talk:bythebay-20241015-constrained-sampling-from-llms-producing-stru-stefan-webb",
+      "to": "speaker:stefan-webb",
+      "type": "PRESENTED_BY"
+    },
+    {
+      "from": "speaker:stefan-webb",
+      "to": "company:zilliz",
+      "type": "WORKS_AT"
+    },
+    {
+      "from": "talk:bythebay-20241015-constrained-sampling-from-llms-producing-stru-stefan-webb",
+      "to": "project:milvus",
+      "type": "MENTIONS"
+    }
+  ],
+  "id": "bythebay-20241015-constrained-sampling-from-llms-producing-stru-stefan-webb",
+  "nodes": [
+    {
+      "id": "talk:bythebay-20241015-constrained-sampling-from-llms-producing-stru-stefan-webb",
+      "properties": {
+        "abstract": "How to use constrained decoding to guarantee structured output from large language models, ensuring they produce valid JSON, schemas, or other structured formats.",
+        "id": "bythebay-20241015-constrained-sampling-from-llms-producing-stru-stefan-webb",
+        "order": 0,
+        "title": "Constrained Sampling from LLMs: Producing Structured Output"
+      },
+      "type": "Talk"
+    },
+    {
+      "id": "event:unstructured-data-sf-303687526",
+      "properties": {
+        "city": "Redwood City",
+        "date": "2024-10-15",
+        "datetime": "2024-10-16T00:00:00+00:00",
+        "id": "303687526",
+        "title": "Unstructured Data in LLMs - South Bay Edition",
+        "url": "https://www.meetup.com/unstructured-data-sf/events/303687526/",
+        "venue_address": "202 Walnut St",
+        "venue_name": "Sports Basement Redwood City"
+      },
+      "type": "Event"
+    },
+    {
+      "id": "group:unstructured-data-sf",
+      "properties": {
+        "name": "Unstructured Data SF",
+        "slug": "unstructured-data-sf",
+        "url": "https://www.meetup.com/unstructured-data-sf"
+      },
+      "type": "Group"
+    },
+    {
+      "id": "speaker:stefan-webb",
+      "properties": {
+        "bio": null,
+        "company": "Zilliz",
+        "name": "Stefan Webb",
+        "role": "Research Scientist"
+      },
+      "type": "Speaker"
+    },
+    {
+      "id": "company:zilliz",
+      "properties": {
+        "name": "Zilliz"
+      },
+      "type": "Company"
+    },
+    {
+      "id": "project:milvus",
+      "properties": {
+        "github_url": "https://github.com/milvus-io/milvus",
+        "name": "Milvus"
+      },
+      "type": "Project"
+    }
+  ],
+  "schema_version": "1.1",
+  "scraped_at": "2026-05-29T05:39:23.430496+00:00",
+  "source_file": "source/unstructured-data-sf/303687526.html"
+}
