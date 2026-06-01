@@ -2,11 +2,12 @@ use std::path::{Path, PathBuf};
 
 use anyhow::Result;
 use chrono::{NaiveDate, Utc};
+use grust::{Edge, Node, Props, Value};
 use tokio::fs;
 use tracing::info;
 
 use crate::config::SCHEMA_VERSION;
-use crate::models::{Edge, EventData, Node, SpeakerData, TalkData, TalkRecord};
+use crate::models::{EventData, SpeakerData, TalkData, TalkRecord};
 
 // ── ID / slug helpers ─────────────────────────────────────────────────────────
 
@@ -100,65 +101,38 @@ pub fn build_talk_record(
     let group_nid = format!("group:{}", event.group_slug);
 
     let mut nodes = vec![
-        Node {
-            id: talk_nid.clone(),
-            kind: "Talk".to_string(),
-            properties: serde_json::json!({
-                "id":       talk_id,
-                "title":    talk.title,
-                "abstract": talk.abstract_text,
-                "order":    talk.order,
-            }),
-        },
-        Node {
-            id: event_nid.clone(),
-            kind: "Event".to_string(),
-            properties: serde_json::json!({
-                "id":            event.id,
-                "title":         event.title,
-                "date":          event.date.map(|d| d.to_string()),
-                "datetime":      event.datetime.map(|d| d.to_rfc3339()),
-                "url":           event.url,
-                "venue_name":    event.venue_name,
-                "venue_address": event.venue_address,
-                "city":          event.city,
-            }),
-        },
-        Node {
-            id: group_nid.clone(),
-            kind: "Group".to_string(),
-            properties: serde_json::json!({
-                "slug": event.group_slug,
-                "name": event.group_name,
-                "url":  format!("https://www.meetup.com/{}", event.group_slug),
-            }),
-        },
+        Node::new("Talk", talk_nid.as_str(), make_props([
+            ("id",       Value::String(talk_id.clone())),
+            ("title",    Value::String(talk.title.clone())),
+            ("abstract", talk.abstract_text.as_deref().map(Value::from).unwrap_or(Value::Null)),
+            ("order",    Value::Int(talk.order as i64)),
+        ])),
+        Node::new("Event", event_nid.as_str(), make_props([
+            ("id",            Value::String(event.id.clone())),
+            ("title",         Value::String(event.title.clone())),
+            ("date",          event.date.map(|d| Value::String(d.to_string())).unwrap_or(Value::Null)),
+            ("datetime",      event.datetime.map(|d| Value::String(d.to_rfc3339())).unwrap_or(Value::Null)),
+            ("url",           Value::String(event.url.clone())),
+            ("venue_name",    event.venue_name.as_deref().map(Value::from).unwrap_or(Value::Null)),
+            ("venue_address", event.venue_address.as_deref().map(Value::from).unwrap_or(Value::Null)),
+            ("city",          event.city.as_deref().map(Value::from).unwrap_or(Value::Null)),
+        ])),
+        Node::new("Group", group_nid.as_str(), make_props([
+            ("slug", Value::String(event.group_slug.clone())),
+            ("name", Value::String(event.group_name.clone())),
+            ("url",  Value::String(format!("https://www.meetup.com/{}", event.group_slug))),
+        ])),
     ];
 
     let mut edges = vec![
-        Edge {
-            from: talk_nid.clone(),
-            to: event_nid.clone(),
-            kind: "PRESENTED_AT".to_string(),
-            properties: None,
-        },
-        Edge {
-            from: event_nid.clone(),
-            to: group_nid.clone(),
-            kind: "PART_OF".to_string(),
-            properties: None,
-        },
+        Edge::new("PRESENTED_AT", talk_nid.as_str(), event_nid.as_str(), Props::new()),
+        Edge::new("PART_OF", event_nid.as_str(), group_nid.as_str(), Props::new()),
     ];
 
     for speaker in &talk.speakers {
         let sp_nid = format!("speaker:{}", slugify(&speaker.name));
         nodes.push(speaker_node(&sp_nid, speaker));
-        edges.push(Edge {
-            from: talk_nid.clone(),
-            to: sp_nid,
-            kind: "PRESENTED_BY".to_string(),
-            properties: None,
-        });
+        edges.push(Edge::new("PRESENTED_BY", talk_nid.as_str(), sp_nid.as_str(), Props::new()));
     }
 
     TalkRecord {
@@ -172,14 +146,14 @@ pub fn build_talk_record(
 }
 
 fn speaker_node(id: &str, s: &SpeakerData) -> Node {
-    Node {
-        id: id.to_string(),
-        kind: "Speaker".to_string(),
-        properties: serde_json::json!({
-            "name":    s.name,
-            "bio":     s.bio,
-            "company": s.company,
-            "role":    s.role,
-        }),
-    }
+    Node::new("Speaker", id, make_props([
+        ("name",    Value::String(s.name.clone())),
+        ("bio",     s.bio.as_deref().map(Value::from).unwrap_or(Value::Null)),
+        ("company", s.company.as_deref().map(Value::from).unwrap_or(Value::Null)),
+        ("role",    s.role.as_deref().map(Value::from).unwrap_or(Value::Null)),
+    ]))
+}
+
+fn make_props<const N: usize>(entries: [(&str, Value); N]) -> Props {
+    entries.into_iter().map(|(k, v)| (k.to_string(), v)).collect()
 }

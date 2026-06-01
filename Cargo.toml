@@ -32,6 +32,7 @@ name = "github-enrich"
 path = "src/bin/github_enrich.rs"
 
 [dependencies]
+grust = { path = "../../../grust/crates/grust", features = ["falkor", "helix", "surreal"] }
 anyhow     = "1"
 chrono     = { version = "0.4", features = ["serde"] }
 clap       = { version = "4", features = ["derive", "env"] }

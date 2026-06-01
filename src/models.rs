@@ -1,6 +1,8 @@
 use chrono::{DateTime, NaiveDate, Utc};
 use serde::{Deserialize, Serialize};
 
+pub use grust::{Edge, Node};
+
 /// Top-level record: one JSON file per extracted talk, graph-DB ready.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct TalkRecord {
@@ -12,24 +14,6 @@ pub struct TalkRecord {
     pub source_file: String,
     pub nodes: Vec<Node>,
     pub edges: Vec<Edge>,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Node {
-    pub id: String,
-    #[serde(rename = "type")]
-    pub kind: String,
-    pub properties: serde_json::Value,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Edge {
-    pub from: String,
-    pub to: String,
-    #[serde(rename = "type")]
-    pub kind: String,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    pub properties: Option<serde_json::Value>,
 }
 
 // ── internal working structs (not serialized directly) ────────────────────────

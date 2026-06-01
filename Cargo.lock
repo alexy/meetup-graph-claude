@@ -1643,6 +1643,59 @@ dependencies = [
 ]
 
 [[package]]
+name = "grust"
+version = "0.1.0"
+dependencies = [
+ "grust-core",
+ "grust-falkor",
+ "grust-helix",
+ "grust-surreal",
+]
+
+[[package]]
+name = "grust-core"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "serde",
+ "serde_json",
+ "thiserror",
+]
+
+[[package]]
+name = "grust-falkor"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "grust-core",
+ "redis",
+]
+
+[[package]]
+name = "grust-helix"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "grust-core",
+ "helix-db",
+ "reqwest 0.13.3",
+ "serde_json",
+]
+
+[[package]]
+name = "grust-surreal"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "base64",
+ "grust-core",
+ "reqwest 0.13.3",
+ "serde_json",
+ "surrealdb",
+ "url",
+]
+
+[[package]]
 name = "h2"
 version = "0.4.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2584,6 +2637,7 @@ dependencies = [
  "anyhow",
  "chrono",
  "clap",
+ "grust",
  "helix-db",
  "helix-enterprise-ql",
  "redis",
